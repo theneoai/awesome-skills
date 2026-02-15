@@ -1,0 +1,19 @@
+# 敏感信息
+.env
+.env.local
+*.key
+*.pem
+secrets/
+
+# 依赖
+node_modules/
+__pycache__/
+
+# 构建
+site/
+dist/
+
+# 临时文件
+tmp/
+*.tmp
+.DS_Store

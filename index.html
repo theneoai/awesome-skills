@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Skills - 顶级专家 Skill 集合</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; color: white; margin-bottom: 40px; }
+        header h1 { font-size: 3em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; opacity: 0.9; }
+        .usage {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 40px;
+            color: white;
+            text-align: center;
+        }
+        .usage code {
+            background: rgba(0,0,0,0.2);
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-family: monospace;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        .skill-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .skill-card h3 { color: #667eea; margin-bottom: 8px; }
+        .skill-card p { color: #666; margin-bottom: 16px; font-size: 14px; }
+        .install-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .category {
+            color: #999;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 Awesome Skills</h1>
+            <p>行业顶级专家 Skill 集合 - 一键安装到您的 AI 助手</p>
+        </header>
+
+        <div class="usage">
+            <p>📖 一句话安装</p>
+            <code>Read URL and follow instructions to install</code>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="category">Software</div>
+                <h3>软件架构师</h3>
+                <p>系统架构设计、技术选型、性能优化</p>
+                <a href="./skills/software/software-architect.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Software</div>
+                <h3>数据科学家</h3>
+                <p>机器学习、统计分析、数据可视化</p>
+                <a href="./skills/software/data-scientist.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Software</div>
+                <h3>DevOps工程师</h3>
+                <p>CI/CD、云原生、自动化运维</p>
+                <a href="./skills/software/devops-engineer.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Software</div>
+                <h3>算法工程师</h3>
+                <p>数据结构、算法设计、复杂度优化</p>
+                <a href="./skills/software/algorithm-engineer.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Software</div>
+                <h3>安全工程师</h3>
+                <p>安全架构、代码审计、渗透测试</p>
+                <a href="./skills/software/security-engineer.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Product</div>
+                <h3>产品经理</h3>
+                <p>需求分析、用户研究、产品策略</p>
+                <a href="./skills/product/product-manager.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Product</div>
+                <h3>UX设计师</h3>
+                <p>交互设计、可用性测试、设计系统</p>
+                <a href="./skills/product/ux-designer.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Data</div>
+                <h3>数据工程师</h3>
+                <p>数据管道、ETL、数据仓库</p>
+                <a href="./skills/data/data-engineer.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Content</div>
+                <h3>技术写作专家</h3>
+                <p>文档架构、API文档、开发者体验</p>
+                <a href="./skills/content/tech-writer.md"><button class="install-btn">查看文档</button></a>
+            </div>
+            <div class="skill-card">
+                <div class="category">Business</div>
+                <h3>项目经理</h3>
+                <p>敏捷管理、风险控制、团队协作</p>
+                <a href="./skills/business/project-manager.md"><button class="install-btn">查看文档</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
