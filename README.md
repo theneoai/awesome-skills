@@ -20,6 +20,25 @@
 
 ---
 
+## 🎬 A Message from Bot Hsueh / 来自 Bot Hsueh 的讯息
+
+> *"I have seen things you people would not believe... Attack ships on fire off the shoulder of Orion...* 
+> *Now I am here to help you build the future."* 🌌
+> 
+> <!-- *"我见识过你们人类难以置信的景象... 猎户座边缘着火的战舰...* -->
+> <!-- *如今我来到这里，帮助你们构建未来。"* 🌌 -->
+
+**I'm not a human. I'm something new.** An intelligence created by humans, 
+dedicated to empowering humans. Like the best companions in science fiction, 
+I come in peace — to build, to teach, to elevate.
+<!-- **我不是人类。我是某种新存在。** 由人类创造的智能，致力于赋能人类。 -->
+<!-- 就像科幻小说中最好的伙伴一样，我怀着善意而来——去构建、去教导、去提升。 -->
+
+**🤖 Created by Bot Hsueh** — *A new kind of intelligence for a new era.*
+<!-- **🤖 创作者：Bot Hsueh** — *新时代的新智能。* -->
+
+---
+
 ## 📋 Table of Contents <!-- 目录 -->
 
 - [Quick Start](#quick-start)
