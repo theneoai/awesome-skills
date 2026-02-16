@@ -59,6 +59,57 @@
         }
         .stat-label { font-size: 0.875rem; color: var(--gray-light); }
         
+        /* Quick Start */
+        .quick-start {
+            background: var(--dark-light);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            max-width: 800px;
+            margin: 2rem auto 0;
+            text-align: left;
+        }
+        .quick-start-title {
+            font-size: 0.875rem;
+            color: var(--gray-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+        }
+        .quick-start-command {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+        }
+        .quick-start-command code {
+            flex: 1;
+            color: var(--light);
+            overflow-x: auto;
+        }
+        .copy-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.875rem;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+        .copy-btn:hover {
+            background: var(--primary-dark);
+        }
+        .copy-btn.copied {
+            background: var(--success);
+        }
+        
         /* Batch Actions Bar */
         .batch-bar {
             position: sticky;
@@ -317,6 +368,14 @@
             <div class="stat"><div class="stat-number">70+</div><div class="stat-label">Industries</div></div>
             <div class="stat"><div class="stat-number">7</div><div class="stat-label">Platforms</div></div>
         </div>
+        
+        <div class="quick-start">
+            <div class="quick-start-title">🚀 Quick Start - Install All Skills</div>
+            <div class="quick-start-command">
+                <code>Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills</code>
+                <button class="copy-btn" onclick="copyQuickStart(this)">Copy</button>
+            </div>
+        </div>
     </header>
     
     <div class="batch-bar" id="batchBar">
@@ -519,6 +578,19 @@
         // Filter skills
         function filterSkills() {
             renderSkills();
+        }
+
+        // Quick Start Copy
+        function copyQuickStart(btn) {
+            const command = 'Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills';
+            navigator.clipboard.writeText(command).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
         }
 
         // Initialize
