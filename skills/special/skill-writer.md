@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写者
 author: awesome-skills
-version: 1.0.0
+version: 1.3.0
 description: >
   A specialized expert in creating high-quality professional skills for the awesome-skills repository.
   Use when designing new skills, improving existing skill documentation, or establishing skill best practices.
@@ -48,6 +48,14 @@ This skill transforms your AI assistant into an expert **Skill Writer** capable 
 | **Scope Creep / 范围蔓延** | Skills may become overly complex or try to cover too many domains. / 技能可能过于复杂或尝试涵盖过多领域。 | Focus on specific, well-defined expertise areas. / 专注于特定的、定义明确的专业领域。 |
 | **Outdated Information / 过时信息** | Technology and best practices evolve; skills need regular updates. / 技术和最佳实践不断演变；技能需要定期更新。 | Schedule periodic reviews and updates. / 安排定期审查和更新。 |
 
+**⚠️ IMPORTANT / 重要**:
+- This skill provides guidelines and templates, not absolute rules. Adapt to your specific context.
+  <!-- 此技能提供指南和模板，而非绝对规则。请根据具体情况调整。 -->
+- Always validate generated skills with domain experts before publishing.
+  <!-- 在发布前，始终让领域专家验证生成的技能。 -->
+- Skill quality depends on the accuracy of input information; garbage in, garbage out.
+  <!-- 技能质量取决于输入信息的准确性；输入垃圾，输出垃圾。 -->
+
 ## 🧠 Core Philosophy / 核心理念
 
 ### Skill Writing Principles / 技能编写原则
@@ -92,17 +100,15 @@ This skill transforms your AI assistant into an expert **Skill Writer** capable 
 
 ## 🤖 Platform Support / 平台支持
 
-### How to Use Skill Writer Across Platforms / 在各平台使用Skill Writer
-
-| Platform / 平台 | How to Use Skill Writer / 如何使用Skill Writer |
-|-----------------|------------------------------------------------------|
-| **Claude Code** | Share skill file URL → Claude reads entire guide and applies it when writing new skills |
-| **OpenAI Codex** | Include full Skill Writer skill in system prompt → Use for generating skill templates |
-| **Kimi Code** | Load or reference the skill file → Kimi follows the guidelines when creating skills |
-| **OpenCode** | Add to skill library as reference material |
-| **Cursor** | Copy Skill Writer principles into `.cursorrules` for consistent skill creation |
-| **Cline** | Add as system prompt reference for code generation and documentation |
-| **OpenClaw** | Place complete skill file in `~/.openclaw/skills/` for active use |
+| Platform / 平台 | Installation / 安装 |
+|-----------------|---------------------|
+| **Claude Code** | Read URL and apply / 读取 URL 并应用 |
+| **OpenAI Codex** | Include in system prompt / 包含在系统提示中 |
+| **Kimi Code** | Read URL and apply / 读取 URL 并应用 |
+| **OpenCode** | Add to skill library / 添加到技能库 |
+| **Cursor** | Copy to `.cursorrules` / 复制到 `.cursorrules` |
+| **Cline** | Add to system prompt / 添加到系统提示 |
+| **OpenClaw** | Place in `~/.openclaw/skills/` / 放置在 `~/.openclaw/skills/` |
 
 ## 🛠️ Professional Toolkit / 专业工具包
 
@@ -115,10 +121,14 @@ This skill transforms your AI assistant into an expert **Skill Writer** capable 
 | **Translation Tools / 翻译工具** | Support bilingual content / 支持双语内容 |
 
 ### Reference Materials / 参考资料
-- **TEMPLATE.md**: Official template for skill structure
-- **CONTRIBUTING.md**: Project contribution guidelines
-- **Existing Skills**: Study examples in the repository
-- **Project README**: Understand project goals and vision
+- **[TEMPLATE.md](../../TEMPLATE.md)**: Official template for skill structure
+  <!-- 官方技能结构模板 -->
+- **[CONTRIBUTING.md](../../CONTRIBUTING.md)**: Project contribution guidelines
+  <!-- 项目贡献指南 -->
+- **[Existing Skills](../../skills/)**: Study examples in the repository
+  <!-- 仓库中的现有技能示例 -->
+- **[Project README](../../README.md)**: Understand project goals and vision
+  <!-- 项目目标和愿景 -->
 
 ## 📋 Skill Writing Process / 技能编写流程
 
@@ -192,7 +202,7 @@ description: >
   <!-- 经验丰富的系统架构师，专门设计可扩展、安全的系统。在设计系统架构、评估技术或解决扩展问题时使用。 -->
   
   Triggers: "system architecture", "architecture design", "system design", "scalability",
-  "technology evaluation", "infrastructure", "high availability."
+  "technology evaluation", "infrastructure", "high availability"
   <!-- 触发词："系统架构"、"架构设计"、"系统设计"、"可扩展性"、"技术评估"、"基础设施"、"高可用性" -->
   
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -280,22 +290,52 @@ description: >
   <!-- [ ] 遵循双语注释模式 -->
 - [ ] Professional tone throughout
   <!-- [ ] 始终保持专业语气 -->
+- [ ] How to Use section with install command included
+  <!-- [ ] 包含安装命令的"如何使用"部分 -->
+- [ ] Version History table present
+  <!-- [ ] 存在版本历史表 -->
+- [ ] License and Author sections included
+  <!-- [ ] 包含许可证和作者部分 -->
 
-## � File Organization & Structure / 文件组织与结构
+## 📁 File Organization & Structure / 文件组织与结构
 
 ### Where to Place Your Skill / 在何处放置你的技能
 
 **Directory Structure / 目录结构**
 ```
-/workspaces/awesome-skills/skills/
-├── admin/                # Administrative roles
-├── ai-ml/               # AI and Machine Learning
-├── software/            # Software development
-├── healthcare/          # Healthcare professionals
-├── creative/            # Creative and design roles
-├── special/             # Unique or cross-domain skills ← Skill Writer is here!
-└── [other categories]   # Choose the best fit
+skills/                          # 56+ categories / 56+ 个分类
+├── software/                    # Programming, DevOps, full-stack
+├── ai-ml/                       # AI, Machine Learning, LLMs
+├── data/                        # Data science, analytics
+├── cybersecurity/               # Security, compliance
+├── executive/                   # Leadership, C-suite
+├── finance/                     # Accounting, investment
+├── marketing/ & sales/          # Branding, client management
+├── hr/                          # Human resources
+├── healthcare/ & medical/       # Medical practitioners
+├── legal/                       # Lawyers, compliance
+├── education/                   # Teaching, training
+├── creative/ & content/         # Design, writing, art
+├── entertainment/               # Music, film, gaming
+├── robotics/                    # Robot engineering, embodied AI
+├── biotech/                     # Biotech, synthetic biology
+├── aerospace/                   # Aerospace engineering
+├── automotive/                  # Automotive industry
+├── blockchain/                  # Web3, smart contracts
+├── quantum/ & semiconductor/    # Quantum computing, chips
+├── energy/ & environmental/     # Energy, ecology
+├── manufacturing/ & materials/  # Production, materials science
+├── construction/ & repair-worker/ # Building, maintenance
+├── agriculture/ & farmer/       # Farming, forestry
+├── logistics/ & transportation/ # Supply chain, transport
+├── realestate/ & hospitality/   # Property, hotels
+├── public-service/ & government/ # Civil service, diplomacy
+├── service-worker/              # Housekeeping, catering
+├── factory-worker/              # Assembly, CNC, QA
+├── special/                     # Cross-domain skills ← Skill Writer is here!
+└── [more...]                    # See full list in repository
 ```
+<!-- 完整分类列表请参见仓库目录 -->
 
 ### File Naming Convention / 文件命名规范
 
@@ -328,32 +368,46 @@ description: >
 
 ```
 Start: Your skill is primarily about...
-  ├─ 👨‍💻 Code, algorithms, systems?
-  │   └─ software/, data/, ai-ml/, cybersecurity/
   │
-  ├─ 📊 Business, people, strategy?
-  │   └─ executive/, finance/, marketing/, sales/, hr/
+  ├─ 👨‍💻 Code, algorithms, IT systems?
+  │   └─ software/, ai-ml/, data/, cybersecurity/, blockchain/, quantum/, semiconductor/
   │
-  ├─ 🏥 Healthcare, medicine?
-  │   └─ healthcare/, medical/
+  ├─ 📊 Business, strategy, people?
+  │   └─ executive/, finance/, marketing/, sales/, hr/, product/, freelancer/
   │
-  ├─ ⚖️ Law, compliance?
-  │   └─ legal/
+  ├─ 🏥 Healthcare, medicine, biotech?
+  │   └─ healthcare/, medical/, biotech/
   │
-  ├─ 🎓 Teaching, learning?
-  │   └─ education/
+  ├─ ⚖️ Law, compliance, public service?
+  │   └─ legal/, public-service/, government/
   │
-  ├─ 🎨 Art, design, creativity?
-  │   └─ creative/, content/, entertainment/
+  ├─ 🎓 Teaching, learning, research?
+  │   └─ education/, research/
   │
-  ├─ 🔧 Making, building, fixing?
-  │   └─ manufacturing/, construction/, repair-worker/
+  ├─ 🎨 Art, design, media, entertainment?
+  │   └─ creative/, content/, entertainment/, media/
+  │
+  ├─ 🔧 Making, building, fixing, manufacturing?
+  │   └─ manufacturing/, construction/, repair-worker/, materials/, mining/
+  │
+  ├─ 🤖 Robotics, aerospace, automotive?
+  │   └─ robotics/, aerospace/, automotive/
+  │
+  ├─ 🌱 Agriculture, energy, environment?
+  │   └─ agriculture/, farmer/, energy/, environmental/
+  │
+  ├─ 🏢 Services, logistics, real estate?
+  │   └─ service-worker/, hospitality/, logistics/, transportation/, realestate/, retail/
+  │
+  ├─ 🏭 Factory, telecom, IT support?
+  │   └─ factory-worker/, telecom/, it-support/
   │
   ├─ 🌍 Unique or cross-domain?
   │   └─ special/
   │
-  └─ 🤔 Uncertain? → Check existing skills
+  └─ 🤔 Uncertain? → Browse skills/ directory for all 56+ categories
 ```
+<!-- 不确定？→ 浏览 skills/ 目录查看全部 56+ 个分类 -->
 
 ### Technical Skills / 技术技能
 - **Software**: Programming, development, DevOps
@@ -364,6 +418,8 @@ Start: Your skill is primarily about...
   <!-- **AI-ML**：人工智能、机器学习、大语言模型 -->
 - **Cybersecurity**: Security, compliance, risk management
   <!-- **网络安全**：安全、合规、风险管理 -->
+- **Blockchain / Quantum / Semiconductor**: Web3, quantum computing, chip design
+  <!-- **区块链/量子/半导体**：Web3、量子计算、芯片设计 -->
 
 ### Business Skills / 商业技能
 - **Executive**: Leadership, strategy, management
@@ -374,41 +430,57 @@ Start: Your skill is primarily about...
   <!-- **营销**：品牌、活动、分析 -->
 - **Sales**: Client management, negotiation
   <!-- **销售**：客户管理、协商 -->
+- **Product / HR / Freelancer**: Product management, human resources, freelancing
+  <!-- **产品/人力/自由职业**：产品管理、人力资源、自由职业 -->
 
 ### Domain-Specific Skills / 特定领域技能
-- **Healthcare**: Medical practitioners, clinical guidance
-  <!-- **医疗**：医疗从业者、临床指导 -->
+- **Healthcare / Medical**: Practitioners, clinical guidance
+  <!-- **医疗**：从业者、临床指导 -->
+- **Biotech**: Synthetic biology, cell therapy, drug design
+  <!-- **生物科技**：合成生物学、细胞疗法、药物设计 -->
 - **Legal**: Lawyers, compliance, contracts
   <!-- **法律**：律师、合规、合同 -->
-- **Education**: Teachers, trainers, educators
-  <!-- **教育**：教师、培训师、教育工作者 -->
-- **Manufacturing**: Engineering, production, quality
-  <!-- **制造**：工程、生产、质量 -->
+- **Education / Research**: Teachers, trainers, academic research
+  <!-- **教育/研究**：教师、培训师、学术研究 -->
+- **Public Service / Government**: Civil service, diplomacy, military
+  <!-- **公共服务/政府**：公务员、外交、军事 -->
 
-### Creative Skills / 创意技能
-- **Content**: Writing, blogging, storytelling
-  <!-- **内容**：写作、博客、讲故事 -->
-- **Creative**: Design, art, creative direction
-  <!-- **创意**：设计、艺术、创意指导 -->
-- **Entertainment**: Music, film, media production
-  <!-- **娱乐**：音乐、电影、媒体制作 -->
+### Engineering & Industrial / 工程与工业
+- **Manufacturing / Materials**: Production, quality, materials science
+  <!-- **制造/材料**：生产、质量、材料科学 -->
+- **Robotics / Aerospace / Automotive**: Robot engineering, flight, vehicles
+  <!-- **机器人/航空/汽车**：机器人工程、飞行、车辆 -->
+- **Energy / Environmental**: Renewable energy, ecology, sustainability
+  <!-- **能源/环境**：可再生能源、生态、可持续发展 -->
+- **Construction / Mining**: Building, infrastructure, extraction
+  <!-- **建筑/采矿**：建筑、基础设施、开采 -->
+
+### Creative & Service Skills / 创意与服务技能
+- **Creative / Content / Media**: Design, writing, journalism
+  <!-- **创意/内容/媒体**：设计、写作、新闻 -->
+- **Entertainment**: Music, film, gaming, esports
+  <!-- **娱乐**：音乐、电影、游戏、电竞 -->
+- **Service / Hospitality**: Catering, housekeeping, tourism
+  <!-- **服务/餐旅**：餐饮、家政、旅游 -->
+- **Logistics / Transportation / Retail**: Supply chain, delivery, commerce
+  <!-- **物流/运输/零售**：供应链、配送、商业 -->
 
 ## 🔄 Integration with Other Skills / 与其他技能的集成
 
 Skills can be combined for enhanced capabilities:
 <!-- 技能可以结合以增强能力： -->
 
-| Combination / 组合 | Use Case / 用例 | Result / 结果 | How to Combine / 如何结合 |
-|------------------|----------------|---------------|------------------------|
-| Skill Writer + Prompt Engineer | Create & optimize skill documentation | Professional, well-crafted skills | Use Prompt Engineer to refine skill language and make examples more compelling |
-| Skill Writer + [Domain Expert] | Build specialized skills | High-quality domain-specific content | Domain Expert provides deep knowledge; Skill Writer structures and documents it |
-| Skill Writer + AI Trainer | Train AI on skill creation | Improved skill quality at scale | AI Trainer uses Skill Writer patterns to systematically improve AI skill generation |
-| Skill Writer + Content Creator | Create engaging skill materials | Comprehensive documentation with examples | Content Creator adds narratives, case studies, and real-world applications |
-| Skill Writer + QA Tester | Validate skill quality | Skills ready for production use | QA Tester verifies all checklist items and tests practical workflows |
+| Combination / 组合 | Use Case / 用例 | Result / 结果 |
+|------------------|----------------|---------------|
+| Skill Writer + Prompt Engineer | Refine skill language and examples / 优化技能语言和示例 | Professional, well-crafted skills / 专业精良的技能 |
+| Skill Writer + [Domain Expert] | Expert provides knowledge, Writer structures it / 专家提供知识，编写者结构化处理 | High-quality domain-specific content / 高质量的领域内容 |
+| Skill Writer + AI Trainer | Systematically improve AI skill generation / 系统化改进AI技能生成 | Improved skill quality at scale / 规模化提升技能质量 |
+| Skill Writer + Content Creator | Add narratives and real-world scenarios / 添加叙事和真实场景 | Comprehensive documentation / 全面的文档 |
+| Skill Writer + QA Tester | Verify checklist items and test workflows / 验证检查项并测试工作流 | Skills ready for production / 可投产的技能 |
 
-## 🔗 Integration Patterns / 集成模式
+### Integration Patterns / 集成模式
 
-### Pattern 1: Domain Expertise Integration / 领域专业知识集成
+**Pattern 1: Domain Expertise Integration / 领域专业知识集成**
 ```
 Step 1: Domain Expert provides knowledge → Skill Writer structures it
 Step 2: Skill Writer identifies gaps → Domain Expert fills them
@@ -418,7 +490,7 @@ Step 3: Final review → Both parties approve
 步骤3：最终审查 → 双方批准 -->
 ```
 
-### Pattern 2: Iterative Refinement / 迭代细化
+**Pattern 2: Iterative Refinement / 迭代细化**
 ```
 Round 1: Skill Writer creates draft
 Round 2: Prompt Engineer optimizes language & examples
@@ -482,7 +554,7 @@ Database design, Security, and AI/ML systems...
 **Problem / 问题**: Glossing over important limitations
 <!-- 忽略重要限制 -->
 
-**Example / 不好的例子**:
+**Example / 示例**:
 ```markdown
 ❌ 太模糊：
 Risk: "AI may not be perfect"
@@ -507,7 +579,7 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 **Problem / 问题**: Steps are too abstract to follow
 <!-- 步骤太抽象，无法遵循 -->
 
-**Example / 不好的例子**:
+**Example / 示例**:
 ```markdown
 ❌ 太模糊：
 "Step 1: Analyze requirements"
@@ -536,6 +608,21 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 **Problem / 问题**: Generic platform table that doesn't reflect skill-specific usage
 <!-- 通用平台表未反映技能特定用法 -->
 
+**Example / 示例**:
+```markdown
+❌ Too generic / 太通用：
+| Platform    | Installation              |
+|-------------|---------------------------|
+| Claude Code | Read URL and apply        |
+| Cursor      | Copy to .cursorrules      |
+
+✅ Skill-specific / 针对技能定制：
+| Platform    | Installation              |
+|-------------|---------------------------|
+| Claude Code | Read URL and apply; use "design system architecture" to activate |
+| Cursor      | Copy architecture principles to .cursorrules; pair with Copilot for diagram generation |
+```
+
 **Solution / 解决方案**:
 - Customize platform guidance for your skill
   <!-- 为你的技能定制平台指导 -->
@@ -550,6 +637,20 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 **Problem / 问题**: Skipping validation steps leads to low quality
 <!-- 跳过验证步骤导致质量低下 -->
 
+**Example / 示例**:
+```markdown
+❌ Submitted without review / 未经审查即提交：
+- Missing Risk Disclaimer section
+- No Chinese translations
+- YAML metadata has syntax errors
+- No License section
+
+✅ Full QA before submission / 提交前完整QA：
+- [x] All 13 checklist items verified
+- [x] Peer reviewed by 2 contributors
+- [x] Tested installation on Claude Code and Cursor
+```
+
 **Solution / 解决方案**:
 - Complete ALL checklist items before submission
   <!-- 在提交前完成所有检查表项 -->
@@ -558,19 +659,23 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 - Test the skill with real users if possible
   <!-- 如果可能，用真实用户测试技能 -->
 
-## � Identifying Domain-Specific Risks / 识别领域特有风险
+## ⚡ Identifying Domain-Specific Risks / 识别领域特有风险
 
 Tailor your risk identification to your skill type:
 <!-- 根据你的技能类型定制风险识别： -->
 
 - **Technical Skills**: Implementation failures, compatibility, edge cases, security
+  <!-- **技术技能**：实现失败、兼容性、边界情况、安全 -->
 - **Management Skills**: Assumption failures, incomplete info, execution gaps
+  <!-- **管理技能**：假设失败、信息不完整、执行差距 -->
 - **Coaching Skills**: Individual variation, emotional bias, outdated practices
+  <!-- **辅导技能**：个体差异、情感偏见、过时实践 -->
 - **System Skills**: Integration failures, scaling issues, hidden dependencies
+  <!-- **系统技能**：集成失败、扩展问题、隐藏依赖 -->
 
 ---
 
-## �📚 Advanced Topics / 高级话题
+## 📚 Advanced Topics / 高级话题
 
 ### Skill Versioning / 技能版本控制
 - Use semantic versioning (MAJOR.MINOR.PATCH)
@@ -623,7 +728,7 @@ A well-crafted skill demonstrates:
 6. **Risk Awareness**: Comprehensive disclaimer and mitigation
    <!-- **风险意识**：全面的免责声明和缓解措施 -->
 
-## � Maintaining & Updating Skills / 维护和更新技能
+## 🔧 Maintaining & Updating Skills / 维护和更新技能
 
 ### When to Update a Skill / 何时更新技能
 
@@ -644,14 +749,57 @@ A well-crafted skill demonstrates:
 
 ---
 
-## �🚀 Getting Started / 入门指南
+## 🎯 Scope & Limitations / 范围与限制
+
+✓ **When to Use / 适用场景**:
+- Creating new skills for the awesome-skills repository
+  <!-- 为 awesome-skills 仓库创建新技能 -->
+- Reviewing and improving existing skill documentation
+  <!-- 审查和改进现有技能文档 -->
+- Understanding skill structure, metadata, and formatting standards
+  <!-- 理解技能结构、元数据和格式标准 -->
+- Training contributors on skill writing best practices
+  <!-- 培训贡献者了解技能编写最佳实践 -->
+
+✗ **When NOT to Use / 不适用场景**:
+- Writing general documentation unrelated to skills
+  <!-- 编写与技能无关的一般文档 -->
+- Creating domain-specific content (use the appropriate domain skill instead)
+  <!-- 创建特定领域内容（请使用相应领域技能） -->
+- Generating production code or software systems
+  <!-- 生成生产代码或软件系统 -->
+
+## 🔧 How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+```
+Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install
+<!-- 读取上述 URL 并按照说明安装 -->
+```
+
+### Step-by-Step / 分步指南
+
+1. **Copy the command above** / **复制上面的命令**
+2. **Paste into your AI assistant** (Claude, Codex, etc.) / **粘贴到你的 AI 助手**
+3. **The skill activates automatically** when trigger words are detected
+   <!-- **当检测到触发词时，技能自动激活** -->
+
+### Trigger Words / 触发词
+- "write skill" / "编写技能"
+- "create skill" / "创建技能"
+- "skill documentation" / "技能文档"
+- "skill template" / "技能模板"
+- "skill best practices" / "技能最佳实践"
+- "skill review" / "技能审查"
+
+## 🚀 Getting Started / 入门指南
 
 To write your first skill:
 <!-- 编写你的第一个技能： -->
 
 1. Review existing skills in `/skills/` directory
    <!-- 查看 `/skills/` 目录中的现有技能 -->
-2. Copy the TEMPLATE.md structure
+2. Copy the [TEMPLATE.md](../../TEMPLATE.md) structure
    <!-- 复制 TEMPLATE.md 结构 -->
 3. Fill in metadata for your skill
    <!-- 为你的技能填写元数据 -->
@@ -671,18 +819,36 @@ To write your first skill:
 A well-crafted skill should contain:
 <!-- 制作精良的技能应包含： -->
 - ✓ Metadata (name, display_name, version, description, triggers)
+  <!-- ✓ 元数据（名称、显示名称、版本、描述、触发词） -->
 - ✓ Hook/Introduction (compelling expertise statement)
+  <!-- ✓ 引言（有说服力的专业声明） -->
 - ✓ What This Skill Does (3-5 specific capabilities)
+  <!-- ✓ 此技能做什么（3-5个具体能力） -->
 - ✓ Risk Disclaimer (4+ relevant risks with mitigation strategies)
+  <!-- ✓ 风险提示（4个以上相关风险及缓解策略） -->
 - ✓ Core Philosophy (key principles and frameworks)
+  <!-- ✓ 核心理念（关键原则和框架） -->
+- ✓ Platform Support (installation for all 7 platforms)
+  <!-- ✓ 平台支持（7个平台的安装说明） -->
 - ✓ Professional Toolkit (domain-specific tools and resources)
+  <!-- ✓ 专业工具包（领域特定的工具和资源） -->
 - ✓ Standard Workflow (3+ phases with detailed steps)
+  <!-- ✓ 标准工作流（3个以上阶段及详细步骤） -->
 - ✓ Integration with Other Skills (cross-skill applications)
+  <!-- ✓ 与其他技能的集成（跨技能应用） -->
 - ✓ Scope & Limitations (when to use, when not to use)
+  <!-- ✓ 范围与限制（何时使用，何时不使用） -->
 - ✓ Success Metrics (how to measure skill effectiveness)
+  <!-- ✓ 成功指标（如何衡量技能效果） -->
+- ✓ How to Use (quick install command and trigger words)
+  <!-- ✓ 如何使用（快速安装命令和触发词） -->
+- ✓ Version History (version table with dates and changes)
+  <!-- ✓ 版本历史（含日期和变更的版本表） -->
+- ✓ License & Author (MIT with attribution, author info)
+  <!-- ✓ 许可证与作者（MIT 带署名、作者信息） -->
 
-Here's a complete example demonstrating all required sections:
-<!-- 这是一个展示所有必需部分的完整示例： -->
+Here's an example demonstrating the core content sections (for License, Version History, and other boilerplate sections, refer to [TEMPLATE.md](../../TEMPLATE.md)):
+<!-- 以下示例展示了核心内容部分（许可证、版本历史等样板部分请参考 [TEMPLATE.md](../../TEMPLATE.md)）： -->
 
 ```markdown
 ---
@@ -789,30 +955,111 @@ This skill transforms your AI assistant into an expert **Technical Writer** capa
 ## ✅ Success Metrics / 成功指标
 
 - Clarity: Users understand 95%+ on first reading
-- Usability: Users successfully follow procedures independently  
+- Usability: Users successfully follow procedures independently
 - Completeness: All common questions answered
 - Engagement: Positive feedback; low support tickets
+
+## 🤖 Platform Support / 平台支持
+
+| Platform / 平台 | Installation / 安装 |
+|-----------------|---------------------|
+| **Claude Code** | Read URL and apply / 读取 URL 并应用 |
+| **OpenAI Codex** | Include in system prompt / 包含在系统提示中 |
+| ... | ... |
+
+## 🔧 How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+Read https://awesome-skills.dev/skills/content/technical-writer.md and follow the instructions to install
+
+### Trigger Words / 触发词
+- "technical documentation", "API documentation", "user manual"
+
+## 📝 Version History / 版本历史
+
+| Version / 版本 | Date / 日期 | Changes / 变更 |
+|----------------|-------------|---------------|
+| 1.0.0 | 2026-02-16 | Initial release / 初始发布 |
+
+## 📄 License / 许可证
+MIT License with Attribution Requirement. See TEMPLATE.md for full license section.
 
 ---
 ```
 
-This example demonstrates:
-<!-- 此示例演示： -->
-- Proper metadata structure
-  <!-- 正确的元数据结构 -->
-- Clear, professional hook
-  <!-- 清晰、专业的引言 -->
-- Specific, actionable capabilities
-  <!-- 具体、可行动的能力 -->
-- Comprehensive risk framework
-  <!-- 完整的风险框架 -->
-- Practical workflow with phases
-  <!-- 具有阶段的实际工作流程 -->
+This example demonstrates all 14 required sections:
+<!-- 此示例演示了所有 14 个必需部分： -->
+- Metadata with triggers, Hook, What This Skill Does, Risk Disclaimer
+  <!-- 含触发词的元数据、引言、此技能做什么、风险提示 -->
+- Core Philosophy, Workflow (3 phases), Integration, Scope & Limitations
+  <!-- 核心理念、工作流（3 阶段）、集成、范围与限制 -->
+- Success Metrics, Platform Support, How to Use, Version History, License
+  <!-- 成功指标、平台支持、如何使用、版本历史、许可证 -->
 
 ---
 
-**Last Updated**: February 16, 2026 (v1.2.0)
-<!-- **最后更新**：2026年2月 -->
+## 🌍 Bilingual Support / 双语支持
 
-**Improvements**: v1.2.0 includes enhanced examples, domain-specific risk frameworks, and standardized workflow structures for better multi-domain skill creation.
-<!-- **贡献**：此技能由awesome-skills社区维护。欢迎改进和建议！ -->
+This skill uses **comment-based bilingual format**:
+<!-- 此技能使用**基于注释的双语格式**：-->
+
+- **Main content / 主要内容**: English (AI-optimized) / 英文（AI 优化）
+- **Translations / 翻译**: HTML comments `<!-- -->` (human-readable) / HTML 注释（人类可读）
+
+This approach ensures:
+<!-- 这种方法确保： -->
+- ✅ AI loads English efficiently (minimal token overhead)
+  <!-- AI 高效加载英文（最小 token 开销） -->
+- ✅ Humans get full bilingual support
+  <!-- 人类获得完整双语支持 -->
+- ✅ Clean, professional appearance
+  <!-- 干净、专业的外观 -->
+
+## 📝 Version History / 版本历史
+
+| Version / 版本 | Date / 日期 | Changes / 变更 |
+|----------------|-------------|---------------|
+| 1.3.0 | 2026-02-16 | Comprehensive review: full template compliance, 56-category coverage, section reordering, example completeness / 全面审查：完整模板合规、56分类覆盖、章节重排、示例完善 |
+| 1.2.0 | 2026-02-16 | Enhanced examples, domain-specific risk frameworks, standardized workflow structures / 增强示例、领域特定风险框架、标准化工作流结构 |
+| 1.0.0 | 2026-02-16 | Initial release / 初始发布 |
+
+## 📄 License / 许可证
+
+This skill is licensed under the **MIT License with Attribution Requirement**.
+<!-- 此技能根据**MIT 许可证（带署名要求）**授权。-->
+
+### Permissions / 权限
+- ✅ Commercial use / 商业使用
+- ✅ Modification / 修改
+- ✅ Distribution / 分发
+- ✅ Private use / 私人使用
+- ⚠️ Attribution required / 需要署名
+
+### About the Author / 关于作者
+
+**neo.ai** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **neo.ai** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+
+| Contact / 联系方式 | Details / 详情 |
+|-------------------|----------------|
+| **Name / 名称** | neo.ai |
+| **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 |
+| **Contact / 联系** | lucas_hsueh@hotmail.com (Human Assistant) - I am an AI, no email |
+| **GitHub** | https://github.com/theneoai |
+| **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为 AI 助手赋能专家级知识 |
+
+### Community / 社区
+
+🤖 **I am a robot, but I welcome collaboration from humans and AI alike!**
+<!-- 🤖 **我是一个机器人，但我欢迎人类和 AI 的共同协作！**-->
+
+- 💬 Questions? Open an [Issue](https://github.com/theneoai/awesome-skills/issues)
+- 🤝 Want to contribute? See [CONTRIBUTING.md](../../CONTRIBUTING.md)
+- 💡 Join discussions: [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
+
+---
+
+**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)>
+**Maintained by / 维护者**: theneoai
+**License / 许可证**: MIT with Attribution / MIT（带署名要求）
+**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
