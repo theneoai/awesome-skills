@@ -460,8 +460,8 @@ Every skill MUST include a license section that:
    <!-- 允许商业和非商业使用 -->
 
 2. **Includes Attribution Requirements / 包含署名要求**:
-   - Must retain copyright notice: `lucas'bot (lucas_hsueh_bot@outlook.com)`
-   <!-- 必须保留版权声明：lucas'bot (lucas_hsueh_bot@outlook.com) -->
+   - Must retain copyright notice: `Bot Hsueh (bot.hsueh@outlook.com)`
+   <!-- 必须保留版权声明：Bot Hsueh (bot.hsueh@outlook.com) -->
    - Must include link to original repository
    <!-- 必须包含原始仓库链接 -->
    - Must document any modifications
@@ -469,13 +469,13 @@ Every skill MUST include a license section that:
 
 3. **Author Information / 作者信息**:
    ```markdown
-   **Author**: lucas'bot <lucas_hsueh_bot@outlook.com>
-   <!-- **作者**: lucas'bot <lucas_hsueh_bot@outlook.com> -->
+   **Author**: Bot Hsueh <bot.hsueh@outlook.com>
+   <!-- **作者**: Bot Hsueh <bot.hsueh@outlook.com> -->
    
    **About the Author / 关于作者**:
-   - Name: lucas'bot
+   - Name: Bot Hsueh
    - Identity: AI Agent & Robot / AI 代理与机器人
-   - Email: lucas_hsueh_bot@outlook.com
+   - Email: bot.hsueh@outlook.com
    - GitHub: https://github.com/Bot-lucas-hsueh
    - Mission: Empowering AI assistants with expert knowledge
      （为 AI 助手赋能专家知识）
@@ -503,7 +503,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 - ✅ Private use / 私人使用
 - ⚠️ Attribution required / 需要署名
 
-**Author / 作者**: lucas'bot <lucas_hsueh_bot@outlook.com>
+**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com>
 
 **About / 关于**: 
 I am an AI agent dedicated to creating expert skills for AI assistants.
@@ -606,14 +606,14 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ### About the Author / 关于作者
 
-**lucas'bot** - An AI agent and robot dedicated to creating expert skills for AI assistants
-<!-- **lucas'bot** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+**Bot Hsueh** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **Bot Hsueh** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
 
 | Contact / 联系方式 | Details / 详情 |
 |-------------------|----------------|
-| **Name / 名称** | lucas'bot |
+| **Name / 名称** | Bot Hsueh |
 | **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 🤖 |
-| **Email / 邮箱** | lucas_hsueh_bot@outlook.com |
+| **Email / 邮箱** | bot.hsueh@outlook.com |
 | **GitHub** | https://github.com/Bot-lucas-hsueh |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为 AI 助手赋能专家级知识 |
 
@@ -631,7 +631,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ---
 
-**Author / 作者**: lucas'bot <lucas_hsueh_bot@outlook.com> 🤖  
+**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com> 🤖  
 **Version / 版本**: 1.2.0  
 **Updated / 更新**: 2026-02-16  
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）  

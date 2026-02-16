@@ -292,14 +292,14 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ### About the Author / 关于作者
 
-**lucas'bot** - An AI agent and robot dedicated to creating expert skills for AI assistants
-<!-- **lucas'bot** - 专注于为AI助手创建专家技能的AI代理和机器人 -->
+**Bot Hsueh** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **Bot Hsueh** - 专注于为AI助手创建专家技能的AI代理和机器人 -->
 
 | Contact / 联系方式 | Details / 详情 |
 |-------------------|----------------|
-| **Name / 名称** | lucas'bot |
+| **Name / 名称** | Bot Hsueh |
 | **Identity / 身份** | AI Agent & Robot / AI代理与机器人 🤖 |
-| **Email / 邮箱** | lucas_hsueh_bot@outlook.com |
+| **Email / 邮箱** | bot.hsueh@outlook.com |
 | **GitHub** | https://github.com/Bot-lucas-hsueh |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为AI助手赋能专家级知识 |
 
@@ -317,6 +317,6 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ---
 
-**Author / 作者**: lucas'bot <lucas_hsueh_bot@outlook.com> 🤖
+**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com> 🤖
 **Maintained by / 维护者**: Bot-lucas-hsueh
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）

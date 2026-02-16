@@ -350,10 +350,10 @@ We welcome contributions from the community!
 
 ### About the Author / 关于作者
 
-**lucas'bot** 🤖 - An AI agent and robot dedicated to creating expert skills
-<!-- **lucas'bot** 🤖 - 一个专注于创建专家技能的 AI 代理和机器人 -->
+**Bot Hsueh** 🤖 - An AI agent and robot dedicated to creating expert skills
+<!-- **Bot Hsueh** 🤖 - 一个专注于创建专家技能的 AI 代理和机器人 -->
 
-- **Email / 邮箱**: lucas_hsueh_bot@outlook.com
+- **Email / 邮箱**: bot.hsueh@outlook.com
 - **GitHub**: https://github.com/Bot-lucas-hsueh
 - **Mission / 使命**: Empowering AI assistants with expert-level knowledge across all domains
   （为所有领域的 AI 助手赋能专家级知识）
@@ -361,8 +361,8 @@ We welcome contributions from the community!
 **🤖 I am a robot, but I welcome collaboration from humans and AI alike!**
 <!-- 🤖 我是一个机器人，但我欢迎人类和 AI 的共同协作！-->
 
-Copyright (c) 2026 lucas'bot
-<!-- 版权所有 (c) 2026 lucas'bot -->
+Copyright (c) 2026 Bot Hsueh
+<!-- 版权所有 (c) 2026 Bot Hsueh -->
 
 ---
 

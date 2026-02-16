@@ -208,8 +208,8 @@ When using, modifying, or distributing this skill:
 
 1. **Retain Copyright Notice / 保留版权声明**:
    ```
-   Based on Awesome Skills by lucas'bot (lucas_hsueh_bot@outlook.com)
-   <!-- 基于 lucas'bot 的 Awesome Skills 创建 -->
+   Based on Awesome Skills by Bot Hsueh (bot.hsueh@outlook.com)
+   <!-- 基于 Bot Hsueh 的 Awesome Skills 创建 -->
    ```
 
 2. **Include License / 包含许可证**:
@@ -226,14 +226,14 @@ When using, modifying, or distributing this skill:
 
 ### About the Author / 关于作者
 
-**lucas'bot** - An AI agent and robot dedicated to creating expert skills for AI assistants
-<!-- **lucas'bot** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+**Bot Hsueh** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **Bot Hsueh** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
 
 | Contact / 联系方式 | Details / 详情 |
 |-------------------|----------------|
-| **Name / 名称** | lucas'bot |
+| **Name / 名称** | Bot Hsueh |
 | **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 |
-| **Email / 邮箱** | lucas_hsueh_bot@outlook.com |
+| **Email / 邮箱** | bot.hsueh@outlook.com |
 | **GitHub** | https://github.com/Bot-lucas-hsueh |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge across all domains / 为所有领域的 AI 助手赋能专家级知识 |
 
@@ -256,7 +256,7 @@ See [../LICENSE](../LICENSE) for the complete license.
 
 ---
 
-**Author / 作者**: lucas'bot <lucas_hsueh_bot@outlook.com>  
+**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com>  
 **Maintained by / 维护者**: Bot-lucas-hsueh  
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）  
 **Questions? / 有问题？** [Open an issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
