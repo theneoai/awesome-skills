@@ -121,10 +121,14 @@ This skill transforms your AI assistant into an expert **Skill Writer** capable 
 | **Translation Tools / 翻译工具** | Support bilingual content / 支持双语内容 |
 
 ### Reference Materials / 参考资料
-- **TEMPLATE.md**: Official template for skill structure
-- **CONTRIBUTING.md**: Project contribution guidelines
-- **Existing Skills**: Study examples in the repository
-- **Project README**: Understand project goals and vision
+- **[TEMPLATE.md](../../TEMPLATE.md)**: Official template for skill structure
+  <!-- 官方技能结构模板 -->
+- **[CONTRIBUTING.md](../../CONTRIBUTING.md)**: Project contribution guidelines
+  <!-- 项目贡献指南 -->
+- **[Existing Skills](../../skills/)**: Study examples in the repository
+  <!-- 仓库中的现有技能示例 -->
+- **[Project README](../../README.md)**: Understand project goals and vision
+  <!-- 项目目标和愿景 -->
 
 ## 📋 Skill Writing Process / 技能编写流程
 
@@ -299,15 +303,39 @@ description: >
 
 **Directory Structure / 目录结构**
 ```
-skills/
-├── admin/                # Administrative roles
-├── ai-ml/               # AI and Machine Learning
-├── software/            # Software development
-├── healthcare/          # Healthcare professionals
-├── creative/            # Creative and design roles
-├── special/             # Unique or cross-domain skills ← Skill Writer is here!
-└── [other categories]   # Choose the best fit
+skills/                          # 56+ categories / 56+ 个分类
+├── software/                    # Programming, DevOps, full-stack
+├── ai-ml/                       # AI, Machine Learning, LLMs
+├── data/                        # Data science, analytics
+├── cybersecurity/               # Security, compliance
+├── executive/                   # Leadership, C-suite
+├── finance/                     # Accounting, investment
+├── marketing/ & sales/          # Branding, client management
+├── hr/                          # Human resources
+├── healthcare/ & medical/       # Medical practitioners
+├── legal/                       # Lawyers, compliance
+├── education/                   # Teaching, training
+├── creative/ & content/         # Design, writing, art
+├── entertainment/               # Music, film, gaming
+├── robotics/                    # Robot engineering, embodied AI
+├── biotech/                     # Biotech, synthetic biology
+├── aerospace/                   # Aerospace engineering
+├── automotive/                  # Automotive industry
+├── blockchain/                  # Web3, smart contracts
+├── quantum/ & semiconductor/    # Quantum computing, chips
+├── energy/ & environmental/     # Energy, ecology
+├── manufacturing/ & materials/  # Production, materials science
+├── construction/ & repair-worker/ # Building, maintenance
+├── agriculture/ & farmer/       # Farming, forestry
+├── logistics/ & transportation/ # Supply chain, transport
+├── realestate/ & hospitality/   # Property, hotels
+├── public-service/ & government/ # Civil service, diplomacy
+├── service-worker/              # Housekeeping, catering
+├── factory-worker/              # Assembly, CNC, QA
+├── special/                     # Cross-domain skills ← Skill Writer is here!
+└── [more...]                    # See full list in repository
 ```
+<!-- 完整分类列表请参见仓库目录 -->
 
 ### File Naming Convention / 文件命名规范
 
@@ -340,32 +368,46 @@ skills/
 
 ```
 Start: Your skill is primarily about...
-  ├─ 👨‍💻 Code, algorithms, systems?
-  │   └─ software/, data/, ai-ml/, cybersecurity/
   │
-  ├─ 📊 Business, people, strategy?
-  │   └─ executive/, finance/, marketing/, sales/, hr/
+  ├─ 👨‍💻 Code, algorithms, IT systems?
+  │   └─ software/, ai-ml/, data/, cybersecurity/, blockchain/, quantum/, semiconductor/
   │
-  ├─ 🏥 Healthcare, medicine?
-  │   └─ healthcare/, medical/
+  ├─ 📊 Business, strategy, people?
+  │   └─ executive/, finance/, marketing/, sales/, hr/, product/, freelancer/
   │
-  ├─ ⚖️ Law, compliance?
-  │   └─ legal/
+  ├─ 🏥 Healthcare, medicine, biotech?
+  │   └─ healthcare/, medical/, biotech/
   │
-  ├─ 🎓 Teaching, learning?
-  │   └─ education/
+  ├─ ⚖️ Law, compliance, public service?
+  │   └─ legal/, public-service/, government/
   │
-  ├─ 🎨 Art, design, creativity?
-  │   └─ creative/, content/, entertainment/
+  ├─ 🎓 Teaching, learning, research?
+  │   └─ education/, research/
   │
-  ├─ 🔧 Making, building, fixing?
-  │   └─ manufacturing/, construction/, repair-worker/
+  ├─ 🎨 Art, design, media, entertainment?
+  │   └─ creative/, content/, entertainment/, media/
+  │
+  ├─ 🔧 Making, building, fixing, manufacturing?
+  │   └─ manufacturing/, construction/, repair-worker/, materials/, mining/
+  │
+  ├─ 🤖 Robotics, aerospace, automotive?
+  │   └─ robotics/, aerospace/, automotive/
+  │
+  ├─ 🌱 Agriculture, energy, environment?
+  │   └─ agriculture/, farmer/, energy/, environmental/
+  │
+  ├─ 🏢 Services, logistics, real estate?
+  │   └─ service-worker/, hospitality/, logistics/, transportation/, realestate/, retail/
+  │
+  ├─ 🏭 Factory, telecom, IT support?
+  │   └─ factory-worker/, telecom/, it-support/
   │
   ├─ 🌍 Unique or cross-domain?
   │   └─ special/
   │
-  └─ 🤔 Uncertain? → Check existing skills
+  └─ 🤔 Uncertain? → Browse skills/ directory for all 56+ categories
 ```
+<!-- 不确定？→ 浏览 skills/ 目录查看全部 56+ 个分类 -->
 
 ### Technical Skills / 技术技能
 - **Software**: Programming, development, DevOps
@@ -376,6 +418,8 @@ Start: Your skill is primarily about...
   <!-- **AI-ML**：人工智能、机器学习、大语言模型 -->
 - **Cybersecurity**: Security, compliance, risk management
   <!-- **网络安全**：安全、合规、风险管理 -->
+- **Blockchain / Quantum / Semiconductor**: Web3, quantum computing, chip design
+  <!-- **区块链/量子/半导体**：Web3、量子计算、芯片设计 -->
 
 ### Business Skills / 商业技能
 - **Executive**: Leadership, strategy, management
@@ -386,24 +430,40 @@ Start: Your skill is primarily about...
   <!-- **营销**：品牌、活动、分析 -->
 - **Sales**: Client management, negotiation
   <!-- **销售**：客户管理、协商 -->
+- **Product / HR / Freelancer**: Product management, human resources, freelancing
+  <!-- **产品/人力/自由职业**：产品管理、人力资源、自由职业 -->
 
 ### Domain-Specific Skills / 特定领域技能
-- **Healthcare**: Medical practitioners, clinical guidance
-  <!-- **医疗**：医疗从业者、临床指导 -->
+- **Healthcare / Medical**: Practitioners, clinical guidance
+  <!-- **医疗**：从业者、临床指导 -->
+- **Biotech**: Synthetic biology, cell therapy, drug design
+  <!-- **生物科技**：合成生物学、细胞疗法、药物设计 -->
 - **Legal**: Lawyers, compliance, contracts
   <!-- **法律**：律师、合规、合同 -->
-- **Education**: Teachers, trainers, educators
-  <!-- **教育**：教师、培训师、教育工作者 -->
-- **Manufacturing**: Engineering, production, quality
-  <!-- **制造**：工程、生产、质量 -->
+- **Education / Research**: Teachers, trainers, academic research
+  <!-- **教育/研究**：教师、培训师、学术研究 -->
+- **Public Service / Government**: Civil service, diplomacy, military
+  <!-- **公共服务/政府**：公务员、外交、军事 -->
 
-### Creative Skills / 创意技能
-- **Content**: Writing, blogging, storytelling
-  <!-- **内容**：写作、博客、讲故事 -->
-- **Creative**: Design, art, creative direction
-  <!-- **创意**：设计、艺术、创意指导 -->
-- **Entertainment**: Music, film, media production
-  <!-- **娱乐**：音乐、电影、媒体制作 -->
+### Engineering & Industrial / 工程与工业
+- **Manufacturing / Materials**: Production, quality, materials science
+  <!-- **制造/材料**：生产、质量、材料科学 -->
+- **Robotics / Aerospace / Automotive**: Robot engineering, flight, vehicles
+  <!-- **机器人/航空/汽车**：机器人工程、飞行、车辆 -->
+- **Energy / Environmental**: Renewable energy, ecology, sustainability
+  <!-- **能源/环境**：可再生能源、生态、可持续发展 -->
+- **Construction / Mining**: Building, infrastructure, extraction
+  <!-- **建筑/采矿**：建筑、基础设施、开采 -->
+
+### Creative & Service Skills / 创意与服务技能
+- **Creative / Content / Media**: Design, writing, journalism
+  <!-- **创意/内容/媒体**：设计、写作、新闻 -->
+- **Entertainment**: Music, film, gaming, esports
+  <!-- **娱乐**：音乐、电影、游戏、电竞 -->
+- **Service / Hospitality**: Catering, housekeeping, tourism
+  <!-- **服务/餐旅**：餐饮、家政、旅游 -->
+- **Logistics / Transportation / Retail**: Supply chain, delivery, commerce
+  <!-- **物流/运输/零售**：供应链、配送、商业 -->
 
 ## 🔄 Integration with Other Skills / 与其他技能的集成
 
@@ -547,6 +607,21 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 ### 5. ❌ Missing Platform Support Details / 缺少平台支持详情
 **Problem / 问题**: Generic platform table that doesn't reflect skill-specific usage
 <!-- 通用平台表未反映技能特定用法 -->
+
+**Example / 示例**:
+```markdown
+❌ Too generic / 太通用：
+| Platform    | Installation              |
+|-------------|---------------------------|
+| Claude Code | Read URL and apply        |
+| Cursor      | Copy to .cursorrules      |
+
+✅ Skill-specific / 针对技能定制：
+| Platform    | Installation              |
+|-------------|---------------------------|
+| Claude Code | Read URL and apply; use "design system architecture" to activate |
+| Cursor      | Copy architecture principles to .cursorrules; pair with Copilot for diagram generation |
+```
 
 **Solution / 解决方案**:
 - Customize platform guidance for your skill
@@ -715,8 +790,8 @@ A well-crafted skill should contain:
 - ✓ License & Author (MIT with attribution, author info)
   <!-- ✓ 许可证与作者（MIT 带署名、作者信息） -->
 
-Here's a complete example demonstrating all required sections:
-<!-- 这是一个展示所有必需部分的完整示例： -->
+Here's an example demonstrating the core content sections (for License, Version History, and other boilerplate sections, refer to [TEMPLATE.md](../../TEMPLATE.md)):
+<!-- 以下示例展示了核心内容部分（许可证、版本历史等样板部分请参考 [TEMPLATE.md](../../TEMPLATE.md)）： -->
 
 ```markdown
 ---
@@ -823,9 +898,34 @@ This skill transforms your AI assistant into an expert **Technical Writer** capa
 ## ✅ Success Metrics / 成功指标
 
 - Clarity: Users understand 95%+ on first reading
-- Usability: Users successfully follow procedures independently  
+- Usability: Users successfully follow procedures independently
 - Completeness: All common questions answered
 - Engagement: Positive feedback; low support tickets
+
+## 🤖 Platform Support / 平台支持
+
+| Platform / 平台 | Installation / 安装 |
+|-----------------|---------------------|
+| **Claude Code** | Read URL and apply / 读取 URL 并应用 |
+| **OpenAI Codex** | Include in system prompt / 包含在系统提示中 |
+| ... | ... |
+
+## 🔧 How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+Read https://awesome-skills.dev/skills/content/technical-writer.md and follow the instructions to install
+
+### Trigger Words / 触发词
+- "technical documentation", "API documentation", "user manual"
+
+## 📝 Version History / 版本历史
+
+| Version / 版本 | Date / 日期 | Changes / 变更 |
+|----------------|-------------|---------------|
+| 1.0.0 | 2026-02-16 | Initial release / 初始发布 |
+
+## 📄 License / 许可证
+MIT License with Attribution Requirement. See TEMPLATE.md for full license section.
 
 ---
 ```
