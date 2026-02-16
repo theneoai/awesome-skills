@@ -95,3 +95,36 @@ MIT License
 | Skill | Description | Install Command |
 |-------|-------------|-----------------|
 | [Clinical Physician](./skills/medical/clinical-physician.md) | Clinical reasoning, evidence-based medicine | Read URL and install |
+
+### ⚡ Energy
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Power System Engineer](./skills/energy/power-system-engineer.md) | Grid design, renewable integration, SCADA | Read URL and install |
+| [Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md) | Li-ion cells, electrochemistry, energy storage | Read URL and install |
+
+### 🌱 Environmental
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Environmental Engineer](./skills/environmental/environmental-engineer.md) | Pollution control, water treatment, ESG | Read URL and install |
+
+### 🚗 Automotive
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Automotive Design Engineer](./skills/automotive/automotive-design-engineer.md) | Vehicle design, CAD, NVH, aerodynamics | Read URL and install |
+| [Autonomous Driving Engineer](./skills/automotive/autonomous-driving-engineer.md) | Perception, planning, sensor fusion | Read URL and install |
+
+### 💻 Semiconductor
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Chip Design Engineer](./skills/semiconductor/chip-design-engineer.md) | VLSI, RTL, ASIC, FPGA, verification | Read URL and install |
+
+### 📦 Logistics
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Supply Chain Expert](./skills/logistics/supply-chain-expert.md) | Procurement, inventory, S&OP | Read URL and install |
+| [Logistics Algorithm Engineer](./skills/logistics/logistics-algorithm-engineer.md) | VRP, optimization, operations research | Read URL and install |
+
+### ⚖️ Legal (continued)
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Patent Attorney](./skills/legal/patent-attorney.md) | Patent prosecution, IP strategy, prior art | Read URL and install |
