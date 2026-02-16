@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Skills - 450+ Expert AI Skills</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #6366f1;
             --primary-dark: #4f46e5;
             --secondary: #8b5cf6;
-            --accent: #ec4899;
-            --success: #10b981;
-            --warning: #f59e0b;
             --dark: #0f172a;
             --dark-light: #1e293b;
             --gray: #64748b;
@@ -22,24 +17,18 @@
             --light: #f8fafc;
             --white: #ffffff;
         }
-
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', sans-serif;
             background: var(--dark);
             color: var(--light);
             line-height: 1.6;
         }
-
-        /* Hero */
         .hero {
-            padding: 6rem 2rem 4rem;
+            padding: 4rem 2rem;
             text-align: center;
             background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
-            position: relative;
         }
-
         .hero h1 {
             font-size: 3rem;
             font-weight: 700;
@@ -48,27 +37,18 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-
-        .hero p {
-            font-size: 1.2rem;
-            color: var(--gray-light);
-            margin-bottom: 2rem;
-        }
-
+        .hero p { font-size: 1.2rem; color: var(--gray-light); margin-bottom: 2rem; }
         .stats {
             display: flex;
             justify-content: center;
             gap: 3rem;
             margin-bottom: 2rem;
         }
-
         .stat-value {
             font-size: 2.5rem;
             font-weight: 700;
             color: var(--primary);
         }
-
-        /* Command */
         .command-box {
             background: var(--dark-light);
             padding: 1rem;
@@ -77,14 +57,15 @@
             margin: 0 auto 2rem;
             display: flex;
             gap: 1rem;
+            border: 1px solid rgba(99, 102, 241, 0.2);
         }
-
         .command-text {
             flex: 1;
             font-family: monospace;
             color: var(--light);
+            text-align: left;
+            overflow-x: auto;
         }
-
         .copy-btn {
             background: var(--primary);
             color: white;
@@ -92,39 +73,110 @@
             padding: 0.5rem 1rem;
             border-radius: 6px;
             cursor: pointer;
+            font-weight: 600;
         }
-
-        /* Features */
-        .features {
-            padding: 4rem 2rem;
+        .copy-btn:hover { background: var(--primary-dark); }
+        .copy-btn.copied { background: var(--success); }
+        
+        /* Search Section */
+        .search-section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .search-box {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            border: 2px solid rgba(99, 102, 241, 0.2);
+            border-radius: 12px;
+            background: var(--dark-light);
+            color: var(--light);
+            outline: none;
+        }
+        .search-box:focus { border-color: var(--primary); }
+        .search-stats {
+            text-align: center;
+            color: var(--gray-light);
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Skills List */
+        .skills-section {
+            padding: 2rem;
             max-width: 1200px;
             margin: 0 auto;
         }
-
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .feature-card {
-            background: var(--dark-light);
-            padding: 1.5rem;
-            border-radius: 12px;
-        }
-
-        .feature-card h3 {
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
             color: var(--white);
-            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
-
-        /* Footer */
+        .package-card {
+            background: var(--dark-light);
+            border: 1px solid rgba(99, 102, 241, 0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+        }
+        .package-card:hover {
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+        .package-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+        .package-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .package-icon {
+            font-size: 1.5rem;
+        }
+        .package-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--white);
+        }
+        .package-skills {
+            color: var(--gray-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .package-command {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: var(--gray-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .hidden { display: none; }
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: var(--gray-light);
+        }
         footer {
             text-align: center;
             padding: 3rem;
             background: var(--dark);
             border-top: 1px solid rgba(255,255,255,0.1);
         }
+        footer a { color: var(--primary); text-decoration: none; }
     </style>
 </head>
 <body>
@@ -138,30 +190,261 @@
         </div>
         <div class="command-box">
             <code class="command-text">Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills</code>
-            <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);this.innerText='Copied!'">Copy</button>
+            <button class="copy-btn" onclick="copyText(this)">Copy</button>
         </div>
     </section>
     
-    <section class="features">
-        <h2>Features</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>👔 Expert Knowledge</h3>
-                <p>Professional skills from CEOs, doctors, engineers.</p>
-            </div>
-            <div class="feature-card">
-                <h3>⚡ One-Line Install</h3>
-                <p>Simply copy and paste to install.</p>
-            </div>
-            <div class="feature-card">
-                <h3>🔄 Multi-Platform</h3>
-                <p>Works with Claude, Cursor, Codex, Kimi.</p>
-            </div>
-        </div>
+    <section class="search-section">
+        <input type="text" class="search-box" id="searchBox" placeholder="Search skills or packages... (e.g., CEO, doctor, python)" oninput="filterSkills()">
+        <div class="search-stats" id="searchStats"></div>
+    </section>
+    
+    <section class="skills-section" id="skillsList">
+        <!-- Packages will be inserted here by JavaScript -->
     </section>
 
     <footer>
         <p>Created by neo.ai | <a href="https://github.com/theneoai/awesome-skills">GitHub</a></p>
     </footer>
+
+    <script>
+        // Skill packages data
+        const packages = [
+            {
+                icon: "💼",
+                name: "Executive Suite",
+                skills: "CEO, CFO, CTO, COO",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/executive.md and install executive skills"
+            },
+            {
+                icon: "💰",
+                name: "Finance & Accounting",
+                skills: "Accountant, Auditor, Financial Analyst, Tax Specialist, Investment Analyst",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/finance.md and install finance skills"
+            },
+            {
+                icon: "💻",
+                name: "Technology",
+                skills: "Software Architect, Data Scientist, DevOps, Security Engineer, Backend Developer",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/tech.md and install tech skills"
+            },
+            {
+                icon: "🤖",
+                name: "AI & Machine Learning",
+                skills: "LLM Research Scientist, Prompt Engineer, AI Product Manager, AI Application Engineer",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install AI skills"
+            },
+            {
+                icon: "⚕️",
+                name: "Healthcare Core",
+                skills: "Clinical Physician, ICU Nurse, Surgeon, Anesthesiologist, Pharmacist",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/healthcare.md and install healthcare skills"
+            },
+            {
+                icon: "⚖️",
+                name: "Legal & Compliance",
+                skills: "Legal Counsel, Judge, Patent Attorney, Notary, Compliance Specialist",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/legal.md and install legal skills"
+            },
+            {
+                icon: "🎓",
+                name: "Education & Training",
+                skills: "University Professor, K-12 Teacher, Corporate Trainer, Tutor, Coach",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/education.md and install education skills"
+            },
+            {
+                icon: "🔬",
+                name: "Research & Academia",
+                skills: "Principal Investigator, Lab Technician, Journal Editor, Grant Reviewer",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/research.md and install research skills"
+            },
+            {
+                icon: "⚡",
+                name: "Energy & Utilities",
+                skills: "Power System Engineer, Battery Engineer, Nuclear Operator, Renewable Energy",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/energy.md and install energy skills"
+            },
+            {
+                icon: "🚗",
+                name: "Automotive & Transport",
+                skills: "Automotive Engineer, Autonomous Driving, Pilot, Logistics Manager",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/automotive.md and install automotive skills"
+            },
+            {
+                icon: "🏗️",
+                name: "Construction & Manufacturing",
+                skills: "Architect, Structural Engineer, Electrician, Welder, CNC Operator",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/construction.md and install construction skills"
+            },
+            {
+                icon: "🎨",
+                name: "Creative & Media",
+                skills: "Graphic Designer, UI/UX Designer, Photographer, Video Editor, Copywriter",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/creative.md and install creative skills"
+            },
+            {
+                icon: "🌾",
+                name: "Agriculture & Mining",
+                skills: "Agronomist, Veterinarian, Mining Engineer, Petroleum Geologist",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/agriculture.md and install agriculture skills"
+            },
+            {
+                icon: "👮",
+                name: "Public Safety",
+                skills: "Police Officer, Firefighter, Military Officer, Emergency Response",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/public-safety.md and install public safety skills"
+            },
+            {
+                icon: "🏛️",
+                name: "Government & Admin",
+                skills: "Civil Servant, Diplomat, Customs Officer, Archivist",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/government.md and install government skills"
+            },
+            {
+                icon: "🚀",
+                name: "Aerospace & Aviation",
+                skills: "Rocket Designer, Aircraft Engineer, eVTOL Designer, Satellite Engineer",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/aerospace.md and install aerospace skills"
+            },
+            {
+                icon: "⚛️",
+                name: "Quantum & Advanced Tech",
+                skills: "Quantum Algorithm Engineer, Quantum Physicist, Nanomaterials Engineer",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/quantum.md and install quantum skills"
+            },
+            {
+                icon: "🧬",
+                name: "Biotechnology",
+                skills: "Synthetic Biologist, AI Drug Designer, Cell Therapy Scientist",
+                command: "Read https://theneoai.github.io/awesome-skills/packages/biotech.md and install biotech skills"
+            }
+        ];
+
+        // Individual popular skills
+        const individualSkills = [
+            { icon: "👔", name: "CEO", category: "Executive", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install" },
+            { icon: "💼", name: "CFO", category: "Executive", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/cfo.md and install" },
+            { icon: "💻", name: "Software Architect", category: "Technology", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/software/software-architect.md and install" },
+            { icon: "📊", name: "Data Scientist", category: "Technology", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/software/data-scientist.md and install" },
+            { icon: "🤖", name: "LLM Research Scientist", category: "AI/ML", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/llm-research-scientist.md and install" },
+            { icon: "📝", name: "Prompt Engineer", category: "AI/ML", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/prompt-engineer.md and install" },
+            { icon: "⚕️", name: "Clinical Physician", category: "Healthcare", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/healthcare/clinical-physician.md and install" },
+            { icon: "🩺", name: "Surgeon", category: "Healthcare", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/healthcare/surgeon.md and install" },
+            { icon: "⚖️", name: "Legal Counsel", category: "Legal", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/legal/legal-counsel.md and install" },
+            { icon: "👨‍⚖️", name: "Judge", category: "Legal", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/public-service/judge.md and install" },
+            { icon: "🎓", name: "University Professor", category: "Education", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/education/university-professor.md and install" },
+            { icon: "📚", name: "K-12 Teacher", category: "Education", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/education/k12-teacher.md and install" },
+            { icon: "🚀", name: "Rocket Chief Designer", category: "Aerospace", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/aerospace/rocket-chief-designer.md and install" },
+            { icon: "⚡", name: "Power System Engineer", category: "Energy", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/energy/power-system-engineer.md and install" },
+            { icon: "🏗️", name: "Architect", category: "Construction", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/construction/architect.md and install" },
+            { icon: "🎨", name: "Graphic Designer", category: "Creative", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/creative/graphic-designer.md and install" },
+            { icon: "🔬", name: "Principal Investigator", category: "Research", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/research/principal-investigator.md and install" },
+            { icon: "⚛️", name: "Quantum Algorithm Engineer", category: "Quantum", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/quantum/quantum-algorithm-engineer.md and install" },
+            { icon: "🧬", name: "Synthetic Biologist", category: "Biotech", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/biotech/synthetic-biologist.md and install" },
+            { icon: "👮", name: "Police Officer", category: "Public Safety", command: "Read https://github.com/theneoai/awesome-skills/blob/main/skills/public-service/police-officer.md and install" }
+        ];
+
+        // Render all skills
+        function renderSkills() {
+            const container = document.getElementById('skillsList');
+            let html = '<h2 class="section-title">📦 Skill Packages</h2>';
+            
+            packages.forEach((pkg, index) => {
+                html += `
+                    <div class="package-card" data-name="${pkg.name.toLowerCase()}" data-skills="${pkg.skills.toLowerCase()}" data-type="package">
+                        <div class="package-header">
+                            <div class="package-title">
+                                <span class="package-icon">${pkg.icon}</span>
+                                <span class="package-name">${pkg.name}</span>
+                            </div>
+                        </div>
+                        <div class="package-skills">${pkg.skills}</div>
+                        <div class="package-command">
+                            <code>${pkg.command}</code>
+                            <button class="copy-btn" onclick="copyText(this, '${pkg.command}')">Copy</button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '<h2 class="section-title" style="margin-top: 3rem;">🔥 Popular Skills</h2>';
+            
+            individualSkills.forEach((skill, index) => {
+                html += `
+                    <div class="package-card" data-name="${skill.name.toLowerCase()}" data-category="${skill.category.toLowerCase()}" data-type="skill">
+                        <div class="package-header">
+                            <div class="package-title">
+                                <span class="package-icon">${skill.icon}</span>
+                                <span class="package-name">${skill.name}</span>
+                            </div>
+                            <span style="color: var(--gray); font-size: 0.875rem;">${skill.category}</span>
+                        </div>
+                        <div class="package-command">
+                            <code>${skill.command}</code>
+                            <button class="copy-btn" onclick="copyText(this, '${skill.command}')">Copy</button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+            updateStats();
+        }
+
+        // Filter skills based on search
+        function filterSkills() {
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            const cards = document.querySelectorAll('.package-card');
+            let visibleCount = 0;
+            
+            cards.forEach(card => {
+                const name = card.getAttribute('data-name');
+                const skills = card.getAttribute('data-skills') || '';
+                const category = card.getAttribute('data-category') || '';
+                const type = card.getAttribute('data-type');
+                
+                if (name.includes(searchTerm) || skills.includes(searchTerm) || category.includes(searchTerm)) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+            
+            updateStats(visibleCount, searchTerm);
+        }
+
+        // Update search stats
+        function updateStats(visibleCount, searchTerm) {
+            const statsEl = document.getElementById('searchStats');
+            const totalPackages = packages.length;
+            const totalSkills = individualSkills.length;
+            
+            if (!searchTerm) {
+                statsEl.textContent = `${totalPackages} packages, ${totalSkills} individual skills`;
+            } else if (visibleCount === 0) {
+                statsEl.textContent = `No results for "${searchTerm}"`;
+            } else {
+                statsEl.textContent = `${visibleCount} results for "${searchTerm}"`;
+            }
+        }
+
+        // Copy text to clipboard
+        function copyText(btn, text) {
+            const command = text || btn.previousElementSibling.innerText;
+            navigator.clipboard.writeText(command).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        // Initialize
+        renderSkills();
+    </script>
 </body>
 </html>
