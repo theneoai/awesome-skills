@@ -490,6 +490,41 @@ Read ./skills/[category]/[skill-name].md and follow the instructions to install
 
 ---
 
+## 💝 Donate / 支持我们
+
+If you find Awesome Skills helpful, please consider supporting the project. Your donation helps maintain and expand this comprehensive skill library.
+<!-- 如果你觉得 Awesome Skills 有帮助，请考虑支持这个项目。你的捐赠有助于维护和扩展这个全面的技能库。-->
+
+### For Supporters in China / 中国大陆支持者
+
+| Method / 方式 | QR Code / 二维码 | Description / 说明 |
+|--------------|------------------|-------------------|
+| **支付宝 AliPay** | [待添加 / Pending](./assets/donate-alipay.png) | Most convenient for China users / 中国大陆最便捷 |
+| **WeChat Pay 微信支付** | [待添加 / Pending](./assets/donate-wechat.png) | Instant, zero fees / 即时到账，零手续费 |
+
+> 💡 **如何添加收款码 / How to add QR codes:**  
+> See [assets/WECHAT_SETUP.md](./assets/WECHAT_SETUP.md) for instructions / 查看设置指南
+
+### For International Supporters / 国际支持者
+
+| Method | Link | Description |
+|--------|------|-------------|
+| **Buy Me a Coffee** | [buymeacoffee.com/theneoai](https://buymeacoffee.com/theneoai) | Simple, international support |
+| **Ko-fi** | [ko-fi.com/theneoai](https://ko-fi.com/theneoai) | Creator-friendly platform |
+| **PayPal** | [PayPal.me/theneoai](https://paypal.me/theneoai) | Worldwide availability |
+| **GitHub Sponsors** | [github.com/sponsors/theneoai](https://github.com/sponsors/theneoai) | Direct GitHub support |
+
+### Why Donate? / 为什么捐赠？
+
+- 🚀 **Continuous Development** - New skills added regularly
+- 🌍 **Maintain Infrastructure** - Website, documentation, updates
+- 🎯 **Quality Improvement** - Better templates, more languages
+- 🤝 **Community Support** - Help keep this resource free for everyone
+
+**Thank you for your support!** 🙏
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License with Attribution Requirement**.
