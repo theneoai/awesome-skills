@@ -9,25 +9,25 @@ Read https://theneoai.github.io/awesome-skills/packages/creative.md and install 
 ## Included Skills
 
 ### Design & Visual Arts
-- [Graphic Designer](../skills/creative/graphic-designer.md) - Visual design
-- [UI/UX Designer](../skills/creative/ui-ux-designer.md) - Interface design
-- [Photographer](../skills/creative/photographer.md) - Photography
-- [Illustrator](../skills/creative/illustrator.md) - Illustration
-- [Animator](../skills/creative/animator.md) - Animation
-- [Video Editor](../skills/creative/video-editor.md) - Video editing
-- [Fashion Designer](../skills/manufacturing/fashion-designer.md) - Fashion design
+- [Graphic Designer](https://theneoai.github.io/awesome-skills/skills/creative/graphic-designer.md) - Visual design
+- [UI/UX Designer](https://theneoai.github.io/awesome-skills/skills/creative/ui-ux-designer.md) - Interface design
+- [Photographer](https://theneoai.github.io/awesome-skills/skills/creative/photographer.md) - Photography
+- [Illustrator](https://theneoai.github.io/awesome-skills/skills/creative/illustrator.md) - Illustration
+- [Animator](https://theneoai.github.io/awesome-skills/skills/creative/animator.md) - Animation
+- [Video Editor](https://theneoai.github.io/awesome-skills/skills/creative/video-editor.md) - Video editing
+- [Fashion Designer](https://theneoai.github.io/awesome-skills/skills/manufacturing/fashion-designer.md) - Fashion design
 
 ### Writing & Content
-- [Copywriter](../skills/creative/copywriter.md) - Copywriting
-- [Translator](../skills/creative/translator.md) - Translation
-- [Scriptwriter](../skills/creative/scriptwriter.md) - Screenwriting
-- [Journalist](../skills/media/journalist-editor.md) - Journalism
+- [Copywriter](https://theneoai.github.io/awesome-skills/skills/creative/copywriter.md) - Copywriting
+- [Translator](https://theneoai.github.io/awesome-skills/skills/creative/translator.md) - Translation
+- [Scriptwriter](https://theneoai.github.io/awesome-skills/skills/creative/scriptwriter.md) - Screenwriting
+- [Journalist](https://theneoai.github.io/awesome-skills/skills/media/journalist-editor.md) - Journalism
 
 ### Media Production
-- [Voice Actor](../skills/creative/voice-actor.md) - Voice acting
-- [Livestreamer](../skills/creative/livestreamer.md) - Live streaming
-- [MCN Operator](../skills/creative/mcn-operator.md) - Influencer management
-- [Podcast Producer](../skills/media/podcast-producer.md) - Podcast production
+- [Voice Actor](https://theneoai.github.io/awesome-skills/skills/creative/voice-actor.md) - Voice acting
+- [Livestreamer](https://theneoai.github.io/awesome-skills/skills/creative/livestreamer.md) - Live streaming
+- [MCN Operator](https://theneoai.github.io/awesome-skills/skills/creative/mcn-operator.md) - Influencer management
+- [Podcast Producer](https://theneoai.github.io/awesome-skills/skills/media/podcast-producer.md) - Podcast production
 
 ## Individual Install
 

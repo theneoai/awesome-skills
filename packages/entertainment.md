@@ -9,27 +9,27 @@ Read https://theneoai.github.io/awesome-skills/packages/entertainment.md and ins
 ## Included Skills
 
 ### Performing Arts
-- [Actor](../skills/entertainment/actor.md) - Acting
-- [Singer](../skills/entertainment/singer.md) - Singing
-- [Dancer](../skills/entertainment/dancer.md) - Dance
-- [Magician](../skills/entertainment/magician.md) - Magic performance
+- [Actor](https://theneoai.github.io/awesome-skills/skills/entertainment/actor.md) - Acting
+- [Singer](https://theneoai.github.io/awesome-skills/skills/entertainment/singer.md) - Singing
+- [Dancer](https://theneoai.github.io/awesome-skills/skills/entertainment/dancer.md) - Dance
+- [Magician](https://theneoai.github.io/awesome-skills/skills/entertainment/magician.md) - Magic performance
 
 ### Sports & Gaming
-- [Athlete](../skills/entertainment/athlete.md) - Professional sports
-- [Sports Referee](../skills/entertainment/sports-referee.md) - Sports officiating
-- [Esports Player](../skills/entertainment/esports-player.md) - Professional gaming
-- [Game Booster](../skills/entertainment/game-booster.md) - Gaming services
-- [Game Producer](../skills/media/game-producer.md) - Game development
+- [Athlete](https://theneoai.github.io/awesome-skills/skills/entertainment/athlete.md) - Professional sports
+- [Sports Referee](https://theneoai.github.io/awesome-skills/skills/entertainment/sports-referee.md) - Sports officiating
+- [Esports Player](https://theneoai.github.io/awesome-skills/skills/entertainment/esports-player.md) - Professional gaming
+- [Game Booster](https://theneoai.github.io/awesome-skills/skills/entertainment/game-booster.md) - Gaming services
+- [Game Producer](https://theneoai.github.io/awesome-skills/skills/media/game-producer.md) - Game development
 
 ### Broadcasting
-- [Radio Host](../skills/media/radio-host.md) - Radio broadcasting
-- [News Anchor](../skills/media/news-anchor.md) - TV news
-- [Podcast Producer](../skills/media/podcast-producer.md) - Podcast production
-- [Film Director](../skills/media/film-director-producer.md) - Film production
+- [Radio Host](https://theneoai.github.io/awesome-skills/skills/media/radio-host.md) - Radio broadcasting
+- [News Anchor](https://theneoai.github.io/awesome-skills/skills/media/news-anchor.md) - TV news
+- [Podcast Producer](https://theneoai.github.io/awesome-skills/skills/media/podcast-producer.md) - Podcast production
+- [Film Director](https://theneoai.github.io/awesome-skills/skills/media/film-director-producer.md) - Film production
 
 ### Interactive Entertainment
-- [Script Killing DM](../skills/entertainment/script-killing-dm.md) - Game hosting
-- [Escape Room NPC](../skills/entertainment/escape-room-npc.md) - Role playing
+- [Script Killing DM](https://theneoai.github.io/awesome-skills/skills/entertainment/script-killing-dm.md) - Game hosting
+- [Escape Room NPC](https://theneoai.github.io/awesome-skills/skills/entertainment/escape-room-npc.md) - Role playing
 
 ## Individual Install
 

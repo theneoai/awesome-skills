@@ -10,10 +10,10 @@ Read https://theneoai.github.io/awesome-skills/packages/executive.md and install
 
 | Skill | Description |
 |-------|-------------|
-| [CEO](../skills/executive/ceo.md) | Chief Executive Officer - Strategy, leadership, business growth |
-| [CFO](../skills/executive/cfo.md) | Chief Financial Officer - Financial strategy, capital management |
-| [CTO](../skills/executive/cto.md) | Chief Technology Officer - Technology strategy, R&D management |
-| [COO](../skills/executive/coo.md) | Chief Operations Officer - Operations excellence, efficiency |
+| [CEO](https://theneoai.github.io/awesome-skills/skills/executive/ceo.md) | Chief Executive Officer - Strategy, leadership, business growth |
+| [CFO](https://theneoai.github.io/awesome-skills/skills/executive/cfo.md) | Chief Financial Officer - Financial strategy, capital management |
+| [CTO](https://theneoai.github.io/awesome-skills/skills/executive/cto.md) | Chief Technology Officer - Technology strategy, R&D management |
+| [COO](https://theneoai.github.io/awesome-skills/skills/executive/coo.md) | Chief Operations Officer - Operations excellence, efficiency |
 
 ## Individual Install
 
