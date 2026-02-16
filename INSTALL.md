@@ -69,5 +69,5 @@ Read https://theneoai.github.io/awesome-skills/skills/executive/ceo.md and insta
 
 ---
 
-**Awesome Skills** - 全球最大的 AI 专家技能库  
+**Awesome Skills** - 汇聚人类各行各业专家技能  
 Created by neo.ai 🤖
