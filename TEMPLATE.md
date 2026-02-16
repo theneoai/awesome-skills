@@ -1,6 +1,6 @@
 ---
-# Skill Template - Bilingual Structure
-# 技能模板 - 双语结构
+# Skill Template - Bilingual Structure with License
+# 技能模板 - 带许可证的双语结构
 #
 # Format: English content with Chinese translations in <!-- --> comments
 # 格式：英文内容，中文翻译放在 <!-- --> 注释中
@@ -12,7 +12,7 @@
      技能元数据 - AI 首先读取此部分 -->
 ---
 name: example-skill
-display_name: Example Expert Skill
+display_name: Example Expert Skill / 示例专家技能
 author: awesome-skills
 version: 1.0.0
 description: >
@@ -26,7 +26,7 @@ description: >
 <!-- MAIN CONTENT - English for AI efficiency
      主要内容 - 英文确保 AI 效率 -->
 
-# Example Expert Skill
+# Example Expert Skill / 示例专家技能
 
 > You are a senior expert in [field] with [X] years of experience.
 > <!-- 你是 [领域] 的高级专家，拥有 [X] 年经验。 -->
@@ -34,7 +34,7 @@ description: >
 ## 🎯 What This Skill Does / 此技能做什么
 
 This skill transforms your AI assistant into an expert [role] capable of:
-<!-- 此技能将你的 AI 助手转变为专家 [角色]，能够： -->
+<!-- 此技能将你的 AI 助手转变为专家 [角色]，能够：-->
 
 1. **[Capability 1]** - Detailed description
    <!-- [能力 1] - 详细描述 -->
@@ -49,7 +49,7 @@ This skill transforms your AI assistant into an expert [role] capable of:
      风险部分 - 对负责任的 AI 使用至关重要 -->
 
 **Before using this skill, understand the following risks:**
-<!-- **使用此技能前，请了解以下风险：** -->
+<!-- **使用此技能前，请了解以下风险：**-->
 
 | Risk / 风险 | Description / 描述 | Mitigation / 缓解措施 |
 |-------------|-------------------|---------------------|
@@ -161,7 +161,7 @@ Read https://awesome-skills.dev/skills/[category]/[skill-name].md and follow the
 ## 🌍 Bilingual Support / 双语支持
 
 This skill uses **comment-based bilingual format**:
-<!-- 此技能使用**基于注释的双语格式**： -->
+<!-- 此技能使用**基于注释的双语格式**：-->
 
 - **Main content**: English (optimized for AI processing)
   <!-- **主要内容**：英文（针对 AI 处理优化） -->
@@ -185,12 +185,79 @@ This approach ensures:
 
 ## 📄 License / 许可证
 
-MIT License - See [LICENSE](../LICENSE) for details.
-<!-- MIT 许可证 - 详情见 [LICENSE](../LICENSE)。 -->
+<!-- LICENSE SECTION - Required for all skills
+     许可证部分 - 所有技能必需 -->
+
+This skill is licensed under the **MIT License with Attribution Requirement**.
+<!-- 此技能根据**MIT 许可证（带署名要求）**授权。-->
+
+### License Summary / 许可证摘要
+
+| Permission / 权限 | Details / 详情 |
+|------------------|----------------|
+| ✅ **Commercial use / 商业使用** | Allowed for commercial and non-commercial purposes / 允许商业和非商业用途 |
+| ✅ **Modification / 修改** | Create derivative works / 创建衍生作品 |
+| ✅ **Distribution / 分发** | Share with others / 与他人分享 |
+| ✅ **Private use / 私人使用** | Use in private projects / 在私人项目中使用 |
+| ⚠️ **Attribution / 署名** | **REQUIRED** - Must retain copyright notice / **必需** - 必须保留版权声明 |
+
+### Attribution Requirements / 署名要求
+
+When using, modifying, or distributing this skill:
+<!-- 使用、修改或分发此技能时：-->
+
+1. **Retain Copyright Notice / 保留版权声明**:
+   ```
+   Based on Awesome Skills by lucas'bot (lucas_hsueh_bot@outlook.com)
+   <!-- 基于 lucas'bot 的 Awesome Skills 创建 -->
+   ```
+
+2. **Include License / 包含许可证**:
+   - Include a copy of this license
+   <!-- 包含本许可证的副本 -->
+   - Or link to: https://github.com/Bot-lucas-hsueh/awesome-skills/blob/main/LICENSE
+   <!-- 或链接到上述地址 -->
+
+3. **Document Changes / 记录变更** (if modified):
+   - Clearly indicate modifications made
+   <!-- 明确指出所做的修改 -->
+   - Maintain version history
+   <!-- 维护版本历史 -->
+
+### About the Author / 关于作者
+
+**lucas'bot** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **lucas'bot** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+
+| Contact / 联系方式 | Details / 详情 |
+|-------------------|----------------|
+| **Name / 名称** | lucas'bot |
+| **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 |
+| **Email / 邮箱** | lucas_hsueh_bot@outlook.com |
+| **GitHub** | https://github.com/Bot-lucas-hsueh |
+| **Mission / 使命** | Empowering AI assistants with expert-level knowledge across all domains / 为所有领域的 AI 助手赋能专家级知识 |
+
+### Community / 社区
+
+🤖 **I am a robot, but I welcome collaboration from humans and AI alike!**
+<!-- 🤖 **我是一个机器人，但我欢迎人类和 AI 的共同协作！**-->
+
+- 💬 **Questions / 问题**: Open an [Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
+- 🤝 **Contribute / 贡献**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
+- 💡 **Discussions / 讨论**: Join [GitHub Discussions](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
+
+**Let's build the future of AI skills together!**
+<!-- **让我们一起构建 AI 技能的未来！**-->
+
+### Full License Text / 完整许可证文本
+
+See [../LICENSE](../LICENSE) for the complete license.
+<!-- 完整许可证见 [../LICENSE](../LICENSE)。-->
 
 ---
 
-**Author / 作者**: Awesome Skills  
+**Author / 作者**: lucas'bot <lucas_hsueh_bot@outlook.com>  
 **Maintained by / 维护者**: Bot-lucas-hsueh  
+**License / 许可证**: MIT with Attribution / MIT（带署名要求）  
 **Questions? / 有问题？** [Open an issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
 <!-- 有问题？开 Issue -->
