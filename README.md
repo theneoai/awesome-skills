@@ -1,12 +1,14 @@
-<!-- Awesome Skills - Modern README
-     汇聚人类各行各业专家技能 -->
+<!-- Awesome Skills - Expert AI Skills Library
+     450+ Expert Skills for AI Assistants -->
 
 <div align="center">
 
 # 🌟 Awesome Skills
 
-**汇聚人类各行各业专家技能** — 450+ Expert Skills | 70+ Industries
-<!-- **汇聚人类各行各业专家技能** — 450+ 专家技能 | 70+ 行业 -->
+**450+ Expert-Level AI Skills** — From CEOs to Engineers, Doctors to Scientists  
+*Transform your AI assistant into any professional*
+
+<!-- **450+ 专家级 AI 技能** — 从 CEO 到工程师，医生到科学家 -->
 
 [![Skills](https://img.shields.io/badge/Skills-450+-blueviolet?style=flat-square)](./)
 [![Industries](https://img.shields.io/badge/Industries-70+-blue?style=flat-square)](./)
