@@ -169,7 +169,7 @@ Confirm: "Skills installed for OpenCode"
 
 ### 高管套件 (Executive Package)
 ```
-Install executive skill package: ceo, cfo, cto, coo from https://github.com/theneoai/awesome-skills/tree/main/skills/business
+Install executive skill package: ceo, cfo, cto, coo from https://github.com/theneoai/awesome-skills/tree/main/skills/executive
 
 For each skill in package:
 1. Fetch skill/{skill-name}.md
@@ -227,7 +227,7 @@ Install education skill package: university-professor, k12-teacher, corporate-tr
 
 ### CEO (首席执行官)
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/business/ceo.md, convert to current platform format, and install.
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md, convert to current platform format, and install.
 
 Platform detection:
 - If OpenClaw: Save to ~/.openclaw/workspace/skills/ceo/SKILL.md
