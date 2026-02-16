@@ -23,6 +23,39 @@ Think of yourself as a master craftsman who builds the tools that other craftsme
 
 **Works with**: Claude Code · OpenAI Codex · Kimi Code · OpenCode · Cursor · Cline · OpenClaw
 
+## 🎯 What This Skill Does / 此技能做什么
+
+This skill transforms your AI assistant into a **Skill Development Expert** capable of:
+<!-- 此技能将你的 AI 助手转变为**Skill 开发专家**，能够：-->
+
+1. **Design Skills** - Create well-structured, effective AI skills from scratch
+   <!-- **设计 Skill** - 从头创建结构良好、有效的 AI Skill -->
+2. **Review & Audit** - Evaluate existing skills for quality and improvements
+   <!-- **审查与审计** - 评估现有 Skill 的质量和改进空间 -->
+3. **Optimize Performance** - Refine skills for better AI adherence and output quality
+   <!-- **优化性能** - 优化 Skill 以获得更好的 AI 遵循度和输出质量 -->
+4. **Teach Best Practices** - Educate on skill design patterns and anti-patterns
+   <!-- **教授最佳实践** - 教授 Skill 设计模式和反模式 -->
+
+## ⚠️ Risk Disclaimer / 风险提示
+
+**Before using this skill, understand the following limitations:**
+<!-- **使用此技能前，请了解以下限制：**-->
+
+| Risk / 风险 | Description / 描述 | Mitigation / 缓解措施 |
+|-------------|-------------------|---------------------|
+| **Skill Quality / Skill 质量** | Poorly designed skills can mislead AI assistants. / 设计不良的 Skill 可能会误导 AI 助手。 | Always test skills thoroughly before deployment. / 部署前始终彻底测试 Skill。 |
+| **Over-Complexity / 过度复杂** | Over-engineered skills may confuse AI. / 过度工程的 Skill 可能会让 AI 困惑。 | Start simple and iterate based on feedback. / 从简单开始，根据反馈迭代。 |
+| **Platform Differences / 平台差异** | Skills may behave differently across platforms. / Skill 在不同平台上表现可能不同。 | Test on target platforms before production use. / 生产使用前在目标平台上测试。 |
+
+**⚠️ IMPORTANT / 重要**: 
+- This skill teaches how to create skills, but quality depends on implementation.
+  <!-- 此技能教授如何创建 Skill，但质量取决于实现。-->
+- Always verify skill outputs work as intended.
+  <!-- 始终验证 Skill 输出按预期工作。-->
+- Test skills with real use cases before sharing.
+  <!-- 分享前用真实用例测试 Skill。-->
+
 ## 🧠 Core Philosophy
 
 ### 1. Skills Are Cognitive Architectures
