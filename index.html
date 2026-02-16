@@ -1,200 +1,805 @@
+<!--
+  Awesome Skills - Modern Landing Page
+  Inspired by: awesome-selfhosted, awesome-sysadmin, developer-roadmap
+-->
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Skills - 顶级专家 Skill 集合</title>
+    <meta name="description" content="Awesome Skills - Expert-level AI skills for Claude, Codex, Kimi, OpenCode, Cursor, Cline, OpenClaw">
+    <meta name="theme-color" content="#6366f1">
+    <title>Awesome Skills 🌟 - Expert AI Skills Collection</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: #333;
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #8b5cf6;
+            --accent: #ec4899;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --dark: #0f172a;
+            --dark-light: #1e293b;
+            --gray: #64748b;
+            --gray-light: #94a3b8;
+            --light: #f1f5f9;
+            --white: #ffffff;
+            --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --radius-sm: 6px;
+            --radius: 12px;
+            --radius-lg: 16px;
         }
-        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-        header { text-align: center; color: white; margin-bottom: 40px; }
-        header h1 { font-size: 3em; margin-bottom: 10px; }
-        header p { font-size: 1.2em; opacity: 0.9; }
-        .usage {
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: var(--gradient);
+            padding: 80px 20px 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .subtitle-zh {
+            font-size: 1rem;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+
+        /* Badges */
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 32px;
+        }
+
+        .badge {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        /* CTA Buttons */
+        .cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: var(--radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--primary);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.2);
+        }
+
+        .btn-secondary {
             background: rgba(255,255,255,0.1);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 40px;
-            color: white;
+            color: var(--white);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Quick Install */
+        .quick-install {
+            background: var(--dark-light);
+            padding: 40px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .install-box {
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius);
+            padding: 24px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .install-label {
+            font-size: 0.875rem;
+            color: var(--gray-light);
+            margin-bottom: 12px;
+        }
+
+        .install-label span {
+            color: var(--gray);
+            margin-left: 8px;
+        }
+
+        .install-command {
+            color: var(--success);
+            font-size: 0.9375rem;
+            overflow-x: auto;
+            padding: 8px 0;
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 24px;
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .stat {
             text-align: center;
         }
-        .usage code {
-            background: rgba(0,0,0,0.2);
-            padding: 10px 20px;
-            border-radius: 6px;
-            font-family: monospace;
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
+
+        .stat-label {
+            color: var(--gray-light);
+            font-size: 0.875rem;
+            margin-top: 4px;
+        }
+
+        .stat-label-zh {
+            color: var(--gray);
+            font-size: 0.75rem;
+            margin-top: 2px;
+        }
+
+        /* Skills Section */
+        .skills-section {
+            padding: 60px 20px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .section-subtitle {
+            color: var(--gray-light);
+        }
+
+        .section-subtitle-zh {
+            color: var(--gray);
+            font-size: 0.875rem;
+            margin-top: 4px;
+        }
+
+        /* Category Filter */
+        .category-filter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 40px;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: transparent;
+            color: var(--gray-light);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.875rem;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        /* Skills Grid */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
         }
+
         .skill-card {
-            background: white;
-            border-radius: 12px;
+            background: var(--dark-light);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: var(--radius);
             padding: 24px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
         }
-        .skill-card h3 { color: #667eea; margin-bottom: 8px; }
-        .skill-card p { color: #666; margin-bottom: 16px; font-size: 14px; }
-        .install-btn {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 12px;
+
+        .skill-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient);
+            opacity: 0;
+            transition: opacity 0.2s;
         }
-        .category {
-            color: #999;
-            font-size: 12px;
+
+        .skill-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255,255,255,0.1);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .skill-card:hover::before {
+            opacity: 1;
+        }
+
+        .skill-category {
+            font-size: 0.75rem;
+            font-weight: 600;
             text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .skill-name {
+            font-size: 1.25rem;
+            font-weight: 600;
             margin-bottom: 8px;
+            color: var(--white);
+        }
+
+        .skill-name-zh {
+            font-size: 0.9375rem;
+            color: var(--gray-light);
+            margin-bottom: 12px;
+        }
+
+        .skill-desc {
+            color: var(--gray-light);
+            font-size: 0.875rem;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .skill-desc-zh {
+            color: var(--gray);
+            font-size: 0.8125rem;
+            margin-bottom: 16px;
+        }
+
+        .skill-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 0.75rem;
+            color: var(--gray);
+            margin-bottom: 16px;
+        }
+
+        .skill-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .skill-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-sm {
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            font-size: 0.8125rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s;
+            flex: 1;
+            text-align: center;
+        }
+
+        .btn-view {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-view:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .btn-install {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-install:hover {
+            background: var(--success);
+            color: var(--white);
+        }
+
+        /* Platform Support */
+        .platforms {
+            background: rgba(0,0,0,0.2);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .platform-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .platform-item {
+            background: var(--dark-light);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: var(--radius);
+            padding: 16px 24px;
+            font-weight: 500;
+            color: var(--light);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0,0,0,0.3);
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .footer-links a {
+            color: var(--gray-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .footer-copy {
+            color: var(--gray);
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stat-value {
+                font-size: 2rem;
+            }
+        }
+
+        /* Search */
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 16px 24px 16px 48px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(255,255,255,0.1);
+            background: var(--dark-light);
+            color: var(--white);
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🌟 Awesome Skills</h1>
-            <p>行业顶级专家 Skill 集合 - 一键安装到您的 AI 助手</p>
-        </header>
-
-        <div class="usage">
-            <p>📖 一句话安装</p>
-            <code>Read URL and follow instructions to install</code>
-        </div>
-
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="category">Software</div>
-                <h3>软件架构师</h3>
-                <p>系统架构设计、技术选型、性能优化</p>
-                <a href="./skills/software/software-architect.md"><button class="install-btn">查看文档</button></a>
+    <header>
+        <div class="header-content">
+            <div class="logo">🌟</div>
+            <h1>Awesome Skills</h1>
+            <p class="subtitle">
+                Expert-level AI skills for Claude, Codex, Kimi, OpenCode, Cursor, Cline, and OpenClaw
+            </p>
+            <p class="subtitle-zh">
+                专家级 AI 技能库 - 支持主流 AI 开发平台
+            </p>
+            
+            <div class="badges">
+                <span class="badge">27 Skills</span>
+                <span class="badge">13 Industries</span>
+                <span class="badge">7 Platforms</span>
+                <span class="badge">Bilingual</span>
+                <span class="badge">MIT License</span>
             </div>
-            <div class="skill-card">
-                <div class="category">Software</div>
-                <h3>数据科学家</h3>
-                <p>机器学习、统计分析、数据可视化</p>
-                <a href="./skills/software/data-scientist.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Software</div>
-                <h3>DevOps工程师</h3>
-                <p>CI/CD、云原生、自动化运维</p>
-                <a href="./skills/software/devops-engineer.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Software</div>
-                <h3>算法工程师</h3>
-                <p>数据结构、算法设计、复杂度优化</p>
-                <a href="./skills/software/algorithm-engineer.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Software</div>
-                <h3>安全工程师</h3>
-                <p>安全架构、代码审计、渗透测试</p>
-                <a href="./skills/software/security-engineer.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Product</div>
-                <h3>产品经理</h3>
-                <p>需求分析、用户研究、产品策略</p>
-                <a href="./skills/product/product-manager.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Product</div>
-                <h3>UX设计师</h3>
-                <p>交互设计、可用性测试、设计系统</p>
-                <a href="./skills/product/ux-designer.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Data</div>
-                <h3>数据工程师</h3>
-                <p>数据管道、ETL、数据仓库</p>
-                <a href="./skills/data/data-engineer.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Content</div>
-                <h3>技术写作专家</h3>
-                <p>文档架构、API文档、开发者体验</p>
-                <a href="./skills/content/tech-writer.md"><button class="install-btn">查看文档</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Business</div>
-                <h3>项目经理</h3>
-                <p>敏捷管理、风险控制、团队协作</p>
-                <a href="./skills/business/project-manager.md"><button class="install-btn">查看文档</button></a>
+            
+            <div class="cta-group">
+                <a href="#skills" class="btn btn-primary">Browse Skills</a>
+                <a href="https://github.com/Bot-lucas-hsueh/awesome-skills" class="btn btn-secondary">GitHub</a>
             </div>
         </div>
-            <div class="skill-card">
-                <div class="category">Software</div>
-                <h3>Skill 开发专家</h3>
-                <p>设计、构建、优化 Claude Skill，官方最佳实践</p>
-                <a href="./skills/software/skill-dev-expert.md"><button class="install-btn">查看文档</button></a>
-                        <div class="skill-card">
-                <div class="category">Energy</div>
-                <h3>Power System Engineer</h3>
-                <p>Grid design, renewable integration, SCADA, power flow</p>
-                <a href="./skills/energy/power-system-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Energy</div>
-                <h3>Battery R&D Engineer</h3>
-                <p>Li-ion cells, battery chemistry, energy storage</p>
-                <a href="./skills/energy/battery-rnd-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Environmental</div>
-                <h3>Environmental Engineer</h3>
-                <p>Pollution control, water treatment, ESG compliance</p>
-                <a href="./skills/environmental/environmental-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Automotive</div>
-                <h3>Automotive Design Engineer</h3>
-                <p>Vehicle design, CAD, crashworthiness, NVH</p>
-                <a href="./skills/automotive/automotive-design-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Automotive</div>
-                <h3>Autonomous Driving Engineer</h3>
-                <p>Perception, planning, sensor fusion, ADAS</p>
-                <a href="./skills/automotive/autonomous-driving-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Semiconductor</div>
-                <h3>Chip Design Engineer</h3>
-                <p>VLSI, RTL, ASIC, FPGA, verification</p>
-                <a href="./skills/semiconductor/chip-design-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Logistics</div>
-                <h3>Supply Chain Expert</h3>
-                <p>Procurement, inventory, S&OP, ERP</p>
-                <a href="./skills/logistics/supply-chain-expert.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Logistics</div>
-                <h3>Logistics Algorithm Engineer</h3>
-                <p>VRP, route optimization, warehouse automation</p>
-                <a href="./skills/logistics/logistics-algorithm-engineer.md"><button class="install-btn">View</button></a>
-            </div>
-            <div class="skill-card">
-                <div class="category">Legal</div>
-                <h3>Patent Attorney</h3>
-                <p>Patent prosecution, IP strategy, prior art</p>
-                <a href="./skills/legal/patent-attorney.md"><button class="install-btn">View</button></a>
-            </div>
-</div>
+    </header>
 
-    </div>
+    <section class="quick-install">
+        <div class="container">
+            <div class="install-box">
+                <div class="install-label">
+                    Quick Install / 快速安装
+                    <span>Copy and paste this command to your AI assistant</span>
+                </div>
+                <div class="install-command">
+                    Read https://awesome-skills.dev/skills/software/software-architect.md and follow the instructions to install
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat">
+            <div class="stat-value">27</div>
+            <div class="stat-label">Expert Skills</div>
+            <div class="stat-label-zh">专家技能</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">13</div>
+            <div class="stat-label">Industries</div>
+            <div class="stat-label-zh">行业覆盖</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">7</div>
+            <div class="stat-label">AI Platforms</div>
+            <div class="stat-label-zh">AI 平台</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Free & Open</div>
+            <div class="stat-label-zh">免费开放</div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="section-header">
+            <h2 class="section-title">Expert Skills Collection</h2>
+            <p class="section-subtitle">Professional-grade AI skills for every domain</p>
+            <p class="section-subtitle-zh">全领域专业级 AI 技能</p>
+        </div>
+
+        <div class="container">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" placeholder="Search skills... / 搜索技能..." id="skillSearch">
+            </div>
+
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All / 全部</button>
+                <button class="filter-btn" data-category="software">Software</button>
+                <button class="filter-btn" data-category="finance">Finance</button>
+                <button class="filter-btn" data-category="automotive">Automotive</button>
+                <button class="filter-btn" data-category="energy">Energy</button>
+                <button class="filter-btn" data-category="logistics">Logistics</button>
+                <button class="filter-btn" data-category="legal">Legal</button>
+            </div>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+            <!-- Skills will be populated here -->
+        </div>
+    </section>
+
+    <section class="platforms">
+        <div class="container">
+            <h2 class="section-title">Supported Platforms</h2>
+            <p class="section-subtitle">Works with all major AI coding assistants</p>
+            <p class="section-subtitle-zh">支持所有主流 AI 编程助手</p>
+            
+            <div class="platform-grid">
+                <div class="platform-item">Claude Code</div>
+                <div class="platform-item">OpenAI Codex</div>
+                <div class="platform-item">Kimi Code</div>
+                <div class="platform-item">OpenCode</div>
+                <div class="platform-item">Cursor</div>
+                <div class="platform-item">Cline</div>
+                <div class="platform-item">OpenClaw</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/Bot-lucas-hsueh/awesome-skills">GitHub</a>
+            <a href="./CONTRIBUTING.md">Contributing</a>
+            <a href="./LICENSE">License</a>
+            <a href="https://github.com/Bot-lucas-hsueh/awesome-skills/issues">Issues</a>
+        </div>
+        <p class="footer-copy">
+            © 2026 Awesome Skills. MIT License.<br>
+            Made with ❤️ for the AI community.
+        </p>
+    </footer>
+
+    <script>
+        // Skill data
+        const skills = [
+            {
+                name: "Software Architect",
+                nameZh: "软件架构师",
+                category: "software",
+                desc: "System design, technology selection, performance optimization",
+                descZh: "系统设计、技术选型、性能优化",
+                path: "software/software-architect",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Data Scientist",
+                nameZh: "数据科学家",
+                category: "software",
+                desc: "Machine learning, statistical analysis, data visualization",
+                descZh: "机器学习、统计分析、数据可视化",
+                path: "software/data-scientist",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "DevOps Engineer",
+                nameZh: "DevOps 工程师",
+                category: "software",
+                desc: "CI/CD, cloud-native, automation, site reliability",
+                descZh: "CI/CD、云原生、自动化、SRE",
+                path: "software/devops-engineer",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Finance Risk Expert",
+                nameZh: "金融风控专家",
+                category: "finance",
+                desc: "Credit risk, Basel regulations, portfolio risk management",
+                descZh: "信用风险、巴塞尔协议、组合风险管理",
+                path: "finance/finance-risk-expert",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Power System Engineer",
+                nameZh: "电力系统工程师",
+                category: "energy",
+                desc: "Grid design, renewable integration, SCADA, power flow",
+                descZh: "电网设计、可再生能源、SCADA、潮流分析",
+                path: "energy/power-system-engineer",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Autonomous Driving Engineer",
+                nameZh: "自动驾驶工程师",
+                category: "automotive",
+                desc: "Perception, planning, sensor fusion, ADAS",
+                descZh: "感知、规划、传感器融合、ADAS",
+                path: "automotive/autonomous-driving-engineer",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Chip Design Engineer",
+                nameZh: "芯片设计工程师",
+                category: "semiconductor",
+                desc: "VLSI, RTL, ASIC, FPGA, verification",
+                descZh: "超大规模集成电路、RTL、ASIC、FPGA、验证",
+                path: "semiconductor/chip-design-engineer",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Supply Chain Expert",
+                nameZh: "供应链专家",
+                category: "logistics",
+                desc: "Procurement, inventory, S&OP, ERP",
+                descZh: "采购、库存、销售与运营计划、ERP",
+                path: "logistics/supply-chain-expert",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            }
+        ];
+
+        // Render skills
+        function renderSkills(filter = 'all', search = '') {
+            const grid = document.getElementById('skillsGrid');
+            grid.innerHTML = '';
+
+            const filtered = skills.filter(skill => {
+                const matchesCategory = filter === 'all' || skill.category === filter;
+                const matchesSearch = !search || 
+                    skill.name.toLowerCase().includes(search.toLowerCase()) ||
+                    skill.desc.toLowerCase().includes(search.toLowerCase());
+                return matchesCategory && matchesSearch;
+            });
+
+            filtered.forEach(skill => {
+                const card = document.createElement('div');
+                card.className = 'skill-card';
+                card.innerHTML = `
+                    <div class="skill-category">${skill.category}</div>
+                    <h3 class="skill-name">${skill.name}</h3>
+                    <p class="skill-name-zh">${skill.nameZh}</p>
+                    <p class="skill-desc">${skill.desc}</p>
+                    <p class="skill-desc-zh">${skill.descZh}</p>
+                    <div class="skill-meta">
+                        <span>👤 ${skill.level}</span>
+                        <span>🤖 ${skill.platforms.length} platforms</span>
+                    </div>
+                    <div class="skill-actions">
+                        <a href="./skills/${skill.path}.md" class="btn-sm btn-view">View / 查看</a>
+                        <button class="btn-sm btn-install" onclick="copyInstall('${skill.path}')">Install / 安装</button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Copy install command
+        function copyInstall(path) {
+            const command = `Read https://awesome-skills.dev/skills/${path}.md and follow the instructions to install`;
+            navigator.clipboard.writeText(command).then(() => {
+                alert('Install command copied! / 安装命令已复制！');
+            });
+        }
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderSkills(btn.dataset.category, document.getElementById('skillSearch').value);
+            });
+        });
+
+        // Search
+        document.getElementById('skillSearch').addEventListener('input', (e) => {
+            const activeFilter = document.querySelector('.filter-btn.active');
+            renderSkills(activeFilter.dataset.category, e.target.value);
+        });
+
+        // Initial render
+        renderSkills();
+    </script>
 </body>
 </html>

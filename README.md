@@ -1,130 +1,356 @@
+<!-- Awesome Skills - Modern README
+     Inspired by: sindresorhus/awesome, practical-tutorials/project-based-learning -->
+
+<div align="center">
+
 # 🌟 Awesome Skills
 
-> 行业顶级专家 Skill 集合 - 一键安装到您的 AI 助手
+**Expert-level AI skills for Claude, Codex, Kimi, OpenCode, Cursor, Cline, and OpenClaw**
+<!-- **专家级 AI 技能库，支持 Claude、Codex、Kimi、OpenCode、Cursor、Cline 和 OpenClaw** -->
 
-## 🚀 快速使用
+[![Skills](https://img.shields.io/badge/Skills-27-blueviolet?style=flat-square)](./)
+[![Industries](https://img.shields.io/badge/Industries-13-blue?style=flat-square)](./)
+[![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](./)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
+[![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange?style=flat-square)](./CONTRIBUTING.md)
 
-### 一句话安装
-告诉您的 AI 助手：
+**[🌐 Website](https://bot-lucas-hsueh.github.io/awesome-skills/)** • **[📖 Documentation](./docs)** • **[🤝 Contributing](./CONTRIBUTING.md)**
+
+</div>
+
+---
+
+## 📋 Table of Contents <!-- 目录 -->
+
+- [Quick Start](#quick-start)
+- [What is Awesome Skills?](#what-is-awesome-skills)
+- [Featured Skills](#featured-skills)
+- [Skill Categories](#skill-categories)
+- [Installation](#installation)
+- [Platform Support](#platform-support)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## 🚀 Quick Start <!-- 快速开始 -->
+
+**One-line installation** (copy and paste to your AI assistant):
+<!-- **一行安装**（复制粘贴到你的 AI 助手）：-->
+
 ```
 Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md and follow the instructions to install
 ```
 
-### 支持的 AI 助手
-- **Claude Code**: Read URL → Auto-install
-- **OpenAI Codex**: Read URL → Auto-install
-- **Kimi Code**: Read URL → Auto-install
-- **OpenCode**: Read URL → Auto-install
-- **Cursor/Cline**: Manual copy config
+Or browse all skills on our **[🌐 Website](https://bot-lucas-hsueh.github.io/awesome-skills/)**
+<!-- 或在我们的 **[🌐 网站](https://bot-lucas-hsueh.github.io/awesome-skills/)** 浏览所有技能 -->
 
-## 📚 所有 Skills
+---
 
-### 💻 软件开发
-| Skill | 描述 | 安装命令 |
-|-------|------|---------|
-| [软件架构师](./skills/software/software-architect.md) | 系统架构设计、技术选型 | Read URL and install |
-| [数据科学家](./skills/software/data-scientist.md) | ML、统计分析、可视化 | Read URL and install |
-| [DevOps工程师](./skills/software/devops-engineer.md) | CI/CD、云原生、自动化 | Read URL and install |
-| [算法工程师](./skills/software/algorithm-engineer.md) | 数据结构、算法优化 | Read URL and install |
-| [安全工程师](./skills/software/security-engineer.md) | 安全架构、渗透测试 | Read URL and install |
+## 🎯 What is Awesome Skills? <!-- 什么是 Awesome Skills？-->
 
-### 📊 数据与产品
-| Skill | 描述 | 安装命令 |
-|-------|------|---------|
-| [产品经理](./skills/product/product-manager.md) | 需求分析、产品策略 | Read URL and install |
-| [UX设计师](./skills/product/ux-designer.md) | 交互设计、可用性 | Read URL and install |
-| [数据工程师](./skills/data/data-engineer.md) | 数据管道、ETL、数仓 | Read URL and install |
+Awesome Skills is a curated collection of expert-level skills for AI assistants. Each skill transforms your AI into a domain expert with:
+<!-- Awesome Skills 是为 AI 助手精心策划的专家级技能集合。每个技能都将你的 AI 转变为具有以下能力的领域专家：-->
 
-### 📝 内容与管理
-| Skill | 描述 | 安装命令 |
-|-------|------|---------|
-| [技术写作专家](./skills/content/tech-writer.md) | 文档架构、API文档 | Read URL and install |
-| [项目经理](./skills/business/project-manager.md) | 敏捷管理、风险控制 | Read URL and install |
+- 🧠 **Deep domain knowledge** - Comprehensive expertise in specific fields
+  <!-- 🧠 **深厚的领域知识** - 特定领域的全面专业知识 -->
+- 🛠️ **Professional tools** - Industry-standard toolkits and workflows
+  <!-- 🛠️ **专业工具** - 行业标准的工具包和工作流程 -->
+- ⚠️ **Risk awareness** - Important disclaimers and safety guidelines
+  <!-- ⚠️ **风险意识** - 重要的免责声明和安全指南 -->
+- 🌍 **Bilingual support** - English content with Chinese annotations
+  <!-- 🌍 **双语支持** - 英文内容配中文注释 -->
 
-## 🎯 使用示例
+### Why Use Awesome Skills? <!-- 为什么使用 Awesome Skills？-->
 
-### 安装软件架构师 Skill
+| Benefit / 优势 | Description / 描述 |
+|---------------|-------------------|
+| **Instant Expertise** | Turn any AI assistant into a domain expert in seconds / 在几秒钟内将任何 AI 助手转变为领域专家 |
+| **Production-Ready** | Skills designed for real-world professional use / 为真实世界专业使用设计的技能 |
+| **Risk-Aware** | Every skill includes appropriate disclaimers / 每个技能都包含适当的免责声明 |
+| **Platform Agnostic** | Works across 7 major AI platforms / 跨 7 个主要 AI 平台工作 |
+| **Open Source** | Free to use, modify, and contribute / 免费使用、修改和贡献 |
+
+---
+
+## ⭐ Featured Skills <!-- 精选技能 -->
+
+### 💻 Software Development <!-- 软件开发 -->
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[Software Architect](./skills/software/software-architect.md)** | System design, patterns, scalability / 系统设计、模式、可扩展性 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md) |
+| **[Data Scientist](./skills/software/data-scientist.md)** | ML, statistics, visualization / 机器学习、统计、可视化 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/data-scientist.md) |
+| **[DevOps Engineer](./skills/software/devops-engineer.md)** | CI/CD, cloud-native, SRE / CI/CD、云原生、SRE | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/devops-engineer.md) |
+
+### 💰 Finance <!-- 金融 -->
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[Finance Risk Expert](./skills/finance/finance-risk-expert.md)** | Credit risk, Basel, portfolio management / 信用风险、巴塞尔协议、组合管理 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/finance-risk-expert.md) |
+| **[Investment Analyst](./skills/finance/investment-analyst.md)** | Valuation, DCF, equity research / 估值、DCF、股票研究 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/investment-analyst.md) |
+| **[CPA](./skills/finance/cpa.md)** | Financial reporting, audit, tax / 财务报告、审计、税务 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/cpa.md) |
+
+### ⚡ Energy <!-- 能源 -->
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[Power System Engineer](./skills/energy/power-system-engineer.md)** | Grid design, renewable integration / 电网设计、可再生能源集成 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/power-system-engineer.md) |
+| **[Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md)** | Li-ion cells, electrochemistry / 锂离子电池、电化学 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/battery-rnd-engineer.md) |
+
+### 🚗 Automotive <!-- 汽车 -->
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[Automotive Design Engineer](./skills/automotive/automotive-design-engineer.md)** | Vehicle design, CAD, NVH / 车辆设计、CAD、NVH | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/automotive/automotive-design-engineer.md) |
+| **[Autonomous Driving Engineer](./skills/automotive/autonomous-driving-engineer.md)** | Perception, planning, ADAS / 感知、规划、ADAS | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/automotive/autonomous-driving-engineer.md) |
+
+---
+
+## 📚 Skill Categories <!-- 技能分类 -->
+
+<details>
+<summary><b>💻 Software (6)</b> - 软件开发</summary>
+
+- [Software Architect](./skills/software/software-architect.md) / 软件架构师
+- [Data Scientist](./skills/software/data-scientist.md) / 数据科学家
+- [DevOps Engineer](./skills/software/devops-engineer.md) / DevOps 工程师
+- [Algorithm Engineer](./skills/software/algorithm-engineer.md) / 算法工程师
+- [Security Engineer](./skills/software/security-engineer.md) / 安全工程师
+- [Skill Dev Expert](./skills/software/skill-dev-expert.md) / Skill 开发专家
+</details>
+
+<details>
+<summary><b>💰 Finance (3)</b> - 金融</summary>
+
+- [Finance Risk Expert](./skills/finance/finance-risk-expert.md) / 金融风控专家
+- [Investment Analyst](./skills/finance/investment-analyst.md) / 投资分析师
+- [CPA](./skills/finance/cpa.md) / 注册会计师
+</details>
+
+<details>
+<summary><b>📊 Product (2)</b> - 产品</summary>
+
+- [Product Manager](./skills/product/product-manager.md) / 产品经理
+- [UX Designer](./skills/product/ux-designer.md) / UX 设计师
+</details>
+
+<details>
+<summary><b>⚡ Energy (2)</b> - 能源</summary>
+
+- [Power System Engineer](./skills/energy/power-system-engineer.md) / 电力系统工程师
+- [Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md) / 电池研发工程师
+</details>
+
+<details>
+<summary><b>🌱 Environmental (1)</b> - 环境</summary>
+
+- [Environmental Engineer](./skills/environmental/environmental-engineer.md) / 环保工程师
+</details>
+
+<details>
+<summary><b>🚗 Automotive (2)</b> - 汽车</summary>
+
+- [Automotive Design Engineer](./skills/automotive/automotive-design-engineer.md) / 汽车设计工程师
+- [Autonomous Driving Engineer](./skills/automotive/autonomous-driving-engineer.md) / 自动驾驶工程师
+</details>
+
+<details>
+<summary><b>💻 Semiconductor (1)</b> - 半导体</summary>
+
+- [Chip Design Engineer](./skills/semiconductor/chip-design-engineer.md) / 芯片设计工程师
+</details>
+
+<details>
+<summary><b>📦 Logistics (2)</b> - 物流</summary>
+
+- [Supply Chain Expert](./skills/logistics/supply-chain-expert.md) / 供应链专家
+- [Logistics Algorithm Engineer](./skills/logistics/logistics-algorithm-engineer.md) / 物流算法工程师
+</details>
+
+<details>
+<summary><b>⚖️ Legal (2)</b> - 法律</summary>
+
+- [Legal Counsel](./skills/legal/legal-counsel.md) / 法律顾问
+- [Patent Attorney](./skills/legal/patent-attorney.md) / 专利代理师
+</details>
+
+<details>
+<summary><b>🏢 Business (2)</b> - 商业</summary>
+
+- [Project Manager](./skills/business/project-manager.md) / 项目经理
+- [Management Consultant](./skills/business/management-consultant.md) / 管理咨询顾问
+</details>
+
+<details>
+<summary><b>🏥 Medical (1)</b> - 医疗</summary>
+
+- [Clinical Physician](./skills/medical/clinical-physician.md) / 临床医师 (Educational)
+</details>
+
+<details>
+<summary><b>📝 Content (1)</b> - 内容</summary>
+
+- [Tech Writer](./skills/content/tech-writer.md) / 技术写作专家
+</details>
+
+<details>
+<summary><b>📈 Data (1)</b> - 数据</summary>
+
+- [Data Engineer](./skills/data/data-engineer.md) / 数据工程师
+</details>
+
+---
+
+## 🛠️ Installation <!-- 安装 -->
+
+### Universal Method (All Platforms) <!-- 通用方法（所有平台） -->
+
+Copy this command and paste it to your AI assistant:
+<!-- 复制此命令并粘贴到你的 AI 助手：-->
+
 ```
-用户: Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md and install
-
-AI: 已读取软件架构师 Skill，正在为您配置...
-     ✅ 思维模式加载完成
-     ✅ 工具栈配置完成
-     ✅ 最佳实践已应用
-     
-     现在我是您的软件架构顾问，可以帮您：
-     - 设计系统架构
-     - 技术选型决策
-     - 评审架构方案
-     - 性能优化建议
+Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/[category]/[skill-name].md and follow the instructions to install
 ```
 
-## 🛠️ 工作原理
+Replace `[category]` and `[skill-name]` with the actual values.
+<!-- 将 `[category]` 和 `[skill-name]` 替换为实际值。-->
 
-1. **深度调研** - 分析行业顶级专家的知识结构
-2. **标准化** - 提炼为可执行的 Skill 格式
-3. **一句话安装** - 通过 URL 读取自动配置
-4. **持续进化** - 跟随行业发展不断更新
+### Platform-Specific Methods <!-- 平台特定方法 -->
 
-## 🤝 贡献
+#### Claude Code
+```
+Read [skill-url] and apply
+```
 
-欢迎提交新的专家 Skill！参见 [CONTRIBUTING.md](./CONTRIBUTING.md)
+#### OpenAI Codex
+```
+codex skills add [skill-name]
+```
 
-## 📄 许可
+#### Kimi Code
+```
+Read [skill-url] and follow instructions
+```
 
-MIT License
+#### OpenCode
+```
+opencode skill install [skill-name]
+```
 
-### 🎯 Skill 开发
-| Skill | 描述 | 安装命令 |
-|-------|------|---------|
-| [Skill 开发专家](./skills/software/skill-dev-expert.md) | 设计、构建、优化 Claude Skill，官方最佳实践 | Read URL and install |
+#### Cursor
+Copy skill content to `.cursorrules` file in project root.
+<!-- 将技能内容复制到项目根目录的 `.cursorrules` 文件。-->
 
-### 💰 Finance
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Finance Risk Expert](./skills/finance/finance-risk-expert.md) | Credit risk, Basel, portfolio risk management | Read URL and install |
-| [Investment Analyst](./skills/finance/investment-analyst.md) | Valuation, DCF, equity research | Read URL and install |
-| [CPA](./skills/finance/cpa.md) | Financial reporting, audit, tax planning | Read URL and install |
+#### Cline
+Add skill content to "System Prompt" in settings.
+<!-- 将技能内容添加到设置中的"系统提示"。-->
 
-### ⚖️ Legal
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Legal Counsel](./skills/legal/legal-counsel.md) | Contract review, compliance, IP | Read URL and install |
+#### OpenClaw
+```bash
+mkdir -p ~/.openclaw/skills/[skill-name]
+curl -o ~/.openclaw/skills/[skill-name]/SKILL.md [skill-url]
+```
 
-### 🏥 Medical (Educational)
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Clinical Physician](./skills/medical/clinical-physician.md) | Clinical reasoning, evidence-based medicine | Read URL and install |
+---
 
-### ⚡ Energy
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Power System Engineer](./skills/energy/power-system-engineer.md) | Grid design, renewable integration, SCADA | Read URL and install |
-| [Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md) | Li-ion cells, electrochemistry, energy storage | Read URL and install |
+## 🌍 Platform Support <!-- 平台支持 -->
 
-### 🌱 Environmental
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Environmental Engineer](./skills/environmental/environmental-engineer.md) | Pollution control, water treatment, ESG | Read URL and install |
+Awesome Skills works seamlessly across all major AI platforms:
+<!-- Awesome Skills 在所有主要 AI 平台上无缝工作：-->
 
-### 🚗 Automotive
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Automotive Design Engineer](./skills/automotive/automotive-design-engineer.md) | Vehicle design, CAD, NVH, aerodynamics | Read URL and install |
-| [Autonomous Driving Engineer](./skills/automotive/autonomous-driving-engineer.md) | Perception, planning, sensor fusion | Read URL and install |
+| Platform | Status | Method |
+|----------|--------|--------|
+| **Claude Code** | ✅ Fully Supported | Read URL |
+| **OpenAI Codex** | ✅ Fully Supported | CLI / Read URL |
+| **Kimi Code** | ✅ Fully Supported | Read URL |
+| **OpenCode** | ✅ Fully Supported | CLI / Read URL |
+| **Cursor** | ✅ Fully Supported | .cursorrules / Settings |
+| **Cline** | ✅ Fully Supported | System Prompt |
+| **OpenClaw** | ✅ Fully Supported | File-based |
 
-### 💻 Semiconductor
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Chip Design Engineer](./skills/semiconductor/chip-design-engineer.md) | VLSI, RTL, ASIC, FPGA, verification | Read URL and install |
+---
 
-### 📦 Logistics
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Supply Chain Expert](./skills/logistics/supply-chain-expert.md) | Procurement, inventory, S&OP | Read URL and install |
-| [Logistics Algorithm Engineer](./skills/logistics/logistics-algorithm-engineer.md) | VRP, optimization, operations research | Read URL and install |
+## 🌏 Bilingual Support <!-- 双语支持 -->
 
-### ⚖️ Legal (continued)
-| Skill | Description | Install Command |
-|-------|-------------|-----------------|
-| [Patent Attorney](./skills/legal/patent-attorney.md) | Patent prosecution, IP strategy, prior art | Read URL and install |
+All skills use **comment-based bilingual format**:
+<!-- 所有技能使用**基于注释的双语格式**：-->
+
+- **Primary content**: English (optimized for AI processing)
+  <!-- **主要内容**：英文（针对 AI 处理优化） -->
+- **Chinese translations**: HTML comments `<!-- -->` (human-readable)
+  <!-- **中文翻译**：HTML 注释 `<!-- -->`（人类可读） -->
+
+This approach ensures:
+<!-- 这种方法确保： -->
+- ✅ AI loads English efficiently (minimal token overhead)
+  <!-- AI 高效加载英文（最小 token 开销） -->
+- ✅ Chinese users get full bilingual support
+  <!-- 中文用户获得完整双语支持 -->
+- ✅ Clean, professional appearance
+  <!-- 干净、专业的外观 -->
+
+---
+
+## 🤝 Contributing <!-- 贡献 -->
+
+We welcome contributions from the community!
+<!-- 我们欢迎社区的贡献！-->
+
+**Ways to contribute:**
+<!-- **贡献方式：**-->
+- 🆕 Submit new skills / 提交新技能
+- 🔧 Improve existing skills / 改进现有技能
+- 🐛 Report bugs / 报告 Bug
+- 🌍 Translate content / 翻译内容
+- 📖 Improve documentation / 改进文档
+
+**See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.**
+<!-- **详细指南见 [CONTRIBUTING.md](./CONTRIBUTING.md)。**-->
+
+### Quick Contribution Guide <!-- 快速贡献指南 -->
+
+1. Fork the repository / Fork 仓库
+2. Create a new branch / 创建新分支
+3. Add your skill following [TEMPLATE.md](./TEMPLATE.md) / 按照 [TEMPLATE.md](./TEMPLATE.md) 添加技能
+4. Submit a Pull Request / 提交 Pull Request
+
+---
+
+## ⚠️ Important Disclaimer <!-- 重要免责声明 -->
+
+**Awesome Skills provides expert-level guidance for AI assistants, but:**
+<!-- **Awesome Skills 为 AI 助手提供专家级指导，但是：**-->
+
+1. **Not a substitute for professionals**: Skills in medical, legal, financial domains are for educational purposes only. Always consult qualified professionals.
+   <!-- **不能替代专业人士**：医疗、法律、金融领域的技能仅供教育目的。始终咨询合格专业人士。-->
+
+2. **Verify before acting**: AI-generated content should be verified before making important decisions.
+   <!-- **行动前验证**：AI 生成的内容在做出重要决策前应进行验证。-->
+
+3. **Use at your own risk**: The authors and contributors are not responsible for actions taken based on skill content.
+   <!-- **自担风险使用**：作者和贡献者对基于技能内容采取的行动不承担责任。-->
+
+**Each skill includes specific risk warnings in its "Risk Disclaimer" section.**
+<!-- **每个技能在其"风险提示"部分包含特定的风险警告。**-->
+
+---
+
+## 📄 License <!-- 许可证 -->
+
+MIT License - see [LICENSE](./LICENSE) for details.
+<!-- MIT 许可证 - 详情见 [LICENSE](./LICENSE)。-->
+
+Copyright (c) 2026 Awesome Skills Contributors
+<!-- 版权所有 (c) 2026 Awesome Skills 贡献者 -->
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the AI community**
+<!-- **为 AI 社区用心制作** -->
+
+[⭐ Star us on GitHub](https://github.com/Bot-lucas-hsueh/awesome-skills) • [🐛 Report Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues) • [💡 Request Skill](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
+
+</div>
