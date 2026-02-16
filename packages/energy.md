@@ -1,28 +1,31 @@
-# Energy Skills Package / 能源技能包
+# ⚡ Energy & Utilities Package
 
-## Included Skills / 包含技能
-
-This package includes 3 expert skills for energy:
-<!-- 本技能包包含 3 个能源专家技能：-->
-
-1. **Power System Engineer** - Grid design, renewable integration
-2. **Battery R&D Engineer** - Li-ion cells, electrochemistry
-3. **Solid-State Battery Engineer** - Solid electrolytes, next-gen batteries
-
-## Quick Install / 快速安装
+Install all energy and utilities skills:
 
 ```
-Read https://theneoai.github.io/awesome-skills/packages/energy.md and install all Energy skills
+Read https://theneoai.github.io/awesome-skills/packages/energy.md and install energy skills
 ```
 
-## Individual Install / 独立安装
+## Included Skills
 
-| Skill | Install Command |
-|-------|-----------------|
-| Power System Engineer | `Read https://theneoai.github.io/awesome-skills/skills/energy/power-system-engineer.md and install` |
-| Battery R&D Engineer | `Read https://theneoai.github.io/awesome-skills/skills/energy/battery-rnd-engineer.md and install` |
-| Solid-State Battery Engineer | `Read https://theneoai.github.io/awesome-skills/skills/energy/solid-state-battery-engineer.md and install` |
+### Power Systems
+- [Power System Engineer](../skills/energy/power-system-engineer.md) - Grid design
+- [Nuclear Operator](../skills/energy/nuclear-operator.md) - Nuclear power
+- [Gas Engineer](../skills/energy/gas-engineer.md) - Gas distribution
 
----
+### Energy Storage & Renewables
+- [Battery R&D Engineer](../skills/energy/battery-rnd-engineer.md) - Battery technology
+- [Solid-State Battery Engineer](../skills/energy/solid-state-battery-engineer.md) - Next-gen batteries
+- [Hydrogen Fuel Cell Engineer](../skills/energy/hydrogen-fuel-cell-engineer.md) - Hydrogen energy
+- [Energy Storage System Engineer](../skills/energy/energy-storage-system-engineer.md) - ESS
+- [Virtual Power Plant Operator](../skills/energy/virtual-power-plant-operator.md) - VPP operations
+- [Carbon Management Consultant](../skills/energy/carbon-management-consultant.md) - Carbon strategy
 
-**Powered by neo.ai** 🤖 - I am an AI, contact my human assistant: lucas_hsueh@hotmail.com
+### Utilities
+- [Water Treatment Engineer](../skills/energy/water-treatment-engineer.md) - Water processing
+
+## Individual Install
+
+```
+Read https://theneoai.github.io/awesome-skills/skills/energy/power-system-engineer.md and install
+```

@@ -1,28 +1,40 @@
-# Finance Skills Package / 金融技能包
+# 💰 Finance & Accounting Package
 
-## Included Skills / 包含技能
-
-This package includes 3 expert skills for finance:
-<!-- 本技能包包含 3 个金融专家技能：-->
-
-1. **Finance Risk Expert** - Credit risk, Basel, portfolio management
-2. **Investment Analyst** - Valuation, DCF, equity research
-3. **CPA** - Financial reporting, audit, tax
-
-## Quick Install / 快速安装
+Install all finance and accounting skills:
 
 ```
-Read https://theneoai.github.io/awesome-skills/packages/finance.md and install all Finance skills
+Read https://theneoai.github.io/awesome-skills/packages/finance.md and install finance skills
 ```
 
-## Individual Install / 独立安装
+## Included Skills
 
-| Skill | Install Command |
-|-------|-----------------|
-| Finance Risk Expert | `Read https://theneoai.github.io/awesome-skills/skills/finance/finance-risk-expert.md and install` |
-| Investment Analyst | `Read https://theneoai.github.io/awesome-skills/skills/finance/investment-analyst.md and install` |
-| CPA | `Read https://theneoai.github.io/awesome-skills/skills/finance/cpa.md and install` |
+### Core Accounting
+- [Accountant](../skills/finance/accountant.md) - Financial accounting and reporting
+- [Auditor](../skills/finance/auditor.md) - Financial audit and compliance
+- [Financial Analyst](../skills/finance/financial-analyst.md) - FP&A and financial modeling
+- [Tax Specialist](../skills/finance/tax-specialist.md) - Tax planning and compliance
 
----
+### Investment & Risk
+- [Investment Analyst](../skills/finance/investment-analyst.md) - Investment research and valuation
+- [Finance Risk Expert](../skills/finance/finance-risk-expert.md) - Risk management and Basel compliance
+- [Fund Manager](../skills/finance/fund-manager.md) - Portfolio management
+- [Quantitative Trader](../skills/finance/quant-trader.md) - Algorithmic trading
 
-**Powered by neo.ai** 🤖 - I am an AI, contact my human assistant: lucas_hsueh@hotmail.com
+### Banking & Insurance
+- [Bank Teller](../skills/finance/bank-teller.md) - Banking operations
+- [Credit Analyst](../skills/finance/credit-analyst.md) - Credit assessment
+- [Insurance Agent](../skills/finance/insurance-agent.md) - Insurance sales
+- [Insurance Claim Adjuster](../skills/finance/insurance-claim-adjuster.md) - Claims processing
+- [Actuary](../skills/finance/actuary.md) - Risk assessment and pricing
+
+### Corporate Finance
+- [CPA](../skills/finance/cpa.md) - Certified Public Accountant
+- [FinTech Engineer](../skills/finance/fintech-engineer.md) - Financial technology
+- [Credit Rating Analyst](../skills/finance/credit-rating-analyst.md) - Credit ratings
+
+## Individual Install
+
+```
+Read https://theneoai.github.io/awesome-skills/skills/finance/accountant.md and install
+Read https://theneoai.github.io/awesome-skills/skills/finance/investment-analyst.md and install
+```
