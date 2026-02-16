@@ -78,3 +78,20 @@ MIT License
 | Skill | 描述 | 安装命令 |
 |-------|------|---------|
 | [Skill 开发专家](./skills/software/skill-dev-expert.md) | 设计、构建、优化 Claude Skill，官方最佳实践 | Read URL and install |
+
+### 💰 Finance
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Finance Risk Expert](./skills/finance/finance-risk-expert.md) | Credit risk, Basel, portfolio risk management | Read URL and install |
+| [Investment Analyst](./skills/finance/investment-analyst.md) | Valuation, DCF, equity research | Read URL and install |
+| [CPA](./skills/finance/cpa.md) | Financial reporting, audit, tax planning | Read URL and install |
+
+### ⚖️ Legal
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Legal Counsel](./skills/legal/legal-counsel.md) | Contract review, compliance, IP | Read URL and install |
+
+### 🏥 Medical (Educational)
+| Skill | Description | Install Command |
+|-------|-------------|-----------------|
+| [Clinical Physician](./skills/medical/clinical-physician.md) | Clinical reasoning, evidence-based medicine | Read URL and install |
