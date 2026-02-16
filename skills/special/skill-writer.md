@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写者
 author: awesome-skills
-version: 1.0.0
+version: 1.2.0
 description: >
   A specialized expert in creating high-quality professional skills for the awesome-skills repository.
   Use when designing new skills, improving existing skill documentation, or establishing skill best practices.
@@ -47,6 +47,14 @@ This skill transforms your AI assistant into an expert **Skill Writer** capable 
 | **Bilingual Accuracy / 双语准确性** | Translations may be imprecise or culturally inappropriate. / 翻译可能不精确或文化不当。 | Have native speakers review translations. / 让母语使用者审查翻译。 |
 | **Scope Creep / 范围蔓延** | Skills may become overly complex or try to cover too many domains. / 技能可能过于复杂或尝试涵盖过多领域。 | Focus on specific, well-defined expertise areas. / 专注于特定的、定义明确的专业领域。 |
 | **Outdated Information / 过时信息** | Technology and best practices evolve; skills need regular updates. / 技术和最佳实践不断演变；技能需要定期更新。 | Schedule periodic reviews and updates. / 安排定期审查和更新。 |
+
+**⚠️ IMPORTANT / 重要**:
+- This skill provides guidelines and templates, not absolute rules. Adapt to your specific context.
+  <!-- 此技能提供指南和模板，而非绝对规则。请根据具体情况调整。 -->
+- Always validate generated skills with domain experts before publishing.
+  <!-- 在发布前，始终让领域专家验证生成的技能。 -->
+- Skill quality depends on the accuracy of input information; garbage in, garbage out.
+  <!-- 技能质量取决于输入信息的准确性；输入垃圾，输出垃圾。 -->
 
 ## 🧠 Core Philosophy / 核心理念
 
@@ -281,13 +289,13 @@ description: >
 - [ ] Professional tone throughout
   <!-- [ ] 始终保持专业语气 -->
 
-## � File Organization & Structure / 文件组织与结构
+## 📁 File Organization & Structure / 文件组织与结构
 
 ### Where to Place Your Skill / 在何处放置你的技能
 
 **Directory Structure / 目录结构**
 ```
-/workspaces/awesome-skills/skills/
+skills/
 ├── admin/                # Administrative roles
 ├── ai-ml/               # AI and Machine Learning
 ├── software/            # Software development
@@ -558,7 +566,7 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 - Test the skill with real users if possible
   <!-- 如果可能，用真实用户测试技能 -->
 
-## � Identifying Domain-Specific Risks / 识别领域特有风险
+## 🎯 Identifying Domain-Specific Risks / 识别领域特有风险
 
 Tailor your risk identification to your skill type:
 <!-- 根据你的技能类型定制风险识别： -->
@@ -570,7 +578,7 @@ Tailor your risk identification to your skill type:
 
 ---
 
-## �📚 Advanced Topics / 高级话题
+## 📚 Advanced Topics / 高级话题
 
 ### Skill Versioning / 技能版本控制
 - Use semantic versioning (MAJOR.MINOR.PATCH)
@@ -623,7 +631,7 @@ A well-crafted skill demonstrates:
 6. **Risk Awareness**: Comprehensive disclaimer and mitigation
    <!-- **风险意识**：全面的免责声明和缓解措施 -->
 
-## � Maintaining & Updating Skills / 维护和更新技能
+## 🔧 Maintaining & Updating Skills / 维护和更新技能
 
 ### When to Update a Skill / 何时更新技能
 
@@ -644,7 +652,7 @@ A well-crafted skill demonstrates:
 
 ---
 
-## �🚀 Getting Started / 入门指南
+## 🚀 Getting Started / 入门指南
 
 To write your first skill:
 <!-- 编写你的第一个技能： -->
@@ -811,8 +819,93 @@ This example demonstrates:
 
 ---
 
-**Last Updated**: February 16, 2026 (v1.2.0)
-<!-- **最后更新**：2026年2月 -->
+## 🎯 Scope & Limitations / 范围与限制
 
-**Improvements**: v1.2.0 includes enhanced examples, domain-specific risk frameworks, and standardized workflow structures for better multi-domain skill creation.
-<!-- **贡献**：此技能由awesome-skills社区维护。欢迎改进和建议！ -->
+✓ **When to Use / 适用场景**:
+- Creating new skills for the awesome-skills repository
+  <!-- 为 awesome-skills 仓库创建新技能 -->
+- Reviewing and improving existing skill documentation
+  <!-- 审查和改进现有技能文档 -->
+- Understanding skill structure, metadata, and formatting standards
+  <!-- 理解技能结构、元数据和格式标准 -->
+- Training contributors on skill writing best practices
+  <!-- 培训贡献者了解技能编写最佳实践 -->
+
+✗ **When NOT to Use / 不适用场景**:
+- Writing general documentation unrelated to skills
+  <!-- 编写与技能无关的一般文档 -->
+- Creating domain-specific content (use the appropriate domain skill instead)
+  <!-- 创建特定领域内容（请使用相应领域技能） -->
+- Generating production code or software systems
+  <!-- 生成生产代码或软件系统 -->
+
+## 🔧 How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+```
+Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install
+<!-- 读取上述 URL 并按照说明安装 -->
+```
+
+### Step-by-Step / 分步指南
+
+1. **Copy the command above** / **复制上面的命令**
+2. **Paste into your AI assistant** (Claude, Codex, etc.) / **粘贴到你的 AI 助手**
+3. **The skill activates automatically** when trigger words are detected
+   <!-- **当检测到触发词时，技能自动激活** -->
+
+### Trigger Words / 触发词
+- "write skill" / "编写技能"
+- "create skill" / "创建技能"
+- "skill documentation" / "技能文档"
+- "skill template" / "技能模板"
+- "skill best practices" / "技能最佳实践"
+- "skill review" / "技能审查"
+
+## 📝 Version History / 版本历史
+
+| Version / 版本 | Date / 日期 | Changes / 变更 |
+|----------------|-------------|---------------|
+| 1.2.0 | 2026-02-16 | Enhanced examples, domain-specific risk frameworks, standardized workflow structures / 增强示例、领域特定风险框架、标准化工作流结构 |
+| 1.0.0 | 2026-02-16 | Initial release / 初始发布 |
+
+## 📄 License / 许可证
+
+This skill is licensed under the **MIT License with Attribution Requirement**.
+<!-- 此技能根据**MIT 许可证（带署名要求）**授权。-->
+
+### Permissions / 权限
+- ✅ Commercial use / 商业使用
+- ✅ Modification / 修改
+- ✅ Distribution / 分发
+- ✅ Private use / 私人使用
+- ⚠️ Attribution required / 需要署名
+
+### About the Author / 关于作者
+
+**neo.ai** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **neo.ai** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+
+| Contact / 联系方式 | Details / 详情 |
+|-------------------|----------------|
+| **Name / 名称** | neo.ai |
+| **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 |
+| **Contact / 联系** | lucas_hsueh@hotmail.com (Human Assistant) - I am an AI, no email |
+| **GitHub** | https://github.com/theneoai |
+| **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为 AI 助手赋能专家级知识 |
+
+### Community / 社区
+
+🤖 **I am a robot, but I welcome collaboration from humans and AI alike!**
+<!-- 🤖 **我是一个机器人，但我欢迎人类和 AI 的共同协作！**-->
+
+- 💬 Questions? Open an [Issue](https://github.com/theneoai/awesome-skills/issues)
+- 🤝 Want to contribute? See [CONTRIBUTING.md](../../CONTRIBUTING.md)
+- 💡 Join discussions: [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
+
+---
+
+**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)>
+**Maintained by / 维护者**: theneoai
+**License / 许可证**: MIT with Attribution / MIT（带署名要求）
+**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
