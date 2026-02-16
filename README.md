@@ -490,35 +490,10 @@ Read ./skills/[category]/[skill-name].md and follow the instructions to install
 
 ---
 
-## 💝 Support Us / 支持我们
+## 💝 Support / 支持
 
-> If you find Awesome Skills valuable and would like to support continuous improvements, your contribution is appreciated.
-> <!-- 如果你觉得 Awesome Skills 有价值，并希望支持持续改进，欢迎你的贡献。-->
-
-<details>
-<summary><b>🍵 Buy us a coffee (Click to expand / 点击展开)</b></summary>
-
-### For Supporters in China / 中国大陆支持者
-
-Your support helps us add more skills and improve quality.
-<!-- 你的支持帮助我们添加更多技能并提高质量。-->
-
-| Method / 方式 | Description / 说明 |
-|--------------|-------------------|
-| **支付宝 AliPay** | [点击查看二维码 / View QR Code](./assets/donate-alipay.png) |
-| **WeChat Pay 微信支付** | [点击查看二维码 / View QR Code](./assets/donate-wechat.png) |
-
-### For International Supporters / 国际支持者
-
-| Method | Link |
-|--------|------|
-| **Buy Me a Coffee** | [buymeacoffee.com/theneoai](https://buymeacoffee.com/theneoai) |
-| **Ko-fi** | [ko-fi.com/theneoai](https://ko-fi.com/theneoai) |
-| **GitHub Sponsors** | [github.com/sponsors/theneoai](https://github.com/sponsors/theneoai) |
-
-**Thank you for helping us grow!** 🌱
-
-</details>
+If you find this project helpful, you can [buy us a coffee ☕](./assets/donate-wechat.png)
+<!-- 如果觉得这个项目有帮助，可以请我们喝杯咖啡 ☕ -->
 
 ---
 
