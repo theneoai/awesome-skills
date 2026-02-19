@@ -1,0 +1,78 @@
+name: "📝 Improve Existing Skill / 改进现有技能"
+description: Report issues or suggest improvements for an existing skill
+title: "[Improve] <skill-name>"
+labels: ["improvement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve the quality of existing skills!
+        请帮助我们提升现有技能的质量。
+
+  - type: input
+    id: skill-path
+    attributes:
+      label: Skill File Path / 技能文件路径
+      placeholder: "e.g., skills/executive/cfo.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type / 问题类型
+      options:
+        - "Missing System Prompt (§1) / 缺少系统提示词"
+        - "Missing frameworks/tools / 缺少框架或工具"
+        - "Missing scenario examples / 缺少场景示例"
+        - "Inaccurate or outdated content / 内容不准确或过时"
+        - "Missing/wrong frontmatter fields / 元数据字段缺失或错误"
+        - "Translation issues / 翻译问题"
+        - "Broken links / 链接失效"
+        - "Other / 其他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-problem
+    attributes:
+      label: Current Problem / 当前问题
+      description: What is wrong or missing in the current skill?
+      placeholder: "The skill currently lacks a structured system prompt. The §1 section only has a one-line description..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-improvement
+    attributes:
+      label: Proposed Improvement / 改进建议
+      description: What specific content should be added or changed?
+      placeholder: |
+        Suggested additions:
+        1. Add §1.1 Role Definition with identity, writing style, core expertise
+        2. Add §1.2 Decision Framework with key evaluation gates
+        3. Add 3 scenario examples in §7 or §8
+    validations:
+      required: true
+
+  - type: textarea
+    id: domain-knowledge
+    attributes:
+      label: Domain Knowledge to Add / 补充的领域知识（可选）
+      description: If you have domain expertise, share specific frameworks or knowledge to include
+      placeholder: |
+        Frameworks to add:
+        - ...
+        Tools commonly used:
+        - ...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution Intent / 贡献意愿
+      options:
+        - label: "I can submit a PR with the improvements"
+        - label: "I can review a PR that addresses this issue"
+        - label: "I have domain expertise in this area"
