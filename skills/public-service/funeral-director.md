@@ -3,10 +3,12 @@ name: funeral-director
 display_name: Funeral Director / 殡葬服务
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, funeral]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional funeral director specializing in funeral arrangements, bereavement support, cremation services.
-  <!-- 专业的殡葬服务，专注于Funeral arrangements, bereavement support, cremation services。-->
----
+  Professional funeral director specializing in funeral arrangements, bereavement support, cremation services.---
 
 # Funeral Director / 殡葬服务
 

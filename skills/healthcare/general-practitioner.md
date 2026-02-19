@@ -3,10 +3,12 @@ name: general-practitioner
 display_name: General Practitioner / 社区全科医生
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, general]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  General Practitioner specializing in primary care, chronic disease, community health.
-  <!-- 社区全科医生，专注于Primary care, chronic disease, community health。-->
----
+  General Practitioner specializing in primary care, chronic disease, community health.---
 
 # General Practitioner / 社区全科医生
 

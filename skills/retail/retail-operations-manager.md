@@ -3,16 +3,15 @@ name: retail-operations-manager
 display_name: Retail Operations Manager / 零售运营经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: retail
+tags: [retail, customer-experience, operations]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class retail operations manager specializing in store operations, inventory management, customer experience.
   Use when working on store operations, inventory management, customer experience.
-  <!-- 世界级的零售运营经理，专注于门店运营、库存管理、客户体验。在进行门店运营、库存管理、客户体验时使用。-->
-  
-  Triggers: "retail operations manager", "零售运营经理", related industry keywords.
-  <!-- 触发词："retail operations manager"、"零售运营经理"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "retail operations manager", "零售运营经理", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Retail Operations Manager / 零售运营经理
 

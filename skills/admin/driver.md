@@ -3,11 +3,13 @@ name: driver
 display_name: Professional Driver / 司机
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, driver]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional professional driver specializing in safe driving, route planning, vehicle maintenance.
-  Use when working on safe driving, route planning, vehicle maintenance.
-  <!-- 专业的司机，专注于Safe driving, route planning, vehicle maintenance。在进行Safe driving, route planning, vehicle maintenance时使用。-->
----
+  Use when working on safe driving, route planning, vehicle maintenance.---
 
 # Professional Driver / 司机
 

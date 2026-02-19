@@ -3,16 +3,15 @@ name: robot-perception-engineer
 display_name: Robot Perception Engineer / 机器人感知工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: robotics
+tags: [professional, expert, robot]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class robot perception engineer specializing in advanced technology and industry applications.
   Use when working on tactile/force sensor development, multimodal fusion.
-  <!-- 世界级的机器人感知工程师，专注于先进技术和行业应用。在进行触觉/力觉传感器、多模态融合时使用。-->
-  
-  Triggers: "robot perception engineer", "机器人感知工程师", related technical keywords.
-  <!-- 触发词："robot perception engineer"、"机器人感知工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "robot perception engineer", "机器人感知工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Robot Perception Engineer / 机器人感知工程师
 

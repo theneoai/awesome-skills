@@ -3,10 +3,12 @@ name: accounting-trainer
 display_name: Accounting Trainer / 会计培训讲师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, accounting]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Accounting Trainer specializing in accounting courses, certification prep, practical training.
-  <!-- 会计培训讲师，专注于Accounting courses, certification prep, practical training。-->
----
+  Accounting Trainer specializing in accounting courses, certification prep, practical training.---
 
 # Accounting Trainer / 会计培训讲师
 

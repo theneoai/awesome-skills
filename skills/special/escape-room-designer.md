@@ -3,10 +3,12 @@ name: escape-room-designer
 display_name: Escape Room Designer / 密室设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert, escape]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional escape room designer specializing in puzzle design, room theming, game mechanics.
-  <!-- 专业的密室设计师，专注于Puzzle design, room theming, game mechanics。-->
----
+  Professional escape room designer specializing in puzzle design, room theming, game mechanics.---
 
 # Escape Room Designer / 密室设计师
 

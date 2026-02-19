@@ -1,0 +1,104 @@
+name: "✨ New Skill Proposal / 新技能提案"
+description: Propose a new skill to add to the library
+title: "[New Skill] <skill-name>"
+labels: ["new-skill", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new skill! Please fill in the details below.
+        提交前请阅读 [CONTRIBUTING.md](../../CONTRIBUTING.md) 了解技能标准。
+
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill Name / 技能名称
+      description: "Lowercase, hyphen-separated (e.g., investment-analyst)"
+      placeholder: "e.g., investment-analyst"
+    validations:
+      required: true
+
+  - type: input
+    id: display-name
+    attributes:
+      label: Display Name / 显示名称
+      description: "Bilingual: English / 中文 (e.g., Investment Analyst / 投资分析师)"
+      placeholder: "Investment Analyst / 投资分析师"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / 分类
+      description: Which category does this skill belong to?
+      options:
+        - executive
+        - software
+        - ai-ml
+        - finance
+        - healthcare
+        - legal
+        - education
+        - marketing
+        - hr
+        - cybersecurity
+        - data
+        - research
+        - creative
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty / 难度
+      options:
+        - expert
+        - intermediate
+        - beginner
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case / 使用场景
+      description: When would someone install this skill? What problems does it solve?
+      placeholder: |
+        This skill is useful when:
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expertise
+    attributes:
+      label: Domain Expertise Available / 领域知识
+      description: |
+        What professional frameworks, tools, and knowledge should this skill include?
+        List key frameworks, methodologies, or domain-specific concepts.
+      placeholder: |
+        Key frameworks:
+        - ...
+        Key tools:
+        - ...
+        Industry standards:
+        - ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist / 提交前检查
+      options:
+        - label: "I searched [CATALOG.md](../../CATALOG.md) — this skill doesn't exist yet"
+          required: true
+        - label: "I'm willing to contribute the skill content (or know someone who can)"
+          required: false
+        - label: "This skill has genuine professional depth (not just a generic role description)"
+          required: true

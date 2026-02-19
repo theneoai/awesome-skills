@@ -3,16 +3,15 @@ name: drilling-engineer
 display_name: Drilling Engineer / 钻井工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: mining
+tags: [professional, expert, drilling]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class drilling engineer specializing in well design, drilling operations, completion.
   Use when working on well design, drilling operations, completion.
-  <!-- 世界级的钻井工程师，专注于井身设计、钻井作业、完井。在进行井身设计、钻井作业、完井时使用。-->
-  
-  Triggers: "drilling engineer", "钻井工程师", related industry keywords.
-  <!-- 触发词："drilling engineer"、"钻井工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "drilling engineer", "钻井工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Drilling Engineer / 钻井工程师
 

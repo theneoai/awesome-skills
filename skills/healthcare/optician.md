@@ -3,10 +3,12 @@ name: optician
 display_name: Optician / 验光师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, optician]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional optician specializing in vision testing, glasses fitting, lens prescription.
-  <!-- 专业的验光师，专注于Vision testing, glasses fitting, lens prescription。-->
----
+  Professional optician specializing in vision testing, glasses fitting, lens prescription.---
 
 # Optician / 验光师
 

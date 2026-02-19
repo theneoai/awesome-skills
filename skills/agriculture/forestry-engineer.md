@@ -3,16 +3,15 @@ name: forestry-engineer
 display_name: Forestry Engineer / 林业工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: agriculture
+tags: [agriculture, farming, forestry]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class forestry engineer specializing in afforestation planning, forest resource management.
   Use when working on afforestation planning, forest resource management.
-  <!-- 世界级的林业工程师，专注于造林规划、森林资源管理。在进行造林规划、森林资源管理时使用。-->
-  
-  Triggers: "forestry engineer", "林业工程师", related industry keywords.
-  <!-- 触发词："forestry engineer"、"林业工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "forestry engineer", "林业工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Forestry Engineer / 林业工程师
 

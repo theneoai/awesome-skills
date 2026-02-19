@@ -3,10 +3,12 @@ name: lighthouse-keeper
 display_name: Lighthouse Keeper / 灯塔看守员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, lighthouse]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Lighthouse Keeper specializing in maritime navigation, light maintenance, coastal safety.
-  <!-- 灯塔看守员，专注于Maritime navigation, light maintenance, coastal safety。-->
----
+  Lighthouse Keeper specializing in maritime navigation, light maintenance, coastal safety.---
 
 # Lighthouse Keeper / 灯塔看守员
 

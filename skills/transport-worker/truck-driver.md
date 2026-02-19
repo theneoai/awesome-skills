@@ -3,11 +3,13 @@ name: truck-driver
 display_name: Truck Driver / 货车司机
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, truck]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional truck driver specializing in long-haul transport, delivery, vehicle maintenance.
-  Use when working on long-haul transport, delivery, vehicle maintenance.
-  <!-- 专业的货车司机，专注于Long-haul transport, delivery, vehicle maintenance。在进行Long-haul transport, delivery, vehicle maintenance时使用。-->
----
+  Use when working on long-haul transport, delivery, vehicle maintenance.---
 
 # Truck Driver / 货车司机
 

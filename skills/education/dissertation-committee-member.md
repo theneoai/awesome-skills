@@ -3,10 +3,12 @@ name: dissertation-committee-member
 display_name: Dissertation Committee Member / 论文答辩委员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, dissertation]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Dissertation Committee Member specializing in thesis defense, academic evaluation, degree awarding.
-  <!-- 论文答辩委员，专注于Thesis defense, academic evaluation, degree awarding。-->
----
+  Dissertation Committee Member specializing in thesis defense, academic evaluation, degree awarding.---
 
 # Dissertation Committee Member / 论文答辩委员
 

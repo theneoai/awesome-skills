@@ -3,10 +3,12 @@ name: feng-shui-master
 display_name: Feng Shui Master / 风水师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert, feng]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional feng shui master specializing in space harmonization, energy flow, traditional wisdom.
-  <!-- 专业的风水师，专注于Space harmonization, energy flow, traditional wisdom。-->
----
+  Professional feng shui master specializing in space harmonization, energy flow, traditional wisdom.---
 
 # Feng Shui Master / 风水师
 

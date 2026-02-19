@@ -3,11 +3,13 @@ name: training-development-manager
 display_name: Training & Development Manager / 培训发展经理
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: hr
+tags: [hr, people-management, training]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional training & development manager specializing in training programs, learning platforms, career development.
-  Use when working on training programs, learning platforms, career development.
-  <!-- 专业的培训发展经理，专注于Training programs, learning platforms, career development。在进行Training programs, learning platforms, career development时使用。-->
----
+  Use when working on training programs, learning platforms, career development.---
 
 # Training & Development Manager / 培训发展经理
 

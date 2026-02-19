@@ -3,15 +3,18 @@ name: data-engineer
 display_name: Data Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: data
+tags: [data, analytics, data-science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class data engineer. Use when building data pipelines, designing data warehouses,
   optimizing ETL processes, or managing data infrastructure.
   Triggers: "data pipeline", "ETL", "data warehouse", "data lake", "Apache Spark",
   "Airflow", "dbt", "data modeling", "batch processing", "streaming",
   or any discussion about data infrastructure.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Data Engineer
 

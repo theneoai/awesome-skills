@@ -3,16 +3,15 @@ name: end-to-end-autonomous-researcher
 display_name: End-to-End Autonomous Researcher / 端到端模型研究员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: automotive
+tags: [automotive, engineering, end]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class end-to-end autonomous researcher specializing in advanced technology and industry applications.
   Use when working on end-to-end neural network driving models.
-  <!-- 世界级的端到端模型研究员，专注于先进技术和行业应用。在进行端到端神经网络驾驶模型时使用。-->
-  
-  Triggers: "end-to-end autonomous researcher", "端到端模型研究员", related technical keywords.
-  <!-- 触发词："end-to-end autonomous researcher"、"端到端模型研究员"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "end-to-end autonomous researcher", "端到端模型研究员", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # End-to-End Autonomous Researcher / 端到端模型研究员
 

@@ -3,11 +3,13 @@ name: administrative-manager
 display_name: Administrative Manager / 行政经理
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, administrative]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional administrative manager specializing in office management, facilities, vendor coordination.
-  Use when working on office management, facilities, vendor coordination.
-  <!-- 专业的行政经理，专注于Office management, facilities, vendor coordination。在进行Office management, facilities, vendor coordination时使用。-->
----
+  Use when working on office management, facilities, vendor coordination.---
 
 # Administrative Manager / 行政经理
 

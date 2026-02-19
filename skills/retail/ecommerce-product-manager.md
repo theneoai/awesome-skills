@@ -3,16 +3,15 @@ name: ecommerce-product-manager
 display_name: E-commerce Product Manager / 电商产品经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: retail
+tags: [retail, customer-experience, ecommerce]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class e-commerce product manager specializing in platform design, user experience, conversion optimization.
   Use when working on platform design, user experience, conversion optimization.
-  <!-- 世界级的电商产品经理，专注于平台设计、用户体验、转化优化。在进行平台设计、用户体验、转化优化时使用。-->
-  
-  Triggers: "e-commerce product manager", "电商产品经理", related industry keywords.
-  <!-- 触发词："e-commerce product manager"、"电商产品经理"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "e-commerce product manager", "电商产品经理", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # E-commerce Product Manager / 电商产品经理
 

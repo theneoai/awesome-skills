@@ -3,16 +3,15 @@ name: textile-engineer
 display_name: Textile Engineer / 纺织工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, textile]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class textile engineer specializing in fiber processing, weaving, dyeing, finishing.
   Use when working on fiber processing, weaving, dyeing, finishing.
-  <!-- 世界级的纺织工程师，专注于纤维加工、织造、印染、整理。在进行纤维加工、织造、印染、整理时使用。-->
-  
-  Triggers: "textile engineer", "纺织工程师", related industry keywords.
-  <!-- 触发词："textile engineer"、"纺织工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "textile engineer", "纺织工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Textile Engineer / 纺织工程师
 

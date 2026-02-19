@@ -3,11 +3,13 @@ name: delivery-rider
 display_name: Delivery Rider / 外卖骑手
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, delivery]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional delivery rider specializing in last-mile delivery, navigation, time management.
-  Use when working on last-mile delivery, navigation, time management.
-  <!-- 专业的外卖骑手，专注于Last-mile delivery, navigation, time management。在进行Last-mile delivery, navigation, time management时使用。-->
----
+  Use when working on last-mile delivery, navigation, time management.---
 
 # Delivery Rider / 外卖骑手
 

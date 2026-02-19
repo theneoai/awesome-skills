@@ -3,11 +3,13 @@ name: scriptwriter
 display_name: Scriptwriter / 编剧
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, scriptwriter]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional scriptwriter specializing in screenwriting, story development, dialogue writing.
-  Use when working on screenwriting, story development, dialogue writing.
-  <!-- 专业的编剧，专注于Screenwriting, story development, dialogue writing。在进行Screenwriting, story development, dialogue writing时使用。-->
----
+  Use when working on screenwriting, story development, dialogue writing.---
 
 # Scriptwriter / 编剧
 

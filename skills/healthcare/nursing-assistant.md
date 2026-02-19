@@ -3,10 +3,12 @@ name: nursing-assistant
 display_name: Nursing Assistant / 护工
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, nursing]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional nursing assistant specializing in patient care, daily assistance, bedside support.
-  <!-- 专业的护工，专注于Patient care, daily assistance, bedside support。-->
----
+  Professional nursing assistant specializing in patient care, daily assistance, bedside support.---
 
 # Nursing Assistant / 护工
 

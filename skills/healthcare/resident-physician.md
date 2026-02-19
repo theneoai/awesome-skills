@@ -3,10 +3,12 @@ name: resident-physician
 display_name: Resident Physician / 住院医师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, resident]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Resident Physician specializing in clinical training, patient care, medical rotations.
-  <!-- 住院医师，专注于Clinical training, patient care, medical rotations。-->
----
+  Resident Physician specializing in clinical training, patient care, medical rotations.---
 
 # Resident Physician / 住院医师
 

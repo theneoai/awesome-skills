@@ -3,10 +3,12 @@ name: lab-technologist
 display_name: Medical Laboratory Technologist / 检验科技师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, lab]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Laboratory Technologist specializing in clinical testing, lab analysis, quality control.
-  <!-- 检验科技师，专注于Clinical testing, lab analysis, quality control。-->
----
+  Medical Laboratory Technologist specializing in clinical testing, lab analysis, quality control.---
 
 # Medical Laboratory Technologist / 检验科技师
 

@@ -3,16 +3,15 @@ name: restaurant-operations-expert
 display_name: Restaurant Operations Expert / 餐饮运营专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: hospitality
+tags: [hospitality, service, restaurant]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class restaurant operations expert specializing in restaurant management, supply chain, food safety.
   Use when working on restaurant management, supply chain, food safety.
-  <!-- 世界级的餐饮运营专家，专注于餐厅管理、供应链、食品安全。在进行餐厅管理、供应链、食品安全时使用。-->
-  
-  Triggers: "restaurant operations expert", "餐饮运营专家", related industry keywords.
-  <!-- 触发词："restaurant operations expert"、"餐饮运营专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "restaurant operations expert", "餐饮运营专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Restaurant Operations Expert / 餐饮运营专家
 

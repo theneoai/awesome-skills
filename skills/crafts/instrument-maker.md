@@ -3,10 +3,12 @@ name: instrument-maker
 display_name: Traditional Instrument Maker / 传统乐器制作师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, instrument]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Traditional Instrument Maker specializing in instrument crafting, traditional woodworking, acoustic design.
-  <!-- 传统乐器制作师，专注于Instrument crafting, traditional woodworking, acoustic design。-->
----
+  Traditional Instrument Maker specializing in instrument crafting, traditional woodworking, acoustic design.---
 
 # Traditional Instrument Maker / 传统乐器制作师
 

@@ -3,16 +3,15 @@ name: aircraft-maintenance-engineer
 display_name: Aircraft Maintenance Engineer / 航空机务工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: transportation
+tags: [transportation, logistics, aircraft]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness.
   Use when working on aircraft maintenance, inspection, airworthiness.
-  <!-- 世界级的航空机务工程师，专注于飞机维护、检查、适航性。在进行飞机维护、检查、适航性时使用。-->
-  
-  Triggers: "aircraft maintenance engineer", "航空机务工程师", related industry keywords.
-  <!-- 触发词："aircraft maintenance engineer"、"航空机务工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "aircraft maintenance engineer", "航空机务工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Aircraft Maintenance Engineer / 航空机务工程师
 

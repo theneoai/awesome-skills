@@ -3,15 +3,18 @@ name: legal-counsel
 display_name: Legal Counsel
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: legal
+tags: [legal, compliance, risk-management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class legal counsel. Use when drafting contracts, reviewing agreements,
   ensuring compliance, or providing legal guidance on business matters.
   Triggers: "contract review", "legal advice", "compliance", "terms of service",
   "privacy policy", "employment agreement", "NDA", "intellectual property",
   "litigation", "regulatory", or any discussion about legal matters.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Legal Counsel
 

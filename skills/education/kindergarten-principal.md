@@ -3,10 +3,12 @@ name: kindergarten-principal
 display_name: Kindergarten Principal / 幼儿园园长
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, kindergarten]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Kindergarten Principal specializing in early childhood education management, curriculum oversight, staff leadership.
-  <!-- 幼儿园园长，专注于Early childhood education management, curriculum oversight, staff leadership。-->
----
+  Kindergarten Principal specializing in early childhood education management, curriculum oversight, staff leadership.---
 
 # Kindergarten Principal / 幼儿园园长
 

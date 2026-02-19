@@ -3,10 +3,12 @@ name: home-organizer
 display_name: Home Organizer / 收纳整理师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: freelancer
+tags: [freelance, business, home]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional home organizer specializing in space optimization, decluttering, organization systems.
-  <!-- 专业的收纳整理师，专注于Space optimization, decluttering, organization systems。-->
----
+  Professional home organizer specializing in space optimization, decluttering, organization systems.---
 
 # Home Organizer / 收纳整理师
 

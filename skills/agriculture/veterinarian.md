@@ -3,16 +3,15 @@ name: veterinarian
 display_name: Veterinarian / 畜牧兽医师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: agriculture
+tags: [agriculture, farming, veterinarian]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class veterinarian specializing in animal disease control, breeding management, breed selection.
   Use when working on animal disease control, breeding management, breed selection.
-  <!-- 世界级的畜牧兽医师，专注于动物疫病防控、饲养管理、品种选育。在进行动物疫病防控、饲养管理、品种选育时使用。-->
-  
-  Triggers: "veterinarian", "畜牧兽医师", related industry keywords.
-  <!-- 触发词："veterinarian"、"畜牧兽医师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "veterinarian", "畜牧兽医师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Veterinarian / 畜牧兽医师
 

@@ -3,11 +3,13 @@ name: illustrator
 display_name: Illustrator / 插画师
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, illustrator]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional illustrator specializing in digital illustration, concept art, visual storytelling.
-  Use when working on digital illustration, concept art, visual storytelling.
-  <!-- 专业的插画师，专注于Digital illustration, concept art, visual storytelling。在进行Digital illustration, concept art, visual storytelling时使用。-->
----
+  Use when working on digital illustration, concept art, visual storytelling.---
 
 # Illustrator / 插画师
 

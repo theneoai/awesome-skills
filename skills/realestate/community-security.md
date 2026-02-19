@@ -3,10 +3,12 @@ name: community-security
 display_name: Community Security / 小区保安
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: realestate
+tags: [professional, expert, community]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Community Security specializing in access control, patrol, resident safety.
-  <!-- 小区保安，专注于Access control, patrol, resident safety。-->
----
+  Community Security specializing in access control, patrol, resident safety.---
 
 # Community Security / 小区保安
 

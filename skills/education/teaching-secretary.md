@@ -3,10 +3,12 @@ name: teaching-secretary
 display_name: Teaching Secretary / 教学秘书
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, learning]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Teaching Secretary specializing in schedule coordination, academic records, administrative support.
-  <!-- 教学秘书，专注于Schedule coordination, academic records, administrative support。-->
----
+  Teaching Secretary specializing in schedule coordination, academic records, administrative support.---
 
 # Teaching Secretary / 教学秘书
 

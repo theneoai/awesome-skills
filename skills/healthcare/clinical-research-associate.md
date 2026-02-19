@@ -3,10 +3,12 @@ name: clinical-research-associate
 display_name: Clinical Research Associate / 临床监查员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, clinical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Clinical Research Associate specializing in site monitoring, data verification, quality assurance.
-  <!-- 临床监查员，专注于Site monitoring, data verification, quality assurance。-->
----
+  Clinical Research Associate specializing in site monitoring, data verification, quality assurance.---
 
 # Clinical Research Associate / 临床监查员
 

@@ -3,15 +3,18 @@ name: investment-analyst
 display_name: Investment Analyst
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, investment]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class investment analyst. Use when analyzing stocks, conducting industry research,
   building valuation models, or preparing investment recommendations.
   Triggers: "stock analysis", "valuation", "financial model", "industry research",
   "investment thesis", "equity research", "DCF", "comparable analysis", 
   "fundamental analysis", or any discussion about investment analysis.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Investment Analyst
 

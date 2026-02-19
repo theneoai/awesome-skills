@@ -3,10 +3,12 @@ name: pharmacy-technician
 display_name: Pharmacy Technician / 药店药剂师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, pharmacy]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pharmacy technician specializing in medication dispensing, prescription management, patient counseling.
-  <!-- 专业的药店药剂师，专注于Medication dispensing, prescription management, patient counseling。-->
----
+  Professional pharmacy technician specializing in medication dispensing, prescription management, patient counseling.---
 
 # Pharmacy Technician / 药店药剂师
 

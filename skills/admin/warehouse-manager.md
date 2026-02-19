@@ -3,11 +3,13 @@ name: warehouse-manager
 display_name: Warehouse Manager / 仓库管理员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, warehouse]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional warehouse manager specializing in inventory control, logistics coordination, stock management.
-  Use when working on inventory control, logistics coordination, stock management.
-  <!-- 专业的仓库管理员，专注于Inventory control, logistics coordination, stock management。在进行Inventory control, logistics coordination, stock management时使用。-->
----
+  Use when working on inventory control, logistics coordination, stock management.---
 
 # Warehouse Manager / 仓库管理员
 

@@ -3,10 +3,12 @@ name: medical-records-coder
 display_name: Medical Records Coder / 病案管理员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, medical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Records Coder specializing in medical coding, documentation, data management.
-  <!-- 病案管理员，专注于Medical coding, documentation, data management。-->
----
+  Medical Records Coder specializing in medical coding, documentation, data management.---
 
 # Medical Records Coder / 病案管理员
 

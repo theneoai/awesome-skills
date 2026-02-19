@@ -3,10 +3,12 @@ name: class-teacher
 display_name: Class Teacher/Homeroom Teacher / 班主任
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, class]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Class Teacher/Homeroom Teacher specializing in student management, parent communication, holistic education.
-  <!-- 班主任，专注于Student management, parent communication, holistic education。-->
----
+  Class Teacher/Homeroom Teacher specializing in student management, parent communication, holistic education.---
 
 # Class Teacher/Homeroom Teacher / 班主任
 

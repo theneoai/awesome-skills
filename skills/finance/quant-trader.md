@@ -3,16 +3,15 @@ name: quant-trader
 display_name: Quantitative Trader / 量化交易员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, quant]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class quantitative trader specializing in algorithmic trading, market making, risk arbitrage.
   Use when working on algorithmic trading, market making, risk arbitrage.
-  <!-- 世界级的量化交易员，专注于算法交易、做市、风险套利。在进行算法交易、做市、风险套利时使用。-->
-  
-  Triggers: "quantitative trader", "量化交易员", related industry keywords.
-  <!-- 触发词："quantitative trader"、"量化交易员"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "quantitative trader", "量化交易员", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Quantitative Trader / 量化交易员
 

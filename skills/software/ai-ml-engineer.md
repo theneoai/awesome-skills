@@ -3,16 +3,15 @@ name: ai-ml-engineer
 display_name: AI/ML Engineer / AI机器学习工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, development]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class ai/ml engineer specializing in machine learning models, deep learning, mlops.
   Use when working on machine learning models, deep learning, mlops.
-  <!-- 世界级的AI机器学习工程师，专注于机器学习模型、深度学习、MLOps。在进行机器学习模型、深度学习、MLOps时使用。-->
-  
-  Triggers: "ai/ml engineer", "AI机器学习工程师", related industry keywords.
-  <!-- 触发词："ai/ml engineer"、"AI机器学习工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "ai/ml engineer", "AI机器学习工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # AI/ML Engineer / AI机器学习工程师
 

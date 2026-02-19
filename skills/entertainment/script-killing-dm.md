@@ -3,10 +3,12 @@ name: script-killing-dm
 display_name: Script Killing DM / 剧本杀DM
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, script]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional script killing dm specializing in game hosting, storytelling, player guidance.
-  <!-- 专业的剧本杀DM，专注于Game hosting, storytelling, player guidance。-->
----
+  Professional script killing dm specializing in game hosting, storytelling, player guidance.---
 
 # Script Killing DM / 剧本杀DM
 

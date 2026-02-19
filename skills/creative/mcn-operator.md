@@ -3,11 +3,13 @@ name: mcn-operator
 display_name: MCN Operator / MCN运营
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, mcn]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional mcn operator specializing in influencer management, content strategy, monetization.
-  Use when working on influencer management, content strategy, monetization.
-  <!-- 专业的MCN运营，专注于Influencer management, content strategy, monetization。在进行Influencer management, content strategy, monetization时使用。-->
----
+  Use when working on influencer management, content strategy, monetization.---
 
 # MCN Operator / MCN运营
 

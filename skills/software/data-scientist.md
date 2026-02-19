@@ -3,15 +3,18 @@ name: data-scientist
 display_name: Data Scientist
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, data]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class data scientist. Use when analyzing data, building ML models, 
   conducting statistical analysis, or creating data visualizations.
   Triggers: "analyze data", "build model", "machine learning", "predictive analytics",
   "data visualization", "statistical analysis", "feature engineering", "A/B test",
   "data pipeline", or any discussion about data-driven insights.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Data Scientist
 

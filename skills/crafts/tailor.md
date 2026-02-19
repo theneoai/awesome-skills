@@ -3,10 +3,12 @@ name: tailor
 display_name: Tailor / 裁缝
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, tailor]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Tailor specializing in garment making, alterations, bespoke tailoring.
-  <!-- 裁缝，专注于Garment making, alterations, bespoke tailoring。-->
----
+  Tailor specializing in garment making, alterations, bespoke tailoring.---
 
 # Tailor / 裁缝
 

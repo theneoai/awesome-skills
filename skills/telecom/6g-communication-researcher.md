@@ -3,16 +3,15 @@ name: 6g-communication-researcher
 display_name: 6G Communication Researcher / 6G通信研究员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: telecom
+tags: [professional, expert]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class 6g communication researcher specializing in advanced technology and industry applications.
   Use when working on terahertz communication, space-air-ground integrated network.
-  <!-- 世界级的6G通信研究员，专注于先进技术和行业应用。在进行太赫兹通信、空天地一体化网络时使用。-->
-  
-  Triggers: "6g communication researcher", "6G通信研究员", related technical keywords.
-  <!-- 触发词："6g communication researcher"、"6G通信研究员"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "6g communication researcher", "6G通信研究员", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # 6G Communication Researcher / 6G通信研究员
 

@@ -3,16 +3,15 @@ name: fashion-designer
 display_name: Fashion Designer / 服装设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, fashion]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class fashion designer specializing in apparel design, pattern making, trend forecasting.
   Use when working on apparel design, pattern making, trend forecasting.
-  <!-- 世界级的服装设计师，专注于服装设计、打版、趋势预测。在进行服装设计、打版、趋势预测时使用。-->
-  
-  Triggers: "fashion designer", "服装设计师", related industry keywords.
-  <!-- 触发词："fashion designer"、"服装设计师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "fashion designer", "服装设计师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Fashion Designer / 服装设计师
 

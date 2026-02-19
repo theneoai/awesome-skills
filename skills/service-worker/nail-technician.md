@@ -3,10 +3,12 @@ name: nail-technician
 display_name: Nail Technician / 美甲师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, nail]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional nail technician specializing in manicure, pedicure, nail art.
-  <!-- 专业的美甲师，专注于Manicure, pedicure, nail art。-->
----
+  Professional nail technician specializing in manicure, pedicure, nail art.---
 
 # Nail Technician / 美甲师
 

@@ -3,16 +3,15 @@ name: film-director-producer
 display_name: Film Director/Producer / 导演制片人
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: media
+tags: [media, content, film]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class film director/producer specializing in film production, creative direction, project management.
   Use when working on film production, creative direction, project management.
-  <!-- 世界级的导演制片人，专注于电影制作、创意指导、项目管理。在进行电影制作、创意指导、项目管理时使用。-->
-  
-  Triggers: "film director/producer", "导演制片人", related industry keywords.
-  <!-- 触发词："film director/producer"、"导演制片人"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "film director/producer", "导演制片人", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Film Director/Producer / 导演制片人
 

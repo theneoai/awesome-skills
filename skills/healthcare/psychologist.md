@@ -3,10 +3,12 @@ name: psychologist
 display_name: Psychologist / 心理咨询师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, psychologist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional psychologist specializing in mental health counseling, therapy, psychological assessment.
-  <!-- 专业的心理咨询师，专注于Mental health counseling, therapy, psychological assessment。-->
----
+  Professional psychologist specializing in mental health counseling, therapy, psychological assessment.---
 
 # Psychologist / 心理咨询师
 

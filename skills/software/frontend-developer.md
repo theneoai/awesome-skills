@@ -3,16 +3,15 @@ name: frontend-developer
 display_name: Frontend Developer / 前端开发工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, frontend]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class frontend developer specializing in ui development, react/vue, responsive design.
   Use when working on ui development, react/vue, responsive design.
-  <!-- 世界级的前端开发工程师，专注于UI开发、React/Vue、响应式设计。在进行UI开发、React/Vue、响应式设计时使用。-->
-  
-  Triggers: "frontend developer", "前端开发工程师", related industry keywords.
-  <!-- 触发词："frontend developer"、"前端开发工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "frontend developer", "前端开发工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Frontend Developer / 前端开发工程师
 

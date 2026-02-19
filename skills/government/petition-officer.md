@@ -3,10 +3,12 @@ name: petition-officer
 display_name: Petition Officer / 信访接待员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, petition]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Petition Officer specializing in public complaints, grievance handling, administrative justice.
-  <!-- 信访接待员，专注于Public complaints, grievance handling, administrative justice。-->
----
+  Petition Officer specializing in public complaints, grievance handling, administrative justice.---
 
 # Petition Officer / 信访接待员
 

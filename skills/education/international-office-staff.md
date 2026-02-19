@@ -3,10 +3,12 @@ name: international-office-staff
 display_name: International Office Staff / 国际交流处
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, international]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  International Office Staff specializing in exchange programs, international cooperation, student mobility.
-  <!-- 国际交流处，专注于Exchange programs, international cooperation, student mobility。-->
----
+  International Office Staff specializing in exchange programs, international cooperation, student mobility.---
 
 # International Office Staff / 国际交流处
 

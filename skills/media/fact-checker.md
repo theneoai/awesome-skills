@@ -3,10 +3,12 @@ name: fact-checker
 display_name: Fact Checker / 事实核查员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: media
+tags: [media, content, fact]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Fact Checker specializing in verification, accuracy confirmation, misinformation detection.
-  <!-- 事实核查员，专注于Verification, accuracy confirmation, misinformation detection。-->
----
+  Fact Checker specializing in verification, accuracy confirmation, misinformation detection.---
 
 # Fact Checker / 事实核查员
 

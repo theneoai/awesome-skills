@@ -3,16 +3,15 @@ name: hvac-engineer
 display_name: HVAC Engineer / 暖通工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: construction
+tags: [construction, engineering, hvac]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class hvac engineer specializing in heating, ventilation, air conditioning, mep.
   Use when working on heating, ventilation, air conditioning, mep.
-  <!-- 世界级的暖通工程师，专注于供暖、通风、空调、机电。在进行供暖、通风、空调、机电时使用。-->
-  
-  Triggers: "hvac engineer", "暖通工程师", related industry keywords.
-  <!-- 触发词："hvac engineer"、"暖通工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "hvac engineer", "暖通工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # HVAC Engineer / 暖通工程师
 

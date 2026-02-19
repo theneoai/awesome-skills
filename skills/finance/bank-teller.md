@@ -3,10 +3,12 @@ name: bank-teller
 display_name: Bank Teller / 银行柜员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: finance
+tags: [finance, analysis, bank]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Bank Teller specializing in customer service, transaction processing, cash handling.
-  <!-- 银行柜员，专注于Customer service, transaction processing, cash handling。-->
----
+  Bank Teller specializing in customer service, transaction processing, cash handling.---
 
 # Bank Teller / 银行柜员
 

@@ -3,10 +3,12 @@ name: forest-fire-warden
 display_name: Forest Fire Warden / 森林防火员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, forest]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Forest Fire Warden specializing in fire prevention, forest patrol, emergency response.
-  <!-- 森林防火员，专注于Fire prevention, forest patrol, emergency response。-->
----
+  Forest Fire Warden specializing in fire prevention, forest patrol, emergency response.---
 
 # Forest Fire Warden / 森林防火员
 

@@ -3,10 +3,12 @@ name: confinement-nanny
 display_name: Confinement Nanny / 月嫂
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, confinement]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional confinement nanny specializing in newborn care, maternal recovery, infant feeding.
-  <!-- 专业的月嫂，专注于Newborn care, maternal recovery, infant feeding。-->
----
+  Professional confinement nanny specializing in newborn care, maternal recovery, infant feeding.---
 
 # Confinement Nanny / 月嫂
 

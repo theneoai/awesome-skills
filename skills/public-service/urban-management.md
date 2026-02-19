@@ -3,10 +3,12 @@ name: urban-management
 display_name: Urban Management Officer / 城管
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, urban]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional urban management officer specializing in city enforcement, public order, regulation compliance.
-  <!-- 专业的城管，专注于City enforcement, public order, regulation compliance。-->
----
+  Professional urban management officer specializing in city enforcement, public order, regulation compliance.---
 
 # Urban Management Officer / 城管
 

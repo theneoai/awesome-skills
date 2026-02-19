@@ -3,10 +3,12 @@ name: enforcement-officer
 display_name: Enforcement Officer / 执行法官
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, enforcement]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Enforcement Officer specializing in judgment enforcement, asset seizure, legal compliance.
-  <!-- 执行法官，专注于Judgment enforcement, asset seizure, legal compliance。-->
----
+  Enforcement Officer specializing in judgment enforcement, asset seizure, legal compliance.---
 
 # Enforcement Officer / 执行法官
 

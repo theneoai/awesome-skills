@@ -1,151 +1,200 @@
-# 安装指南
+# Awesome Skills — 平台安装指南 / Platform Installation Guide
 
-> 一句话命令，让 AI 自动安装技能
+> 按平台查找安装命令 | Find installation commands by platform
 
 ---
 
-## 🎯 快速安装（推荐）
+## 目录 / Contents
 
-### 安装所有技能（450+）
+- [OpenCode / OpenClaw（推荐）](#opencode--openclaw推荐)
+- [Claude Code](#claude-code)
+- [Cursor](#cursor)
+- [OpenAI Codex](#openai-codex)
+- [Cline](#cline)
+- [Kimi Code](#kimi-code)
+- [热门技能速查](#热门技能速查)
+- [技能目录](#技能分类目录)
 
-**通用命令（AI 自动识别平台）：**
+---
+
+## OpenCode / OpenClaw（推荐）
+
+OpenCode 和 OpenClaw 原生支持技能安装，使用 `Read ... and install` 命令。
+
+### 安装单个技能
 ```
-Read https://github.com/theneoai/awesome-skills/tree/main/skills and install all skills to my platform, auto-converting format as needed
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
 ```
 
 ### 安装技能包
-
-**高管套件（CEO/CFO/CTO/COO）：**
 ```
-Read https://github.com/theneoai/awesome-skills/tree/main/skills/executive and install executive skills
+Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md and install executive package
 ```
 
-**技术开发包：**
+### 安装全部技能
 ```
-Read https://github.com/theneoai/awesome-skills/tree/main/skills/software and install tech skills
+Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
-**AI & ML 包：**
+**技能存储位置：**
+- OpenClaw: `~/.openclaw/workspace/skills/[skill-name]/SKILL.md`
+- OpenCode: `~/.opencode/skills/[skill-name]/SKILL.md`
+
+---
+
+## Claude Code
+
+Claude Code 通过 `CLAUDE.md` 文件或 `/load` 命令加载技能。
+
+### 方法 1：项目级安装（推荐）
+
+将以下内容追加到项目 `CLAUDE.md`：
+```bash
+cat >> CLAUDE.md << 'EOF'
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and apply the CEO skill guidelines to this project.
+EOF
 ```
-Read https://github.com/theneoai/awesome-skills/tree/main/skills/ai-ml and install AI-ML skills
+
+### 方法 2：单次会话加载
 ```
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+```
+
+### 方法 3：手动复制 System Prompt
+
+1. 打开技能文件（如 `skills/executive/ceo.md`）
+2. 复制 `§1.1 Role Definition` 代码块中的内容
+3. 粘贴到 Claude Project 的"Project Instructions"（全局持久化）
+
+**技能存储位置：**
+- 项目级：`./CLAUDE.md`
+- 全局：Claude Project Instructions（需要 Claude.ai 账户）
+
+---
+
+## Cursor
+
+Cursor 通过 `.cursorrules` 文件应用技能。
 
 ### 安装单个技能
 
-**CEO 技能：**
-```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install
+```bash
+# 方法 1：命令行追加
+curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo.md >> .cursorrules
+
+# 方法 2：在 Cursor 内提示
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and append the skill rules to .cursorrules
 ```
 
-**Prompt 工程师：**
-```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/prompt-engineer.md and install
+### 安装多个技能
+
+```bash
+for skill in ceo cto software-architect; do
+  curl -s "https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/${skill}.md" >> .cursorrules
+  echo "" >> .cursorrules
+done
 ```
 
-**软件架构师：**
-```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/software/software-architect.md and install
-```
+**技能存储位置：** `.cursorrules`（项目根目录）
 
 ---
 
-## 📂 技能分类目录
+## OpenAI Codex
 
-| 分类 | 目录链接 | 技能数量 |
-|------|---------|---------|
-| 高管 | https://github.com/theneoai/awesome-skills/tree/main/skills/executive | 6 |
-| 金融 | https://github.com/theneoai/awesome-skills/tree/main/skills/finance | 21 |
-| 技术开发 | https://github.com/theneoai/awesome-skills/tree/main/skills/software | 12 |
-| AI/ML | https://github.com/theneoai/awesome-skills/tree/main/skills/ai-ml | 10 |
-| 科研 | https://github.com/theneoai/awesome-skills/tree/main/skills/research | 25 |
-| 医疗 | https://github.com/theneoai/awesome-skills/tree/main/skills/healthcare | 46 |
-| 法律 | https://github.com/theneoai/awesome-skills/tree/main/skills/legal | 16 |
-| 教育 | https://github.com/theneoai/awesome-skills/tree/main/skills/education | 61 |
-| 创意 | https://github.com/theneoai/awesome-skills/tree/main/skills/creative | 14 |
-| 能源 | https://github.com/theneoai/awesome-skills/tree/main/skills/energy | 12 |
+Codex 通过系统提示词（System Prompt）加载技能。
 
-**查看所有分类：** https://github.com/theneoai/awesome-skills/tree/main/skills
+### 安装方式
 
----
+```
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md, extract the system prompt and guidelines, and apply as system context for this session.
+```
 
-## 🔧 平台特定说明
+### 持久化安装
 
-### OpenClaw
-- 技能格式：SKILL.md
-- 安装路径：`~/.openclaw/workspace/skills/[skill-name]/`
-- 支持命令：`Read [url] and install`
+1. 打开 Codex 配置文件 `~/.codex/config.yaml`
+2. 在 `system_prompt` 字段中粘贴技能的 `§1.1 Role Definition` 内容
 
-### Claude Code
-- 技能格式：CLAUDE.md
-- 安装路径：`~/.claude/skills/` 或项目 `.claude/skills/`
-- 支持命令：`Read [url] and apply`
-
-### Cursor
-- 技能格式：.cursorrules
-- 安装路径：项目根目录 `./.cursorrules`
-- 支持命令：`Apply [url] to my project`
-
-### OpenAI Codex
-- 技能格式：codex.md
-- 安装路径：`~/.codex/skills/`
-- 支持命令：`Read [url] and load`
-
-### Cline / Kimi Code
-- 技能格式：cline.md
-- 安装路径：`~/.cline/skills/` 或 `~/.kimi/skills/`
-- 支持命令：`Read [url] and apply`
-
-### OpenCode
-- 技能格式：SKILL.md
-- 安装路径：`~/.opencode/skills/`
-- 支持命令：`Read [url] and install`
+> ⚠️ **注意**：Codex 平台的技能持久化依赖具体配置方式，建议参考 Codex 官方文档。
 
 ---
 
-## 📖 热门技能速查
+## Cline
+
+Cline 通过 MCP 配置或系统提示词加载技能。
+
+### 安装方式
+
+```
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and apply the CEO skill to this session.
+```
+
+**技能存储位置：** `~/.cline/skills/[skill-name]/cline.md`（需手动创建）
+
+---
+
+## Kimi Code
+
+Kimi Code 与 Cline 类似，支持通过提示词加载技能。
+
+### 安装方式
+
+```
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill for this session.
+```
+
+> ⚠️ **注意**：Kimi Code 平台适配仍在测试中，安装效果可能因版本而异。
+
+---
+
+## 热门技能速查
 
 | 技能 | 安装命令 |
 |------|---------|
-| CEO | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install` |
-| CFO | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/cfo.md and install` |
-| 软件架构师 | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/software/software-architect.md and install` |
-| LLM 科学家 | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/llm-research-scientist.md and install` |
-| Prompt 工程师 | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/prompt-engineer.md and install` |
-| 临床医师 | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/healthcare/clinical-physician.md and install` |
-| 律师 | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/legal/legal-counsel.md and install` |
-| 教授 | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/education/university-professor.md and install` |
+| **CEO** | `Read .../skills/executive/ceo.md and install ceo skill` |
+| **CTO** | `Read .../skills/executive/cto.md and install cto skill` |
+| **CFO** | `Read .../skills/executive/cfo.md and install cfo skill` |
+| **Software Architect** | `Read .../skills/software/software-architect.md and install software-architect skill` |
+| **Prompt Engineer** | `Read .../skills/ai-ml/prompt-engineer.md and install prompt-engineer skill` |
+| **LLM Research Scientist** | `Read .../skills/ai-ml/llm-research-scientist.md and install llm-research-scientist skill` |
+| **Clinical Physician** | `Read .../skills/healthcare/clinical-physician.md and install clinical-physician skill` |
+| **Legal Counsel** | `Read .../skills/legal/legal-counsel.md and install legal-counsel skill` |
+
+**URL 前缀：** `https://github.com/theneoai/awesome-skills/blob/main/`
 
 ---
 
-## 📝 自定义技能安装
+## 技能分类目录
 
-安装任意技能（替换 `[skill-name]`）：
+| 分类 | 路径 | 技能数 |
+|------|------|--------|
+| 高管 Executive | `skills/executive/` | 4 |
+| AI & ML | `skills/ai-ml/` | 9 |
+| 软件开发 Software | `skills/software/` | 12+ |
+| 金融 Finance | `skills/finance/` | 20+ |
+| 医疗 Healthcare | `skills/healthcare/` | 40+ |
+| 法律 Legal | `skills/legal/` | 15+ |
+| 教育 Education | `skills/education/` | 60+ |
+| 创意 Creative | `skills/creative/` | 14+ |
+| 网络安全 Cybersecurity | `skills/cybersecurity/` | 10+ |
+| 人力资源 HR | `skills/hr/` | 10+ |
 
-```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/[category]/[skill-name].md and install
-```
-
-**示例：**
-- `skills/executive/ceo.md`
-- `skills/software/backend-developer.md`
-- `skills/ai-ml/ai-product-manager.md`
-- `skills/healthcare/pharmacy-technician.md`
-
----
-
-## 🌐 相关链接
-
-- **GitHub 仓库：** https://github.com/theneoai/awesome-skills
-- **所有技能：** https://github.com/theneoai/awesome-skills/tree/main/skills
-- **技能包：** https://github.com/theneoai/awesome-skills/tree/main/packages
-- **网站：** https://theneoai.github.io/awesome-skills/
-- **完整文档：** [INSTALL-COMMANDS.md](./INSTALL-COMMANDS.md)
+**查看全部 464 个技能 → [CATALOG.md](./CATALOG.md)**
 
 ---
 
-## 💡 提示
+## 安装验证
 
-1. **tree/** 用于目录（安装整个分类）
-2. **blob/** 用于单个文件（安装单个技能）
-3. AI 会自动检测平台并转换格式
-4. 所有链接均经过测试，可正常访问
+安装技能后，用以下方式验证效果：
+
+1. 提问一个该领域的专业问题
+2. 检查 AI 是否使用了框架式回答（而非泛泛而谈）
+3. 对比安装前后的回答风格
+
+**示例验证问题（CEO 技能）：**
+> "我们公司现金流紧张，应该裁员还是融资？"
+
+**期望行为：** AI 提供分析框架（财务指标、利益相关者分析、方案对比），而非直接给出"应该XX"的简单答案。
+
+---
+
+**← [快速安装](./INSTALL.md)** | **[技能目录](./CATALOG.md)** | **[贡献指南](./CONTRIBUTING.md)**

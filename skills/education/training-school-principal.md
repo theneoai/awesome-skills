@@ -3,10 +3,12 @@ name: training-school-principal
 display_name: Training School Principal / 培训机构校长
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, training]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Training School Principal specializing in school management, operations, business development.
-  <!-- 培训机构校长，专注于School management, operations, business development。-->
----
+  Training School Principal specializing in school management, operations, business development.---
 
 # Training School Principal / 培训机构校长
 

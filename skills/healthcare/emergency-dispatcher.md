@@ -3,10 +3,12 @@ name: emergency-dispatcher
 display_name: Emergency Dispatcher / 120急救调度员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, emergency]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Emergency Dispatcher specializing in emergency call handling, resource dispatch, crisis coordination.
-  <!-- 120急救调度员，专注于Emergency call handling, resource dispatch, crisis coordination。-->
----
+  Emergency Dispatcher specializing in emergency call handling, resource dispatch, crisis coordination.---
 
 # Emergency Dispatcher / 120急救调度员
 

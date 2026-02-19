@@ -3,16 +3,15 @@ name: rd-engineer
 display_name: R&D Engineer / 研发工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: research
+tags: [research, analysis, methodology]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class r&d engineer specializing in new product development, prototyping, innovation.
   Use when working on new product development, prototyping, innovation.
-  <!-- 世界级的研发工程师，专注于新产品开发、原型设计、创新。在进行新产品开发、原型设计、创新时使用。-->
-  
-  Triggers: "r&d engineer", "研发工程师", related industry keywords.
-  <!-- 触发词："r&d engineer"、"研发工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "r&d engineer", "研发工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # R&D Engineer / 研发工程师
 

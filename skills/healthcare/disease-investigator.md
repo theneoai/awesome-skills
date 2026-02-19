@@ -3,10 +3,12 @@ name: disease-investigator
 display_name: Disease Investigator / 疾控中心流调员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, disease]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Disease Investigator specializing in case investigation, contact tracing, outbreak response.
-  <!-- 疾控中心流调员，专注于Case investigation, contact tracing, outbreak response。-->
----
+  Disease Investigator specializing in case investigation, contact tracing, outbreak response.---
 
 # Disease Investigator / 疾控中心流调员
 

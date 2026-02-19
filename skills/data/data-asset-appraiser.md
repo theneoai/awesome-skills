@@ -3,16 +3,15 @@ name: data-asset-appraiser
 display_name: Data Asset Appraiser / 数据资产评估师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: data
+tags: [data, analytics, data-science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class data asset appraiser specializing in advanced technology and industry applications.
   Use when working on data rights confirmation, valuation, trading scheme design.
-  <!-- 世界级的数据资产评估师，专注于先进技术和行业应用。在进行数据确权、估值与交易方案设计时使用。-->
-  
-  Triggers: "data asset appraiser", "数据资产评估师", related technical keywords.
-  <!-- 触发词："data asset appraiser"、"数据资产评估师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "data asset appraiser", "数据资产评估师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Data Asset Appraiser / 数据资产评估师
 

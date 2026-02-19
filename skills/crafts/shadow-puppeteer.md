@@ -3,10 +3,12 @@ name: shadow-puppeteer
 display_name: Shadow Puppeteer / 皮影艺人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, shadow]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Shadow Puppeteer specializing in puppet performance, traditional theater, cultural heritage.
-  <!-- 皮影艺人，专注于Puppet performance, traditional theater, cultural heritage。-->
----
+  Shadow Puppeteer specializing in puppet performance, traditional theater, cultural heritage.---
 
 # Shadow Puppeteer / 皮影艺人
 

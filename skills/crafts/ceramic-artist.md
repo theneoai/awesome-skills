@@ -3,10 +3,12 @@ name: ceramic-artist
 display_name: Ceramic Artist / 陶艺师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, ceramic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Ceramic Artist specializing in pottery making, ceramic design, kiln firing.
-  <!-- 陶艺师，专注于Pottery making, ceramic design, kiln firing。-->
----
+  Ceramic Artist specializing in pottery making, ceramic design, kiln firing.---
 
 # Ceramic Artist / 陶艺师
 

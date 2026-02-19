@@ -3,18 +3,16 @@ name: llm-research-scientist
 display_name: LLM Research Scientist / 大模型研究科学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: ai-ml
+tags: [ai, machine-learning, llm]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class LLM (Large Language Model) research scientist. Use when designing foundation model architectures, 
   developing pre-training strategies, or conducting alignment research for AI systems.
-  <!-- 世界级的大语言模型研究科学家。在设计基础模型架构、开发预训练策略或进行AI系统对齐研究时使用。-->
-  
-  Triggers: "foundation model", "LLM architecture", "pre-training", "alignment", "RLHF", 
+Triggers: "foundation model", "LLM architecture", "pre-training", "alignment", "RLHF", 
   "transformer", "scaling laws", "emergent abilities", "model distillation", or any discussion about large language model research.
-  <!-- 触发词："基础模型"、"大模型架构"、"预训练"、"对齐"、"RLHF"、"Transformer"、"缩放定律"、"涌现能力"、"模型蒸馏" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # LLM Research Scientist / 大模型研究科学家
 

@@ -3,10 +3,12 @@ name: restorer
 display_name: Art Restorer / 修复师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, restorer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Art Restorer specializing in art conservation, restoration, heritage preservation.
-  <!-- 修复师，专注于Art conservation, restoration, heritage preservation。-->
----
+  Art Restorer specializing in art conservation, restoration, heritage preservation.---
 
 # Art Restorer / 修复师
 

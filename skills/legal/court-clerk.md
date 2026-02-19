@@ -3,10 +3,12 @@ name: court-clerk
 display_name: Court Clerk / 书记员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, court]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Court Clerk specializing in court records, transcription, administrative support.
-  <!-- 书记员，专注于Court records, transcription, administrative support。-->
----
+  Court Clerk specializing in court records, transcription, administrative support.---
 
 # Court Clerk / 书记员
 

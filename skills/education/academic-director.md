@@ -3,10 +3,12 @@ name: academic-director
 display_name: Academic Director / 教务主任
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, academic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Academic Director specializing in curriculum planning, teacher supervision, academic standards.
-  <!-- 教务主任，专注于Curriculum planning, teacher supervision, academic standards。-->
----
+  Academic Director specializing in curriculum planning, teacher supervision, academic standards.---
 
 # Academic Director / 教务主任
 

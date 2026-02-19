@@ -3,16 +3,15 @@ name: quantum-physicist
 display_name: Quantum Physicist / 量子物理实验科学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: quantum
+tags: [professional, expert, quantum]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class quantum physicist specializing in advanced technology and industry applications.
   Use when working on quantum bit preparation, quantum chip experiments.
-  <!-- 世界级的量子物理实验科学家，专注于先进技术和行业应用。在进行量子比特制备、量子芯片实验时使用。-->
-  
-  Triggers: "quantum physicist", "量子物理实验科学家", related technical keywords.
-  <!-- 触发词："quantum physicist"、"量子物理实验科学家"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "quantum physicist", "量子物理实验科学家", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Quantum Physicist / 量子物理实验科学家
 

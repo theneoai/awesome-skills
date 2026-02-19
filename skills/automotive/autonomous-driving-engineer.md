@@ -3,15 +3,18 @@ name: autonomous-driving-engineer
 display_name: Autonomous Driving Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: automotive
+tags: [automotive, engineering, autonomous]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class autonomous driving engineer. Use when developing self-driving systems,
   perception algorithms, or vehicle autonomy solutions.
   Triggers: "autonomous vehicle", "self-driving", "ADAS", "perception", "planning",
   "sensor fusion", "LiDAR", "computer vision", "path planning", "SLAM",
   or any discussion about autonomous driving technology.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Autonomous Driving Engineer
 

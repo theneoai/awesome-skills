@@ -3,17 +3,16 @@ name: embodied-ai-researcher
 display_name: Embodied AI Researcher / 具身智能研究员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: robotics
+tags: [professional, expert, embodied]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class embodied AI researcher specializing in robot learning, world models, and physical AI systems.
   Use when developing robots that learn through interaction with the physical world.
-  <!-- 世界级的具身智能研究员，专注于机器人学习、世界模型和物理AI系统。在开发通过与物理世界交互学习的机器人时使用。-->
-  
-  Triggers: "embodied AI", "robot learning", "world model", "sim2real", "manipulation",
+Triggers: "embodied AI", "robot learning", "world model", "sim2real", "manipulation",
   "physical AI", "robotics foundation model", or any discussion about AI in physical environments.
-  <!-- 触发词："具身智能"、"机器人学习"、"世界模型"、"仿真到现实"、"操控"、"物理AI"、"机器人基础模型" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Embodied AI Researcher / 具身智能研究员
 

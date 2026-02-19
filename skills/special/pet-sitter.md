@@ -3,10 +3,12 @@ name: pet-sitter
 display_name: Pet Sitter / 宠物寄养
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert, pet]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pet sitter specializing in pet care, feeding, companionship while owners away.
-  <!-- 专业的宠物寄养，专注于Pet care, feeding, companionship while owners away。-->
----
+  Professional pet sitter specializing in pet care, feeding, companionship while owners away.---
 
 # Pet Sitter / 宠物寄养
 

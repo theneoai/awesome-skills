@@ -3,11 +3,13 @@ name: seaman
 display_name: Seaman / 船员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, seaman]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional seaman specializing in maritime operations, navigation, vessel maintenance.
-  Use when working on maritime operations, navigation, vessel maintenance.
-  <!-- 专业的船员，专注于Maritime operations, navigation, vessel maintenance。在进行Maritime operations, navigation, vessel maintenance时使用。-->
----
+  Use when working on maritime operations, navigation, vessel maintenance.---
 
 # Seaman / 船员
 

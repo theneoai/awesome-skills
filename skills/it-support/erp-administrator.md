@@ -3,11 +3,13 @@ name: erp-administrator
 display_name: ERP Administrator / ERP系统管理员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: it-support
+tags: [it-support, technical-support, erp]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional erp administrator specializing in erp configuration, user support, system maintenance.
-  Use when working on erp configuration, user support, system maintenance.
-  <!-- 专业的ERP系统管理员，专注于ERP configuration, user support, system maintenance。在进行ERP configuration, user support, system maintenance时使用。-->
----
+  Use when working on erp configuration, user support, system maintenance.---
 
 # ERP Administrator / ERP系统管理员
 

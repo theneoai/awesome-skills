@@ -3,10 +3,12 @@ name: credit-analyst
 display_name: Credit Analyst / 信贷审批员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: finance
+tags: [finance, analysis, credit]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Credit Analyst specializing in credit assessment, risk evaluation, loan processing.
-  <!-- 信贷审批员，专注于Credit assessment, risk evaluation, loan processing。-->
----
+  Credit Analyst specializing in credit assessment, risk evaluation, loan processing.---
 
 # Credit Analyst / 信贷审批员
 

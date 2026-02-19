@@ -3,10 +3,12 @@ name: ethics-committee-member
 display_name: Ethics Committee Member / 科研伦理委员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, ethics]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Ethics Committee Member specializing in research ethics review, compliance oversight, human subject protection.
-  <!-- 科研伦理委员，专注于Research ethics review, compliance oversight, human subject protection。-->
----
+  Ethics Committee Member specializing in research ethics review, compliance oversight, human subject protection.---
 
 # Ethics Committee Member / 科研伦理委员
 

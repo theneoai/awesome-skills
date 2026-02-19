@@ -3,10 +3,12 @@ name: tutor
 display_name: Subject Tutor / 学科辅导老师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, tutor]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Subject Tutor specializing in academic tutoring, exam preparation, personalized instruction.
-  <!-- 学科辅导老师，专注于Academic tutoring, exam preparation, personalized instruction。-->
----
+  Subject Tutor specializing in academic tutoring, exam preparation, personalized instruction.---
 
 # Subject Tutor / 学科辅导老师
 

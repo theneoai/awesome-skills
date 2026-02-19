@@ -3,11 +3,13 @@ name: cnc-operator
 display_name: CNC Operator / CNC数控操作员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: factory-worker
+tags: [manufacturing, operations, cnc]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional cnc operator specializing in cnc programming, machine operation, precision machining.
-  Use when working on cnc programming, machine operation, precision machining.
-  <!-- 专业的CNC数控操作员，专注于CNC programming, machine operation, precision machining。在进行CNC programming, machine operation, precision machining时使用。-->
----
+  Use when working on cnc programming, machine operation, precision machining.---
 
 # CNC Operator / CNC数控操作员
 

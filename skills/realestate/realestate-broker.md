@@ -3,16 +3,15 @@ name: realestate-broker
 display_name: Real Estate Broker / 房产经纪人
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: realestate
+tags: [professional, expert, realestate]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class real estate broker specializing in property sales, client matching, negotiation.
   Use when working on property sales, client matching, negotiation.
-  <!-- 世界级的房产经纪人，专注于房产销售、客户匹配、谈判。在进行房产销售、客户匹配、谈判时使用。-->
-  
-  Triggers: "real estate broker", "房产经纪人", related industry keywords.
-  <!-- 触发词："real estate broker"、"房产经纪人"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "real estate broker", "房产经纪人", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Real Estate Broker / 房产经纪人
 

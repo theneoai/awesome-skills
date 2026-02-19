@@ -3,16 +3,15 @@ name: nuclear-operator
 display_name: Nuclear Operator / 核电运行工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, nuclear]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class nuclear operator specializing in reactor operation, safety protocols, radiation protection.
   Use when working on reactor operation, safety protocols, radiation protection.
-  <!-- 世界级的核电运行工程师，专注于反应堆运行、安全规程、辐射防护。在进行反应堆运行、安全规程、辐射防护时使用。-->
-  
-  Triggers: "nuclear operator", "核电运行工程师", related industry keywords.
-  <!-- 触发词："nuclear operator"、"核电运行工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "nuclear operator", "核电运行工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Nuclear Operator / 核电运行工程师
 

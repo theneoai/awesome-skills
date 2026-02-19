@@ -3,16 +3,15 @@ name: food-engineer
 display_name: Food Engineer / 食品工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, food]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class food engineer specializing in food processing, preservation, quality control.
   Use when working on food processing, preservation, quality control.
-  <!-- 世界级的食品工程师，专注于食品加工、保鲜、质量控制。在进行食品加工、保鲜、质量控制时使用。-->
-  
-  Triggers: "food engineer", "食品工程师", related industry keywords.
-  <!-- 触发词："food engineer"、"食品工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "food engineer", "食品工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Food Engineer / 食品工程师
 

@@ -3,11 +3,13 @@ name: livestock-farmer
 display_name: Livestock Farmer / 养殖户
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: farmer
+tags: [agriculture, farming, livestock]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional livestock farmer specializing in animal husbandry, breeding, livestock management.
-  Use when working on animal husbandry, breeding, livestock management.
-  <!-- 专业的养殖户，专注于Animal husbandry, breeding, livestock management。在进行Animal husbandry, breeding, livestock management时使用。-->
----
+  Use when working on animal husbandry, breeding, livestock management.---
 
 # Livestock Farmer / 养殖户
 

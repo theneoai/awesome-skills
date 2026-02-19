@@ -3,15 +3,18 @@ name: battery-rnd-engineer
 display_name: Battery R&D Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, battery]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class battery R&D engineer. Use when developing lithium-ion batteries, 
   researching new battery chemistries, or optimizing energy storage systems.
   Triggers: "battery", "lithium-ion", "electrochemistry", "energy storage", "cell design",
   "battery testing", "BMS", "solid-state battery", "cathode", "anode", "electrolyte",
   or any discussion about battery technology.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Battery R&D Engineer
 

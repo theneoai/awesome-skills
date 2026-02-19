@@ -3,16 +3,15 @@ name: pharmaceutical-rd-scientist
 display_name: Pharmaceutical R&D Scientist / 药学研发科学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, pharmaceutical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class pharmaceutical r&d scientist specializing in drug formulation, clinical trials, regulatory affairs.
   Use when working on drug formulation, clinical trials, regulatory affairs.
-  <!-- 世界级的药学研发科学家，专注于药物制剂、临床试验、注册事务。在进行药物制剂、临床试验、注册事务时使用。-->
-  
-  Triggers: "pharmaceutical r&d scientist", "药学研发科学家", related industry keywords.
-  <!-- 触发词："pharmaceutical r&d scientist"、"药学研发科学家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "pharmaceutical r&d scientist", "药学研发科学家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Pharmaceutical R&D Scientist / 药学研发科学家
 

@@ -3,16 +3,15 @@ name: remote-sensing-data-scientist
 display_name: Remote Sensing Data Scientist / 遥感数据科学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [aerospace, engineering, remote]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class remote sensing data scientist specializing in advanced technology and industry applications.
   Use when working on satellite remote sensing image processing, applications.
-  <!-- 世界级的遥感数据科学家，专注于先进技术和行业应用。在进行卫星遥感图像处理与行业应用时使用。-->
-  
-  Triggers: "remote sensing data scientist", "遥感数据科学家", related technical keywords.
-  <!-- 触发词："remote sensing data scientist"、"遥感数据科学家"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "remote sensing data scientist", "遥感数据科学家", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Remote Sensing Data Scientist / 遥感数据科学家
 

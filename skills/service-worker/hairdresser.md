@@ -3,10 +3,12 @@ name: hairdresser
 display_name: Hairdresser / 美发师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, hairdresser]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional hairdresser specializing in hair cutting, styling, coloring.
-  <!-- 专业的美发师，专注于Hair cutting, styling, coloring。-->
----
+  Professional hairdresser specializing in hair cutting, styling, coloring.---
 
 # Hairdresser / 美发师
 

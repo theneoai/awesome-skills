@@ -1,0 +1,92 @@
+name: "🧪 Platform Test Report / 平台适配测试报告"
+description: Report the results of testing a skill on a specific platform
+title: "[Platform Test] <skill-name> on <platform>"
+labels: ["platform-test", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us verify that skills work correctly across different AI platforms.
+        帮助我们验证技能在不同 AI 平台上的兼容性。
+
+  - type: input
+    id: skill-path
+    attributes:
+      label: Skill Tested / 测试的技能
+      placeholder: "e.g., skills/executive/ceo.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / 平台
+      options:
+        - OpenCode
+        - OpenClaw
+        - Claude Code
+        - Cursor
+        - OpenAI Codex
+        - Cline
+        - Kimi Code
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: platform-version
+    attributes:
+      label: Platform Version / 平台版本
+      placeholder: "e.g., Claude Code v1.0.3"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: install-result
+    attributes:
+      label: Installation Result / 安装结果
+      options:
+        - "✅ Success — skill installed and confirmed"
+        - "⚠️ Partial — installed but behavior unclear"
+        - "❌ Failed — installation command did not work"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: behavior-result
+    attributes:
+      label: Behavior After Install / 安装后行为
+      description: Did the AI's behavior noticeably change after installing the skill?
+      options:
+        - "✅ Clear improvement — AI uses frameworks and structured responses"
+        - "⚠️ Slight change — some improvement but not dramatic"
+        - "❌ No change — AI behavior identical to before install"
+        - "⚠️ Could not verify — unclear how to test"
+    validations:
+      required: true
+
+  - type: textarea
+    id: test-details
+    attributes:
+      label: Test Details / 测试详情
+      description: |
+        Describe your test:
+        1. What installation command did you use?
+        2. What question did you ask to verify?
+        3. What was the AI's response?
+      placeholder: |
+        Installation command: "Read [URL] and install ceo skill"
+        Test question: "Help me plan our company's expansion strategy"
+
+        Before skill: Generic answer about market research...
+        After skill: Structured response using Porter's Five Forces framework...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions for Improvement / 改进建议
+      placeholder: "The installation command needs to be more specific for Claude Code..."
+    validations:
+      required: false

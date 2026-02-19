@@ -3,11 +3,13 @@ name: taxi-driver
 display_name: Taxi Driver / 出租车司机
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, taxi]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional taxi driver specializing in passenger transport, navigation, customer service.
-  Use when working on passenger transport, navigation, customer service.
-  <!-- 专业的出租车司机，专注于Passenger transport, navigation, customer service。在进行Passenger transport, navigation, customer service时使用。-->
----
+  Use when working on passenger transport, navigation, customer service.---
 
 # Taxi Driver / 出租车司机
 

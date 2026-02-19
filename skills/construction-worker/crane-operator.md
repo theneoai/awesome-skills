@@ -3,11 +3,13 @@ name: crane-operator
 display_name: Crane Operator / 塔吊操作员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, crane]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional crane operator specializing in crane operation, load lifting, safety protocols.
-  Use when working on crane operation, load lifting, safety protocols.
-  <!-- 专业的塔吊操作员，专注于Crane operation, load lifting, safety protocols。在进行Crane operation, load lifting, safety protocols时使用。-->
----
+  Use when working on crane operation, load lifting, safety protocols.---
 
 # Crane Operator / 塔吊操作员
 

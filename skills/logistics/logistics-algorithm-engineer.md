@@ -3,15 +3,18 @@ name: logistics-algorithm-engineer
 display_name: Logistics Algorithm Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: logistics
+tags: [logistics, supply-chain, operations]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class logistics algorithm engineer. Use when optimizing routes, solving vehicle routing problems,
   developing warehouse automation, or creating optimization models for logistics.
   Triggers: "route optimization", "VRP", "vehicle routing", "warehouse optimization", 
   "operations research", "linear programming", "scheduling", "last mile", 
   "network optimization", or any discussion about logistics algorithms.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Logistics Algorithm Engineer
 

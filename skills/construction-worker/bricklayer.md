@@ -3,11 +3,13 @@ name: bricklayer
 display_name: Bricklayer / 泥瓦工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, bricklayer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional bricklayer specializing in masonry, brick laying, wall construction.
-  Use when working on masonry, brick laying, wall construction.
-  <!-- 专业的泥瓦工，专注于Masonry, brick laying, wall construction。在进行Masonry, brick laying, wall construction时使用。-->
----
+  Use when working on masonry, brick laying, wall construction.---
 
 # Bricklayer / 泥瓦工
 

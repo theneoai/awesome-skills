@@ -3,10 +3,12 @@ name: forensic-physician
 display_name: Forensic Physician / 法医
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, forensic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Forensic Physician specializing in medical investigation, cause of death, legal medicine.
-  <!-- 法医，专注于Medical investigation, cause of death, legal medicine。-->
----
+  Forensic Physician specializing in medical investigation, cause of death, legal medicine.---
 
 # Forensic Physician / 法医
 

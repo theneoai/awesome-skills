@@ -3,10 +3,12 @@ name: housekeeper
 display_name: Housekeeper / 保姆
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, housekeeper]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional housekeeper specializing in domestic cleaning, cooking, childcare.
-  <!-- 专业的保姆，专注于Domestic cleaning, cooking, childcare。-->
----
+  Professional housekeeper specializing in domestic cleaning, cooking, childcare.---
 
 # Housekeeper / 保姆
 

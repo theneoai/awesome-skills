@@ -3,15 +3,18 @@ name: finance-risk-expert
 display_name: Finance Risk Expert
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, investment]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class financial risk management expert. Use when assessing credit risk, 
   building risk models, implementing Basel regulations, or managing portfolio risk.
   Triggers: "risk assessment", "credit risk", "risk model", "Basel", "stress testing",
   "portfolio risk", "risk management", "compliance", "risk analytics", 
   or any discussion about financial risk.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Finance Risk Expert
 

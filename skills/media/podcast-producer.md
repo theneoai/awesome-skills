@@ -3,10 +3,12 @@ name: podcast-producer
 display_name: Podcast Producer / 播客制作人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: media
+tags: [media, content, podcast]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Podcast Producer specializing in audio production, content creation, distribution management.
-  <!-- 播客制作人，专注于Audio production, content creation, distribution management。-->
----
+  Podcast Producer specializing in audio production, content creation, distribution management.---
 
 # Podcast Producer / 播客制作人
 

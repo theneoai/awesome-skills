@@ -3,10 +3,12 @@ name: subtitle-translator
 display_name: Subtitle Translator / 字幕翻译
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: media
+tags: [media, content, subtitle]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Subtitle Translator specializing in audiovisual translation, timing, localization.
-  <!-- 字幕翻译，专注于Audiovisual translation, timing, localization。-->
----
+  Subtitle Translator specializing in audiovisual translation, timing, localization.---
 
 # Subtitle Translator / 字幕翻译
 

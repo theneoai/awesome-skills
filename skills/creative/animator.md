@@ -3,11 +3,13 @@ name: animator
 display_name: Animator / 动画设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, animator]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional animator specializing in 2d/3d animation, motion graphics, visual effects.
-  Use when working on 2d/3d animation, motion graphics, visual effects.
-  <!-- 专业的动画设计师，专注于2D/3D animation, motion graphics, visual effects。在进行2D/3D animation, motion graphics, visual effects时使用。-->
----
+  Use when working on 2d/3d animation, motion graphics, visual effects.---
 
 # Animator / 动画设计师
 

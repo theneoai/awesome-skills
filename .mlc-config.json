@@ -1,0 +1,12 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^http://127\\.0\\.0\\.1" },
+    { "pattern": "^http://localhost" },
+    { "pattern": "^mailto:" }
+  ],
+  "timeout": "10s",
+  "retryOn429": true,
+  "retryCount": 2,
+  "fallbackRetryDelay": "5s",
+  "aliveStatusCodes": [200, 206, 301, 302, 303, 307, 308]
+}

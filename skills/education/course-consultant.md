@@ -3,10 +3,12 @@ name: course-consultant
 display_name: Course Consultant / 课程顾问
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, course]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Course Consultant specializing in student recruitment, course recommendation, enrollment counseling.
-  <!-- 课程顾问，专注于Student recruitment, course recommendation, enrollment counseling。-->
----
+  Course Consultant specializing in student recruitment, course recommendation, enrollment counseling.---
 
 # Course Consultant / 课程顾问
 

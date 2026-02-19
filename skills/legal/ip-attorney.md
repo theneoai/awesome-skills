@@ -3,10 +3,12 @@ name: ip-attorney
 display_name: Intellectual Property Attorney / 知识产权律师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, risk-management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Intellectual Property Attorney specializing in ip protection, patent law, trademark disputes.
-  <!-- 知识产权律师，专注于IP protection, patent law, trademark disputes。-->
----
+  Intellectual Property Attorney specializing in ip protection, patent law, trademark disputes.---
 
 # Intellectual Property Attorney / 知识产权律师
 

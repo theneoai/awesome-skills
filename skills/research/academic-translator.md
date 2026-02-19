@@ -3,10 +3,12 @@ name: academic-translator
 display_name: Academic Translator / 学术翻译
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, academic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Academic Translator specializing in paper polishing, professional translation, language editing.
-  <!-- 学术翻译，专注于Paper polishing, professional translation, language editing。-->
----
+  Academic Translator specializing in paper polishing, professional translation, language editing.---
 
 # Academic Translator / 学术翻译
 

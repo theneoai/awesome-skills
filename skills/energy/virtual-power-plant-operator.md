@@ -3,16 +3,15 @@ name: virtual-power-plant-operator
 display_name: Virtual Power Plant Operator / 虚拟电厂运营专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, virtual]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class virtual power plant operator specializing in advanced technology and industry applications.
   Use when working on distributed energy aggregation, power trading.
-  <!-- 世界级的虚拟电厂运营专家，专注于先进技术和行业应用。在进行分布式能源聚合调度、电力交易时使用。-->
-  
-  Triggers: "virtual power plant operator", "虚拟电厂运营专家", related technical keywords.
-  <!-- 触发词："virtual power plant operator"、"虚拟电厂运营专家"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "virtual power plant operator", "虚拟电厂运营专家", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Virtual Power Plant Operator / 虚拟电厂运营专家
 

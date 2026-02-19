@@ -3,10 +3,12 @@ name: ultrasound-physician
 display_name: Ultrasound Physician / 超声科医师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, ultrasound]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Ultrasound Physician specializing in ultrasonography, diagnostic imaging, patient assessment.
-  <!-- 超声科医师，专注于Ultrasonography, diagnostic imaging, patient assessment。-->
----
+  Ultrasound Physician specializing in ultrasonography, diagnostic imaging, patient assessment.---
 
 # Ultrasound Physician / 超声科医师
 

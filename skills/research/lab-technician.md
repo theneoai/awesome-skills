@@ -3,10 +3,12 @@ name: lab-technician
 display_name: Laboratory Technician / 实验技术员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, lab]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Laboratory Technician specializing in experiment operation, sample preparation, data recording.
-  <!-- 实验技术员，专注于Experiment operation, sample preparation, data recording。-->
----
+  Laboratory Technician specializing in experiment operation, sample preparation, data recording.---
 
 # Laboratory Technician / 实验技术员
 

@@ -3,16 +3,15 @@ name: vocational-trainer
 display_name: Vocational Trainer / 职业培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: education
+tags: [education, teaching, vocational]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class vocational trainer specializing in skill training, certification programs, career coaching.
   Use when working on skill training, certification programs, career coaching.
-  <!-- 世界级的职业培训师，专注于技能培训、认证项目、职业指导。在进行技能培训、认证项目、职业指导时使用。-->
-  
-  Triggers: "vocational trainer", "职业培训师", related industry keywords.
-  <!-- 触发词："vocational trainer"、"职业培训师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "vocational trainer", "职业培训师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Vocational Trainer / 职业培训师
 

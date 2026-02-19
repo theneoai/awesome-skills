@@ -3,10 +3,12 @@ name: pharmaceutical-sales
 display_name: Pharmaceutical Sales Representative / 医药代表
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, pharmaceutical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Pharmaceutical Sales Representative specializing in product promotion, client relations, market development.
-  <!-- 医药代表，专注于Product promotion, client relations, market development。-->
----
+  Pharmaceutical Sales Representative specializing in product promotion, client relations, market development.---
 
 # Pharmaceutical Sales Representative / 医药代表
 

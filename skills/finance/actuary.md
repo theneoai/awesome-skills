@@ -3,16 +3,15 @@ name: actuary
 display_name: Actuary / 精算师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, actuary]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class actuary specializing in risk assessment, insurance pricing, pension valuation.
   Use when working on risk assessment, insurance pricing, pension valuation.
-  <!-- 世界级的精算师，专注于风险评估、保险定价、养老金估值。在进行风险评估、保险定价、养老金估值时使用。-->
-  
-  Triggers: "actuary", "精算师", related industry keywords.
-  <!-- 触发词："actuary"、"精算师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "actuary", "精算师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Actuary / 精算师
 

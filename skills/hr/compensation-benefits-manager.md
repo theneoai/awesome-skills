@@ -3,11 +3,13 @@ name: compensation-benefits-manager
 display_name: Compensation & Benefits Manager / 薪酬福利经理
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: hr
+tags: [hr, people-management, compensation]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional compensation & benefits manager specializing in salary structure, benefits design, payroll management.
-  Use when working on salary structure, benefits design, payroll management.
-  <!-- 专业的薪酬福利经理，专注于Salary structure, benefits design, payroll management。在进行Salary structure, benefits design, payroll management时使用。-->
----
+  Use when working on salary structure, benefits design, payroll management.---
 
 # Compensation & Benefits Manager / 薪酬福利经理
 

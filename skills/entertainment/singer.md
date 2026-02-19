@@ -3,10 +3,12 @@ name: singer
 display_name: Singer / 歌手
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, singer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional singer specializing in vocal performance, music recording, live concerts.
-  <!-- 专业的歌手，专注于Vocal performance, music recording, live concerts。-->
----
+  Professional singer specializing in vocal performance, music recording, live concerts.---
 
 # Singer / 歌手
 

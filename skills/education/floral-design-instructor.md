@@ -3,10 +3,12 @@ name: floral-design-instructor
 display_name: Floral Design Instructor / 花艺培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, floral]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Floral Design Instructor specializing in flower arrangement, design principles, artistic expression.
-  <!-- 花艺培训师，专注于Flower arrangement, design principles, artistic expression。-->
----
+  Floral Design Instructor specializing in flower arrangement, design principles, artistic expression.---
 
 # Floral Design Instructor / 花艺培训师
 

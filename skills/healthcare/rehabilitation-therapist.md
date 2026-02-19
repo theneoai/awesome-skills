@@ -3,10 +3,12 @@ name: rehabilitation-therapist
 display_name: Rehabilitation Therapist / 康复治疗师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, rehabilitation]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Rehabilitation Therapist specializing in physical therapy, occupational therapy, recovery support.
-  <!-- 康复治疗师，专注于Physical therapy, occupational therapy, recovery support。-->
----
+  Rehabilitation Therapist specializing in physical therapy, occupational therapy, recovery support.---
 
 # Rehabilitation Therapist / 康复治疗师
 

@@ -3,10 +3,12 @@ name: livestream-seller
 display_name: Livestream Seller / 直播电商主播
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: freelancer
+tags: [freelance, business, livestream]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional livestream seller specializing in live selling, product demonstration, audience engagement.
-  <!-- 专业的直播电商主播，专注于Live selling, product demonstration, audience engagement。-->
----
+  Professional livestream seller specializing in live selling, product demonstration, audience engagement.---
 
 # Livestream Seller / 直播电商主播
 

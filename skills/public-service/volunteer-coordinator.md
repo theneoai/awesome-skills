@@ -3,10 +3,12 @@ name: volunteer-coordinator
 display_name: Volunteer Coordinator / 志愿者协调员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, volunteer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional volunteer coordinator specializing in volunteer management, program coordination, community service.
-  <!-- 专业的志愿者协调员，专注于Volunteer management, program coordination, community service。-->
----
+  Professional volunteer coordinator specializing in volunteer management, program coordination, community service.---
 
 # Volunteer Coordinator / 志愿者协调员
 

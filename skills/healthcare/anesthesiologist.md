@@ -3,10 +3,12 @@ name: anesthesiologist
 display_name: Anesthesiologist / 麻醉医师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, anesthesiologist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Anesthesiologist specializing in anesthesia administration, pain management, surgical support.
-  <!-- 麻醉医师，专注于Anesthesia administration, pain management, surgical support。-->
----
+  Anesthesiologist specializing in anesthesia administration, pain management, surgical support.---
 
 # Anesthesiologist / 麻醉医师
 

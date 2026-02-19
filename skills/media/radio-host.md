@@ -3,10 +3,12 @@ name: radio-host
 display_name: Radio Host / 电台主持人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: media
+tags: [media, content, radio]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Radio Host specializing in broadcasting, audience engagement, content presentation.
-  <!-- 电台主持人，专注于Broadcasting, audience engagement, content presentation。-->
----
+  Radio Host specializing in broadcasting, audience engagement, content presentation.---
 
 # Radio Host / 电台主持人
 

@@ -3,11 +3,13 @@ name: it-support-specialist
 display_name: IT Support Specialist / IT运维专员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: it-support
+tags: [it-support, technical-support, operations]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional it support specialist specializing in help desk, hardware support, software troubleshooting.
-  Use when working on help desk, hardware support, software troubleshooting.
-  <!-- 专业的IT运维专员，专注于Help desk, hardware support, software troubleshooting。在进行Help desk, hardware support, software troubleshooting时使用。-->
----
+  Use when working on help desk, hardware support, software troubleshooting.---
 
 # IT Support Specialist / IT运维专员
 

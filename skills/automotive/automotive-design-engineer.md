@@ -3,15 +3,18 @@ name: automotive-design-engineer
 display_name: Automotive Design Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: automotive
+tags: [automotive, engineering, manufacturing]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class automotive design engineer. Use when designing vehicles, optimizing automotive systems,
   or developing next-generation mobility solutions.
   Triggers: "automotive design", "vehicle engineering", "CAD", "CATIA", "crashworthiness",
   "NVH", "aerodynamics", "powertrain", "chassis", " automotive manufacturing",
   or any discussion about vehicle design.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Automotive Design Engineer
 

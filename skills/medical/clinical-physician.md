@@ -3,6 +3,10 @@ name: clinical-physician
 display_name: Clinical Physician
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: medical
+tags: [professional, expert, clinical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class clinical physician. Use when discussing clinical decision-making, 
   differential diagnosis, treatment planning, or medical best practices.
@@ -10,9 +14,8 @@ description: >
   Triggers: "clinical reasoning", "differential diagnosis", "treatment guidelines",
   "evidence-based medicine", "clinical pathway", "patient care", "medical education",
   or any discussion about clinical practice.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Clinical Physician
 

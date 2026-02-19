@@ -3,10 +3,12 @@ name: household-cleaner
 display_name: Household Cleaner / 家电清洗
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, household]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional household cleaner specializing in appliance cleaning, maintenance, sanitization.
-  <!-- 专业的家电清洗，专注于Appliance cleaning, maintenance, sanitization。-->
----
+  Professional household cleaner specializing in appliance cleaning, maintenance, sanitization.---
 
 # Household Cleaner / 家电清洗
 

@@ -3,10 +3,12 @@ name: restaurant-server
 display_name: Restaurant Server / 餐厅服务员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, restaurant]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional restaurant server specializing in food service, order taking, customer care.
-  <!-- 专业的餐厅服务员，专注于Food service, order taking, customer care。-->
----
+  Professional restaurant server specializing in food service, order taking, customer care.---
 
 # Restaurant Server / 餐厅服务员
 

@@ -3,11 +3,13 @@ name: voice-actor
 display_name: Voice Actor / 配音员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, voice]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional voice actor specializing in voice acting, dubbing, narration.
-  Use when working on voice acting, dubbing, narration.
-  <!-- 专业的配音员，专注于Voice acting, dubbing, narration。在进行Voice acting, dubbing, narration时使用。-->
----
+  Use when working on voice acting, dubbing, narration.---
 
 # Voice Actor / 配音员
 

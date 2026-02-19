@@ -3,10 +3,12 @@ name: census-taker
 display_name: Census Taker / 普查调查员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, census]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional census taker specializing in data collection, survey administration, population counting.
-  <!-- 专业的普查调查员，专注于Data collection, survey administration, population counting。-->
----
+  Professional census taker specializing in data collection, survey administration, population counting.---
 
 # Census Taker / 普查调查员
 

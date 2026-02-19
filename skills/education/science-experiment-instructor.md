@@ -3,10 +3,12 @@ name: science-experiment-instructor
 display_name: Science Experiment Instructor / 科学实验培训老师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Science Experiment Instructor specializing in hands-on science, experiments, stem education.
-  <!-- 科学实验培训老师，专注于Hands-on science, experiments, STEM education。-->
----
+  Science Experiment Instructor specializing in hands-on science, experiments, stem education.---
 
 # Science Experiment Instructor / 科学实验培训老师
 

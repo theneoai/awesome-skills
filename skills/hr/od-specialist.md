@@ -3,11 +3,13 @@ name: od-specialist
 display_name: Organization Development Specialist / 组织发展专家
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: hr
+tags: [hr, people-management, recruiting]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional organization development specialist specializing in org design, change management, culture building.
-  Use when working on org design, change management, culture building.
-  <!-- 专业的组织发展专家，专注于Org design, change management, culture building。在进行Org design, change management, culture building时使用。-->
----
+  Use when working on org design, change management, culture building.---
 
 # Organization Development Specialist / 组织发展专家
 

@@ -3,10 +3,12 @@ name: dog-walker
 display_name: Dog Walker / 遛狗师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: freelancer
+tags: [freelance, business, dog]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dog walker specializing in pet walking, pet sitting, animal care.
-  <!-- 专业的遛狗师，专注于Pet walking, pet sitting, animal care。-->
----
+  Professional dog walker specializing in pet walking, pet sitting, animal care.---
 
 # Dog Walker / 遛狗师
 

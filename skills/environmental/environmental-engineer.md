@@ -3,15 +3,18 @@ name: environmental-engineer
 display_name: Environmental Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: environmental
+tags: [environment, sustainability, environmental]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class environmental engineer. Use when designing pollution control systems,
   conducting environmental impact assessments, or developing remediation strategies.
   Triggers: "pollution control", "water treatment", "air quality", "waste management",
   "environmental impact", "remediation", "ESG", "sustainability", "EPA", "permitting",
   or any discussion about environmental engineering.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Environmental Engineer
 

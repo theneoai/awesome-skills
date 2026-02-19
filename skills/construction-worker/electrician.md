@@ -3,11 +3,13 @@ name: electrician
 display_name: Electrician / 电工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, electrician]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional electrician specializing in electrical installation, wiring, safety compliance.
-  Use when working on electrical installation, wiring, safety compliance.
-  <!-- 专业的电工，专注于Electrical installation, wiring, safety compliance。在进行Electrical installation, wiring, safety compliance时使用。-->
----
+  Use when working on electrical installation, wiring, safety compliance.---
 
 # Electrician / 电工
 

@@ -3,16 +3,15 @@ name: tax-specialist
 display_name: Tax Specialist / 税务专员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, tax]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class tax specialist specializing in tax planning, tax filing, tax compliance, international taxation.
   Use when working on tax planning, tax filing, tax compliance, international taxation.
-  <!-- 世界级的税务专员，专注于税务筹划、纳税申报、税务合规、国际税务。在进行税务筹划、纳税申报、税务合规、国际税务时使用。-->
-  
-  Triggers: "tax specialist", "税务专员", related industry keywords.
-  <!-- 触发词："tax specialist"、"税务专员"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "tax specialist", "税务专员", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Tax Specialist / 税务专员
 

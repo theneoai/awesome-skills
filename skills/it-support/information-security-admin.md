@@ -3,11 +3,13 @@ name: information-security-admin
 display_name: Information Security Admin / 信息安全管理员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: it-support
+tags: [it-support, technical-support, information]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional information security admin specializing in security policies, access control, threat monitoring.
-  Use when working on security policies, access control, threat monitoring.
-  <!-- 专业的信息安全管理员，专注于Security policies, access control, threat monitoring。在进行Security policies, access control, threat monitoring时使用。-->
----
+  Use when working on security policies, access control, threat monitoring.---
 
 # Information Security Admin / 信息安全管理员
 

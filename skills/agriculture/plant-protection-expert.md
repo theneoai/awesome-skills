@@ -3,16 +3,15 @@ name: plant-protection-expert
 display_name: Plant Protection Expert / 植保专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: agriculture
+tags: [agriculture, farming, plant]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class plant protection expert specializing in pest control, pesticide use, green prevention.
   Use when working on pest control, pesticide use, green prevention.
-  <!-- 世界级的植保专家，专注于病虫害防治、农药使用、绿色防控。在进行病虫害防治、农药使用、绿色防控时使用。-->
-  
-  Triggers: "plant protection expert", "植保专家", related industry keywords.
-  <!-- 触发词："plant protection expert"、"植保专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "plant protection expert", "植保专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Plant Protection Expert / 植保专家
 

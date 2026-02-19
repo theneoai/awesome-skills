@@ -3,10 +3,12 @@ name: occupational-physician
 display_name: Occupational Physician / 职业病诊断医师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, occupational]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Occupational Physician specializing in work-related diseases, occupational health, medical evaluation.
-  <!-- 职业病诊断医师，专注于Work-related diseases, occupational health, medical evaluation。-->
----
+  Occupational Physician specializing in work-related diseases, occupational health, medical evaluation.---
 
 # Occupational Physician / 职业病诊断医师
 

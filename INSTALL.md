@@ -1,73 +1,33 @@
-# INSTALL - Awesome Skills 一键安装
+# Awesome Skills — 快速安装 / Quick Install
 
-## 🚀 快速安装所有技能
+> 一句命令，AI 自动安装 | One command, AI handles the rest
 
-复制以下命令并粘贴到你的 AI 助手：
+---
+
+## 安装单个技能（推荐入门）
+
+```
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+```
+
+将 `ceo` 替换为任意技能名，如 `software-architect`、`prompt-engineer`、`cfo` 等。
+
+## 安装技能包
+
+```
+Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md and install executive package
+```
+
+可用包：`executive` | `tech` | `ai-ml` | `finance` | `healthcare` | `legal` | `education`
+
+## 安装全部技能
 
 ```
 Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
-## 📦 按技能包安装
-
-### 高管套件
-```
-Read https://theneoai.github.io/awesome-skills/packages/executive.md and install executive skills
-```
-
-### 金融会计
-```
-Read https://theneoai.github.io/awesome-skills/packages/finance.md and install finance skills
-```
-
-### 技术开发
-```
-Read https://theneoai.github.io/awesome-skills/packages/tech.md and install tech skills
-```
-
-### AI & ML
-```
-Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install AI & ML skills
-```
-
-### 科研学术
-```
-Read https://theneoai.github.io/awesome-skills/packages/research.md and install research skills
-```
-
-### 医疗健康
-```
-Read https://theneoai.github.io/awesome-skills/packages/healthcare.md and install healthcare skills
-```
-
-### 法律合规
-```
-Read https://theneoai.github.io/awesome-skills/packages/legal.md and install legal skills
-```
-
-### 教育培训
-```
-Read https://theneoai.github.io/awesome-skills/packages/education.md and install education skills
-```
-
-## 🔧 安装单个技能
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/[category]/[skill-name].md and install
-```
-
-例如：
-```
-Read https://theneoai.github.io/awesome-skills/skills/executive/ceo.md and install
-```
-
-## 💝 支持我们
-
-如果这个项目对你有帮助，欢迎支持我们继续创作：
-
-![微信收款码](./assets/wechat-qr.png)
-
 ---
 
-**Awesome Skills** - 汇聚人类各行各业专家技能  
-Created by neo.ai 🤖
+**平台详细安装指南（含 Claude Code / Cursor / Codex 等）→ [INSTALL-GUIDE.md](./INSTALL-GUIDE.md)**
+
+**全部技能目录 → [CATALOG.md](./CATALOG.md)**

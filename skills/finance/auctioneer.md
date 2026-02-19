@@ -3,10 +3,12 @@ name: auctioneer
 display_name: Auctioneer / 拍卖师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: finance
+tags: [finance, analysis, auctioneer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Auctioneer specializing in auction conducting, bidding management, sales coordination.
-  <!-- 拍卖师，专注于Auction conducting, bidding management, sales coordination。-->
----
+  Auctioneer specializing in auction conducting, bidding management, sales coordination.---
 
 # Auctioneer / 拍卖师
 

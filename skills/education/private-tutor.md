@@ -3,10 +3,12 @@ name: private-tutor
 display_name: Private Tutor / 家教
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, private]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional private tutor specializing in one-on-one teaching, academic support, exam preparation.
-  <!-- 专业的家教，专注于One-on-one teaching, academic support, exam preparation。-->
----
+  Professional private tutor specializing in one-on-one teaching, academic support, exam preparation.---
 
 # Private Tutor / 家教
 

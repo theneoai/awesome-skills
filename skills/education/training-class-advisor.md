@@ -3,10 +3,12 @@ name: training-class-advisor
 display_name: Training Class Advisor / 班主任(培训)
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, training]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Training Class Advisor specializing in student management, progress tracking, parent communication.
-  <!-- 班主任(培训)，专注于Student management, progress tracking, parent communication。-->
----
+  Training Class Advisor specializing in student management, progress tracking, parent communication.---
 
 # Training Class Advisor / 班主任(培训)
 

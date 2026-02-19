@@ -3,10 +3,12 @@ name: science-blogger
 display_name: Science Blogger / 科研自媒体博主
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Science Blogger specializing in content creation, academic social media, knowledge sharing.
-  <!-- 科研自媒体博主，专注于Content creation, academic social media, knowledge sharing。-->
----
+  Science Blogger specializing in content creation, academic social media, knowledge sharing.---
 
 # Science Blogger / 科研自媒体博主
 

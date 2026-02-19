@@ -3,11 +3,13 @@ name: cleaning-staff
 display_name: Cleaning Staff / 保洁
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, cleaning]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional cleaning staff specializing in facility cleaning, sanitation, maintenance.
-  Use when working on facility cleaning, sanitation, maintenance.
-  <!-- 专业的保洁，专注于Facility cleaning, sanitation, maintenance。在进行Facility cleaning, sanitation, maintenance时使用。-->
----
+  Use when working on facility cleaning, sanitation, maintenance.---
 
 # Cleaning Staff / 保洁
 

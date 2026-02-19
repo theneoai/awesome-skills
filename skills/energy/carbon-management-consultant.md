@@ -3,16 +3,15 @@ name: carbon-management-consultant
 display_name: Carbon Management Consultant / 碳管理咨询师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, carbon]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class carbon management consultant specializing in advanced technology and industry applications.
   Use when working on carbon emission accounting, trading strategies, ccus.
-  <!-- 世界级的碳管理咨询师，专注于先进技术和行业应用。在进行碳排放核算、碳交易策略、CCUS时使用。-->
-  
-  Triggers: "carbon management consultant", "碳管理咨询师", related technical keywords.
-  <!-- 触发词："carbon management consultant"、"碳管理咨询师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "carbon management consultant", "碳管理咨询师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Carbon Management Consultant / 碳管理咨询师
 

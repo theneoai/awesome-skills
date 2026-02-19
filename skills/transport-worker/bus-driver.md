@@ -3,11 +3,13 @@ name: bus-driver
 display_name: Bus Driver / 公交司机
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, bus]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional bus driver specializing in public transport, route driving, passenger safety.
-  Use when working on public transport, route driving, passenger safety.
-  <!-- 专业的公交司机，专注于Public transport, route driving, passenger safety。在进行Public transport, route driving, passenger safety时使用。-->
----
+  Use when working on public transport, route driving, passenger safety.---
 
 # Bus Driver / 公交司机
 

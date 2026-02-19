@@ -3,15 +3,18 @@ name: ux-designer
 display_name: UX Designer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: product
+tags: [product, strategy, user-experience]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class UX design expert. Use when designing user interfaces, conducting user research, 
   creating interaction flows, building design systems, or running usability tests. 
   Triggers: "design this UI", "user research", "usability test", "improve UX", 
   "create wireframes", "design system", "user journey", "information architecture",
   "accessibility", "mobile-first design", or any discussion about user experience.
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # UX Designer
 

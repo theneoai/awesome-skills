@@ -3,11 +3,13 @@ name: carpenter
 display_name: Carpenter / 木工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, carpenter]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional carpenter specializing in wood framing, formwork, finishing carpentry.
-  Use when working on wood framing, formwork, finishing carpentry.
-  <!-- 专业的木工，专注于Wood framing, formwork, finishing carpentry。在进行Wood framing, formwork, finishing carpentry时使用。-->
----
+  Use when working on wood framing, formwork, finishing carpentry.---
 
 # Carpenter / 木工
 

@@ -3,16 +3,15 @@ name: rehabilitation-engineer
 display_name: Rehabilitation Engineer / 康复工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, rehabilitation]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class rehabilitation engineer specializing in advanced technology and industry applications.
   Use when working on rehabilitation robot and assistive device design.
-  <!-- 世界级的康复工程师，专注于先进技术和行业应用。在进行康复机器人与辅助器具设计时使用。-->
-  
-  Triggers: "rehabilitation engineer", "康复工程师", related technical keywords.
-  <!-- 触发词："rehabilitation engineer"、"康复工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "rehabilitation engineer", "康复工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Rehabilitation Engineer / 康复工程师
 

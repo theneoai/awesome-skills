@@ -3,10 +3,12 @@ name: academic-counselor
 display_name: Academic Counselor / 辅导员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, academic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Academic Counselor specializing in student affairs, career guidance, mental health support.
-  <!-- 辅导员，专注于Student affairs, career guidance, mental health support。-->
----
+  Academic Counselor specializing in student affairs, career guidance, mental health support.---
 
 # Academic Counselor / 辅导员
 

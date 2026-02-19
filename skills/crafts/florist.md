@@ -3,10 +3,12 @@ name: florist
 display_name: Florist / 花艺师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, florist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Florist specializing in floral arrangement, bouquet design, event decoration.
-  <!-- 花艺师，专注于Floral arrangement, bouquet design, event decoration。-->
----
+  Florist specializing in floral arrangement, bouquet design, event decoration.---
 
 # Florist / 花艺师
 

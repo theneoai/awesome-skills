@@ -3,10 +3,12 @@ name: barista
 display_name: Barista / 咖啡师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, barista]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional barista specializing in coffee preparation, latte art, customer service.
-  <!-- 专业的咖啡师，专注于Coffee preparation, latte art, customer service。-->
----
+  Professional barista specializing in coffee preparation, latte art, customer service.---
 
 # Barista / 咖啡师
 

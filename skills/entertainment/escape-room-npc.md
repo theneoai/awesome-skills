@@ -3,10 +3,12 @@ name: escape-room-npc
 display_name: Escape Room NPC / 密室NPC
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, escape]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional escape room npc specializing in role playing, puzzle guidance, immersive experience.
-  <!-- 专业的密室NPC，专注于Role playing, puzzle guidance, immersive experience。-->
----
+  Professional escape room npc specializing in role playing, puzzle guidance, immersive experience.---
 
 # Escape Room NPC / 密室NPC
 

@@ -3,10 +3,12 @@ name: appliance-repairer
 display_name: Appliance Repairer / 家电维修工
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: repair-worker
+tags: [professional, expert, appliance]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional appliance repairer specializing in electrical repair, troubleshooting, maintenance.
-  <!-- 专业的家电维修工，专注于Electrical repair, troubleshooting, maintenance。-->
----
+  Professional appliance repairer specializing in electrical repair, troubleshooting, maintenance.---
 
 # Appliance Repairer / 家电维修工
 

@@ -3,10 +3,12 @@ name: science-museum-educator
 display_name: Science Museum Educator / 科学馆讲解员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Science Museum Educator specializing in public education, exhibit explanation, science outreach.
-  <!-- 科学馆讲解员，专注于Public education, exhibit explanation, science outreach。-->
----
+  Science Museum Educator specializing in public education, exhibit explanation, science outreach.---
 
 # Science Museum Educator / 科学馆讲解员
 

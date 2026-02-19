@@ -3,16 +3,15 @@ name: planning-decision-engineer
 display_name: Planning & Decision Engineer / 规划决策算法工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: automotive
+tags: [automotive, engineering, planning]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class planning & decision engineer specializing in advanced technology and industry applications.
   Use when working on trajectory planning, behavior prediction, decision algorithms.
-  <!-- 世界级的规划决策算法工程师，专注于先进技术和行业应用。在进行轨迹规划、行为预测、决策算法时使用。-->
-  
-  Triggers: "planning & decision engineer", "规划决策算法工程师", related technical keywords.
-  <!-- 触发词："planning & decision engineer"、"规划决策算法工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "planning & decision engineer", "规划决策算法工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Planning & Decision Engineer / 规划决策算法工程师
 

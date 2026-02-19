@@ -3,10 +3,12 @@ name: corporate-trainer
 display_name: Corporate Trainer / 企业培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, corporate]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional corporate trainer specializing in employee training, skill development, workshop facilitation.
-  <!-- 专业的企业培训师，专注于Employee training, skill development, workshop facilitation。-->
----
+  Professional corporate trainer specializing in employee training, skill development, workshop facilitation.---
 
 # Corporate Trainer / 企业培训师
 

@@ -3,11 +3,13 @@ name: flight-attendant
 display_name: Flight Attendant / 空乘
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, flight]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional flight attendant specializing in passenger service, safety procedures, in-flight care.
-  Use when working on passenger service, safety procedures, in-flight care.
-  <!-- 专业的空乘，专注于Passenger service, safety procedures, in-flight care。在进行Passenger service, safety procedures, in-flight care时使用。-->
----
+  Use when working on passenger service, safety procedures, in-flight care.---
 
 # Flight Attendant / 空乘
 

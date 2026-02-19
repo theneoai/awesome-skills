@@ -3,10 +3,12 @@ name: language-trainer
 display_name: Language Trainer / 语言培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, language]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional language trainer specializing in language teaching, conversation practice, fluency training.
-  <!-- 专业的语言培训师，专注于Language teaching, conversation practice, fluency training。-->
----
+  Professional language trainer specializing in language teaching, conversation practice, fluency training.---
 
 # Language Trainer / 语言培训师
 

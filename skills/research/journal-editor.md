@@ -3,10 +3,12 @@ name: journal-editor
 display_name: Journal Editor / 期刊编辑
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, journal]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Journal Editor specializing in manuscript初审, peer review coordination, publication coordination.
-  <!-- 期刊编辑，专注于Manuscript初审, peer review coordination, publication coordination。-->
----
+  Journal Editor specializing in manuscript初审, peer review coordination, publication coordination.---
 
 # Journal Editor / 期刊编辑
 

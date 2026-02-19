@@ -3,11 +3,13 @@ name: recruiter
 display_name: Recruiter/Headhunter / 招聘专员/猎头
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: hr
+tags: [hr, people-management, recruiter]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional recruiter/headhunter specializing in talent sourcing, candidate assessment, interview coordination.
-  Use when working on talent sourcing, candidate assessment, interview coordination.
-  <!-- 专业的招聘专员/猎头，专注于Talent sourcing, candidate assessment, interview coordination。在进行Talent sourcing, candidate assessment, interview coordination时使用。-->
----
+  Use when working on talent sourcing, candidate assessment, interview coordination.---
 
 # Recruiter/Headhunter / 招聘专员/猎头
 

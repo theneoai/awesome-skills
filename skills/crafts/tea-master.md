@@ -3,10 +3,12 @@ name: tea-master
 display_name: Tea Master / 制茶师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, tea]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Tea Master specializing in tea processing, quality assessment, traditional craft.
-  <!-- 制茶师，专注于Tea processing, quality assessment, traditional craft。-->
----
+  Tea Master specializing in tea processing, quality assessment, traditional craft.---
 
 # Tea Master / 制茶师
 

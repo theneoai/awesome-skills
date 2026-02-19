@@ -3,16 +3,15 @@ name: ai-security-engineer
 display_name: AI Security Engineer / AI安全工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: cybersecurity
+tags: [cybersecurity, security, risk-management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class ai security engineer specializing in advanced technology and industry applications.
   Use when working on ai system attack/defense, adversarial examples, model security.
-  <!-- 世界级的AI安全工程师，专注于先进技术和行业应用。在进行AI系统攻防、对抗样本、模型安全时使用。-->
-  
-  Triggers: "ai security engineer", "AI安全工程师", related technical keywords.
-  <!-- 触发词："ai security engineer"、"AI安全工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Triggers: "ai security engineer", "AI安全工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # AI Security Engineer / AI安全工程师
 
