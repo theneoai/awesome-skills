@@ -31,13 +31,15 @@ VALID_PLATFORMS = {"opencode", "openclaw", "claude", "cursor", "codex", "cline",
 
 # Skills that must pass strict (Expert Verified) checks
 EXPERT_SKILLS = {
+    # Currently Expert Verified — strict structural checks enforced
     "skills/executive/ceo.md",
     "skills/executive/cto.md",
-    "skills/executive/cfo.md",
-    "skills/executive/coo.md",
     "skills/admin/skill-writer.md",
     "skills/ai-ml/prompt-engineer.md",
     "skills/software/software-architect.md",
+    # Pending Phase 1 upgrade (not yet Expert Verified):
+    # "skills/executive/cfo.md"
+    # "skills/executive/coo.md"
 }
 
 # Minimum section count for Expert Verified skills
