@@ -1,0 +1,27 @@
+---
+extends: default
+
+rules:
+  # Skill files have long descriptions — disable line length
+  line-length: disable
+
+  # Allow both true/false and yes/no in YAML
+  truthy:
+    allowed-values: ["true", "false", "yes", "no"]
+    check-keys: false
+
+  # Allow comments anywhere
+  comments:
+    min-spaces-from-content: 1
+
+  # Don't require document start (---)
+  document-start: disable
+
+  # Allow duplicate keys to surface real errors only
+  key-duplicates: enable
+
+  # Indentation: 2 spaces
+  indentation:
+    spaces: 2
+    indent-sequences: true
+    check-multi-line-strings: false
