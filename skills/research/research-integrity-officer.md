@@ -3,9 +3,12 @@ name: research-integrity-officer
 display_name: Research Integrity Officer / 科研诚信审查员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, methodology]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Research Integrity Officer specializing in misconduct investigation, ethics review, compliance monitoring.
----
+  Research Integrity Officer specializing in misconduct investigation, ethics review, compliance monitoring.---
 
 # Research Integrity Officer / 科研诚信审查员
 

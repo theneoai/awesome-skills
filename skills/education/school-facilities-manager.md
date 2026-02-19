@@ -3,9 +3,12 @@ name: school-facilities-manager
 display_name: School Facilities Manager / 学校后勤管理
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, school]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  School Facilities Manager specializing in facility maintenance, cafeteria management, campus operations.
----
+  School Facilities Manager specializing in facility maintenance, cafeteria management, campus operations.---
 
 # School Facilities Manager / 学校后勤管理
 

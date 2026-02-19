@@ -3,9 +3,12 @@ name: school-doctor
 display_name: School Doctor / 校医
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, school]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  School Doctor specializing in student health, first aid, health education.
----
+  School Doctor specializing in student health, first aid, health education.---
 
 # School Doctor / 校医
 

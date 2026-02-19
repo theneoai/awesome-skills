@@ -3,12 +3,15 @@ name: agronomist
 display_name: Agronomist / 农艺师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: agriculture
+tags: [agriculture, farming, agronomist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class agronomist specializing in crop cultivation, field management, high-yield techniques.
   Use when working on crop cultivation, field management, high-yield techniques.
 Triggers: "agronomist", "农艺师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Agronomist / 农艺师
 

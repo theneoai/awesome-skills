@@ -3,10 +3,13 @@ name: chef
 display_name: Chef / 厨师
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, chef]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional chef specializing in food preparation, kitchen management, menu planning.
-  Use when working on food preparation, kitchen management, menu planning.
----
+  Use when working on food preparation, kitchen management, menu planning.---
 
 # Chef / 厨师
 

@@ -3,9 +3,12 @@ name: dietitian
 display_name: Dietitian / 营养师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, dietitian]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dietitian specializing in nutritional planning, diet counseling, health optimization.
----
+  Professional dietitian specializing in nutritional planning, diet counseling, health optimization.---
 
 # Dietitian / 营养师
 

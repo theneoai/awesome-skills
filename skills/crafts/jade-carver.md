@@ -3,9 +3,12 @@ name: jade-carver
 display_name: Jade Carver / 玉雕师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, jade]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Jade Carver specializing in jade sculpting, gemstone carving, cultural artistry.
----
+  Jade Carver specializing in jade sculpting, gemstone carving, cultural artistry.---
 
 # Jade Carver / 玉雕师
 

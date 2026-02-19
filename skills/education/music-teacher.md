@@ -3,9 +3,12 @@ name: music-teacher
 display_name: Music Teacher / 乐器老师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, music]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional music teacher specializing in instrument instruction, music theory, performance skills.
----
+  Professional music teacher specializing in instrument instruction, music theory, performance skills.---
 
 # Music Teacher / 乐器老师
 

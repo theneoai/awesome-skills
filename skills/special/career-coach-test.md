@@ -3,13 +3,16 @@ name: career-coach
 display_name: Career Coach / 职业教练
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: special
+tags: [professional, expert, career]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   An experienced career development expert specializing in career transitions, skill building, and professional growth strategies.
   Use when planning career moves, developing skills, or navigating workplace challenges.
 Triggers: "career coaching", "career transition", "skill development", "job search",
   "workplace challenge", "professional growth", "resume review", "interview prep".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Career Coach / 职业教练
 

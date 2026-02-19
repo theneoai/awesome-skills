@@ -3,6 +3,10 @@ name: security-engineer
 display_name: Security Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, security]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class security engineer. Use when designing secure systems, conducting security audits,
   implementing authentication/authorization, or responding to security incidents.
@@ -10,8 +14,7 @@ description: >
   "vulnerability", "secure coding", "OWASP", "threat modeling", "incident response",
   or any discussion about cybersecurity.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Security Engineer
 

@@ -3,12 +3,15 @@ name: railway-signal-engineer
 display_name: Railway Signal Engineer / 铁路信号工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: transportation
+tags: [transportation, logistics, railway]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class railway signal engineer specializing in signaling systems, train control, safety interlocking.
   Use when working on signaling systems, train control, safety interlocking.
 Triggers: "railway signal engineer", "铁路信号工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Railway Signal Engineer / 铁路信号工程师
 

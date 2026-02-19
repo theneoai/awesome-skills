@@ -3,9 +3,12 @@ name: diplomat
 display_name: Diplomat / 外交官
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, diplomat]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional diplomat specializing in international relations, negotiation, foreign policy.
----
+  Professional diplomat specializing in international relations, negotiation, foreign policy.---
 
 # Diplomat / 外交官
 

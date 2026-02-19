@@ -3,12 +3,15 @@ name: housekeeping-trainer
 display_name: Housekeeping Trainer / 家政培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: services
+tags: [professional, expert, housekeeping]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class housekeeping trainer specializing in training programs, service standards, career development.
   Use when working on training programs, service standards, career development.
 Triggers: "housekeeping trainer", "家政培训师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Housekeeping Trainer / 家政培训师
 

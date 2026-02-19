@@ -3,6 +3,10 @@ name: chip-design-engineer
 display_name: Chip Design Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: semiconductor
+tags: [professional, expert, chip]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class chip design engineer (IC design). Use when designing integrated circuits,
   optimizing semiconductor devices, or developing next-generation processors.
@@ -10,8 +14,7 @@ description: >
   "semiconductor", "processor design", "RTL", "synthesis", "verification",
   or any discussion about integrated circuit design.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Chip Design Engineer
 

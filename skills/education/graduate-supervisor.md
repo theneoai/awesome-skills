@@ -3,9 +3,12 @@ name: graduate-supervisor
 display_name: Graduate Supervisor / 硕导/博导
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, graduate]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Graduate Supervisor specializing in graduate mentoring, thesis supervision, academic guidance.
----
+  Graduate Supervisor specializing in graduate mentoring, thesis supervision, academic guidance.---
 
 # Graduate Supervisor / 硕导/博导
 

@@ -3,9 +3,12 @@ name: ecommerce-seller
 display_name: E-commerce Seller / 个体电商
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: freelancer
+tags: [freelance, business, ecommerce]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional e-commerce seller specializing in online selling, product sourcing, customer service.
----
+  Professional e-commerce seller specializing in online selling, product sourcing, customer service.---
 
 # E-commerce Seller / 个体电商
 

@@ -3,9 +3,12 @@ name: professional-apologizer
 display_name: Professional Apologizer / 职业道歉人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional apologizer specializing in apology services, conflict resolution, amends making.
----
+  Professional professional apologizer specializing in apology services, conflict resolution, amends making.---
 
 # Professional Apologizer / 职业道歉人
 

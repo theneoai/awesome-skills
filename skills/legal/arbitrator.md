@@ -3,9 +3,12 @@ name: arbitrator
 display_name: Arbitrator / 仲裁员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, arbitrator]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Arbitrator specializing in dispute resolution, arbitration proceedings, neutral judgment.
----
+  Arbitrator specializing in dispute resolution, arbitration proceedings, neutral judgment.---
 
 # Arbitrator / 仲裁员
 

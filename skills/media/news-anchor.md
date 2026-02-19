@@ -3,9 +3,12 @@ name: news-anchor
 display_name: News Anchor / 新闻主播
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: media
+tags: [media, content, news]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  News Anchor specializing in news presentation, broadcasting, public communication.
----
+  News Anchor specializing in news presentation, broadcasting, public communication.---
 
 # News Anchor / 新闻主播
 

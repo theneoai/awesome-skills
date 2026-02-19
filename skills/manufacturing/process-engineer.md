@@ -3,12 +3,15 @@ name: process-engineer
 display_name: Process Engineer / 工艺工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, process]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class process engineer specializing in manufacturing processes, workflow optimization, lean.
   Use when working on manufacturing processes, workflow optimization, lean.
 Triggers: "process engineer", "工艺工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Process Engineer / 工艺工程师
 

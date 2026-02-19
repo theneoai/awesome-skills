@@ -3,10 +3,13 @@ name: pilot
 display_name: Pilot / 飞行员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: transport-worker
+tags: [professional, expert, pilot]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional pilot specializing in aircraft operation, navigation, flight safety.
-  Use when working on aircraft operation, navigation, flight safety.
----
+  Use when working on aircraft operation, navigation, flight safety.---
 
 # Pilot / 飞行员
 

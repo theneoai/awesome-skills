@@ -3,9 +3,12 @@ name: data-labeler
 display_name: Data Labeler / 数据标注员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert, data]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Data Labeler specializing in ai training data, annotation, quality control.
----
+  Data Labeler specializing in ai training data, annotation, quality control.---
 
 # Data Labeler / 数据标注员
 

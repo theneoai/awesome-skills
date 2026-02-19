@@ -3,12 +3,15 @@ name: financial-analyst
 display_name: Financial Analyst / 财务分析师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, financial]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class financial analyst specializing in fp&a, budgeting, forecasting, variance analysis, management reporting.
   Use when working on fp&a, budgeting, forecasting, variance analysis, management reporting.
 Triggers: "financial analyst", "财务分析师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Financial Analyst / 财务分析师
 

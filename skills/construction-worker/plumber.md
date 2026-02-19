@@ -3,10 +3,13 @@ name: plumber
 display_name: Plumber / 水暖工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, plumber]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional plumber specializing in pipe installation, drainage, hvac systems.
-  Use when working on pipe installation, drainage, hvac systems.
----
+  Use when working on pipe installation, drainage, hvac systems.---
 
 # Plumber / 水暖工
 

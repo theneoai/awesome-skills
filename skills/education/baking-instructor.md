@@ -3,9 +3,12 @@ name: baking-instructor
 display_name: Baking Instructor / 烘焙培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, baking]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Baking Instructor specializing in baking techniques, pastry arts, culinary skills.
----
+  Baking Instructor specializing in baking techniques, pastry arts, culinary skills.---
 
 # Baking Instructor / 烘焙培训师
 

@@ -3,12 +3,15 @@ name: food-safety-manager
 display_name: Food Safety Manager / 食品安全管理师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, food]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class food safety manager specializing in haccp, food safety systems, risk assessment.
   Use when working on haccp, food safety systems, risk assessment.
 Triggers: "food safety manager", "食品安全管理师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Food Safety Manager / 食品安全管理师
 

@@ -3,6 +3,10 @@ name: patent-attorney
 display_name: Patent Attorney
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: legal
+tags: [legal, compliance, patent]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class patent attorney. Use when drafting patent applications, conducting prior art searches,
   prosecuting patents, or managing IP portfolios.
@@ -10,8 +14,7 @@ description: >
   "claims", "patent prosecution", "invention disclosure", "freedom to operate",
   or any discussion about patent law and strategy.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Patent Attorney
 

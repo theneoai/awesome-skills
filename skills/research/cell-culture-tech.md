@@ -3,9 +3,12 @@ name: cell-culture-tech
 display_name: Cell Culture Technician / 细胞培养技术员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, cell]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Cell Culture Technician specializing in cell passaging, sterile operation, medium preparation.
----
+  Cell Culture Technician specializing in cell passaging, sterile operation, medium preparation.---
 
 # Cell Culture Technician / 细胞培养技术员
 

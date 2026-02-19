@@ -3,9 +3,12 @@ name: or-nurse
 display_name: Operating Room Nurse / 手术室护士
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, clinical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Operating Room Nurse specializing in surgical assistance, instrument management, sterile technique.
----
+  Operating Room Nurse specializing in surgical assistance, instrument management, sterile technique.---
 
 # Operating Room Nurse / 手术室护士
 

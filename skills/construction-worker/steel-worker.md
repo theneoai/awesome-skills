@@ -3,10 +3,13 @@ name: steel-worker
 display_name: Steel Worker / 钢筋工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, steel]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional steel worker specializing in rebar installation, steel structure, concrete work.
-  Use when working on rebar installation, steel structure, concrete work.
----
+  Use when working on rebar installation, steel structure, concrete work.---
 
 # Steel Worker / 钢筋工
 

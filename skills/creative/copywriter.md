@@ -3,12 +3,15 @@ name: copywriter
 display_name: Copywriter / 文案策划
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: creative
+tags: [creative, design, copywriter]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class copywriter specializing in content writing, creative concepts, brand voice, storytelling, campaigns.
   Use when working on content writing, creative concepts, brand voice, storytelling, campaigns.
 Triggers: "copywriter", "文案策划", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Copywriter / 文案策划
 

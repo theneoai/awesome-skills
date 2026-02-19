@@ -3,12 +3,15 @@ name: v2x-system-engineer
 display_name: V2X System Engineer / V2X系统工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: automotive
+tags: [automotive, engineering, v2x]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class v2x system engineer specializing in advanced technology and industry applications.
   Use when working on vehicle-to-everything communication, roadside equipment.
 Triggers: "v2x system engineer", "V2X系统工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # V2X System Engineer / V2X系统工程师
 

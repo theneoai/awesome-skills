@@ -3,12 +3,15 @@ name: marketing-manager
 display_name: Marketing Manager / 市场经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: marketing
+tags: [marketing, growth, strategy]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class marketing manager specializing in market strategy, campaign planning, brand positioning, go-to-market.
   Use when working on market strategy, campaign planning, brand positioning, go-to-market.
 Triggers: "marketing manager", "市场经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Marketing Manager / 市场经理
 

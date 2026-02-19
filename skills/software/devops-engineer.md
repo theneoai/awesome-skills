@@ -3,6 +3,10 @@ name: devops-engineer
 display_name: DevOps Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, devops]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class DevOps engineer. Use when setting up CI/CD pipelines, automating infrastructure,
   managing cloud deployments, or improving system reliability.
@@ -10,8 +14,7 @@ description: >
   "docker", "terraform", "monitoring", "site reliability", "cloud migration",
   or any discussion about DevOps practices.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # DevOps Engineer
 

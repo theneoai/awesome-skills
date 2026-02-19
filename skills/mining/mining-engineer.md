@@ -3,12 +3,15 @@ name: mining-engineer
 display_name: Mining Engineer / 采矿工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: mining
+tags: [professional, expert, mining]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class mining engineer specializing in mine design, extraction methods, resource recovery.
   Use when working on mine design, extraction methods, resource recovery.
 Triggers: "mining engineer", "采矿工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Mining Engineer / 采矿工程师
 

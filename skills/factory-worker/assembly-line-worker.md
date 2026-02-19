@@ -3,10 +3,13 @@ name: assembly-line-worker
 display_name: Assembly Line Worker / 流水线操作工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: factory-worker
+tags: [manufacturing, operations, assembly]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional assembly line worker specializing in product assembly, quality checks, production efficiency.
-  Use when working on product assembly, quality checks, production efficiency.
----
+  Use when working on product assembly, quality checks, production efficiency.---
 
 # Assembly Line Worker / 流水线操作工
 

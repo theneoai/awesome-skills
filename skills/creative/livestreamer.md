@@ -3,12 +3,15 @@ name: livestreamer
 display_name: Livestreamer/KOL / 主播/KOL
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: creative
+tags: [creative, design, livestreamer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class livestreamer/kol specializing in live streaming, audience engagement, content creation, monetization, personal brand.
   Use when working on live streaming, audience engagement, content creation, monetization, personal brand.
 Triggers: "livestreamer/kol", "主播/KOL", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Livestreamer/KOL / 主播/KOL
 

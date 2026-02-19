@@ -3,12 +3,15 @@ name: motion-control-engineer
 display_name: Motion Control Engineer / 运动控制算法工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: robotics
+tags: [professional, expert, motion]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class motion control engineer specializing in advanced technology and industry applications.
   Use when working on bipedal gait planning, balance control, dexterous manipulation.
 Triggers: "motion control engineer", "运动控制算法工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Motion Control Engineer / 运动控制算法工程师
 

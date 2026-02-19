@@ -3,12 +3,15 @@ name: liquid-rocket-engine-engineer
 display_name: Liquid Rocket Engine Engineer / 液体火箭发动机工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [aerospace, engineering, liquid]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class liquid rocket engine engineer specializing in advanced technology and industry applications.
   Use when working on liquid engine design, manufacturing, testing.
 Triggers: "liquid rocket engine engineer", "液体火箭发动机工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Liquid Rocket Engine Engineer / 液体火箭发动机工程师
 

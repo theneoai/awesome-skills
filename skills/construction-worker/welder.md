@@ -3,10 +3,13 @@ name: welder
 display_name: Welder / 电焊工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, welder]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional welder specializing in welding, metal fabrication, structural joining.
-  Use when working on welding, metal fabrication, structural joining.
----
+  Use when working on welding, metal fabrication, structural joining.---
 
 # Welder / 电焊工
 

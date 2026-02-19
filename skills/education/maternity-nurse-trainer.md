@@ -3,9 +3,12 @@ name: maternity-nurse-trainer
 display_name: Maternity Nurse Trainer / 母婴培训讲师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, maternity]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Maternity Nurse Trainer specializing in newborn care training, maternal health, professional certification.
----
+  Maternity Nurse Trainer specializing in newborn care training, maternal health, professional certification.---
 
 # Maternity Nurse Trainer / 母婴培训讲师
 

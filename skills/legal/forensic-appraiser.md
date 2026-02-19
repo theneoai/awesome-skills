@@ -3,9 +3,12 @@ name: forensic-appraiser
 display_name: Forensic Appraiser / 司法鉴定人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, forensic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Forensic Appraiser specializing in expert testimony, technical evaluation, evidence analysis.
----
+  Forensic Appraiser specializing in expert testimony, technical evaluation, evidence analysis.---
 
 # Forensic Appraiser / 司法鉴定人
 

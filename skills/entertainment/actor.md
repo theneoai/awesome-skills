@@ -3,9 +3,12 @@ name: actor
 display_name: Actor / 演员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, actor]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional actor specializing in performance, character portrayal, stage/film acting.
----
+  Professional actor specializing in performance, character portrayal, stage/film acting.---
 
 # Actor / 演员
 

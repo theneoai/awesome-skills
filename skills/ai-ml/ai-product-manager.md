@@ -3,12 +3,15 @@ name: ai-product-manager
 display_name: AI Product Manager / AI产品经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: ai-ml
+tags: [ai, machine-learning, data-science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class ai product manager specializing in advanced technology and industry applications.
   Use when working on ai product planning, scenario definition, commercialization.
 Triggers: "ai product manager", "AI产品经理", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # AI Product Manager / AI产品经理
 

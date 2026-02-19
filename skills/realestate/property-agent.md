@@ -3,9 +3,12 @@ name: property-agent
 display_name: Property Agent / 房产经纪人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: realestate
+tags: [professional, expert, property]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Property Agent specializing in property sales, client matching, market analysis.
----
+  Property Agent specializing in property sales, client matching, market analysis.---
 
 # Property Agent / 房产经纪人
 

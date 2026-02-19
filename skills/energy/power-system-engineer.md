@@ -3,6 +3,10 @@ name: power-system-engineer
 display_name: Power System Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, power]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class power system engineer. Use when designing electrical grids, integrating renewable energy,
   ensuring grid stability, or optimizing power distribution.
@@ -10,8 +14,7 @@ description: >
   "SCADA", "smart grid", "energy storage", "transmission", "distribution", "load flow",
   or any discussion about electrical power systems.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Power System Engineer
 

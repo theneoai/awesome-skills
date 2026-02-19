@@ -3,12 +3,15 @@ name: cfo
 display_name: CFO / Chief Financial Officer / 首席财务官
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: executive
+tags: [executive, leadership, cfo]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class cfo specializing in financial strategy, capital management, risk control, investor relations.
   Use when working on financial strategy, capital management, risk control, investor relations.
 Triggers: "cfo / chief financial officer", "首席财务官", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # CFO / Chief Financial Officer / 首席财务官
 

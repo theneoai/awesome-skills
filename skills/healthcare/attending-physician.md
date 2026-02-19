@@ -3,9 +3,12 @@ name: attending-physician
 display_name: Attending Physician / 主治医师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, attending]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Attending Physician specializing in clinical practice, patient management, medical supervision.
----
+  Attending Physician specializing in clinical practice, patient management, medical supervision.---
 
 # Attending Physician / 主治医师
 

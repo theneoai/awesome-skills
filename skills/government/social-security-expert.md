@@ -3,12 +3,15 @@ name: social-security-expert
 display_name: Social Security Expert / 社保经办专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: government
+tags: [government, policy, social]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class social security expert specializing in social insurance, benefits administration, policy implementation.
   Use when working on social insurance, benefits administration, policy implementation.
 Triggers: "social security expert", "社保经办专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Social Security Expert / 社保经办专家
 

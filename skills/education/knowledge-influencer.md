@@ -3,9 +3,12 @@ name: knowledge-influencer
 display_name: Knowledge Influencer / 知识付费讲师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, knowledge]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional knowledge influencer specializing in online courses, content creation, knowledge monetization.
----
+  Professional knowledge influencer specializing in online courses, content creation, knowledge monetization.---
 
 # Knowledge Influencer / 知识付费讲师
 

@@ -3,9 +3,12 @@ name: bartender
 display_name: Bartender / 调酒师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, bartender]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional bartender specializing in drink mixing, bar service, customer interaction.
----
+  Professional bartender specializing in drink mixing, bar service, customer interaction.---
 
 # Bartender / 调酒师
 

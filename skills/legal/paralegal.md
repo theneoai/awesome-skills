@@ -3,9 +3,12 @@ name: paralegal
 display_name: Paralegal / 律师助理
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: legal
+tags: [legal, compliance, paralegal]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Paralegal specializing in legal research, document preparation, case management.
----
+  Paralegal specializing in legal research, document preparation, case management.---
 
 # Paralegal / 律师助理
 

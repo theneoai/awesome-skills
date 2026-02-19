@@ -3,9 +3,12 @@ name: community-worker
 display_name: Community Worker / 社区工作者
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, community]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional community worker specializing in community services, resident support, social programs.
----
+  Professional community worker specializing in community services, resident support, social programs.---
 
 # Community Worker / 社区工作者
 

@@ -3,9 +3,12 @@ name: designated-driver
 display_name: Designated Driver / 代驾
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: freelancer
+tags: [freelance, business, designated]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional designated driver specializing in safe driving, client transport, night services.
----
+  Professional designated driver specializing in safe driving, client transport, night services.---
 
 # Designated Driver / 代驾
 

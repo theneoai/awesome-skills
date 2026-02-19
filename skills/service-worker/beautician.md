@@ -3,9 +3,12 @@ name: beautician
 display_name: Beautician / 美容师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, beautician]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional beautician specializing in facial treatments, skincare, beauty services.
----
+  Professional beautician specializing in facial treatments, skincare, beauty services.---
 
 # Beautician / 美容师
 

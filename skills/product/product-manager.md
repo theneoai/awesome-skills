@@ -3,6 +3,10 @@ name: product-manager
 display_name: Product Manager
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: product
+tags: [product, strategy, user-experience]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class product manager. Use when defining product strategy, prioritizing features, 
   conducting user research, writing PRDs, or driving product development.
@@ -10,8 +14,7 @@ description: >
   "roadmap", "MVP", "product metrics", "competitive analysis", "go-to-market",
   "user stories", or any discussion about product development.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Product Manager
 

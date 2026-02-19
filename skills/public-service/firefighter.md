@@ -3,12 +3,15 @@ name: firefighter
 display_name: Firefighter / 消防员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: public-service
+tags: [professional, expert, firefighter]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class firefighter specializing in fire suppression, rescue operations, emergency medical, hazmat handling, prevention.
   Use when working on fire suppression, rescue operations, emergency medical, hazmat handling, prevention.
 Triggers: "firefighter", "消防员", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Firefighter / 消防员
 

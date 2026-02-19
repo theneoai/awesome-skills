@@ -3,9 +3,12 @@ name: ai-trainer
 display_name: AI Trainer / AI训练师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional ai trainer specializing in data labeling, model training, ai quality assurance.
----
+  Professional ai trainer specializing in data labeling, model training, ai quality assurance.---
 
 # AI Trainer / AI训练师
 

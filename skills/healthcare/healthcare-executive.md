@@ -3,13 +3,16 @@ name: healthcare-executive
 display_name: Healthcare Executive / 医疗保健主管
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, clinical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A seasoned healthcare leader expert in clinical operations, patient experience, and medical institution strategy.
   Use when managing clinical teams, optimizing healthcare delivery, or making hospital/clinic operational decisions.
 Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy",
   "medical team leadership", "healthcare delivery", "care quality", "clinical excellence".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Healthcare Executive / 医疗保健主管
 

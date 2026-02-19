@@ -3,12 +3,15 @@ name: logistics-network-planner
 display_name: Logistics Network Planner / 物流网络规划师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: transportation
+tags: [transportation, logistics, operations]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class logistics network planner specializing in network design, route optimization, distribution centers.
   Use when working on network design, route optimization, distribution centers.
 Triggers: "logistics network planner", "物流网络规划师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Logistics Network Planner / 物流网络规划师
 

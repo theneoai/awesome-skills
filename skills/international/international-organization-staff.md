@@ -3,12 +3,15 @@ name: international-organization-staff
 display_name: International Organization Staff / 国际组织职员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: international
+tags: [international, global, cross-cultural]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class international organization staff specializing in diplomacy, international cooperation, multilateral relations.
   Use when working on diplomacy, international cooperation, multilateral relations.
 Triggers: "international organization staff", "国际组织职员", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # International Organization Staff / 国际组织职员
 

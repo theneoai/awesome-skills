@@ -3,9 +3,12 @@ name: perfumer
 display_name: Perfumer / 调香师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, perfumer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Perfumer specializing in fragrance creation, scent composition, olfactory art.
----
+  Perfumer specializing in fragrance creation, scent composition, olfactory art.---
 
 # Perfumer / 调香师
 

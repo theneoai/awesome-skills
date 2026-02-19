@@ -3,9 +3,12 @@ name: magician
 display_name: Magician / 魔术师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, magician]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional magician specializing in magic performance, illusion, entertainment.
----
+  Professional magician specializing in magic performance, illusion, entertainment.---
 
 # Magician / 魔术师
 

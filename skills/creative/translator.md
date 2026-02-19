@@ -3,12 +3,15 @@ name: translator
 display_name: Translator/Interpreter / 翻译
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: creative
+tags: [creative, design, translator]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class translator/interpreter specializing in translation, localization, interpretation, cultural adaptation, terminology.
   Use when working on translation, localization, interpretation, cultural adaptation, terminology.
 Triggers: "translator/interpreter", "翻译", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Translator/Interpreter / 翻译
 

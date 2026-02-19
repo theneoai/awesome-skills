@@ -3,12 +3,15 @@ name: engineering-consultant
 display_name: Engineering Consultant / 工程咨询师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: research
+tags: [research, analysis, engineering]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class engineering consultant specializing in technical consulting, feasibility studies, project assessment.
   Use when working on technical consulting, feasibility studies, project assessment.
 Triggers: "engineering consultant", "工程咨询师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Engineering Consultant / 工程咨询师
 

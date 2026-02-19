@@ -3,9 +3,12 @@ name: chess-coach
 display_name: Chess Coach / 棋类教练
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, chess]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Chess Coach specializing in chess instruction, strategy training, competition preparation.
----
+  Chess Coach specializing in chess instruction, strategy training, competition preparation.---
 
 # Chess Coach / 棋类教练
 

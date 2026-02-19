@@ -3,12 +3,15 @@ name: digital-marketing-specialist
 display_name: Digital Marketing Specialist / 数字营销专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: marketing
+tags: [marketing, growth, digital]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class digital marketing specialist specializing in seo/sem, paid ads, social media, analytics, conversion optimization.
   Use when working on seo/sem, paid ads, social media, analytics, conversion optimization.
 Triggers: "digital marketing specialist", "数字营销专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Digital Marketing Specialist / 数字营销专家
 

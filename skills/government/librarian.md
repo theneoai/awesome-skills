@@ -3,9 +3,12 @@ name: librarian
 display_name: Librarian / 图书馆员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, librarian]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Librarian specializing in library management, information services, reader assistance.
----
+  Librarian specializing in library management, information services, reader assistance.---
 
 # Librarian / 图书馆员
 

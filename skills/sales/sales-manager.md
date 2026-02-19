@@ -3,12 +3,15 @@ name: sales-manager
 display_name: Sales Manager / 销售经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: sales
+tags: [sales, business-development, crm]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class sales manager specializing in b2b sales, client acquisition, relationship management, revenue growth.
   Use when working on b2b sales, client acquisition, relationship management, revenue growth.
 Triggers: "sales manager", "销售经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Sales Manager / 销售经理
 

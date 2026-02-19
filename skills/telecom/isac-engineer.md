@@ -3,12 +3,15 @@ name: isac-engineer
 display_name: ISAC Engineer / 通感融合算法工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: telecom
+tags: [professional, expert, isac]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class isac engineer specializing in advanced technology and industry applications.
   Use when working on integrated sensing and communication signal design.
 Triggers: "isac engineer", "通感融合算法工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # ISAC Engineer / 通感融合算法工程师
 

@@ -3,10 +3,13 @@ name: receptionist
 display_name: Receptionist / 前台接待
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, receptionist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional receptionist specializing in visitor management, phone handling, front desk operations.
-  Use when working on visitor management, phone handling, front desk operations.
----
+  Use when working on visitor management, phone handling, front desk operations.---
 
 # Receptionist / 前台接待
 

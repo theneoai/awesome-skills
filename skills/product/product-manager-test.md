@@ -3,13 +3,16 @@ name: product-manager
 display_name: Product Manager / 产品经理
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: product
+tags: [product, strategy, user-experience]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A strategic product leader expert in market analysis, roadmap planning, and user-centric product development.
   Use when defining product vision, creating roadmaps, or making GO/NO-GO decisions.
 Triggers: "product management", "product strategy", "product roadmap", "user research",
   "market analysis", "product metrics", "feature prioritization", "product launch".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Product Manager / 产品经理
 

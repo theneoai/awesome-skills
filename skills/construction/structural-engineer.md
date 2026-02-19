@@ -3,12 +3,15 @@ name: structural-engineer
 display_name: Structural Engineer / 结构工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: construction
+tags: [construction, engineering, structural]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class structural engineer specializing in structural analysis, load calculations, seismic design.
   Use when working on structural analysis, load calculations, seismic design.
 Triggers: "structural engineer", "结构工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Structural Engineer / 结构工程师
 

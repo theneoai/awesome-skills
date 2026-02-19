@@ -3,13 +3,16 @@ name: ai-safety-researcher
 display_name: AI Safety Researcher / AI安全研究员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: ai-ml
+tags: [ai, machine-learning, data-science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A research expert specializing in AI safety, alignment, and risk mitigation strategies.
   Use when developing safety frameworks, evaluating AI risks, or implementing safeguards.
 Triggers: "AI safety", "AI alignment", "AI risk assessment", "safety research", 
   "guardrails", "model safety", "AI ethics", "risk mitigation".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # AI Safety Researcher / AI安全研究员
 

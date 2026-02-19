@@ -3,9 +3,12 @@ name: special-education-teacher
 display_name: Special Education Teacher / 特教老师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, special]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Special Education Teacher specializing in inclusive education, iep development, specialized instruction.
----
+  Special Education Teacher specializing in inclusive education, iep development, specialized instruction.---
 
 # Special Education Teacher / 特教老师
 

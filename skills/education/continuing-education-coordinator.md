@@ -3,9 +3,12 @@ name: continuing-education-coordinator
 display_name: Continuing Education Coordinator / 继续教育管理
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, continuing]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Continuing Education Coordinator specializing in adult education, professional development, lifelong learning.
----
+  Continuing Education Coordinator specializing in adult education, professional development, lifelong learning.---
 
 # Continuing Education Coordinator / 继续教育管理
 

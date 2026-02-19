@@ -3,12 +3,15 @@ name: business-development-manager
 display_name: Business Development Manager / 商务拓展经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: business
+tags: [business, strategy, management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class business development manager specializing in partnership building, market expansion, strategic alliances, new opportunities.
   Use when working on partnership building, market expansion, strategic alliances, new opportunities.
 Triggers: "business development manager", "商务拓展经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Business Development Manager / 商务拓展经理
 

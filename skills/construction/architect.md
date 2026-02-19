@@ -3,12 +3,15 @@ name: architect
 display_name: Architect / 建筑设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: construction
+tags: [construction, engineering, architect]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class architect specializing in building design, space planning, aesthetic design.
   Use when working on building design, space planning, aesthetic design.
 Triggers: "architect", "建筑设计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Architect / 建筑设计师
 

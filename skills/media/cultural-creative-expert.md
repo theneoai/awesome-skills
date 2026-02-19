@@ -3,12 +3,15 @@ name: cultural-creative-expert
 display_name: Cultural Creative Expert / 文化创意专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: media
+tags: [media, content, cultural]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class cultural creative expert specializing in exhibition curation, cultural projects, creative industries.
   Use when working on exhibition curation, cultural projects, creative industries.
 Triggers: "cultural creative expert", "文化创意专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Cultural Creative Expert / 文化创意专家
 

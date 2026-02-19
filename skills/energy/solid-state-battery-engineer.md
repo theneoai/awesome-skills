@@ -3,13 +3,16 @@ name: solid-state-battery-engineer
 display_name: Solid-State Battery Engineer / 固态电池工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, solid]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class solid-state battery engineer specializing in next-generation battery technology.
   Use when developing solid-state electrolytes, designing solid-state battery cells, or optimizing battery manufacturing.
 Triggers: "solid-state battery", "solid electrolyte", "battery chemistry", "lithium metal",
   "sulfide electrolyte", "oxide electrolyte", "battery manufacturing", or any discussion about next-gen battery technology.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Solid-State Battery Engineer / 固态电池工程师
 

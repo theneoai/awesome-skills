@@ -3,9 +3,12 @@ name: embroiderer
 display_name: Embroiderer / 刺绣艺人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, embroiderer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Embroiderer specializing in embroidery, needlework, textile art.
----
+  Embroiderer specializing in embroidery, needlework, textile art.---
 
 # Embroiderer / 刺绣艺人
 

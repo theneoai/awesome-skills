@@ -3,9 +3,12 @@ name: civil-service-trainer
 display_name: Civil Service Exam Trainer / 公考培训师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, civil]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Civil Service Exam Trainer specializing in exam preparation, test strategies, interview coaching.
----
+  Civil Service Exam Trainer specializing in exam preparation, test strategies, interview coaching.---
 
 # Civil Service Exam Trainer / 公考培训师
 

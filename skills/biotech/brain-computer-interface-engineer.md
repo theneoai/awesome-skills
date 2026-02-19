@@ -3,12 +3,15 @@ name: brain-computer-interface-engineer
 display_name: Brain-Computer Interface Engineer / 脑机接口工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: biotech
+tags: [biotech, life-sciences, brain]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class brain-computer interface engineer specializing in advanced technology and industry applications.
   Use when working on neural signal acquisition and decoding system development.
 Triggers: "brain-computer interface engineer", "脑机接口工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Brain-Computer Interface Engineer / 脑机接口工程师
 

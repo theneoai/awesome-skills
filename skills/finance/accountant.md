@@ -3,12 +3,15 @@ name: accountant
 display_name: Accountant / 会计
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, accountant]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class accountant specializing in bookkeeping, financial statements, tax filing, compliance.
   Use when working on bookkeeping, financial statements, tax filing, compliance.
 Triggers: "accountant", "会计", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Accountant / 会计
 

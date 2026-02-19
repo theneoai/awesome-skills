@@ -3,12 +3,15 @@ name: uav-flight-control-engineer
 display_name: UAV Flight Control Engineer / 无人机飞控工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [aerospace, engineering, uav]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class uav flight control engineer specializing in advanced technology and industry applications.
   Use when working on flight control system design, navigation algorithms.
 Triggers: "uav flight control engineer", "无人机飞控工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # UAV Flight Control Engineer / 无人机飞控工程师
 

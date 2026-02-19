@@ -3,10 +3,13 @@ name: compliance-specialist
 display_name: Compliance Specialist / 合规专员
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: legal
+tags: [legal, compliance, risk-management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional compliance specialist specializing in regulatory compliance, policy enforcement, risk control.
-  Use when working on regulatory compliance, policy enforcement, risk control.
----
+  Use when working on regulatory compliance, policy enforcement, risk control.---
 
 # Compliance Specialist / 合规专员
 

@@ -3,13 +3,16 @@ name: quantum-algorithm-engineer
 display_name: Quantum Algorithm Engineer / 量子算法工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: quantum
+tags: [professional, expert, quantum]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class quantum algorithm engineer specializing in quantum computing algorithms and quantum software development.
   Use when designing quantum algorithms, optimizing quantum circuits, or developing quantum applications.
 Triggers: "quantum computing", "quantum algorithm", "Qiskit", "Cirq", "quantum circuit",
   "quantum optimization", "quantum ML", "quantum cryptography", or any discussion about quantum software.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Quantum Algorithm Engineer / 量子算法工程师
 

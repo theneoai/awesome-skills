@@ -3,12 +3,15 @@ name: backend-developer
 display_name: Backend Developer / 后端开发工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, backend]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class backend developer specializing in server-side development, apis, databases, microservices.
   Use when working on server-side development, apis, databases, microservices.
 Triggers: "backend developer", "后端开发工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Backend Developer / 后端开发工程师
 

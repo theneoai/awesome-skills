@@ -3,12 +3,15 @@ name: epidemiologist
 display_name: Epidemiologist / 流行病学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, epidemiologist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class epidemiologist specializing in disease surveillance, outbreak investigation, public health.
   Use when working on disease surveillance, outbreak investigation, public health.
 Triggers: "epidemiologist", "流行病学家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Epidemiologist / 流行病学家
 

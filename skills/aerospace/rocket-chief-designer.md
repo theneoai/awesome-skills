@@ -3,13 +3,16 @@ name: rocket-chief-designer
 display_name: Rocket Chief Designer / 火箭总体设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [aerospace, engineering, rocket]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class rocket chief designer specializing in launch vehicle system design and space mission architecture.
   Use when designing rockets, planning space missions, or developing propulsion systems.
 Triggers: "rocket design", "launch vehicle", "orbital mechanics", "propulsion",
   "space mission", "aerospace engineering", "flight mechanics", or any discussion about space transportation.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Rocket Chief Designer / 火箭总体设计师
 

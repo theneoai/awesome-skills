@@ -3,9 +3,12 @@ name: dancer
 display_name: Dancer / 舞蹈演员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, dancer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dancer specializing in choreography, performance, dance instruction.
----
+  Professional dancer specializing in choreography, performance, dance instruction.---
 
 # Dancer / 舞蹈演员
 

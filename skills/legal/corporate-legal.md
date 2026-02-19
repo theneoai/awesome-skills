@@ -3,10 +3,13 @@ name: corporate-legal
 display_name: Corporate Legal Counsel / 企业法务
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: legal
+tags: [legal, compliance, corporate]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional corporate legal counsel specializing in contract review, compliance, legal advisory.
-  Use when working on contract review, compliance, legal advisory.
----
+  Use when working on contract review, compliance, legal advisory.---
 
 # Corporate Legal Counsel / 企业法务
 

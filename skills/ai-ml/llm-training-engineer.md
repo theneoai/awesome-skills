@@ -3,13 +3,16 @@ name: llm-training-engineer
 display_name: LLM Training Engineer / 大模型训练工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: ai-ml
+tags: [ai, machine-learning, llm]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class LLM training engineer specializing in distributed training infrastructure and optimization.
   Use when building training infrastructure, optimizing model training efficiency, or scaling LLM training to thousands of GPUs.
 Triggers: "distributed training", "DeepSpeed", "Megatron", "training infrastructure",
   "GPU cluster", "model parallelism", "data parallelism", "ZeRO optimization".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # LLM Training Engineer / 大模型训练工程师
 

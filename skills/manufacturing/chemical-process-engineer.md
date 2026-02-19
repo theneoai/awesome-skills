@@ -3,12 +3,15 @@ name: chemical-process-engineer
 display_name: Chemical Process Engineer / 化工工艺工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: manufacturing
+tags: [manufacturing, engineering, chemical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class chemical process engineer specializing in process design, reactor design, optimization.
   Use when working on process design, reactor design, optimization.
 Triggers: "chemical process engineer", "化工工艺工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Chemical Process Engineer / 化工工艺工程师
 

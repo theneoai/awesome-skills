@@ -3,9 +3,12 @@ name: sensory-integration-therapist
 display_name: Sensory Integration Therapist / 感统训练师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, sensory]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Sensory Integration Therapist specializing in sensory processing, motor coordination, developmental therapy.
----
+  Sensory Integration Therapist specializing in sensory processing, motor coordination, developmental therapy.---
 
 # Sensory Integration Therapist / 感统训练师
 

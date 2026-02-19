@@ -3,9 +3,12 @@ name: credit-rating-analyst
 display_name: Credit Rating Analyst / 信用评级分析师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: finance
+tags: [finance, analysis, credit]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Credit Rating Analyst specializing in credit analysis, risk rating, financial assessment.
----
+  Credit Rating Analyst specializing in credit analysis, risk rating, financial assessment.---
 
 # Credit Rating Analyst / 信用评级分析师
 

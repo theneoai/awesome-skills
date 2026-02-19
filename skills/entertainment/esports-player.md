@@ -3,9 +3,12 @@ name: esports-player
 display_name: Esports Player / 电竞选手
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, esports]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional esports player specializing in professional gaming, competition, streaming.
----
+  Professional esports player specializing in professional gaming, competition, streaming.---
 
 # Esports Player / 电竞选手
 

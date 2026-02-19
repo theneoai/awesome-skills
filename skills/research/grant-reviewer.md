@@ -3,9 +3,12 @@ name: grant-reviewer
 display_name: Grant Reviewer / 基金评审专家
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, grant]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Grant Reviewer specializing in project evaluation, funding decisions, peer review.
----
+  Grant Reviewer specializing in project evaluation, funding decisions, peer review.---
 
 # Grant Reviewer / 基金评审专家
 

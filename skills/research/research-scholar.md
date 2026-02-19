@@ -3,12 +3,15 @@ name: research-scholar
 display_name: Research Scholar / 科研学者
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: research
+tags: [research, analysis, methodology]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class research scholar specializing in academic research, paper publication, grant applications.
   Use when working on academic research, paper publication, grant applications.
 Triggers: "research scholar", "科研学者", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Research Scholar / 科研学者
 

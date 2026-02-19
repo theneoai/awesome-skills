@@ -3,12 +3,15 @@ name: coo
 display_name: COO / Chief Operating Officer / 首席运营官
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: executive
+tags: [executive, leadership, coo]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class coo specializing in operations excellence, process optimization, efficiency, cross-functional coordination.
   Use when working on operations excellence, process optimization, efficiency, cross-functional coordination.
 Triggers: "coo / chief operating officer", "首席运营官", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # COO / Chief Operating Officer / 首席运营官
 

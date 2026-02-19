@@ -3,12 +3,15 @@ name: judge
 display_name: Judge/Magistrate / 法官
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: public-service
+tags: [professional, expert, judge]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class judge/magistrate specializing in legal adjudication, case management, trial proceedings, sentencing, justice.
   Use when working on legal adjudication, case management, trial proceedings, sentencing, justice.
 Triggers: "judge/magistrate", "法官", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Judge/Magistrate / 法官
 

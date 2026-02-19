@@ -3,9 +3,12 @@ name: clinical-research-coordinator
 display_name: Clinical Research Coordinator / 临床研究协调员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, clinical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Clinical Research Coordinator specializing in trial management, patient coordination, regulatory compliance.
----
+  Clinical Research Coordinator specializing in trial management, patient coordination, regulatory compliance.---
 
 # Clinical Research Coordinator / 临床研究协调员
 

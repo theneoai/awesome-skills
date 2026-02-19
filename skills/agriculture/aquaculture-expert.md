@@ -3,12 +3,15 @@ name: aquaculture-expert
 display_name: Aquaculture Expert / 水产养殖专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: agriculture
+tags: [agriculture, farming, aquaculture]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class aquaculture expert specializing in freshwater/marine aquaculture, breeding technology.
   Use when working on freshwater/marine aquaculture, breeding technology.
 Triggers: "aquaculture expert", "水产养殖专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Aquaculture Expert / 水产养殖专家
 

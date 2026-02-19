@@ -3,12 +3,15 @@ name: military-officer
 display_name: Military Officer / 军官
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: public-service
+tags: [professional, expert, military]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class military officer specializing in defense operations, leadership, strategy, training, national security.
   Use when working on defense operations, leadership, strategy, training, national security.
 Triggers: "military officer", "军官", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Military Officer / 军官
 

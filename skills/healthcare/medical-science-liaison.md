@@ -3,9 +3,12 @@ name: medical-science-liaison
 display_name: Medical Science Liaison / 医学联络官
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, medical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Science Liaison specializing in scientific communication, kol engagement, product education.
----
+  Medical Science Liaison specializing in scientific communication, kol engagement, product education.---
 
 # Medical Science Liaison / 医学联络官
 

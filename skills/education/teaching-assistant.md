@@ -3,9 +3,12 @@ name: teaching-assistant
 display_name: Teaching Assistant / 助教
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, learning]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Teaching Assistant specializing in class support, student guidance, material preparation.
----
+  Teaching Assistant specializing in class support, student guidance, material preparation.---
 
 # Teaching Assistant / 助教
 

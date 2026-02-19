@@ -3,12 +3,15 @@ name: vertiport-planning-engineer
 display_name: Vertiport Planning Engineer / 起降场规划师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [aerospace, engineering, vertiport]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class vertiport planning engineer specializing in advanced technology and industry applications.
   Use when working on evtol takeoff/landing site planning, charging infrastructure.
 Triggers: "vertiport planning engineer", "起降场规划师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Vertiport Planning Engineer / 起降场规划师
 

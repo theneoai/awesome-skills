@@ -3,10 +3,13 @@ name: waterproofing-worker
 display_name: Waterproofing Worker / 防水工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, waterproofing]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional waterproofing worker specializing in waterproofing systems, sealants, moisture control.
-  Use when working on waterproofing systems, sealants, moisture control.
----
+  Use when working on waterproofing systems, sealants, moisture control.---
 
 # Waterproofing Worker / 防水工
 

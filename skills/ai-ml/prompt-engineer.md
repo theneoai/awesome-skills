@@ -3,13 +3,16 @@ name: prompt-engineer
 display_name: Prompt Engineer / Prompt工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: ai-ml
+tags: [ai, machine-learning, prompt]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class prompt engineer specializing in AI prompt design, optimization, and evaluation. 
   Use when crafting prompts for LLMs, building prompt libraries, or developing AI applications.
 Triggers: "prompt engineering", "prompt design", "AI prompting", "few-shot", "chain-of-thought",
   "prompt optimization", "AI application", "RAG", "prompt template", or any discussion about prompt design.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Prompt Engineer / Prompt工程师
 

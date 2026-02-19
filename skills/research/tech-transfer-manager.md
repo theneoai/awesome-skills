@@ -3,9 +3,12 @@ name: tech-transfer-manager
 display_name: Technology Transfer Manager / 技术转移经理
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, tech]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Technology Transfer Manager specializing in patent management, commercialization, industry collaboration.
----
+  Technology Transfer Manager specializing in patent management, commercialization, industry collaboration.---
 
 # Technology Transfer Manager / 技术转移经理
 

@@ -3,9 +3,12 @@ name: chemical-analyst
 display_name: Chemical Analyst / 化学分析技术员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, chemical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Chemical Analyst specializing in hplc/gc-ms operation, sample testing, method development.
----
+  Chemical Analyst specializing in hplc/gc-ms operation, sample testing, method development.---
 
 # Chemical Analyst / 化学分析技术员
 

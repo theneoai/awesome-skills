@@ -3,12 +3,15 @@ name: mine-safety-engineer
 display_name: Mine Safety Engineer / 矿山安全工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: mining
+tags: [professional, expert, mine]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class mine safety engineer specializing in safety management, ventilation, hazard prevention.
   Use when working on safety management, ventilation, hazard prevention.
 Triggers: "mine safety engineer", "矿山安全工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Mine Safety Engineer / 矿山安全工程师
 

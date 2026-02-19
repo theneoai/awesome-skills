@@ -3,9 +3,12 @@ name: data-curator
 display_name: Data Curator / 科学数据管理员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, data]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Data Curator specializing in data archiving, metadata management, open science support.
----
+  Data Curator specializing in data archiving, metadata management, open science support.---
 
 # Data Curator / 科学数据管理员
 

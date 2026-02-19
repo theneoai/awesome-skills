@@ -3,12 +3,15 @@ name: interior-designer
 display_name: Interior Designer / 室内设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: construction
+tags: [construction, engineering, interior]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class interior designer specializing in interior spaces, materials, lighting, feng shui.
   Use when working on interior spaces, materials, lighting, feng shui.
 Triggers: "interior designer", "室内设计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Interior Designer / 室内设计师
 

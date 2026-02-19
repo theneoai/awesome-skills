@@ -3,9 +3,12 @@ name: language-test-trainer
 display_name: Language Test Trainer / 雅思/托福老师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, language]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Language Test Trainer specializing in ielts/toefl prep, test strategies, language skills.
----
+  Language Test Trainer specializing in ielts/toefl prep, test strategies, language skills.---
 
 # Language Test Trainer / 雅思/托福老师
 

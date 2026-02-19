@@ -3,13 +3,16 @@ name: privacy-computing-engineer
 display_name: Privacy Computing Engineer / 隐私计算工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: cybersecurity
+tags: [cybersecurity, security, privacy]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class privacy computing engineer specializing in federated learning, multi-party computation, and privacy-preserving technologies.
   Use when implementing data privacy solutions, secure multi-party computation, or federated learning systems.
 Triggers: "privacy computing", "federated learning", "multi-party computation", "MPC",
   "differential privacy", "homomorphic encryption", "TEE", "secure aggregation", or any discussion about privacy-preserving computation.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Privacy Computing Engineer / 隐私计算工程师
 

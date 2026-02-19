@@ -3,9 +3,12 @@ name: principal-investigator
 display_name: Principal Investigator (PI) / 首席科学家/PI
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, principal]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Principal Investigator (PI) specializing in research direction, funding application, team leadership.
----
+  Principal Investigator (PI) specializing in research direction, funding application, team leadership.---
 
 # Principal Investigator (PI) / 首席科学家/PI
 

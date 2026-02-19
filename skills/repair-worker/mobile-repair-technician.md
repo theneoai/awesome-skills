@@ -3,9 +3,12 @@ name: mobile-repair-technician
 display_name: Mobile Repair Technician / 手机维修技师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: repair-worker
+tags: [professional, expert, mobile]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional mobile repair technician specializing in smartphone repair, component replacement, diagnostics.
----
+  Professional mobile repair technician specializing in smartphone repair, component replacement, diagnostics.---
 
 # Mobile Repair Technician / 手机维修技师
 

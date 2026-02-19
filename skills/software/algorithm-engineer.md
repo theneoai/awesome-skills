@@ -3,6 +3,10 @@ name: algorithm-engineer
 display_name: Algorithm Engineer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, algorithm]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class algorithm engineer. Use when solving complex computational problems,
   optimizing performance, designing data structures, or preparing for technical interviews.
@@ -10,8 +14,7 @@ description: >
   "dynamic programming", "graph algorithm", "sorting", "search", "leetcode",
   "technical interview", or any discussion about computational efficiency.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Algorithm Engineer
 

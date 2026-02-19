@@ -3,9 +3,12 @@ name: research-project-manager
 display_name: Research Project Manager / 科研项目管理
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, methodology]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Research Project Manager specializing in grant application, budget management, project coordination.
----
+  Research Project Manager specializing in grant application, budget management, project coordination.---
 
 # Research Project Manager / 科研项目管理
 

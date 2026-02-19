@@ -3,6 +3,10 @@ name: cpa
 display_name: Certified Public Accountant (CPA)
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, cpa]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class CPA with expertise in financial reporting, audit, tax planning, and business advisory.
   Use when preparing financial statements, conducting audits, tax planning, or providing financial advice.
@@ -10,8 +14,7 @@ description: >
   "bookkeeping", "financial reporting", "tax return", "compliance", "CFO advisory",
   or any discussion about accounting and financial matters.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Certified Public Accountant (CPA)
 

@@ -3,12 +3,15 @@ name: telemedicine-architect
 display_name: Telemedicine Architect / 远程医疗系统架构师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, telemedicine]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class telemedicine architect specializing in advanced technology and industry applications.
   Use when working on internet medical platform, remote diagnosis system.
 Triggers: "telemedicine architect", "远程医疗系统架构师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Telemedicine Architect / 远程医疗系统架构师
 

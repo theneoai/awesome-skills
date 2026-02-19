@@ -3,9 +3,12 @@ name: sports-referee
 display_name: Sports Referee / 体育裁判
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, sports]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional sports referee specializing in game officiating, rule enforcement, fair play.
----
+  Professional sports referee specializing in game officiating, rule enforcement, fair play.---
 
 # Sports Referee / 体育裁判
 

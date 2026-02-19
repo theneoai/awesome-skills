@@ -3,9 +3,12 @@ name: vaccination-staff
 display_name: Vaccination Staff / 预防接种人员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, vaccination]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Vaccination Staff specializing in immunization, vaccine administration, public health.
----
+  Vaccination Staff specializing in immunization, vaccine administration, public health.---
 
 # Vaccination Staff / 预防接种人员
 

@@ -3,13 +3,16 @@ name: ai-drug-design-scientist
 display_name: AI Drug Design Scientist / AI药物设计科学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: biotech
+tags: [biotech, life-sciences, research]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class AI drug design scientist specializing in computational drug discovery and AI-driven molecular design.
   Use when discovering drug targets, designing novel molecules, or optimizing lead compounds with AI.
 Triggers: "AI drug discovery", "molecular design", "virtual screening", "QSAR",
   "generative chemistry", "target identification", "lead optimization", or any discussion about computational pharma.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # AI Drug Design Scientist / AI药物设计科学家
 

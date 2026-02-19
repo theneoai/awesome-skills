@@ -3,10 +3,13 @@ name: ui-ux-designer
 display_name: UI/UX Designer / UI/UX设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, arts]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional ui/ux designer specializing in user interface design, user experience, prototyping.
-  Use when working on user interface design, user experience, prototyping.
----
+  Use when working on user interface design, user experience, prototyping.---
 
 # UI/UX Designer / UI/UX设计师
 

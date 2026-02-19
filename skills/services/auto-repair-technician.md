@@ -3,12 +3,15 @@ name: auto-repair-technician
 display_name: Auto Repair Technician / 汽车维修技师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: services
+tags: [professional, expert, auto]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class auto repair technician specializing in vehicle diagnostics, repair, maintenance.
   Use when working on vehicle diagnostics, repair, maintenance.
 Triggers: "auto repair technician", "汽车维修技师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Auto Repair Technician / 汽车维修技师
 

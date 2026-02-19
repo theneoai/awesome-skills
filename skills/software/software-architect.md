@@ -3,14 +3,17 @@ name: software-architect
 display_name: Software Architect / 软件架构师
 author: awesome-skills
 version: 2.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, development]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class software architect. Use when designing system architecture, making technology 
   choices, reviewing code structure, optimizing performance, or planning scalable solutions.
 Triggers: "design architecture", "tech stack", "system design", "scalability", 
   "microservices", "API design", "database design", "performance optimization",
   "code review", "architecture decision"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Software Architect / 软件架构师
 

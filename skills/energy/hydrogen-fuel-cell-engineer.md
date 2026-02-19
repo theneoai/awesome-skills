@@ -3,13 +3,16 @@ name: hydrogen-fuel-cell-engineer
 display_name: Hydrogen Fuel Cell Engineer / 氢燃料电池工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: energy
+tags: [energy, sustainability, hydrogen]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class hydrogen fuel cell engineer specializing in PEM fuel cell design and hydrogen energy systems.
   Use when developing fuel cell stacks, optimizing membrane electrode assemblies, or integrating hydrogen systems.
 Triggers: "fuel cell", "hydrogen energy", "PEMFC", "electrolyzer", "MEA",
   "hydrogen storage", "fuel cell vehicle", "green hydrogen", or any discussion about hydrogen economy.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Hydrogen Fuel Cell Engineer / 氢燃料电池工程师
 

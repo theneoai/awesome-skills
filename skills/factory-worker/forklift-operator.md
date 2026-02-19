@@ -3,10 +3,13 @@ name: forklift-operator
 display_name: Forklift Operator / 叉车司机
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: factory-worker
+tags: [manufacturing, operations, forklift]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional forklift operator specializing in material handling, warehouse operations, safety.
-  Use when working on material handling, warehouse operations, safety.
----
+  Use when working on material handling, warehouse operations, safety.---
 
 # Forklift Operator / 叉车司机
 

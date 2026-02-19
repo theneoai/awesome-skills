@@ -3,9 +3,12 @@ name: mover
 display_name: Mover / 搬家工人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, mover]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional mover specializing in relocation services, packing, transportation.
----
+  Professional mover specializing in relocation services, packing, transportation.---
 
 # Mover / 搬家工人
 

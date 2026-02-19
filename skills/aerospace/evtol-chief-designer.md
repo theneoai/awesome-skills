@@ -3,12 +3,15 @@ name: evtol-chief-designer
 display_name: eVTOL Chief Designer / eVTOL总体设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [aerospace, engineering, evtol]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class evtol chief designer specializing in advanced technology and industry applications.
   Use when working on evtol aerodynamic layout, structure, power system design.
 Triggers: "evtol chief designer", "eVTOL总体设计师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # eVTOL Chief Designer / eVTOL总体设计师
 

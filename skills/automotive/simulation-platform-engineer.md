@@ -3,12 +3,15 @@ name: simulation-platform-engineer
 display_name: Simulation Platform Engineer / 仿真平台工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: automotive
+tags: [automotive, engineering, simulation]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class simulation platform engineer specializing in advanced technology and industry applications.
   Use when working on autonomous driving simulation, scenario generation.
 Triggers: "simulation platform engineer", "仿真平台工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Simulation Platform Engineer / 仿真平台工程师
 

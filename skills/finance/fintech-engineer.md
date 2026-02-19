@@ -3,12 +3,15 @@ name: fintech-engineer
 display_name: FinTech Engineer / 金融科技工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, fintech]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class fintech engineer specializing in digital banking, payment systems, blockchain finance.
   Use when working on digital banking, payment systems, blockchain finance.
 Triggers: "fintech engineer", "金融科技工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # FinTech Engineer / 金融科技工程师
 

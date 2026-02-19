@@ -3,9 +3,12 @@ name: museum-curator
 display_name: Museum Curator / 博物馆策展
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, museum]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Museum Curator specializing in exhibition planning, artifact management, public education.
----
+  Museum Curator specializing in exhibition planning, artifact management, public education.---
 
 # Museum Curator / 博物馆策展
 

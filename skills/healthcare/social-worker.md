@@ -3,12 +3,15 @@ name: social-worker
 display_name: Social Worker / 社会工作者
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, social]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class social worker specializing in social services, case management, community support.
   Use when working on social services, case management, community support.
 Triggers: "social worker", "社会工作者", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Social Worker / 社会工作者
 

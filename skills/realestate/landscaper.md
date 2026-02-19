@@ -3,9 +3,12 @@ name: landscaper
 display_name: Landscaper / 绿化工
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: realestate
+tags: [professional, expert, landscaper]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Landscaper specializing in gardening, landscape maintenance, outdoor aesthetics.
----
+  Landscaper specializing in gardening, landscape maintenance, outdoor aesthetics.---
 
 # Landscaper / 绿化工
 

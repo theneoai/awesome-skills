@@ -3,12 +3,15 @@ name: clinical-pharmacist
 display_name: Clinical Pharmacist / 临床药师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, clinical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class clinical pharmacist specializing in medication therapy, drug interactions, patient counseling.
   Use when working on medication therapy, drug interactions, patient counseling.
 Triggers: "clinical pharmacist", "临床药师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Clinical Pharmacist / 临床药师
 

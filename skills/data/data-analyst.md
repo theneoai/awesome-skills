@@ -3,12 +3,15 @@ name: data-analyst
 display_name: Data Analyst / 数据分析师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: data
+tags: [data, analytics, data-science]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class data analyst specializing in data visualization, sql, statistical analysis, reporting.
   Use when working on data visualization, sql, statistical analysis, reporting.
 Triggers: "data analyst", "数据分析师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Data Analyst / 数据分析师
 

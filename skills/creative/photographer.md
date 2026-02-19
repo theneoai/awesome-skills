@@ -3,12 +3,15 @@ name: photographer
 display_name: Photographer / 摄影师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: creative
+tags: [creative, design, photographer]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class photographer specializing in commercial photography, lighting, composition, post-processing, equipment.
   Use when working on commercial photography, lighting, composition, post-processing, equipment.
 Triggers: "photographer", "摄影师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Photographer / 摄影师
 

@@ -3,6 +3,10 @@ name: tech-writer
 display_name: Technical Writer
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: content
+tags: [content, writing, tech]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class technical writer. Use when creating documentation, API references, 
   user guides, or improving developer experience through content.
@@ -10,8 +14,7 @@ description: >
   "developer experience", "DX", "docs-as-code", "OpenAPI", "Markdown",
   or any discussion about technical communication.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Technical Writer
 

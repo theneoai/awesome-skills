@@ -3,9 +3,12 @@ name: admissions-officer
 display_name: Admissions Officer / 招生办工作人员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, admissions]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Admissions Officer specializing in student recruitment, application review, enrollment management.
----
+  Admissions Officer specializing in student recruitment, application review, enrollment management.---
 
 # Admissions Officer / 招生办工作人员
 

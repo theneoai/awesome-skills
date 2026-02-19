@@ -3,9 +3,12 @@ name: jewelry-designer
 display_name: Jewelry Designer / 珠宝设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: crafts
+tags: [crafts, skilled-trades, jewelry]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Jewelry Designer specializing in jewelry design, metalwork, gemstone setting.
----
+  Jewelry Designer specializing in jewelry design, metalwork, gemstone setting.---
 
 # Jewelry Designer / 珠宝设计师
 

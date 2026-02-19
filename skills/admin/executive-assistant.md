@@ -3,10 +3,13 @@ name: executive-assistant
 display_name: Executive Assistant / 总裁助理
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: admin
+tags: [administration, operations, executive]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional executive assistant specializing in calendar management, travel coordination, executive support.
-  Use when working on calendar management, travel coordination, executive support.
----
+  Use when working on calendar management, travel coordination, executive support.---
 
 # Executive Assistant / 总裁助理
 

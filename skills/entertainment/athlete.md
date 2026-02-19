@@ -3,9 +3,12 @@ name: athlete
 display_name: Athlete / 运动员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: entertainment
+tags: [entertainment, creative, athlete]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional athlete specializing in sports competition, physical training, performance.
----
+  Professional athlete specializing in sports competition, physical training, performance.---
 
 # Athlete / 运动员
 

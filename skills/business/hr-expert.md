@@ -3,12 +3,15 @@ name: hr-expert
 display_name: HR Expert/HRBP / HR专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: business
+tags: [business, strategy, management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class hr expert/hrbp specializing in talent acquisition, performance management, employee relations.
   Use when working on talent acquisition, performance management, employee relations.
 Triggers: "hr expert/hrbp", "HR专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # HR Expert/HRBP / HR专家
 

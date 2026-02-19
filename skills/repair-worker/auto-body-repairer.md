@@ -3,9 +3,12 @@ name: auto-body-repairer
 display_name: Auto Body Repairer / 汽车钣金喷漆
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: repair-worker
+tags: [professional, expert, auto]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional auto body repairer specializing in body repair, painting, dent removal.
----
+  Professional auto body repairer specializing in body repair, painting, dent removal.---
 
 # Auto Body Repairer / 汽车钣金喷漆
 

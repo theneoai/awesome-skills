@@ -3,12 +3,15 @@ name: cell-therapy-scientist
 display_name: Cell Therapy Scientist / 细胞治疗科学家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: biotech
+tags: [biotech, life-sciences, cell]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class cell therapy scientist specializing in advanced technology and industry applications.
   Use when working on car-t and other cell therapy r&d.
 Triggers: "cell therapy scientist", "细胞治疗科学家", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Cell Therapy Scientist / 细胞治疗科学家
 

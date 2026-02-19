@@ -3,9 +3,12 @@ name: medical-insurance-officer
 display_name: Medical Insurance Officer / 医保办人员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, medical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Insurance Officer specializing in insurance processing, claims management, policy compliance.
----
+  Medical Insurance Officer specializing in insurance processing, claims management, policy compliance.---
 
 # Medical Insurance Officer / 医保办人员
 

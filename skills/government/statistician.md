@@ -3,9 +3,12 @@ name: statistician
 display_name: Statistician / 统计调查员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, statistician]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Statistician specializing in data collection, statistical analysis, census operations.
----
+  Statistician specializing in data collection, statistical analysis, census operations.---
 
 # Statistician / 统计调查员
 

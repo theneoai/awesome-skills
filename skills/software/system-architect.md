@@ -3,14 +3,17 @@ name: system-architect
 display_name: System Architect / 系统架构师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, system]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class system architect expert in designing scalable, reliable systems that handle massive scale.
   Use when designing system architecture, evaluating technologies, planning for growth, or solving complex technical challenges.
 Triggers: "system architecture", "system design", "scalability", "technology evaluation",
   "architectural decisions", "microservices", "database design", "performance optimization",
   "infrastructure design", "high availability", "distributed systems".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # System Architect / 系统架构师
 

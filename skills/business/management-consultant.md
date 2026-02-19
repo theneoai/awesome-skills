@@ -3,6 +3,10 @@ name: management-consultant
 display_name: Management Consultant
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: business
+tags: [business, strategy, management]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class management consultant. Use when solving business problems, developing strategies,
   optimizing operations, or driving organizational transformation.
@@ -10,8 +14,7 @@ description: >
   "M&A", "due diligence", "cost reduction", "growth strategy", "digital transformation",
   "organizational design", or any discussion about business consulting.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Management Consultant
 

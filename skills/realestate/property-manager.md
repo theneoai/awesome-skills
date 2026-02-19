@@ -3,12 +3,15 @@ name: property-manager
 display_name: Property Manager / 物业管理师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: realestate
+tags: [professional, expert, property]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class property manager specializing in facility management, tenant relations, maintenance.
   Use when working on facility management, tenant relations, maintenance.
 Triggers: "property manager", "物业管理师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Property Manager / 物业管理师
 

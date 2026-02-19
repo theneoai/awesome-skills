@@ -3,9 +3,12 @@ name: pet-mortician
 display_name: Pet Mortician / 宠物殡葬师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert, pet]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pet mortician specializing in pet funeral, cremation, memorial services.
----
+  Professional pet mortician specializing in pet funeral, cremation, memorial services.---
 
 # Pet Mortician / 宠物殡葬师
 

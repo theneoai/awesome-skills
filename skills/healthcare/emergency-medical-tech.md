@@ -3,9 +3,12 @@ name: emergency-medical-tech
 display_name: Emergency Medical Technician / 急救员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, emergency]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional emergency medical technician specializing in emergency response, first aid, ambulance service.
----
+  Professional emergency medical technician specializing in emergency response, first aid, ambulance service.---
 
 # Emergency Medical Technician / 急救员
 

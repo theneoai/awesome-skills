@@ -3,9 +3,12 @@ name: sanitation-worker
 display_name: Sanitation Worker / 环卫工人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: public-service
+tags: [professional, expert, sanitation]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional sanitation worker specializing in street cleaning, waste collection, public hygiene.
----
+  Professional sanitation worker specializing in street cleaning, waste collection, public hygiene.---
 
 # Sanitation Worker / 环卫工人
 

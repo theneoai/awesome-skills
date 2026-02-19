@@ -3,12 +3,15 @@ name: fund-manager
 display_name: Fund Manager / 基金经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, fund]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class fund manager specializing in portfolio management, investment strategy, asset allocation.
   Use when working on portfolio management, investment strategy, asset allocation.
 Triggers: "fund manager", "基金经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Fund Manager / 基金经理
 

@@ -3,12 +3,15 @@ name: wide-bandgap-semiconductor-engineer
 display_name: Wide Bandgap Semiconductor Engineer / 宽禁带半导体工艺工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: materials
+tags: [professional, expert, wide]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class wide bandgap semiconductor engineer specializing in advanced technology and industry applications.
   Use when working on sic/gan epitaxy growth and device process.
 Triggers: "wide bandgap semiconductor engineer", "宽禁带半导体工艺工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Wide Bandgap Semiconductor Engineer / 宽禁带半导体工艺工程师
 

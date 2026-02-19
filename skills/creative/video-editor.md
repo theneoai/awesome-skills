@@ -3,10 +3,13 @@ name: video-editor
 display_name: Video Editor / 视频剪辑师
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: creative
+tags: [creative, design, video]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional video editor specializing in video editing, post-production, color grading.
-  Use when working on video editing, post-production, color grading.
----
+  Use when working on video editing, post-production, color grading.---
 
 # Video Editor / 视频剪辑师
 

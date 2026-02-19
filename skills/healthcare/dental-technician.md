@@ -3,9 +3,12 @@ name: dental-technician
 display_name: Dental Technician / 牙科技师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, dental]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dental technician specializing in denture fabrication, crown/bridge work, prosthetics.
----
+  Professional dental technician specializing in denture fabrication, crown/bridge work, prosthetics.---
 
 # Dental Technician / 牙科技师
 

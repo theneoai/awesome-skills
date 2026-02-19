@@ -3,10 +3,13 @@ name: painter
 display_name: Painter / 油漆工
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: construction-worker
+tags: [construction, skilled-trades, painter]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional painter specializing in surface preparation, painting, finishing.
-  Use when working on surface preparation, painting, finishing.
----
+  Use when working on surface preparation, painting, finishing.---
 
 # Painter / 油漆工
 

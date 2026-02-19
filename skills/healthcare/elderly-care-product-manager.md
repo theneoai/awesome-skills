@@ -3,12 +3,15 @@ name: elderly-care-product-manager
 display_name: Elderly Care Product Manager / 智慧养老产品经理
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, elderly]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class elderly care product manager specializing in advanced technology and industry applications.
   Use when working on elderly smart device and service platform design.
 Triggers: "elderly care product manager", "智慧养老产品经理", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Elderly Care Product Manager / 智慧养老产品经理
 

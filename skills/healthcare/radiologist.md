@@ -3,9 +3,12 @@ name: radiologist
 display_name: Radiologist / 放射科医师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, radiologist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Radiologist specializing in medical imaging, diagnosis, image interpretation.
----
+  Radiologist specializing in medical imaging, diagnosis, image interpretation.---
 
 # Radiologist / 放射科医师
 

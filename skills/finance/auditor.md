@@ -3,12 +3,15 @@ name: auditor
 display_name: Auditor / 审计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: finance
+tags: [finance, analysis, auditor]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class auditor specializing in financial audit, internal controls, compliance checking, risk assessment.
   Use when working on financial audit, internal controls, compliance checking, risk assessment.
 Triggers: "auditor", "审计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Auditor / 审计师
 

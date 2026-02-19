@@ -3,9 +3,12 @@ name: pet-groomer
 display_name: Pet Groomer / 宠物美容师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: service-worker
+tags: [professional, expert, pet]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pet groomer specializing in pet bathing, grooming, styling.
----
+  Professional pet groomer specializing in pet bathing, grooming, styling.---
 
 # Pet Groomer / 宠物美容师
 

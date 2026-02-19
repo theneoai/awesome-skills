@@ -3,9 +3,12 @@ name: infection-control-officer
 display_name: Infection Control Officer / 院感管理专员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, infection]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Infection Control Officer specializing in infection prevention, protocol development, compliance monitoring.
----
+  Infection Control Officer specializing in infection prevention, protocol development, compliance monitoring.---
 
 # Infection Control Officer / 院感管理专员
 

@@ -3,12 +3,15 @@ name: genomics-analyst
 display_name: Genomics Analyst / 基因组学分析师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, genomics]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class genomics analyst specializing in advanced technology and industry applications.
   Use when working on genomic data analysis, disease risk assessment.
 Triggers: "genomics analyst", "基因组学分析师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Genomics Analyst / 基因组学分析师
 

@@ -3,9 +3,12 @@ name: professional-queuer
 display_name: Professional Queuer / 职业排队人
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional queuer specializing in queue waiting, ticket purchasing, time-saving service.
----
+  Professional professional queuer specializing in queue waiting, ticket purchasing, time-saving service.---
 
 # Professional Queuer / 职业排队人
 

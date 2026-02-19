@@ -3,12 +3,15 @@ name: game-producer
 display_name: Game Producer / 游戏策划制作人
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: media
+tags: [media, content, game]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class game producer specializing in game design, project coordination, live operations.
   Use when working on game design, project coordination, live operations.
 Triggers: "game producer", "游戏策划制作人", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Game Producer / 游戏策划制作人
 

@@ -3,10 +3,13 @@ name: crop-farmer
 display_name: Crop Farmer / 种植户
 author: awesome-skills
 version: 1.0.0
+difficulty: intermediate
+category: farmer
+tags: [agriculture, farming, crop]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional crop farmer specializing in crop cultivation, planting, harvesting.
-  Use when working on crop cultivation, planting, harvesting.
----
+  Use when working on crop cultivation, planting, harvesting.---
 
 # Crop Farmer / 种植户
 

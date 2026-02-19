@@ -3,9 +3,12 @@ name: professional-taster
 display_name: Professional Taster / 品鉴师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional taster specializing in wine tasting, tea evaluation, sensory analysis.
----
+  Professional professional taster specializing in wine tasting, tea evaluation, sensory analysis.---
 
 # Professional Taster / 品鉴师
 

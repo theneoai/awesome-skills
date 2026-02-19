@@ -3,9 +3,12 @@ name: border-inspector
 display_name: Border Inspector / 边检员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, border]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Border Inspector specializing in immigration control, passport verification, security screening.
----
+  Border Inspector specializing in immigration control, passport verification, security screening.---
 
 # Border Inspector / 边检员
 

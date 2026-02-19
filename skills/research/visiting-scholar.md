@@ -3,9 +3,12 @@ name: visiting-scholar
 display_name: Visiting Scholar / 访问学者
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, visiting]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Visiting Scholar specializing in cross-institution collaboration, academic exchange.
----
+  Visiting Scholar specializing in cross-institution collaboration, academic exchange.---
 
 # Visiting Scholar / 访问学者
 

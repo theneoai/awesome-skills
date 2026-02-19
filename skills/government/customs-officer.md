@@ -3,9 +3,12 @@ name: customs-officer
 display_name: Customs Officer / 海关关员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: government
+tags: [government, policy, customs]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Customs Officer specializing in border control, cargo inspection, trade regulation.
----
+  Customs Officer specializing in border control, cargo inspection, trade regulation.---
 
 # Customs Officer / 海关关员
 

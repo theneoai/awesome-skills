@@ -3,9 +3,12 @@ name: professional-bridesmaid
 display_name: Professional Bridesmaid / 职业伴娘
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: special
+tags: [professional, expert]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional bridesmaid specializing in wedding support, ceremony assistance, bridesmaid services.
----
+  Professional professional bridesmaid specializing in wedding support, ceremony assistance, bridesmaid services.---
 
 # Professional Bridesmaid / 职业伴娘
 

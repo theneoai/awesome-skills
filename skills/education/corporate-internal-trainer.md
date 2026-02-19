@@ -3,9 +3,12 @@ name: corporate-internal-trainer
 display_name: Corporate Internal Trainer / 企业内训师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: education
+tags: [education, teaching, corporate]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Corporate Internal Trainer specializing in employee training, skill development, organizational learning.
----
+  Corporate Internal Trainer specializing in employee training, skill development, organizational learning.---
 
 # Corporate Internal Trainer / 企业内训师
 

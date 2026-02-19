@@ -3,12 +3,15 @@ name: qa-engineer
 display_name: QA Engineer / 测试工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: software
+tags: [software, engineering, development]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class qa engineer specializing in test automation, manual testing, performance testing.
   Use when working on test automation, manual testing, performance testing.
 Triggers: "qa engineer", "测试工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # QA Engineer / 测试工程师
 

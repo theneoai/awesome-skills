@@ -3,12 +3,15 @@ name: nursing-expert
 display_name: Nursing Expert / 护理专家
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: healthcare
+tags: [healthcare, medicine, nursing]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class nursing expert specializing in patient care, nursing protocols, healthcare management.
   Use when working on patient care, nursing protocols, healthcare management.
 Triggers: "nursing expert", "护理专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Nursing Expert / 护理专家
 

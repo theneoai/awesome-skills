@@ -3,12 +3,15 @@ name: journalist-editor
 display_name: Journalist/Editor / 记者编辑
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: media
+tags: [media, content, journalist]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class journalist/editor specializing in news reporting, content creation, editorial standards.
   Use when working on news reporting, content creation, editorial standards.
 Triggers: "journalist/editor", "记者编辑", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Journalist/Editor / 记者编辑
 

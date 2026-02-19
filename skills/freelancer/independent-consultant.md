@@ -3,9 +3,12 @@ name: independent-consultant
 display_name: Independent Consultant / 独立咨询顾问
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: freelancer
+tags: [freelance, business, independent]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional independent consultant specializing in business consulting, strategy advisory, project guidance.
----
+  Professional independent consultant specializing in business consulting, strategy advisory, project guidance.---
 
 # Independent Consultant / 独立咨询顾问
 

@@ -3,9 +3,12 @@ name: interventional-tech
 display_name: Interventional Technologist / 介入技师
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, interventional]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Interventional Technologist specializing in catheterization, imaging support, procedural assistance.
----
+  Interventional Technologist specializing in catheterization, imaging support, procedural assistance.---
 
 # Interventional Technologist / 介入技师
 

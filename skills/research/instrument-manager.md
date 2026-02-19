@@ -3,9 +3,12 @@ name: instrument-manager
 display_name: Instrument Manager / 大型仪器管理员
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: research
+tags: [research, analysis, instrument]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Instrument Manager specializing in equipment maintenance, user training, technical support.
----
+  Instrument Manager specializing in equipment maintenance, user training, technical support.---
 
 # Instrument Manager / 大型仪器管理员
 

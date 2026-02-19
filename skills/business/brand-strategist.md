@@ -3,12 +3,15 @@ name: brand-strategist
 display_name: Brand Strategist / 品牌策略师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: business
+tags: [business, strategy, brand]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class brand strategist specializing in brand positioning, marketing strategy, brand identity.
   Use when working on brand positioning, marketing strategy, brand identity.
 Triggers: "brand strategist", "品牌策略师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Brand Strategist / 品牌策略师
 

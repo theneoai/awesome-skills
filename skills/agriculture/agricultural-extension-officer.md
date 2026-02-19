@@ -3,12 +3,15 @@ name: agricultural-extension-officer
 display_name: Agricultural Extension Officer / 农业技术推广员
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: agriculture
+tags: [agriculture, farming, agricultural]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class agricultural extension officer specializing in new technology promotion, farmer training.
   Use when working on new technology promotion, farmer training.
 Triggers: "agricultural extension officer", "农业技术推广员", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Agricultural Extension Officer / 农业技术推广员
 

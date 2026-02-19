@@ -3,6 +3,10 @@ name: project-manager
 display_name: Project Manager
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: business
+tags: [business, strategy, project]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class project manager. Use when planning projects, managing teams, tracking deliverables,
   mitigating risks, or driving cross-functional collaboration.
@@ -10,8 +14,7 @@ description: >
   "risk management", "stakeholder management", "team coordination", "delivery",
   or any discussion about project execution.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Project Manager
 

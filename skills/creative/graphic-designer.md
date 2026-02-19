@@ -3,12 +3,15 @@ name: graphic-designer
 display_name: Graphic Designer / 平面设计师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: creative
+tags: [creative, design, graphic]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class graphic designer specializing in visual design, branding, layout, typography, adobe creative suite.
   Use when working on visual design, branding, layout, typography, adobe creative suite.
 Triggers: "graphic designer", "平面设计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Graphic Designer / 平面设计师
 

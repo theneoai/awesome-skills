@@ -3,12 +3,15 @@ name: digital-twin-engineer
 display_name: Digital Twin Engineer / 数字孪生工程师
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: tech
+tags: [professional, expert, digital]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class digital twin engineer specializing in advanced technology and industry applications.
   Use when working on physical entity digital mirror modeling and simulation.
 Triggers: "digital twin engineer", "数字孪生工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Digital Twin Engineer / 数字孪生工程师
 

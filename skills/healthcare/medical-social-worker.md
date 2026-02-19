@@ -3,9 +3,12 @@ name: medical-social-worker
 display_name: Medical Social Worker / 医务社工
 author: awesome-skills
 version: 1.0.0
+difficulty: beginner
+category: healthcare
+tags: [healthcare, medicine, medical]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Social Worker specializing in patient support, discharge planning, resource coordination.
----
+  Medical Social Worker specializing in patient support, discharge planning, resource coordination.---
 
 # Medical Social Worker / 医务社工
 

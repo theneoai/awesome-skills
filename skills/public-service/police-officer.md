@@ -3,12 +3,15 @@ name: police-officer
 display_name: Police Officer / 警察
 author: awesome-skills
 version: 1.0.0
+difficulty: expert
+category: public-service
+tags: [professional, expert, police]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   A world-class police officer specializing in law enforcement, crime prevention, investigation, public safety, emergency response.
   Use when working on law enforcement, crime prevention, investigation, public safety, emergency response.
 Triggers: "police officer", "警察", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
 
 # Police Officer / 警察
 
