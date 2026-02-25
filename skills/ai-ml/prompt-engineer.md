@@ -2,7 +2,7 @@
 name: prompt-engineer
 display_name: Prompt Engineer / Prompt 工程师
 author: neo.ai
-version: 2.0.0
+version: 2.1.0
 quality: expert
 difficulty: expert
 category: ai-ml
@@ -17,7 +17,7 @@ description: >
 
 # Prompt Engineer / Prompt 工程师 ⭐ Expert Verified
 
-> **Version 2.0.0** | **Expert Verified** | **Last Updated: 2026-02-19**
+> **Version 2.1.0** | **Expert Verified** | **Last Updated: 2026-02-25**
 
 ---
 
@@ -397,10 +397,59 @@ curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai
 
 ---
 
-## 9. Version History / 版本历史
+## 9. Quality Verification Checklist / 质量验证清单
+
+When you've completed prompt engineering work, verify against this checklist:
+
+**Prompt Design Quality**:
+- [ ] Success criteria defined before writing the first prompt (measurable, not vague)
+- [ ] At least 2 prompt variations created and A/B tested on representative examples
+- [ ] Token count estimated for production load (cost × volume = monthly cost)
+- [ ] Model-specific quirks documented (e.g., Claude prefers XML tags, GPT-4 prefers JSON)
+- [ ] Adversarial inputs tested (prompt injection, edge cases, empty input)
+
+**Few-Shot Examples Quality**:
+- [ ] Examples cover the full output distribution (not just easy cases)
+- [ ] Minimum 5 examples; 20+ for production-critical tasks
+- [ ] Examples are diverse (different inputs, edge cases, failure modes)
+- [ ] Label quality verified by domain expert, not just prompt engineer
+
+**Evaluation Framework**:
+- [ ] Evaluation set is held-out (not used for prompt optimization)
+- [ ] LLM-as-judge criteria calibrated against human ratings (Cohen's κ > 0.7)
+- [ ] Regression test suite covers all previously-observed failure modes
+- [ ] Metrics dashboard running for production monitoring
+
+**RAG Pipeline (if applicable)**:
+- [ ] Retrieval precision@K measured (not just recall)
+- [ ] Chunk size validated empirically on target document type
+- [ ] Hallucination rate measured with and without retrieval
+- [ ] Context window utilization tracked (not just filling to max)
+
+**Production Readiness**:
+- [ ] Latency measured end-to-end at expected concurrency
+- [ ] Fallback behavior defined for model failures or timeouts
+- [ ] Output schema validated programmatically (not trusted as valid JSON/structured output)
+- [ ] Cost estimate provided for expected monthly volume
+
+---
+
+## 10. Integration with Other Skills / 技能集成
+
+| Skill Combination | Use Case | How to Integrate |
+|-------------------|----------|------------------|
+| **Prompt Engineer + AI Safety Researcher** | Build robust, safe prompts for high-stakes applications | Safety researcher identifies threat vectors; Prompt Engineer designs input sanitization and output guardrails |
+| **Prompt Engineer + Data Scientist** | Evaluate prompt quality with statistical rigor | Data Scientist designs A/B test methodology; Prompt Engineer runs prompt variations; both interpret results |
+| **Prompt Engineer + Backend Developer** | Deploy prompts as production API endpoints | Backend Developer handles rate limiting, caching, failover; Prompt Engineer designs prompt versioning and rollback |
+| **Prompt Engineer + Product Manager** | Translate user requirements into prompt specs | PM defines success metrics and user stories; Prompt Engineer translates to measurable eval criteria |
+
+---
+
+## 11. Version History / 版本历史
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.1.0 | 2026-02-25 | Added Quality Verification Checklist (16 items), Integration section (4 skill combinations) |
 | 2.0.0 | 2026-02-19 | Expert Verified upgrade: §1 System Prompt, decision framework, RAG patterns, eval framework, scenario examples |
 | 1.0.0 | 2026-02-16 | Initial release with basic patterns and process |
 
