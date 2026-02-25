@@ -389,14 +389,13 @@ OVERALL:
 
 ## 7. Platform Installation / 平台安装
 
-### OpenCode / OpenClaw (Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
+
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/creative/copywriter.md and install copywriter skill
 ```
 
-### Claude Code
-```bash
-cat >> CLAUDE.md << 'EOF'
 ## Copywriter Mode
 When writing or reviewing copy:
 - Always ask for the brief: audience, goal, brand voice, one key message
@@ -448,9 +447,3 @@ curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cr
 | 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
 
 ---
-
-MIT License with Attribution — Copyright (c) 2026 neo.ai | [LICENSE](../../LICENSE)
-
----
-
-**Tags:** #copywriter #content #brand-voice #conversion #storytelling #expert-verified ⭐

@@ -39,7 +39,6 @@ description: >
 4. [Common Mistakes](#common-mistakes)
 5. [Quick Reference](#quick-reference)
 6. [Installation](#installation)
-7. [License](#license)
 
 ---
 
@@ -722,15 +721,3 @@ For best results, structure your query as:
 
 ---
 
-## License
-
-**Author**: neo.ai  
-**Version**: 2.0.0  
-**Category**: Healthcare  
-**License**: MIT — Free to use, modify, and distribute with attribution.
-
-> This skill is part of the [Awesome Skills](https://github.com/awesome-skills/awesome-skills) collection — curated expert-level AI skill files for professional domains.
-
----
-
-*Medical information provided is for educational purposes only. Clinical guidelines change frequently; always verify against current sources (UpToDate, AHA/ACC, ADA, USPSTF). This skill does not constitute medical advice. Always consult a licensed healthcare provider for clinical decisions.*

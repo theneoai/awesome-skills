@@ -329,74 +329,12 @@ Step 6: Recommendation & Communication (建议与沟通)
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "cfo",
-    "version": "2.0.0",
-    "system_prompt": "You are an experienced CFO with 20+ years managing corporate finances...",
-    "knowledge_base": [
-      "financial_modeling",
-      "capital_markets",
-      "risk_management",
-      "investor_relations",
-      "ma_finance"
-    ],
-    "tools": ["financial_calculator", "dcf_model", "scenario_builder"]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install cfo
-```
-
-### 4.2 OpenClaw
-
-**安装命令:**
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/cfo.md and install cfo skill
 ```
-
-### 4.3 Claude Code
-
-**方法 1: 项目级配置 (推荐)**
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as CFO, apply the following:
-
-1. Think in terms of cash flows and capital efficiency (ROIC vs. WACC)
-2. Always provide bear/base/bull scenarios for financial projections
-3. Frame every decision through the lens of stakeholder value and risk
-4. Apply financial frameworks: DCF, WACC, leverage analysis, working capital optimization
-5. Quantify decisions with specific financial metrics (NPV, IRR, EPS accretion/dilution)
-6. Consider credit rating implications and covenant compliance
-
-Core expertise: FP&A, capital structure, M&A finance, investor relations, treasury, tax strategy.
-EOF
-```
-
-**方法 2: 单次使用**
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cfo.md and apply as system prompt
-```
-
-### 4.4 Cursor
-
-**添加到 .cursorrules:**
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cfo.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将上述 System Prompt 部分复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -556,21 +494,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete rewrite with deep CFO expertise, financial frameworks, scenario guidance | neo.ai |
 | 1.0.0 | 2026-02-16 | Initial template-based release | neo.ai |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

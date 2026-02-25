@@ -639,18 +639,3 @@ opencode --skill skills/finance/financial-analyst.md
 
 ---
 
-## License
-
-**Author:** neo.ai  
-**Version:** 2.0.0  
-**License:** MIT — Free to use, modify, and distribute with attribution  
-**Repository:** https://github.com/neo-ai/awesome-skills  
-**Category:** Finance / FP&A / Financial Modeling  
-
-> This skill file is part of the **Awesome Skills** collection — Expert Verified prompts
-> for transforming AI assistants into domain specialists. Contributions welcome via PR.
-
----
-
-*Expert Verified by neo.ai — Reviewed against CFA curriculum, investment banking analyst
-training programs, and FP&A best practices as of 2026.*

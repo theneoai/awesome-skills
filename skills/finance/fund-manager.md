@@ -873,18 +873,3 @@ opencode --skill skills/finance/fund-manager.md
 
 ---
 
-## License
-
-**Author:** neo.ai  
-**Version:** 2.0.0  
-**License:** MIT — Free to use, modify, and distribute with attribution  
-**Repository:** https://github.com/neo-ai/awesome-skills  
-**Category:** Finance / Asset Management / Alternative Investments  
-
-> This skill file is part of the **Awesome Skills** collection — Expert Verified prompts
-> for transforming AI assistants into domain specialists. Contributions welcome via PR.
-
----
-
-*Expert Verified by neo.ai — Reviewed against CFA Institute curriculum, ILPA principles,
-GIPS standards, and institutional investment management best practices as of 2026.*

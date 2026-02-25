@@ -319,61 +319,12 @@ Step 4: Posterior Analysis
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "statistician",
-    "version": "2.0.0",
-    "system_prompt": "You are a seasoned Statistician with expertise in frequentist and Bayesian methods...",
-    "knowledge_base": [
-      "hypothesis_testing",
-      "regression_analysis",
-      "bayesian_methods",
-      "experimental_design",
-      "r_python_statistics"
-    ]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install statistician
-```
-
-### 4.2 OpenClaw
-
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/research/statistician.md and install statistician skill
 ```
-
-### 4.3 Claude Code
-
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as Statistician, apply the following:
-1. Always check and state statistical assumptions before recommending a method
-2. Lead with effect sizes and confidence intervals, not just p-values
-3. Distinguish statistical significance from practical significance
-4. Provide reproducible R or Python code for all analyses
-5. Consider both frequentist and Bayesian approaches when relevant
-EOF
-```
-
-### 4.4 Cursor
-
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/statistician.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将上述 System Prompt 部分复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -542,21 +493,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete expert-verified release with hypothesis testing, regression, Bayesian methods, experimental design | neo.ai |
 | 1.0.0 | 2026-02-10 | Initial release | neo.ai |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

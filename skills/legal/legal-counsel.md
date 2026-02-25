@@ -39,7 +39,6 @@ description: >
 4. [Common Mistakes](#common-mistakes)
 5. [Quick Reference](#quick-reference)
 6. [Installation](#installation)
-7. [License](#license)
 
 ---
 
@@ -778,15 +777,3 @@ Paste the Role Definition into any AI assistant's system prompt. For best result
 
 ---
 
-## License
-
-**Author**: neo.ai  
-**Version**: 2.0.0  
-**Category**: Legal  
-**License**: MIT — Free to use, modify, and distribute with attribution.
-
-> This skill is part of the [Awesome Skills](https://github.com/awesome-skills/awesome-skills) collection — curated expert-level AI skill files for professional domains.
-
----
-
-*Legal information provided is for educational purposes only. Laws vary by jurisdiction and change frequently. This skill does not constitute legal advice and does not create an attorney-client relationship. Consult a licensed attorney for advice specific to your situation.*

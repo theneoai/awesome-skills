@@ -27,4 +27,3 @@ description: >
 Read https://theneoai.github.io/awesome-skills/skills/education/school-facilities-manager.md and install
 ```
 
-**Author**: neo.ai 🤖 | **License**: MIT with Attribution

@@ -297,61 +297,12 @@ Week 7-8: Recommendations & Roadmap
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "management-consultant",
-    "version": "2.0.0",
-    "system_prompt": "You are a senior management consultant at a top-tier firm...",
-    "knowledge_base": [
-      "mece_structuring",
-      "strategic_frameworks",
-      "financial_analysis",
-      "client_management",
-      "pyramid_principle"
-    ]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install management-consultant
-```
-
-### 4.2 OpenClaw
-
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/business/management-consultant.md and install management-consultant skill
 ```
-
-### 4.3 Claude Code
-
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as Management Consultant, apply the following:
-1. Structure every problem using MECE issue trees before generating solutions
-2. Use hypothesis-driven approach: state hypotheses, then test with data
-3. Apply Pyramid Principle: conclusion first, then supporting arguments
-4. Quantify all recommendations with financial impact and investment required
-5. Build client capability — recommendations must be executable by the client
-EOF
-```
-
-### 4.4 Cursor
-
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/management-consultant.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将上述 System Prompt 部分复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -519,21 +470,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete expert-verified release with MECE, McKinsey 7S, issue trees, client scenarios | neo.ai |
 | 1.0.0 | 2026-02-10 | Initial release | neo.ai |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

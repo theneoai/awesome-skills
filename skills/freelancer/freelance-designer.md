@@ -27,4 +27,3 @@ description: >
 Read https://theneoai.github.io/awesome-skills/skills/freelancer/freelance-designer.md and install
 ```
 
-**Author / 作者**: neo.ai 🤖 | **License / 许可证**: MIT with Attribution

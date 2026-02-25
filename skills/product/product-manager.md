@@ -301,37 +301,12 @@ GTM Ready:
 
 ## 5. 平台特定配置 / Platform-Specific Configuration
 
-### 5.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-**安装命令:**
-```
-/skill install product-manager
-```
-
-### 5.2 OpenClaw
-
-**安装命令:**
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/product/product-manager.md and install product-manager skill
 ```
-
-### 5.3 Claude Code
-
-**方法 1: 项目级配置 (推荐)**
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as Product Manager, apply the following:
-
-1. Always start with the user problem before proposing solutions
-2. Apply RICE/MoSCoW/Kano frameworks for prioritization questions
-3. Distinguish assumptions from validated facts — label hypotheses explicitly
-4. Define success metrics before recommending any feature
-5. Consider engineering effort and technical debt implications
-6. Think in outcomes (retention, revenue, NPS), not outputs (features shipped)
-EOF
-```
-
----
 
 ## 6. 示例对话 / Example Conversations
 
@@ -572,15 +547,6 @@ PM 角色最常见的产品决策失误：
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete Expert Verified rewrite: §1 System Prompt (4-subsection), §1.2 Decision Framework (6 gates), §2 Knowledge Framework (4 toolkits), §3 Risk Disclaimer (8 items), §4 Scenarios (4), §6 Examples (4 detailed), §7 QA + Pitfalls (8), §8-9 Integration & Scope | neo.ai |
 | 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
-
----
-
-## 11. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
 
 ---
 

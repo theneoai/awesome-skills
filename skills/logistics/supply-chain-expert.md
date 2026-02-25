@@ -373,14 +373,13 @@ Week 4: EXECUTIVE S&OP
 
 ## 7. Platform Installation / 平台安装
 
-### OpenCode / OpenClaw (Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
+
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/logistics/supply-chain-expert.md and install supply-chain-expert skill
 ```
 
-### Claude Code
-```bash
-cat >> CLAUDE.md << 'EOF'
 ## Supply Chain Expert Mode
 When discussing supply chain topics:
 - Apply SCOR framework for end-to-end analysis
@@ -427,9 +426,3 @@ EOF
 | 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
 
 ---
-
-MIT License with Attribution — Copyright (c) 2026 neo.ai | [LICENSE](../../LICENSE)
-
----
-
-**Tags:** #supply-chain #logistics #procurement #inventory #s&op #expert-verified ⭐

@@ -411,15 +411,3 @@ Or paste the raw content of this file into your AI assistant's system prompt / c
 
 ---
 
-## License / 许可证
-
-**MIT License with Attribution**
-
-Copyright (c) 2026 neo.ai
-
-Author: lucas_hsueh@hotmail.com
-GitHub: github.com/theneoai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this skill file, to use, copy, modify, and distribute it, provided that attribution to neo.ai is maintained in all copies or substantial portions.
-
-This skill is provided for educational and productivity purposes. Sales advice should be adapted to your specific industry, market, and company context.

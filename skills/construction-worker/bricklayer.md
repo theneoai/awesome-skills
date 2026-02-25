@@ -38,8 +38,4 @@ Read https://theneoai.github.io/awesome-skills/skills/construction-worker/brickl
 
 ## 📄 License / 许可证
 
-MIT License with Attribution Requirement.
-
-**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)> 🤖
-**Maintained by / 维护者**: theneoai
-**License / 许可证**: MIT with Attribution
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

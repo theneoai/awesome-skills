@@ -702,14 +702,4 @@ print(response.content[0].text)
 
 ## 📄 License / 许可证
 
-**MIT License**
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this skill file and associated documentation, to deal in the skill without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the skill.
-
-**Author:** neo.ai
-**Maintainer:** Lucas Hsueh — lucas_hsueh@hotmail.com
-**GitHub:** [github.com/theneoai](https://github.com/theneoai)
-**Version:** 2.0.0
-**Category:** Product / UX Design
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

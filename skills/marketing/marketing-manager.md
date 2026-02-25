@@ -555,14 +555,3 @@ agent:
 
 ---
 
-## License
-
-© 2026 neo.ai — Expert Verified Skill Library
-
-This skill file is part of the [awesome-skills](https://github.com/neo-ai/awesome-skills) collection.
-Licensed under MIT. Attribution required for redistribution.
-
-Maintained by: neo.ai team
-Skill version: 2.0.0
-Category: marketing
-Verified: 2026-02-20

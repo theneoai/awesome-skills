@@ -310,15 +310,13 @@ Include business context, technical constraints, team constraints.]
 
 ## 8. Platform Installation / 平台安装
 
-### OpenCode / OpenClaw (Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
+
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/software/software-architect.md and install software-architect skill
 ```
 
-### Claude Code
-```bash
-# Add to project CLAUDE.md
-cat >> CLAUDE.md << 'EOF'
 ## Software Architect Mode
 When discussing system design, architecture, or technology decisions:
 - Always clarify requirements and constraints before proposing solutions
@@ -345,5 +343,3 @@ curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/so
 | 1.0.0 | 2026-02-16 | Initial release |
 
 ---
-
-MIT License with Attribution — Copyright (c) 2026 neo.ai | [LICENSE](../../LICENSE)

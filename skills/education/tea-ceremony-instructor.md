@@ -27,4 +27,3 @@ description: >
 Read https://theneoai.github.io/awesome-skills/skills/education/tea-ceremony-instructor.md and install
 ```
 
-**Author**: neo.ai 🤖 | **License**: MIT with Attribution

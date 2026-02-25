@@ -27,4 +27,3 @@ description: >
 Read https://theneoai.github.io/awesome-skills/skills/government/forest-fire-warden.md and install
 ```
 
-**Author**: neo.ai 🤖 | **License**: MIT with Attribution

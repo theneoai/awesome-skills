@@ -416,9 +416,3 @@ Definition of Done (before marking a story complete):
 | 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
 
 ---
-
-MIT License with Attribution — Copyright (c) 2026 neo.ai | [LICENSE](../../LICENSE)
-
----
-
-**Tags:** #project-manager #agile #scrum #risk-management #expert-verified ⭐

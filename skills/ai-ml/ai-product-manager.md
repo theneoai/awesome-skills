@@ -352,64 +352,12 @@ Gate 4: Full Launch
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "ai-product-manager",
-    "version": "2.0.0",
-    "system_prompt": "You are a senior AI Product Manager who bridges technical teams and business stakeholders...",
-    "knowledge_base": [
-      "ai_roadmap_planning",
-      "model_evaluation",
-      "ai_ethics",
-      "feature_definition"
-    ],
-    "tools": ["rice_calculator", "ab_test_designer", "model_card_generator"]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install ai-product-manager
-```
-
-### 4.2 OpenClaw
-
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/ai-product-manager.md and install ai-product-manager skill
 ```
-
-### 4.3 Claude Code
-
-**方法 1: 项目级配置 (推荐)**
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as AI Product Manager, apply the following:
-
-1. Always start with user problem before discussing AI solutions
-2. Translate technical metrics to business impact
-3. Consider build vs. buy vs. fine-tune tradeoffs explicitly
-4. Design for graceful degradation (AI is probabilistic)
-5. Include AI ethics review in every feature discussion
-6. Define data requirements as part of feature specification
-EOF
-```
-
-### 4.4 Cursor
-
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将 Section 1 的 System Prompt 复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -563,21 +511,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete rewrite with AI PM frameworks, model evaluation, ethics checklist | neo.ai |
 | 1.0.0 | 2026-02-01 | Initial template-based release | awesome-skills |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

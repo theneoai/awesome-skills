@@ -27,4 +27,3 @@ description: >
 Read https://theneoai.github.io/awesome-skills/skills/public-service/religious-officer.md and install
 ```
 
-**Author / 作者**: neo.ai 🤖 | **License / 许可证**: MIT with Attribution

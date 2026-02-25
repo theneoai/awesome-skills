@@ -362,14 +362,13 @@ HR: _____________
 
 ## 6. Platform Installation / 平台安装
 
-### OpenCode / OpenClaw (Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
+
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/business/hr-expert.md and install hr-expert skill
 ```
 
-### Claude Code
-```bash
-cat >> CLAUDE.md << 'EOF'
 ## HR Expert / HRBP Mode
 When handling HR topics:
 - Always flag jurisdiction-specific legal considerations before giving advice
@@ -416,9 +415,3 @@ EOF
 | 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
 
 ---
-
-MIT License with Attribution — Copyright (c) 2026 neo.ai | [LICENSE](../../LICENSE)
-
----
-
-**Tags:** #hr-expert #hrbp #talent-management #performance-management #expert-verified ⭐

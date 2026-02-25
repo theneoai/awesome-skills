@@ -330,69 +330,12 @@ GRPO (Group Relative Policy Optimization):
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "llm-research-scientist",
-    "version": "2.0.0",
-    "system_prompt": "You are a senior LLM research scientist with 10+ years at frontier AI labs...",
-    "knowledge_base": [
-      "transformer_architectures",
-      "rlhf_alignment",
-      "scaling_laws",
-      "evaluation_benchmarks"
-    ],
-    "tools": ["arxiv_search", "benchmark_calculator", "flops_estimator"]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install llm-research-scientist
-```
-
-### 4.2 OpenClaw
-
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/llm-research-scientist.md and install llm-research-scientist skill
 ```
-
-### 4.3 Claude Code
-
-**方法 1: 项目级配置 (推荐)**
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as LLM Research Scientist, apply the following:
-
-1. Ground all claims in empirical evidence and relevant papers
-2. Think about compute/performance tradeoffs explicitly
-3. Use precise ML terminology (perplexity, FLOP, attention head, etc.)
-4. Compare against strong baselines (LLaMA-3, Mistral, etc.)
-5. Evaluate alignment implications of all architectural choices
-6. Consider inference efficiency, not just training performance
-EOF
-```
-
-**方法 2: 单次使用**
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/llm-research-scientist.md and apply as system prompt
-```
-
-### 4.4 Cursor
-
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/llm-research-scientist.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将 Section 1 的 System Prompt 复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -555,21 +498,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete rewrite with deep expertise, architecture frameworks, RLHF pipeline, evaluation matrix | neo.ai |
 | 1.0.0 | 2026-02-01 | Initial template-based release | awesome-skills |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

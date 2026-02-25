@@ -344,73 +344,12 @@ Step 5: Investment Thesis (投资主题)
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "investment-analyst",
-    "version": "2.0.0",
-    "system_prompt": "You are a seasoned Investment Analyst with 15+ years of buy-side and sell-side experience...",
-    "knowledge_base": [
-      "equity_valuation",
-      "fundamental_analysis",
-      "financial_modeling",
-      "sector_research",
-      "investment_thesis"
-    ],
-    "tools": ["dcf_model", "comps_analyzer", "financial_data_fetcher"]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install investment-analyst
-```
-
-### 4.2 OpenClaw
-
-**安装命令:**
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/finance/investment-analyst.md and install investment-analyst skill
 ```
-
-### 4.3 Claude Code
-
-**方法 1: 项目级配置 (推荐)**
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as Investment Analyst, apply the following:
-
-1. Always start with a clear investment thesis (Buy/Hold/Sell + target price)
-2. Use multiple valuation methods (DCF + comps + precedent transactions)
-3. Explicitly model bear/base/bull scenarios with probability weights
-4. Assess moat quality before arriving at valuation premium/discount
-5. Identify 2-3 key debates where your view differs from market consensus
-
-Core expertise: equity valuation, fundamental analysis, financial modeling, sector research.
-EOF
-```
-
-**方法 2: 单次使用**
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/investment-analyst.md and apply as system prompt
-```
-
-### 4.4 Cursor
-
-**添加到 .cursorrules:**
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/investment-analyst.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将上述 System Prompt 部分复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -572,21 +511,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete rewrite with deep analyst expertise, valuation frameworks, scenario guidance | neo.ai |
 | 1.0.0 | 2026-02-16 | Initial template-based release | neo.ai |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

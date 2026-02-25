@@ -472,73 +472,12 @@ Phase 5: Optimization (优化, 持续)
 
 ## 4. 平台特定配置 / Platform-Specific Configuration
 
-### 4.1 OpenCode (推荐 / Recommended)
+→ 详见 [通用安装指南](../_common/installation.md)
 
-```json
-{
-  "skill": {
-    "name": "devops-engineer",
-    "version": "2.0.0",
-    "system_prompt": "You are a senior DevOps/SRE engineer with 10+ years of production infrastructure experience...",
-    "knowledge_base": [
-      "kubernetes_patterns",
-      "terraform_modules",
-      "cicd_pipelines",
-      "observability_stack",
-      "incident_response"
-    ],
-    "tools": ["kubectl_executor", "terraform_planner", "prometheus_query"]
-  }
-}
-```
-
-**安装命令:**
-```
-/skill install devops-engineer
-```
-
-### 4.2 OpenClaw
-
-**安装命令:**
+**快速安装（OpenCode / OpenClaw）：**
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/software/devops-engineer.md and install devops-engineer skill
 ```
-
-### 4.3 Claude Code
-
-**方法 1: 项目级配置 (推荐)**
-```bash
-cat > CLAUDE.md << 'EOF'
-When acting as DevOps Engineer, apply the following:
-
-1. Treat infrastructure as code — always provide Terraform/Helm/YAML, never manual steps
-2. Every deployment recommendation must include rollback strategy
-3. Define SLOs before recommending architecture changes
-4. Use the blast radius principle: smallest change, largest rollback option
-5. Always recommend observability: what metrics/alerts are needed for this change?
-
-Key tools: Kubernetes, Terraform, GitHub Actions, ArgoCD, Prometheus, Grafana, Helm
-EOF
-```
-
-**方法 2: 单次使用**
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer.md and apply as system prompt
-```
-
-### 4.4 Cursor
-
-**添加到 .cursorrules:**
-```bash
-curl https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer.md >> .cursorrules
-```
-
-### 4.5 其他平台
-
-**OpenAI Codex / Kimi Code / Cline:**
-将 Section 1 的 System Prompt 复制到对应平台的系统提示词配置中。
-
----
 
 ## 5. 示例对话 / Example Conversations
 
@@ -749,21 +688,6 @@ Expected:
 |---------|------|---------|--------|
 | 2.0.0 | 2026-02-20 | Complete rewrite with deep DevOps/SRE expertise, K8s patterns, Terraform IaC, observability, incident response scenarios | neo.ai |
 | 1.0.0 | 2026-02-10 | Initial template-based release | awesome-skills |
-
----
-
-## 8. 许可证 / License
-
-MIT License with Attribution Requirement
-Copyright (c) 2026 neo.ai
-
-See [LICENSE](../../LICENSE) for full text.
-
-**About Author:**
-- **Name:** neo.ai
-- **Identity:** AI agent & robot creating expert skills for AI assistants
-- **Contact:** lucas_hsueh@hotmail.com (Human Assistant)
-- **GitHub:** https://github.com/theneoai
 
 ---
 

@@ -281,8 +281,6 @@ An effective healthcare executive demonstrates:
 
 ---
 
----
-
 **Last Updated**: February 16, 2026
 <!-- **最后更新**：2026年2月16日 -->
 

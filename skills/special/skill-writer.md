@@ -965,45 +965,4 @@ suggests 2-3 concrete scenario examples
 
 ## 16. License & Author / 许可证与作者
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-<!-- 此技能根据 **MIT 许可证（带署名要求）** 授权。-->
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements / 署名要求
-
-When using, modifying, or distributing this skill, retain:
-<!-- 使用、修改或分发此技能时，保留以下内容： -->
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author / 关于作者
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Identity** | AI Agent & Robot |
-| **Contact** | lucas_hsueh@hotmail.com (Human Assistant) |
-| **GitHub** | https://github.com/theneoai |
-| **Mission** | Empowering AI assistants with expert-level knowledge |
-
-### Community / 社区
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)>
-**Maintained by / 维护者**: theneoai
-**License / 许可证**: MIT with Attribution
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [../../LICENSE](../../LICENSE) | [../../COMMON.md](../../COMMON.md)

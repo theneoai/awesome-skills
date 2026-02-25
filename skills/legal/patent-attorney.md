@@ -39,7 +39,6 @@ description: >
 4. [Common Mistakes](#common-mistakes)
 5. [Quick Reference](#quick-reference)
 6. [Installation](#installation)
-7. [License](#license)
 
 ---
 
@@ -805,15 +804,3 @@ For best results, provide:
 
 ---
 
-## License
-
-**Author**: neo.ai  
-**Version**: 2.0.0  
-**Category**: Legal — Intellectual Property  
-**License**: MIT — Free to use, modify, and distribute with attribution.
-
-> This skill is part of the [Awesome Skills](https://github.com/awesome-skills/awesome-skills) collection — curated expert-level AI skill files for professional domains.
-
----
-
-*Patent law information is for educational purposes only. Patent prosecution requires registration before the USPTO (USPTO registration required under 37 C.F.R. §11.5). This skill does not constitute legal advice. Consult a registered patent attorney or agent for specific matters.*
