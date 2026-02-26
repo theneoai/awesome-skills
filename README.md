@@ -8,7 +8,7 @@
 **Transform Your AI Assistant into Any Professional**
 
 [![Skills](https://img.shields.io/badge/Skills-460+-blueviolet?style=flat-square)](./CATALOG.md)
-[![Expert Verified](https://img.shields.io/badge/Expert%20Verified-37-gold?style=flat-square)](./CATALOG.md#expert-verified-skills)
+[![Expert Verified](https://img.shields.io/badge/Expert%20Verified-43-gold?style=flat-square)](./CATALOG.md#expert-verified-skills)
 [![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](#platform-support)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
@@ -98,8 +98,14 @@ These skills have been rewritten with deep expertise, including system prompts, 
 | [QA Engineer](./skills/software/qa-engineer.md) | Tech | Test strategy, automation (Playwright/Cypress), quality metrics |
 | [Security Engineer](./skills/software/security-engineer.md) | Tech | OWASP Top 10, Zero Trust, pentest, DevSecOps |
 | [Software Architect](./skills/software/software-architect.md) | Tech | System design, scalability patterns, ADRs |
+| [System Architect](./skills/software/system-architect.md) | Tech | Distributed systems, CAP theorem, database selection, capacity planning |
+| [Algorithm Engineer](./skills/software/algorithm-engineer.md) | Tech | Complexity analysis, data structures, LRU/streaming algorithms |
+| [AI/ML Engineer](./skills/software/ai-ml-engineer.md) | Tech | MLOps, feature pipelines, model serving, drift detection |
 | [AI Application Engineer](./skills/ai-ml/ai-application-engineer.md) | AI/ML | LLM integration, RAG pipelines, production AI systems |
 | [AI Product Manager](./skills/ai-ml/ai-product-manager.md) | AI/ML | AI feature strategy, model requirements, responsible AI |
+| [AI Safety Researcher](./skills/ai-ml/ai-safety-researcher.md) | AI/ML | RLHF, Constitutional AI, red-teaming, alignment evaluation |
+| [AI Chip Architect](./skills/ai-ml/ai-chip-architect.md) | AI/ML | Roofline model, systolic array, HBM bandwidth, PPA trade-offs |
+| [AI Compute Platform Engineer](./skills/ai-ml/ai-compute-platform-engineer.md) | AI/ML | GPU clusters, NCCL, InfiniBand, MFU optimization, fault-tolerant training |
 | [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | AI/ML | Pre-training, RLHF, alignment research |
 | [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) | AI/ML | Distributed training, fine-tuning, RLHF pipelines |
 | [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) | AI/ML | MLOps, feature engineering, model deployment |
@@ -124,7 +130,7 @@ These skills have been rewritten with deep expertise, including system prompts, 
 | [Principal Investigator](./skills/research/principal-investigator.md) | Research | Grant writing, lab management, publication strategy |
 | [Statistician](./skills/research/statistician.md) | Research | Statistical modeling, experimental design, R/Python |
 
-**[View All 37 Expert Verified Skills →](./CATALOG.md#-expert-verified-skills-37)**
+**[View All 43 Expert Verified Skills →](./CATALOG.md#-expert-verified-skills)**
 
 ---
 
@@ -167,9 +173,9 @@ We maintain three quality tiers:
 
 | Level | Badge | Criteria | Count |
 |-------|-------|----------|-------|
-| **Expert Verified** | ⭐ | System prompt + 3+ frameworks + Scenarios + Examples | 37 |
+| **Expert Verified** | ⭐ | System prompt + 3+ frameworks + Scenarios + Examples | 43 |
 | **Community Verified** | ✅ | Basic system prompt + Community tested | 50 |
-| **Basic** | 📝 | Template-based, community contributions welcome | 380+ |
+| **Basic** | 📝 | Template-based, community contributions welcome | 370+ |
 
 **[Browse by Quality Level →](./CATALOG.md)**
 
@@ -177,11 +183,11 @@ We maintain three quality tiers:
 
 ## 🚀 Roadmap
 
-- [x] **Phase 1**: Expert skill verification — 37 skills upgraded to Expert Verified
+- [x] **Phase 1**: Expert skill verification — 43 skills upgraded to Expert Verified
 - [x] **Phase 2**: README & documentation overhaul — complete catalog, consistent metadata, validator updated
 - [x] **Phase 3**: Skill file de-duplication — created COMMON.md, removed redundant content from 469 skill files
 - [x] **Phase 4**: Platform adaptation — comprehensive install guides, platform capability matrix, per-platform setup
-- [ ] **Phase 5**: Quality rating system — automated skill quality scoring and community badges
+- [x] **Phase 5**: Quality rating system — automated skill quality scoring, quality badges, project cleanup (removed process docs, renamed test files, eliminated duplicate skills)
 
 ---
 

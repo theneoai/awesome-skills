@@ -12,7 +12,7 @@ Complete directory of 450+ expert AI skills organized by category and quality le
 
 ---
 
-## ⭐ Expert Verified Skills (37)
+## ⭐ Expert Verified Skills (43)
 
 These skills have been completely rewritten with professional depth — system prompts, knowledge frameworks, real code/templates, and scenario-based guidance:
 
@@ -31,10 +31,16 @@ These skills have been completely rewritten with professional depth — system p
 - [QA Engineer](./skills/software/qa-engineer.md) ⭐ — Test strategy, automation (Playwright/Cypress), quality metrics
 - [Security Engineer](./skills/software/security-engineer.md) ⭐ — OWASP Top 10, Zero Trust, pentest, DevSecOps
 - [Software Architect](./skills/software/software-architect.md) ⭐ — System design, scalability patterns, ADRs
+- [System Architect](./skills/software/system-architect.md) ⭐ — Distributed systems, CAP theorem, database selection, capacity planning
+- [Algorithm Engineer](./skills/software/algorithm-engineer.md) ⭐ — Complexity analysis, data structures, LRU/streaming/graph algorithms
+- [AI/ML Engineer](./skills/software/ai-ml-engineer.md) ⭐ — MLOps, feature pipelines, model serving (Triton), drift detection
 
 ### AI/ML
 - [AI Application Engineer](./skills/ai-ml/ai-application-engineer.md) ⭐ — LLM integration, RAG pipelines, production AI systems
 - [AI Product Manager](./skills/ai-ml/ai-product-manager.md) ⭐ — AI feature strategy, model requirements, responsible AI
+- [AI Safety Researcher](./skills/ai-ml/ai-safety-researcher.md) ⭐ — RLHF, Constitutional AI, red-teaming, alignment evaluation
+- [AI Chip Architect](./skills/ai-ml/ai-chip-architect.md) ⭐ — Roofline model, systolic array, HBM bandwidth, PPA trade-offs
+- [AI Compute Platform Engineer](./skills/ai-ml/ai-compute-platform-engineer.md) ⭐ — GPU clusters, NCCL, InfiniBand, MFU optimization, fault-tolerant training
 - [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) ⭐ — Model architecture, pre-training, RLHF, alignment
 - [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) ⭐ — Pre-training, fine-tuning, distributed training infrastructure
 - [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) ⭐ — ML systems, feature engineering, MLOps, model deployment
