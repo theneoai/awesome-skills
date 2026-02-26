@@ -1,0 +1,15 @@
+{
+  "description": "Multi-team access configuration",
+  "teams": {
+    "backend-team": ["Backend Developers"],
+    "frontend-team": ["Frontend Developers"],
+    "devops-team": ["DevOps Engineers"]
+  },
+  "refs/heads/main": {
+    "permissions": {
+      "read": ["All Teams"],
+      "submit": ["Tech Leads"],
+      "label-Code-Review": ["All Teams"]
+    }
+  }
+}

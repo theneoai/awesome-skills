@@ -1,0 +1,15 @@
+{
+  "description": "Standard open source project permissions",
+  "refs/heads/main": {
+    "permissions": {
+      "read": ["Anonymous Users"],
+      "submit": ["Project Owners", "Maintainers"],
+      "label-Code-Review": ["Registered Users"],
+      "label-Verified": ["CI Bot"]
+    },
+    "requirements": {
+      "minCodeReviewScore": 1,
+      "minVerifiedScore": 1
+    }
+  }
+}

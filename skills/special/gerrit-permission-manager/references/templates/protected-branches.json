@@ -1,0 +1,21 @@
+{
+  "description": "Protected branches with mandatory reviews",
+  "refs/heads/main": {
+    "permissions": {
+      "read": ["Anonymous Users"],
+      "submit": ["Project Owners"],
+      "label-Code-Review": ["Maintainers"]
+    },
+    "requirements": {
+      "minCodeReviewScore": 2,
+      "requiredReviewers": 2
+    }
+  },
+  "refs/heads/feature/*": {
+    "permissions": {
+      "read": ["Registered Users"],
+      "create": ["Registered Users"],
+      "push": ["Registered Users"]
+    }
+  }
+}

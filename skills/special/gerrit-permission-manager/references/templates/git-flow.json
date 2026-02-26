@@ -1,0 +1,109 @@
+{
+  "description": "Git Flow workflow permissions - Production branch protection with feature branch freedom",
+  "workflow": "git-flow",
+  "branches": {
+    "master": {
+      "description": "Production branch - only maintainers can merge",
+      "permissions": {
+        "read": ["Anonymous Users"],
+        "submit": ["Project Owners", "Release Managers"],
+        "push": ["Project Owners"],
+        "label-Code-Review": {
+          "-2..+2": ["Project Owners", "Release Managers"],
+          "-1..+1": ["Registered Users"]
+        },
+        "label-Verified": {
+          "-1..+1": ["CI Bot"]
+        }
+      },
+      "requirements": {
+        "minCodeReviewScore": 2,
+        "requiredReviewers": 2,
+        "blockDirectPush": true
+      }
+    },
+    "develop": {
+      "description": "Development branch - team leads can merge after review",
+      "permissions": {
+        "read": ["Registered Users"],
+        "submit": ["Project Owners", "Release Managers", "Team Leads"],
+        "push": ["Project Owners", "Release Managers"],
+        "label-Code-Review": {
+          "-2..+2": ["Team Leads", "Release Managers"],
+          "-1..+1": ["Developers"]
+        }
+      },
+      "requirements": {
+        "minCodeReviewScore": 1,
+        "requiredReviewers": 1
+      }
+    },
+    "feature": {
+      "description": "Feature branches - developers can create and push freely",
+      "pattern": "refs/heads/feature/*",
+      "permissions": {
+        "read": ["Registered Users"],
+        "create": ["Developers", "Team Leads"],
+        "push": ["Developers", "Team Leads"],
+        "submit": ["Team Leads", "Release Managers"],
+        "delete": ["Developers", "Team Leads"]
+      }
+    },
+    "release": {
+      "description": "Release branches - only release managers can merge",
+      "pattern": "refs/heads/release/*",
+      "permissions": {
+        "read": ["Registered Users"],
+        "create": ["Release Managers", "Project Owners"],
+        "push": ["Release Managers", "Project Owners"],
+        "submit": ["Release Managers", "Project Owners"],
+        "label-Code-Review": {
+          "-2..+2": ["Release Managers"]
+        }
+      },
+      "requirements": {
+        "minCodeReviewScore": 2,
+        "requiredReviewers": 2
+      }
+    },
+    "hotfix": {
+      "description": "Hotfix branches - urgent fixes with limited access",
+      "pattern": "refs/heads/hotfix/*",
+      "permissions": {
+        "read": ["Registered Users"],
+        "create": ["Release Managers", "Project Owners", "Team Leads"],
+        "push": ["Release Managers", "Project Owners"],
+        "submit": ["Release Managers", "Project Owners"],
+        "label-Code-Review": {
+          "-2..+2": ["Release Managers", "Project Owners"]
+        }
+      },
+      "requirements": {
+        "minCodeReviewScore": 1,
+        "requiredReviewers": 1
+      }
+    }
+  },
+  "groups": {
+    "Project Owners": {
+      "description": "Full control over repository",
+      "permissions": ["all"]
+    },
+    "Release Managers": {
+      "description": "Can merge to master, manage releases and hotfixes",
+      "permissions": ["submit_master", "submit_release", "submit_hotfix"]
+    },
+    "Team Leads": {
+      "description": "Can merge to develop and feature branches",
+      "permissions": ["submit_develop", "submit_feature"]
+    },
+    "Developers": {
+      "description": "Can create feature branches and push code",
+      "permissions": ["create_feature", "push_feature"]
+    },
+    "CI Bot": {
+      "description": "Automated CI/CD system",
+      "permissions": ["label-Verified"]
+    }
+  }
+}

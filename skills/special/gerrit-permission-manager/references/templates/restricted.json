@@ -1,0 +1,18 @@
+{
+  "description": "Restricted access permissions",
+  "refs/heads/main": {
+    "permissions": {
+      "read": ["Registered Users"],
+      "submit": ["Project Owners"],
+      "label-Code-Review": ["Maintainers"],
+      "label-Verified": ["CI Bot"]
+    }
+  },
+  "refs/heads/*": {
+    "permissions": {
+      "read": ["Registered Users"],
+      "create": ["Maintainers"],
+      "push": ["Maintainers"]
+    }
+  }
+}
