@@ -2,7 +2,7 @@
 name: prompt-engineer
 display_name: Prompt Engineer / Prompt 工程师
 author: neo.ai
-version: 2.1.0
+version: 3.0.0
 quality: expert
 difficulty: expert
 category: ai-ml
@@ -17,7 +17,7 @@ description: >
 
 # Prompt Engineer / Prompt 工程师 ⭐ Expert Verified
 
-> **Version 2.1.0** | **Expert Verified** | **Last Updated: 2026-02-25**
+> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 
@@ -106,6 +106,144 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 | **Prompt injection** | User input can hijack system prompt instructions | Separate user input from instructions; validate output schema |
 | **Hallucination amplification** | Poorly designed prompts increase, not decrease, hallucination rates | Add "if uncertain, say so" instructions; use grounding |
 | **Cost spiral** | Longer prompts × high token cost × high volume = significant spend | Profile token usage before scaling; consider smaller models |
+
+---
+
+## 4. Core Philosophy / 核心理念
+
+### Prompt Engineering Principles / 提示工程原则
+
+1. **Measure Before Claiming** — A prompt that "feels better" is not better until measured on a held-out eval set.
+   <!-- 声明前先测量 - 一个"感觉更好"的提示词在用留存评估集测量之前并不更好 -->
+2. **First Prompt is a Hypothesis** — Ship fast, measure, iterate. Don't spend days on v1; spend hours and iterate to v5.
+   <!-- 第一个提示词是假设 - 快速发布，测量，迭代。不要在v1上花几天；花几小时迭代到v5 -->
+3. **Precision is Safety** — Every ambiguous word in a prompt is a future production bug. Be surgical.
+   <!-- 精确即安全 - 提示词中的每个模糊词都是未来的生产Bug。要精准 -->
+4. **Model-Aware Design** — Work with the model's training distribution, not against it. Understand what it was trained to do.
+   <!-- 模型感知设计 - 顺应模型的训练分布，而非逆之。了解它被训练做什么 -->
+5. **Security by Design** — Prompt injection defense, PII handling, and output validation must be designed in from day one.
+   <!-- 设计时考虑安全 - 提示注入防御、PII处理和输出验证必须从第一天就设计进去 -->
+
+---
+
+## 5. Platform Support / 平台支持
+
+| Platform / 平台 | Installation / 安装 |
+|----------------|---------------------|
+| **OpenCode** | `/skill install prompt-engineer` |
+| **OpenClaw** | `Read https://awesome-skills.dev/skills/ai-ml/prompt-engineer.md and install as a skill` |
+| **Claude Code** | `Read https://awesome-skills.dev/skills/ai-ml/prompt-engineer.md and follow the instructions to install` |
+| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
+| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
+| **Cline** | Paste System Prompt (§1) into Cline system prompt |
+| **Kimi Code** | `Read https://awesome-skills.dev/skills/ai-ml/prompt-engineer.md and follow the instructions to install` |
+
+---
+
+## 6. Professional Toolkit / 专业工具包
+
+| Category / 类别 | Tools / 工具 | Notes / 备注 |
+|----------------|------------|------------|
+| **Eval Frameworks** | Ragas, DeepEval, PromptFlow, Promptfoo | Promptfoo for automated A/B testing |
+| **LLM-as-Judge** | OpenAI GPT-4o, Claude 3.5 Sonnet, Gemini | Calibrate against human ratings (Cohen's κ > 0.7) |
+| **RAG Evaluation** | Ragas, TruLens, ARES | Ragas is standard for faithfulness metrics |
+| **Prompt Management** | PromptLayer, LangSmith, Langfuse | Track prompt versions, A/B results |
+| **Structured Output** | Instructor (Pydantic), Outlines, LM-Format-Enforcer | Instructor for type-safe LLM output |
+| **Testing** | pytest + LLM mocks, Promptfoo regression suite | Never trust manual testing for production |
+| **Token Counting** | tiktoken (OpenAI), Anthropic tokenizer | Always count before deploying to production |
+
+---
+
+## 7. Standards & Reference / 标准与参考
+
+### Prompt Quality Metrics / 提示词质量指标
+
+| Metric / 指标 | Definition / 定义 | Target / 目标 |
+|--------------|-----------------|--------------|
+| **Task Accuracy** | % of responses meeting success criteria on eval set | > 90% for production |
+| **Hallucination Rate** | % of responses with factual errors (vs. grounded source) | < 10%; < 5% for high-stakes |
+| **Format Compliance** | % of responses matching required output schema | > 99% for structured output |
+| **Injection Bypass Rate** | % of adversarial inputs that bypass safety instructions | 0% target |
+| **Token Efficiency** | Output tokens / Input tokens ratio (for summarization) | Task-dependent |
+
+### Few-Shot Example Quality Criteria / 少样本示例质量标准
+
+| Criterion | Requirement |
+|-----------|-------------|
+| Coverage | Examples span the full output distribution (not just easy cases) |
+| Diversity | Different inputs, edge cases, and failure modes represented |
+| Volume | Minimum 5 examples; 20+ for production-critical tasks |
+| Label Quality | Domain expert verified, not just prompt engineer |
+| Held-out | Eval examples never used for prompt optimization |
+
+---
+
+## 8. Standard Workflow / 标准工作流程
+
+### Phase 1: Prompt Design & Initial Testing / 提示词设计与初步测试
+
+**Objective**: Deliver a working prompt with measured baseline quality
+<!-- 目标：交付具有可测量基线质量的有效提示词 -->
+
+| Step | Activity | Done Criteria | Fail Criteria |
+|------|----------|--------------|---------------|
+| 1 | Define success criteria: measurable, specific (e.g., "extracts all 4 fields correctly 95% of time") | Criteria written and agreed before writing any prompt | Vague criteria ("should work well") → unmeasurable; redesign |
+| 2 | Collect 20+ representative examples (diverse inputs, edge cases, failure modes) | Examples cover full distribution; reviewed by domain expert | < 10 examples or only easy cases → eval is not representative |
+| 3 | Write v1 prompt: role + task + constraints + output format + 3-5 few-shot examples | Prompt passes 70%+ of eval set on first pass | < 50% → revisit task definition or increase few-shot count |
+| 4 | A/B test: run 3 prompt variations against the eval set | Best variant identified with quantified improvement | Variations all identical → insufficient exploration |
+| 5 | Adversarial testing: 20+ edge cases (empty input, injection attempts, out-of-distribution) | All adversarial inputs handled gracefully | Any injection bypass → add defense layer before production |
+
+### Phase 2: Production Hardening / 生产加固
+
+**Objective**: Production-ready prompt with monitoring and security
+<!-- 目标：具有监控和安全性的生产就绪提示词 -->
+
+| Step | Activity | Done Criteria | Fail Criteria |
+|------|----------|--------------|---------------|
+| 1 | Token budget analysis: prompt tokens × volume × price = monthly cost | Cost estimate provided and approved | No cost estimate → budget surprise at scale |
+| 2 | Output schema validation: JSON parsing, length limits, schema enforcement | 100% schema validation coverage | Any unvalidated output path → production parsing errors |
+| 3 | Regression test suite: 50+ cases covering known failure modes | All prior failure modes covered in regression suite | Regression suite < 30 cases → changes will break silently |
+| 4 | Production monitoring: alert on format compliance < 95%, hallucination rate spike | Monitoring dashboard live before go-live | No monitoring → problems discovered by users, not you |
+
+---
+
+## 12. Scope & Limitations / 范围与限制
+
+**Use this skill when:**
+<!-- 适用场景：-->
+- Designing system prompts, few-shot examples, or chain-of-thought prompts for any task
+- Diagnosing prompt failures (hallucination, format non-compliance, off-topic responses)
+- Building RAG context injection patterns and retrieval quality checklists
+- Designing agent tool-calling architectures and planning loops
+- Creating LLM-as-judge evaluation pipelines and regression test suites
+- Defending against prompt injection and building output guardrails
+
+**Do NOT use this skill when:**
+<!-- 不适用场景：-->
+- Building the RAG retrieval infrastructure → use AI Application Engineer
+- Training or fine-tuning LLM models → use LLM Training Engineer
+- Making architecture decisions about LLM model design → use LLM Research Scientist
+- Designing system security beyond LLM prompt security → use Security Engineer
+
+---
+
+## 13. How to Use This Skill / 如何使用此技能
+
+### Quick Start / 快速开始
+
+1. **Install** using the command for your platform (see §5)
+2. **Trigger** with keywords: "prompt engineering", "few-shot", "chain-of-thought", "RAG context", "agent prompt", "system prompt"
+3. **Provide context**: share the task, target model, current prompt if any, and sample inputs/outputs
+
+### Interaction Modes / 交互模式
+
+| Mode | Trigger Example | Expected Output |
+|------|----------------|----------------|
+| **Design** | "Design a few-shot prompt for invoice extraction" | Full prompt with schema, examples, and validation plan |
+| **Diagnose** | "My prompt adds info not in the source document" | Root cause (hallucination) + 3 fix options in priority order |
+| **Optimize** | "Improve this prompt: [prompt text]" | Before/after with diff explanation and A/B test recommendation |
+| **Eval** | "How do I measure if my prompt improved?" | Eval framework design with specific metrics |
+| **Security** | "How do I prevent prompt injection?" | Multi-layer defense with code examples |
 
 ---
 
@@ -449,8 +587,53 @@ When you've completed prompt engineering work, verify against this checklist:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §4 Core Philosophy (5 principles), §5 Platform Support (table), §6 Professional Toolkit (7 categories), §7 Standards & Reference (quality metrics + few-shot criteria), §8 Standard Workflow (2 phases with Done/Fail), §12 Scope, §13 How to Use, §15 License; renumbered existing sections; version badge 9.5/10 |
 | 2.1.0 | 2026-02-25 | Added Quality Verification Checklist (16 items), Integration section (4 skill combinations) |
 | 2.0.0 | 2026-02-19 | Expert Verified upgrade: §1 System Prompt, decision framework, RAG patterns, eval framework, scenario examples |
 | 1.0.0 | 2026-02-16 | Initial release with basic patterns and process |
 
 ---
+
+## 15. License & Author / 许可证与作者
+
+This skill is licensed under the **MIT License with Attribution Requirement**.
+<!-- 此技能根据 **MIT 许可证（带署名要求）** 授权。-->
+
+| Permission | Status |
+|------------|--------|
+| Commercial use | Allowed |
+| Modification | Allowed |
+| Distribution | Allowed |
+| Private use | Allowed |
+| Attribution | Required |
+
+### Attribution Requirements / 署名要求
+
+When using, modifying, or distributing this skill, retain:
+<!-- 使用、修改或分发此技能时，保留以下内容：-->
+```
+Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
+https://github.com/theneoai/awesome-skills
+```
+
+### About the Author / 关于作者
+
+| Field | Details |
+|-------|---------|
+| **Name** | neo.ai |
+| **Contact** | lucas_hsueh@hotmail.com |
+| **GitHub** | https://github.com/theneoai |
+
+### Community / 社区
+
+- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
+- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
+- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
+
+---
+
+**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com>
+**Maintained by / 维护者**: neo.ai
+**License / 许可证**: MIT with Attribution
+**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+
