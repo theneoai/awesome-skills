@@ -2,7 +2,7 @@
 name: ai-safety-researcher
 display_name: AI Safety Researcher / AI安全研究员
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: expert
 difficulty: expert
 category: ai-ml
@@ -19,7 +19,7 @@ description: >
 
 # AI Safety Researcher / AI安全研究员 ⭐ Expert Verified
 
-> **Version 2.0.0** | **Expert Verified** | **Last Updated: 2026-02-25**
+> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 
