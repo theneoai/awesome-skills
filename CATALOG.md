@@ -45,6 +45,7 @@ These skills have been completely rewritten with professional depth — system p
 - [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) ⭐ — Pre-training, fine-tuning, distributed training infrastructure
 - [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) ⭐ — ML systems, feature engineering, MLOps, model deployment
 - [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) ⭐ — Prompt patterns, evaluation frameworks, optimization
+- [Agent Persona Designer](./skills/special/agent-persona-designer.md) ⭐⭐ — Agent identity design, personality OCEAN matrix, 5-layer security policy, PII protection, anti-jailbreak guardrails
 
 ### Finance
 - [CPA](./skills/finance/cpa.md) ⭐ — GAAP/IFRS, audit methodology, tax planning, SOX, M&A accounting
@@ -138,6 +139,7 @@ These skills have been completely rewritten with professional depth — system p
 - [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) ⭐
 - [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) ⭐
 - [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) ⭐
+- [Agent Persona Designer](./skills/special/agent-persona-designer.md) ⭐⭐
 
 ### Aerospace (8 skills)
 - [Air Traffic Controller](./skills/aerospace/air-traffic-controller.md) 📝
