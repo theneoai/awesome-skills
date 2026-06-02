@@ -231,3 +231,6 @@ sources:
     description: Cross-platform skill that turns migration or rewrite requests into a disciplined document-driven workflow — analyze, decompose, track, execute. Works with Claude Code, Codex, and Cursor.
     tags: [spec-driven-development, migration, multi-platform, workflow]
     home: https://github.com/zhu1090093659/spec_driven_develop
+
+* [BuilderStudio Skills](https://github.com/wundercorp/builderstudio-skills) - WunderCorp's public BuilderStudio skillset catalog with reusable agent skills for repeatable AI development workflows that pair with Pathways, MCP integrations, Hermes-powered contained execution, and Agentic Swarms.
+
