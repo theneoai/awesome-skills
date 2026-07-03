@@ -199,6 +199,14 @@ sources:
     tags: [robotics, ros, ros2, specialized, engineering]
     home: https://github.com/arpitg1304/robotics-agent-skills
 
+  - slug: vostride-agent-qa
+    url: https://github.com/vostride/agent-qa.git
+    license: FSL-1.1-ALv2
+    category: specialized-skill
+    description: Self-improving QA agent and SKILL.md pack for authoring, debugging, and triaging natural-language web and mobile tests.
+    tags: [qa, testing, web-testing, mobile-testing, codex, agent-skills, harness]
+    home: https://github.com/vostride/agent-qa
+
   - slug: eyadkelleh-awesome-claude-skills-security
     url: https://github.com/Eyadkelleh/awesome-claude-skills-security.git
     license: MIT

@@ -81,6 +81,7 @@ working copy, not a committed mirror.
 | `zubair-trabzada-ai-marketing-claude` | 1.5k | [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) | MIT | AI Marketing Suite: 15 marketing skills with parallel subagents for website audit, copy, email sequences, ad campaigns, and competitive intelligence. |
 | `agents365-drawio-skill` | 765 | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | MIT | Agent Skill that generates professional draw.io diagrams from natural language and exports to PNG/SVG/PDF. |
 | `arpitg1304-robotics-agent-skills` | 187 | [arpitg1304/robotics-agent-skills](https://github.com/arpitg1304/robotics-agent-skills) | MIT | Agent skills for production-grade robotics software with ROS1/ROS2, design patterns, SOLID principles, and testing. |
+| `vostride-agent-qa` | 152 | [vostride/agent-qa](https://github.com/vostride/agent-qa) | FSL-1.1-ALv2 | Self-improving QA agent and SKILL.md pack for authoring, debugging, and triaging natural-language web and mobile tests. |
 | `eyadkelleh-awesome-claude-skills-security` | 200 | [Eyadkelleh/awesome-claude-skills-security](https://github.com/Eyadkelleh/awesome-claude-skills-security) | MIT | Security testing toolkit for Claude Code — SecLists wordlists, injection payloads, and expert agents for authorized pentesting, CTFs, and bug bounties. |
 
 ### Skill toolkits & frameworks
