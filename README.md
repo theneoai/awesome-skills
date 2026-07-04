@@ -154,7 +154,9 @@ CI (`.github/workflows/quality.yml`) runs these on any PR that touches `skills/`
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to add or improve skills |
 | [.github/CI.md](./.github/CI.md) | CI/CD pipeline notes |
 
-### License
+#- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts for Claude Code: 4 structured Markdown templates + 5 skills (crm-everything, open-loops, watchers, morning-briefing, session-digest). Start every session context-full, not context-zero. MIT, one-command install.
+
+## License
 
 MIT — see [LICENSE](./LICENSE).
 
