@@ -40,6 +40,10 @@ working copy, not a committed mirror.
 | Slug | Repo | License | What it is |
 |------|------|---------|-----------|
 | `mattpocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | Matt Pocock's opinionated engineering workflow skills: `/tdd`, `/diagnose`, `/zoom-out`, `/grill-with-docs`, `/triage`, `/improve-codebase-architecture`, `/caveman`. Built around the principle "build a reliable feedback loop first." Install: `npx skills@latest add mattpocock/skills`. |
+| `shuangying0001-canvas-grid-engine` | [shuangying0001-beep/canvas-grid-engine](https://github.com/shuangying0001-beep/canvas-grid-engine) | MIT | 中文教育场景 Canvas 学习纸网格渲染引擎：一键生成 13 种练习纸网格（米字格/田字格/回宫格/九宫格/方格/横线/四线三格/点阵格/黄金圆格等），汉字自动居中、自动换行、拼音标注、微信绿设计令牌，可导出打印。SKILL.md + llms.txt 直接可被 Agent 加载。 |
+| `shuangying0001-svg-to-canvas-replica` | [shuangying0001-beep/svg-to-canvas-replica](https://github.com/shuangying0001-beep/svg-to-canvas-replica) | MIT | SVG 转 Canvas 精确复刻管线：将 A4 SVG 源文件（viewBox 21000×29700）的坐标/文字/样式零误差复刻到 Canvas 2D，含 SVG 解析、坐标换算、页码元素检测与 jsPDF 多页合成。 |
+| `shuangying0001-canvas-multipage-pdf` | [shuangying0001-beep/canvas-multipage-pdf](https://github.com/shuangying0001-beep/canvas-multipage-pdf) | MIT | Canvas 多页 PDF 导出：将多页 Canvas 合成为可下载的 A4 PDF（150dpi，JPEG 0.95），支持页码检测、分页容量估算与逐页切片。 |
+| `shuangying0001-miniprogram-canvas-verify` | [shuangying0001-beep/miniprogram-canvas-verify](https://github.com/shuangying0001-beep/miniprogram-canvas-verify) | MIT | 微信小程序 Canvas 视觉验证工作流：启动静态预览服务 + Selenium 截图 + 区域裁剪与回归对比，覆盖白屏/线条/居中/即时重绘/导出/色值等 8 项验证清单。 |
 
 ### Official (Anthropic)
 

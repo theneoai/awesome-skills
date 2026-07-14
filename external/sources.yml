@@ -52,6 +52,39 @@ sources:
     tags: [engineering-workflow, tdd, debugging, architecture, issue-management, token-efficiency, feedback-loops]
     home: https://github.com/mattpocock/skills
 
+  # ── shuangying0001-beep: Canvas 教育工具链 (Chinese education toolchain) ──
+  - slug: shuangying0001-canvas-grid-engine
+    url: https://github.com/shuangying0001-beep/canvas-grid-engine.git
+    license: MIT
+    category: individual-skill-pack
+    description: "中文教育场景 Canvas 学习纸网格渲染引擎：一键生成 13 种练习纸网格（米字格/田字格/回宫格/九宫格/方格/横线/四线三格/点阵格/黄金圆格等），汉字自动居中、自动换行、拼音标注、微信绿设计令牌，可导出打印。SKILL.md + llms.txt 直接可被 Agent 加载。"
+    tags: [canvas, education, chinese, handwriting, printable, grid]
+    home: https://github.com/shuangying0001-beep/canvas-grid-engine
+
+  - slug: shuangying0001-svg-to-canvas-replica
+    url: https://github.com/shuangying0001-beep/svg-to-canvas-replica.git
+    license: MIT
+    category: individual-skill-pack
+    description: "SVG 转 Canvas 精确复刻管线：将 A4 SVG 源文件（viewBox 21000×29700）的坐标/文字/样式零误差复刻到 Canvas 2D，含 SVG 解析、坐标换算、页码元素检测与 jsPDF 多页合成。"
+    tags: [canvas, svg, pdf, replica, a4]
+    home: https://github.com/shuangying0001-beep/svg-to-canvas-replica
+
+  - slug: shuangying0001-canvas-multipage-pdf
+    url: https://github.com/shuangying0001-beep/canvas-multipage-pdf.git
+    license: MIT
+    category: individual-skill-pack
+    description: "Canvas 多页 PDF 导出：将多页 Canvas 合成为可下载的 A4 PDF（150dpi，JPEG 0.95），支持页码检测、分页容量估算与逐页切片。"
+    tags: [canvas, pdf, export, print, a4]
+    home: https://github.com/shuangying0001-beep/canvas-multipage-pdf
+
+  - slug: shuangying0001-miniprogram-canvas-verify
+    url: https://github.com/shuangying0001-beep/miniprogram-canvas-verify.git
+    license: MIT
+    category: individual-skill-pack
+    description: "微信小程序 Canvas 视觉验证工作流：启动静态预览服务 + Selenium 截图 + 区域裁剪与回归对比，覆盖白屏/线条/居中/即时重绘/导出/色值等 8 项验证清单。"
+    tags: [canvas, miniprogram, wechat, visual-testing, verification]
+    home: https://github.com/shuangying0001-beep/miniprogram-canvas-verify
+
   # ── Community curated lists ────────────────────────────────────────────
   - slug: sickn33-antigravity-awesome-skills
     url: https://github.com/sickn33/antigravity-awesome-skills.git
