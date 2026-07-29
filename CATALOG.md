@@ -1,6 +1,6 @@
 # Catalog
 
-<954 total skills. Auto-generated. To regenerate: `python3 scripts/regenerate_catalog.py`>
+<955 total skills. Auto-generated. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
 ## Personas (830)
 
@@ -1534,7 +1534,7 @@
 | [logistics-network-planner](./skills/persona/transportation/logistics-network-planner/SKILL.md) | Senior logistics network planner specializing in network design, route optimization, warehouse posit... |
 | [railway-signal-engineer](./skills/persona/transportation/railway-signal-engineer/SKILL.md) | Senior railway signal engineer with expertise in signaling systems, train control, safety interlocki... |
 
-## Tools (116)
+## Tools (117)
 
 ### ai-ml (11)
 
@@ -1644,7 +1644,7 @@
 | [istio-servicemesh-expert](./skills/tool/container/istio-servicemesh-expert/SKILL.md) | Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh securit... |
 | [kubernetes-expert](./skills/tool/container/kubernetes-expert/SKILL.md) | Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying t... |
 
-### data-platform (6)
+### data-platform (7)
 
 | Skill | Description |
 |-------|-------------|
@@ -1654,6 +1654,7 @@
 | [kafka-expert](./skills/tool/data-platform/kafka-expert/SKILL.md) | Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, sche... |
 | [lakehouse-expert](./skills/tool/data-platform/lakehouse-expert/SKILL.md) | Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table forma... |
 | [spark-expert](./skills/tool/data-platform/spark-expert/SKILL.md) | Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE,... |
+| [xquik-expert](./skills/tool/data-platform/xquik-expert/SKILL.md) | Routes agents through Xquik REST, MCP, SDKs, exports, and approved X actions. Use when: searching X... |
 
 ### database (7)
 
