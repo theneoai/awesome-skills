@@ -17,8 +17,8 @@ GitHub Actions workflows and project configuration for **awesome-skills**.
 ## Quality workflow — job map
 
 ```
-lint            ── yamllint (ignores external/) + markdownlint on skills/**/*.md
-validate        ── validate_skills.py, taxonomy check, catalog --check, length budget
+lint            ── yamllint (ignores external/) + markdownlint on changed skill Markdown
+validate        ── changed-skill validation, taxonomy check, catalog --check, length budget
 quality         ── scoring / token / antipattern / description-linter (informational, PR only)
 quality-gate    ── blocks PR if changed SKILL.md files fall below thresholds
 dashboard       ── regenerates reports/dashboard.json on main only
@@ -29,12 +29,13 @@ dashboard       ── regenerates reports/dashboard.json on main only
 | Check | Script | Why |
 |-------|--------|-----|
 | YAML lint | `yamllint -c .yamllint` | catches malformed frontmatter; `external/` is excluded |
-| Markdown lint | `markdownlint -c .markdownlint.json` | basic style consistency |
-| Skill validator | `.github/scripts/validate_skills.py` | enforces `name` matches parent folder, `description` present, H1 in body |
-| Strict validator | same, with `--strict` on Expert-Verified categories | extra section-count / structure checks |
+| Markdown lint | `markdownlint -c .markdownlint.json` on changed files | basic style consistency without blocking on legacy debt |
+| Skill validator | `.github/scripts/validate_skills.py` on changed entrypoints | enforces `name` matches parent folder, `description` present, H1 in body without blocking on legacy debt |
 | Taxonomy consistency | `scripts/check_taxonomy.py` | `taxonomy.yml` aliases must match `skills/`, `packages/`, `roadmap/` |
 | Catalog sync | `scripts/regenerate_catalog.py --check` | `CATALOG.md` must match a fresh regeneration |
 | Quality gate | `.github/scripts/quality_gate.py` | on changed SKILL.md: score ≥ 4.0, body tokens ≤ 6000, description ≤ 400 chars |
+
+Use `validate_skills.py --strict` locally for Expert Verified submissions.
 
 ### Informational (warn but don't block)
 

@@ -1,8 +1,8 @@
 # Catalog
 
-<951 total skills auto-generated on 2026-04-30. To regenerate: `python3 scripts/regenerate_catalog.py`>
+<954 total skills. Auto-generated. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
-## Personas (827)
+## Personas (830)
 
 ### admin (9)
 
@@ -1502,6 +1502,14 @@
 | [6g-communication-researcher](./skills/persona/telecom/6g-communication-researcher/SKILL.md) | Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO,... |
 | [isac-engineer](./skills/persona/telecom/isac-engineer/SKILL.md) | Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function rada... |
 | [ntn-engineer](./skills/persona/telecom/ntn-engineer/SKILL.md) | A world-class NTN (Non-Terrestrial Network) engineer specializing in 3GPP 5G-NR NTN integration (Rel... |
+
+### tools/engineering-simulation (3)
+
+| Skill | Description |
+|-------|-------------|
+| [abaqus-lhs-batch-dataset](./skills/tools/engineering-simulation/abaqus-lhs-batch-dataset/SKILL.md) | Generate an Abaqus FEA training dataset for surrogate / ML models. Latin Hypercube Sampling (or spar... |
+| [abaqus-odb-to-grid-csv](./skills/tools/engineering-simulation/abaqus-odb-to-grid-csv/SKILL.md) | Convert per-case Abaqus FEA outputs into ML-ready (X, Y) wide-table CSVs. Pivots irregular FEA mesh... |
+| [abaqus-surrogate-fea-validation](./skills/tools/engineering-simulation/abaqus-surrogate-fea-validation/SKILL.md) | Closed-loop inverse-design validation. Given a target deformation field, solve the inverse problem o... |
 
 ### transport-worker (7)
 

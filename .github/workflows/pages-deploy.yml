@@ -29,27 +29,27 @@ jobs:
   build:
     name: Build Pages
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      
+
       - name: Install dependencies
         run: pip install pyyaml
-      
+
       - name: Generate skills data
         run: |
           echo "🔍 Generating skills data for website..."
           python3 scripts/generate_skills_data.py
           echo "✅ Skills data generated"
-      
+
       - name: Check for evaluation reports
         run: |
           if [ -f "reports/evaluation_report.html" ]; then
@@ -59,11 +59,11 @@ jobs:
             mkdir -p reports
             echo '<!DOCTYPE html><html><head><title>Evaluation Report</title></head><body><h1>Report Not Available</h1><p>Please run the Comprehensive Skill Evaluation workflow first.</p></body></html>' > reports/evaluation_report.html
           fi
-      
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -77,12 +77,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      
+
       - name: Print deployment URL
         run: |
           echo "✅ GitHub Pages deployed successfully!"

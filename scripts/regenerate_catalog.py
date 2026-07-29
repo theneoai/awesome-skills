@@ -4,7 +4,7 @@
 Structure of the generated catalog:
 
     # Catalog
-    <N total skills auto-generated on <date>. ...>
+    <N total skills. Auto-generated. ...>
 
     ## Personas (<M>) — role-based professional skills
     ### <domain> (<count>)
@@ -28,7 +28,6 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import datetime as _dt
 import sys
 from pathlib import Path
 
@@ -237,7 +236,7 @@ def _build_kind_section(title: str, records: list[dict], lines: list[str]) -> No
         lines.append("")
 
 
-def build_catalog(records: list[dict], today: str) -> str:
+def build_catalog(records: list[dict]) -> str:
     total = len(records)
 
     personas = [r for r in records if r["kind"] == "persona"]
@@ -249,7 +248,7 @@ def build_catalog(records: list[dict], today: str) -> str:
     lines.append("# Catalog")
     lines.append("")
     lines.append(
-        f"<{total} total skills auto-generated on {today}. "
+        f"<{total} total skills. Auto-generated. "
         f"To regenerate: `python3 scripts/regenerate_catalog.py`>"
     )
     lines.append("")
@@ -271,8 +270,7 @@ def main() -> int:
     args = ap.parse_args()
 
     records = collect_skills()
-    today = _dt.date.today().isoformat()
-    new_content = build_catalog(records, today)
+    new_content = build_catalog(records)
 
     if args.check:
         old = CATALOG_PATH.read_text(encoding="utf-8") if CATALOG_PATH.exists() else ""
