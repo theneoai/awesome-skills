@@ -36,6 +36,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -51,8 +53,33 @@ jobs:
       - name: Lint YAML
         run: yamllint -c .yamllint .
 
-      - name: Lint Markdown
-        run: markdownlint -c .markdownlint.json "skills/**/*.md"
+      - name: Lint changed Markdown
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base="${{ github.event.pull_request.base.sha }}"
+          else
+            base="${{ github.event.before }}"
+          fi
+
+          if ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            base="$(git rev-parse HEAD^)"
+          fi
+
+          files=()
+          while IFS= read -r -d '' file; do
+            files+=("$file")
+          done < <(
+            git diff --name-only --diff-filter=ACMR -z \
+              "$base" HEAD -- "skills/**/*.md"
+          )
+
+          if (( ${#files[@]} == 0 )); then
+            echo "No changed skill Markdown files."
+            exit 0
+          fi
+
+          markdownlint -c .markdownlint.json "${files[@]}"
 
   # Job 2: Structure Validation
   validate:
@@ -62,6 +89,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -73,35 +102,76 @@ jobs:
         run: pip install pyyaml rich jsonschema
 
       - name: Validate frontmatter schema (JSON Schema)
-        run: python3 -c "
-import json, sys
-from pathlib import Path
-schema_path = Path('schema/frontmatter.schema.json')
-if schema_path.exists():
-    schema = json.loads(schema_path.read_text())
-    print(f'Schema loaded: {schema[\"title\"]} ({len(schema.get(\"properties\", {}))} fields)')
-else:
-    print('WARNING: schema/frontmatter.schema.json not found', file=sys.stderr)
-"
-
-      - name: Run skill validator (all skills)
-        run: python3 .github/scripts/validate_skills.py skills/ benchmarks/aakashg/ benchmarks/wdavidturner/
-
-      - name: Run strict validator (Expert Verified skills)
         run: |
-          python3 .github/scripts/validate_skills.py --strict \
-            skills/executive/ \
-            skills/software/ \
-            skills/ai-ml/ \
-            skills/finance/ \
-            skills/business/ \
-            skills/legal/ \
-            skills/healthcare/ \
-            skills/marketing/ \
-            skills/product/ \
-            skills/data/ \
-            skills/research/ \
-            skills/special/
+          python3 - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          schema_path = Path("schema/frontmatter.schema.json")
+          if schema_path.exists():
+              schema = json.loads(schema_path.read_text())
+              field_count = len(schema.get("properties", {}))
+              print(f"Schema loaded: {schema['title']} ({field_count} fields)")
+          else:
+              print(
+                  "WARNING: schema/frontmatter.schema.json not found",
+                  file=sys.stderr,
+              )
+          PY
+
+      - name: Validate changed skills
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base="${{ github.event.pull_request.base.sha }}"
+          else
+            base="${{ github.event.before }}"
+          fi
+
+          if ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            base="$(git rev-parse HEAD^)"
+          fi
+
+          files=()
+          while IFS= read -r -d '' file; do
+            filename="$(basename "$file")"
+            if [[ "$filename" == "SKILL.md" ]]; then
+              files+=("$file")
+              continue
+            fi
+
+            case "$filename" in
+              README.md | PROFILE_NOTES.md | EVALUATION_REPORT.md | \
+                RESTORATION_REPORT.md | CHANGELOG.md)
+                continue
+                ;;
+            esac
+
+            directory="$(dirname "$file")"
+            bundled_reference=false
+            while [[ "$directory" != "skills" && "$directory" != "." ]]; do
+              if [[ -f "$directory/SKILL.md" ]]; then
+                bundled_reference=true
+                break
+              fi
+              directory="$(dirname "$directory")"
+            done
+
+            if [[ "$bundled_reference" == false ]]; then
+              files+=("$file")
+            fi
+          done < <(
+            git diff --name-only --diff-filter=ACMR -z \
+              "$base" HEAD -- "skills/**/*.md"
+          )
+
+          if (( ${#files[@]} == 0 )); then
+            echo "No changed skill entrypoints."
+            exit 0
+          fi
+
+          python3 .github/scripts/validate_skills.py "${files[@]}"
 
       - name: Taxonomy consistency check
         run: python3 scripts/check_taxonomy.py
@@ -188,13 +258,21 @@ else:
 
       - name: Identify changed skill files
         id: changed
+        shell: bash
         run: |
-          git fetch origin ${{ github.base_ref }} --depth=1
-          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'skills/**/*.md' | grep -E 'SKILL\.md$' || true)
-          echo "files<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGED" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          echo "count=$(echo "$CHANGED" | grep -c . || echo 0)" >> $GITHUB_OUTPUT
+          base="${{ github.event.pull_request.base.sha }}"
+          changed="$(
+            git diff --name-only --diff-filter=ACMR \
+              "$base" HEAD -- "skills/**/SKILL.md"
+          )"
+          count="$(printf '%s\n' "$changed" | grep -c . || true)"
+
+          {
+            echo "files<<EOF"
+            printf '%s\n' "$changed"
+            echo "EOF"
+            echo "count=$count"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Run quality gate on changed skills
         if: steps.changed.outputs.count != '0'
