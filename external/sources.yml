@@ -52,6 +52,14 @@ sources:
     tags: [engineering-workflow, tdd, debugging, architecture, issue-management, token-efficiency, feedback-loops]
     home: https://github.com/mattpocock/skills
 
+  - slug: green-pt-honey-for-devs
+    url: https://github.com/Green-PT/honey-for-devs.git
+    license: MIT
+    category: individual-skill-pack
+    description: "Honey is an open-source GreenPT skill family for reducing unnecessary code, prose, and agent handoff volume. Public benchmarks show 29% less output across mixed coding tasks and up to 70% in focused review workflows, with safety carve-outs."
+    tags: [token-efficiency, coding-agents, multi-platform, benchmarks, agent-handoffs]
+    home: https://github.com/Green-PT/honey-for-devs
+
   # ── Community curated lists ────────────────────────────────────────────
   - slug: sickn33-antigravity-awesome-skills
     url: https://github.com/sickn33/antigravity-awesome-skills.git
