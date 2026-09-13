@@ -67,6 +67,7 @@ scripts/                  Maintenance scripts (catalog regen, external sync, tax
 
 ### Quick start
 
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases.
 The simplest way to install a skill is to have your agent read its `SKILL.md` URL:
 
 ```
