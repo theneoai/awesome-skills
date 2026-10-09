@@ -1,8 +1,8 @@
 # Catalog
 
-<955 total skills auto-generated on 2026-10-09. To regenerate: `python3 scripts/regenerate_catalog.py`>
+<951 total skills auto-generated on 2026-04-30. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
-## Personas (830)
+## Personas (827)
 
 ### admin (9)
 
@@ -1503,14 +1503,6 @@
 | [isac-engineer](./skills/persona/telecom/isac-engineer/SKILL.md) | Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function rada... |
 | [ntn-engineer](./skills/persona/telecom/ntn-engineer/SKILL.md) | A world-class NTN (Non-Terrestrial Network) engineer specializing in 3GPP 5G-NR NTN integration (Rel... |
 
-### tools/engineering-simulation (3)
-
-| Skill | Description |
-|-------|-------------|
-| [abaqus-lhs-batch-dataset](./skills/tools/engineering-simulation/abaqus-lhs-batch-dataset/SKILL.md) | Generate an Abaqus FEA training dataset for surrogate / ML models. Latin Hypercube Sampling (or spar... |
-| [abaqus-odb-to-grid-csv](./skills/tools/engineering-simulation/abaqus-odb-to-grid-csv/SKILL.md) | Convert per-case Abaqus FEA outputs into ML-ready (X, Y) wide-table CSVs. Pivots irregular FEA mesh... |
-| [abaqus-surrogate-fea-validation](./skills/tools/engineering-simulation/abaqus-surrogate-fea-validation/SKILL.md) | Closed-loop inverse-design validation. Given a target deformation field, solve the inverse problem o... |
-
 ### transport-worker (7)
 
 | Skill | Description |
@@ -1534,7 +1526,7 @@
 | [logistics-network-planner](./skills/persona/transportation/logistics-network-planner/SKILL.md) | Senior logistics network planner specializing in network design, route optimization, warehouse posit... |
 | [railway-signal-engineer](./skills/persona/transportation/railway-signal-engineer/SKILL.md) | Senior railway signal engineer with expertise in signaling systems, train control, safety interlocki... |
 
-## Tools (117)
+## Tools (116)
 
 ### ai-ml (11)
 
@@ -1766,12 +1758,6 @@
 | [metasploit-expert](./skills/tool/security/metasploit-expert/SKILL.md) | Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-explo... |
 | [nmap-expert](./skills/tool/security/nmap-expert/SKILL.md) | Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and security a... |
 | [vault-secrets-expert](./skills/tool/security/vault-secrets-expert/SKILL.md) | HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secret... |
-
-### web (1)
-
-| Skill | Description |
-|-------|-------------|
-| [url-to-markdown](./skills/tool/web/url-to-markdown/SKILL.md) | Fetch a public webpage as clean Markdown for an agent: read, summarize, quote, or cite the page whil... |
 
 ## Workflows (8)
 
